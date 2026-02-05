@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+}
+
+
+
+
+/* Mobile Menu Active/Hidden Styles */
+.nav__list {
+    display: none;
+}
+
+.nav__list--open {
+    display: flex;
+}
