@@ -1,5 +1,6 @@
 import './Navbar.css';
 import hamburgerIcon from '../../assets/images/icons/hamburger-menu.svg';
+import closeIcon from '../../assets/images/icons/close-icon.svg';
 import logo from '../../assets/images/logo-dark.png';
 
 export class Navbar {
@@ -14,11 +15,18 @@ export class Navbar {
 
                 <button class="menu__toggle" aria-label="Toggle menu" type="button">
                     <img 
-                    src="${hamburgerIcon}" 
-                    alt="" 
-                    class="menu__icon"
-                    width="40"
-                    height="40"
+                        src="${hamburgerIcon}" 
+                        alt="" 
+                        class="menu__icon menu__icon--hamburger"
+                        width="40"
+                        height="40"
+                    />
+                    <img 
+                        src="${closeIcon}" 
+                        alt="" 
+                        class="menu__icon menu__icon--close"
+                        width="40"
+                        height="40"
                     />
                 </button>
 
@@ -41,7 +49,7 @@ export class Navbar {
             </nav>
         `;
         this.AddEventListeners();
-        this.SetupMenuToggle();
+        this.setupHamburgerToggle();
     }
 
     AddEventListeners() {
@@ -57,11 +65,13 @@ export class Navbar {
         });
     }
 
-    SetupMenuToggle() {
-        const menuToggle = this.container.querySelector('.menu__toggle');
+    setupHamburgerToggle() {
+        const toggleBtn = this.container.querySelector('.menu__toggle');
+        const navbar = this.container.querySelector('.navbar');
         const navList = this.container.querySelector('.nav__list');
 
-        menuToggle.addEventListener('click', () => {
+        toggleBtn.addEventListener('click', () => {
+            navbar.classList.toggle('navbar--open');
             navList.classList.toggle('nav__list--open');
         });
     }
