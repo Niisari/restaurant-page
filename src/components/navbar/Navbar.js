@@ -2,7 +2,8 @@ import './Navbar.css';
 import hamburgerIcon from '../../assets/images/icons/hamburger-menu.svg';
 import closeIcon from '../../assets/images/icons/close-icon.svg';
 import cartIcon from '../../assets/images/icons/cart-icon.svg';
-import logo from '../../assets/images/logo-dark.png';
+import loginIcon from '../../assets/images/icons/login-icon.svg';
+import logo from '../../assets/images/logo.svg';
 
 export class Navbar {
     constructor() {
@@ -31,15 +32,13 @@ export class Navbar {
                     />
                 </button>
 
-                <div class="nav__logo--container">
                     <img 
                     src="${logo}" 
                     alt="Logo" 
                     class="logo"
-                    width="80"
-                    height="80"
+                    width="120"
+                    height="60"
                     />
-                </div>
 
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
@@ -48,16 +47,28 @@ export class Navbar {
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
 
-                <button class="nav__order--btn" aria-label="View cart" type="button">
-                    <img 
-                        src="${cartIcon}" 
-                        alt="Cart Icon" 
-                        class="nav__order--icon"
-                        width="40"
-                        height="40"
-                    />
-                </button>
-                
+                <div class="nav__actions">
+                    <button class="nav__login--btn" aria-label="Login" type="button">
+                        <img 
+                            src="${loginIcon}" 
+                            alt="Login Icon" 
+                            class="nav__login--icon"
+                            width="30"
+                            height="30"
+                        />
+                    </button>
+
+                    <button class="nav__order--btn" aria-label="View cart" type="button">
+                        <img 
+                            src="${cartIcon}" 
+                            alt="Cart Icon" 
+                            class="nav__order--icon"
+                            width="30"
+                            height="30"
+                        />
+                    </button>
+                </div>
+
             </nav>
         `;
         this.AddEventListeners();
