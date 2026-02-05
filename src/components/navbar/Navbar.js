@@ -1,6 +1,7 @@
 import './Navbar.css';
 import hamburgerIcon from '../../assets/images/icons/hamburger-menu.svg';
 import closeIcon from '../../assets/images/icons/close-icon.svg';
+import cartIcon from '../../assets/images/icons/cart-icon.svg';
 import logo from '../../assets/images/logo-dark.png';
 
 export class Navbar {
@@ -46,6 +47,17 @@ export class Navbar {
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
+
+                <button class="nav__order--btn" aria-label="View cart" type="button">
+                    <img 
+                        src="${cartIcon}" 
+                        alt="Cart Icon" 
+                        class="nav__order--icon"
+                        width="40"
+                        height="40"
+                    />
+                </button>
+                
             </nav>
         `;
         this.AddEventListeners();
