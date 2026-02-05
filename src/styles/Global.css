@@ -22,3 +22,27 @@
   font-display: swap;
   src: url('../assets/fonts/playfair-v10-latin-700.woff2') format('woff2');
 }
+
+:root {
+  /* Fonts */
+  --Text-Font: 'Lato', sans-serif;
+  --Heading-Font: 'Playfair', serif;
+
+  /* Primary Colors */
+  --Deep-Charcoal: hsl(0, 0%, 15%); /* Backgrounds, header/footer base */
+  --Rich-Burgundy: hsl(350, 70%, 25%); /* Main accents, buttons, headings */
+  --Warm-Dark-Brown: hsl(30, 60%, 20%); /* Leather, wood, panels, secondary backgrounds */
+
+  /* Accent Colors */
+  --Gold-Brass: hsl(45, 80%, 50%); /* Logo highlights, borders, premium accents */
+  --Copper-WarmRed-Brown: hsl(20, 70%, 35%); /* Flames, subtle gradients, hover effects */
+  --Deep-Olive-Green: hsl(120, 40%, 20%); /* Herb/food accents, minimal highlights */
+
+  /* Text Colors */
+  --Cream-Ivory: hsl(40, 30%, 95%); /* Primary text, menu text on dark backgrounds */
+  --Light-Gray: hsl(0, 0%, 75%); /* Secondary text, captions, subtle UI elements */
+
+  /* Interactive / Hover Colors */
+  --Hover-Burgundy: hsl(350, 70%, 35%); /* Button hover, link hover */
+  --Hover-Gold: hsla(45, 80%, 60%, 0.9); /* Logo highlights, button hover, borders */
+}
