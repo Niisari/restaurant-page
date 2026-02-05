@@ -1,15 +1,29 @@
 .navbar {
     display: flex;
+    align-items: center;
+    
+    background-color: var(--Deep-Charcoal);
 }
-
 
 
 
 /* Mobile Menu Active/Hidden Styles */
-.nav__list {
-    display: none;
+.menu__icon--close {
+  display: none;
 }
 
-.nav__list--open {
-    display: flex;
+.navbar.navbar--open .menu__icon--hamburger {
+  display: none;
+}
+
+.navbar.navbar--open .menu__icon--close {
+  display: block;
+}
+
+.nav__list {
+  display: none;
+}
+
+.nav__list.nav__list--open {
+  display: flex;
 }
