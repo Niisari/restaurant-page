@@ -54,8 +54,8 @@ export class Navbar {
                 <div class="nav__actions">
                     <button class="nav__login--btn" aria-label="Login" type="button">
                         <svg 
-                        width="32" 
-                        height="30" 
+                        width="25" 
+                        height="25" 
                         viewBox="0 0 32 32" 
                         enable-background="new 0 0 32 32" 
                         id="Stock_cut" version="1.1" 
@@ -71,8 +71,8 @@ export class Navbar {
 
                     <button class="nav__order--btn" aria-label="View cart" type="button">
                         <svg 
-                        width="32" 
-                        height="32" 
+                        width="25" 
+                        height="25" 
                         viewBox="0 0 24 24" 
                         fill="var(--Cream-Ivory)" 
                         xmlns="http://www.w3.org/2000/svg">
