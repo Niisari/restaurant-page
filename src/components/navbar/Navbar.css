@@ -7,26 +7,25 @@
   background-color: var(--Deep-Charcoal);
   position: relative;
 
-    .nav__title {
-      font-family: var(--Heading-Font);
-      font-weight: 700;
-      color: var(--Rich-Burgundy);
+  .nav__title {
+    font-family: var(--Heading-Font);
+    font-weight: 700;
+    color: var(--Rich-Burgundy);
 
-      border-bottom: 2px solid var(--Rich-Burgundy);
-      width: 100%;
+    border-bottom: 2px solid var(--Rich-Burgundy);
+    width: 100%;
+  }
+
+  .nav__actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .nav__login--btn {
+      fill: var(--Cream-Ivory);
     }
-
-    .nav__actions {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-
-      .nav__login--btn {
-        fill: var(--Cream-Ivory);
-      }
-    }
+  }
 }
-
 
 
 /* Mobile Menu Active/Hidden Styles */
