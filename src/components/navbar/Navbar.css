@@ -1,3 +1,4 @@
+/* Navbar Styles */
 .navbar {
   display: flex;
   align-items: center;
@@ -20,13 +21,8 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-
-    .nav__login--btn {
-      fill: var(--Cream-Ivory);
-    }
   }
 }
-
 
 /* Mobile Menu Active/Hidden Styles */
 .menu__icon--close {
@@ -69,3 +65,32 @@
   font-size: 1.5rem;
   color: var(--Deep-Charcoal);
 }
+
+/* Hover, Animations */
+.nav__list li:hover {
+  color: var(--Hover-Burgundy);
+}
+
+.menu__icon--hamburger:hover,
+.menu__icon--close:hover,
+.nav__list li:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu__icon--hamburger:active,
+.menu__icon--close:active {
+  transform: rotate(180deg);
+  transition: transform 1s ease-in-out;
+}
+
+.nav__login--btn:hover,
+.nav__order--btn:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
