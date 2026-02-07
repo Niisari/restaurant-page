@@ -22,6 +22,11 @@
 
 .navbar.navbar--open .menu__icon--close {
   display: block;
+  position: absolute;
+  top: 1.5rem;
+  right: 0.5rem;
+
+  z-index: 1;
 }
 
 .nav__list {
@@ -31,6 +36,9 @@
 .nav__list.nav__list--open {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
 
   position: fixed;
   top: 0;
@@ -38,4 +46,9 @@
   width: 100%;
   height: 100vh; /* Full viewport height minus navbar height */
   background-color: var(--Gold-Brass);
+
+  font-family: var(--Heading-Font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--Deep-Charcoal);
 }
