@@ -1,9 +1,8 @@
+import './HomePage.css';
 // Images Imports
 import OpeningIntro from '../../assets/images/opening-intro.png';
 import premiumSteakIntro from '../../assets/images/premium-steak-intro.png';
 import steakSaleIntro from '../../assets/images/steak-sale-intro.png';
-
-import './HomePage.css';
 
 export class HomePage {
   constructor() {

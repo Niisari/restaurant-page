@@ -1,13 +1,14 @@
 import './Navbar.css';
+// Icons Imports
 import closeIcon from '../../assets/images/icons/close-icon.svg';
 import logo from '../../assets/images/logo.svg';
-
+// The Navbar class is responsible for rendering the navigation bar and handling user interactions
 export class Navbar {
     constructor() {
         this.container = document.getElementById('header');
         this.activeLink = null;
     }
-
+// Render the navbar HTML structure and set up event listeners
     render() {
         this.container.innerHTML = `
             <nav class="navbar">
@@ -86,7 +87,7 @@ export class Navbar {
         this.AddEventListeners();
         this.setupHamburgerToggle();
     }
-
+// Add click event listeners to navigation links for active state management
     AddEventListeners() {
         const links = this.container.querySelectorAll('.nav__link');
         links.forEach((link) => {
@@ -99,7 +100,7 @@ export class Navbar {
             });
         });
     }
-
+// Set up the hamburger menu toggle functionality for mobile view
     setupHamburgerToggle() {
         const toggleBtn = this.container.querySelector('.menu__toggle');
         const navbar = this.container.querySelector('.navbar');
