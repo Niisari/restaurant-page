@@ -30,6 +30,7 @@
 
   /* Primary Colors */
   --Deep-Charcoal: hsl(0, 0%, 15%); /* Backgrounds, header/footer base */
+  --Deep-Charcoal-Darker: hsl(0, 0%, 11%); /* Darker variant for deeper shadows, overlays */
   --Rich-Burgundy: hsl(350, 70%, 25%); /* Main accents, buttons, headings */
   --Warm-Dark-Brown: hsl(30, 60%, 20%); /* Leather, wood, panels, secondary backgrounds */
 
