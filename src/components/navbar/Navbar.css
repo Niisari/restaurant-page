@@ -6,6 +6,7 @@
     
     background-color: var(--Deep-Charcoal);
 
+    position: relative;
 }
 
 
@@ -29,4 +30,12 @@
 
 .nav__list.nav__list--open {
   display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Full viewport height minus navbar height */
+  background-color: var(--Gold-Brass);
 }
