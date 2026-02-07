@@ -19,11 +19,11 @@ export class HomePage {
               <img src="${OpeningIntro}" alt="Opening Intro" class="home__page--intro-image">
 
                 <div class="carousel">
-                  <div class="carousel-item active">
-                    <img src="${premiumSteakIntro}" alt="Premium Steak Intro" class="carousel-image">
-                  </div>
-                  <div class="carousel-item">
+                <div class="carousel__item active">
                     <img src="${steakSaleIntro}" alt="Steak Sale Intro" class="carousel-image">
+                  </div>
+                  <div class="carousel__item">
+                    <img src="${premiumSteakIntro}" alt="Premium Steak Intro" class="carousel-image">
                   </div>
                 </div>    
 
