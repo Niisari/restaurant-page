@@ -1,12 +1,21 @@
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
     
-    background-color: var(--Deep-Charcoal);
+  background-color: var(--Deep-Charcoal);
 
-    position: relative;
+  position: relative;
+
+    .nav__title {
+      font-family: var(--Heading-Font);
+      font-weight: 700;
+      color: var(--Rich-Burgundy);
+
+      border-bottom: 2px solid var(--Deep-Charcoal);
+      width: 100%;
+    }
 }
 
 
