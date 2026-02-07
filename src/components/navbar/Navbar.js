@@ -53,14 +53,18 @@ export class Navbar {
                 <div class="nav__actions">
                     <button class="nav__login--btn" aria-label="Login" type="button">
                         <svg 
-                        width="30" 
+                        width="32" 
                         height="30" 
-                        viewBox="0 0 24 24" 
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle fill="var(--Deep-Charcoal-Darker)" cx="12" cy="7" r="3"/>
-                        <path d="M12 2C9.243 2 7 4.243 7 7s2.243 5 5 5 5-2.243 
-                        5-5-2.243-5-5-5zm0 8c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 
-                        3zm9 11v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h2v-1c0-2.757 2.243-5 5-5h4c2.757 0 5 2.243 5 5v1h2z"/>
+                        viewBox="0 0 32 32" 
+                        enable-background="new 0 0 32 32" 
+                        id="Stock_cut" version="1.1" 
+                        xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc/>
+                        <g>
+                        <circle cx="16" cy="16" fill="none" r="15" stroke="var(--Cream-Ivory)" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                        <path d="M26,27L26,27   c0-5.523-4.477-10-10-10h0c-5.523,0-10,4.477-10,10v0" fill="none" stroke="var(--Cream-Ivory)" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                        <circle cx="16" cy="11" fill="none" r="6" stroke="var(--Cream-Ivory)" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                        </g>
                         </svg>
                     </button>
 
@@ -72,7 +76,7 @@ export class Navbar {
                         fill="var(--Cream-Ivory)" 
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M16 8H17.1597C18.1999 8 19.0664 8.79732 19.1528 9.83391L19.8195 17.8339C19.9167 18.9999 18.9965 20 17.8264 20H6.1736C5.00352 20 4.08334 18.9999 4.18051 17.8339L4.84718 9.83391C4.93356 8.79732 5.80009 8 6.84027 8H8M16 8H8M16 8L16 7C16 5.93913 15.5786 4.92172 14.8284 4.17157C14.0783 3.42143 13.0609 3 12 3C10.9391 3 9.92172 3.42143 9.17157 4.17157C8.42143 4.92172 8 5.93913 8 7L8 8M16 8L16 12M8 8L8 12" 
-                        stroke="var(--Deep-Charcoal-Darker)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        stroke="var(--Light-Gray)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
                 </div>
