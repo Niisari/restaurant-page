@@ -64,8 +64,8 @@ export class Navbar {
                             src="${cartIcon}" 
                             alt="Cart Icon" 
                             class="nav__order--icon"
-                            width="30"
-                            height="30"
+                            width="32"
+                            height="32"
                         />
                     </button>
                 </div>
