@@ -14,19 +14,30 @@ export class HomePage {
         this.container.innerHTML = 
         `<div class="home__page">
 
-            <div class="home__page--intro">          
-              <ul class="home__page--slider">
-                <li class="slider__item active">
-                    <img src="${OpeningIntro}" alt="Opening Intro">
-                </li>
-                <li class="slider__item">
-                    <img src="${premiumSteakIntro}" alt="Premium Steak Intro">
-                </li>
-                <li class="slider__item">
-                    <img src="${steakSaleIntro}" alt="Steak Sale Intro">
-                </li>
-              </ul>
+            <div class="slideshow__container">          
+
+              <div class="slide__image fade">
+                <img src="${OpeningIntro}" alt="Opening Intro">
+              </div>
+
+              <div class="slide__image fade">
+                <img src="${premiumSteakIntro}" alt="Premium Steak Intro">
+              </div>
+
+              <div class="slide__image fade">
+                <img src="${steakSaleIntro}" alt="Steak Sale Intro">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
             </div>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
 
         </div>`;
     }
