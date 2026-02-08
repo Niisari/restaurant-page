@@ -14,18 +14,18 @@ export class HomePage {
         this.container.innerHTML = 
         `<div class="home__page">
 
-            <div class="home__page--intro">
-              <img src="${OpeningIntro}" alt="Opening Intro" class="home__page--intro-image">
-
-                <div class="carousel">
-                <div class="carousel__item active">
-                    <img src="${steakSaleIntro}" alt="Steak Sale Intro" class="carousel-image">
-                  </div>
-                  <div class="carousel__item">
-                    <img src="${premiumSteakIntro}" alt="Premium Steak Intro" class="carousel-image">
-                  </div>
-                </div>    
-
+            <div class="home__page--intro">          
+              <ul class="home__page--slider">
+                <li class="slider__item active">
+                    <img src="${OpeningIntro}" alt="Opening Intro">
+                </li>
+                <li class="slider__item">
+                    <img src="${premiumSteakIntro}" alt="Premium Steak Intro">
+                </li>
+                <li class="slider__item">
+                    <img src="${steakSaleIntro}" alt="Steak Sale Intro">
+                </li>
+              </ul>
             </div>
 
         </div>`;
