@@ -43,7 +43,7 @@
   top: 1.5rem;
   right: 0.5rem;
 
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav__list {
@@ -68,6 +68,7 @@
   font-weight: 700;
   font-size: 1.5rem;
   color: var(--Deep-Charcoal);
+  z-index: 1;
 }
 
 /* Hover, Animations */
