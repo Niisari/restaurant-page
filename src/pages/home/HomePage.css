@@ -1,0 +1,66 @@
+.carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+
+  anchor-name: --carousel;
+  scroll-marker-group: after;
+
+  &::scroll-marker-group {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+
+    position-anchor: --carousel;
+    position-area: bottom;
+    position: fixed;
+  }
+
+  > li {
+    scroll-snap-align: center;
+
+    &::scroll-marker {
+      content: " ";
+      width: 1rem;
+      height: 1rem;
+      aspect-ratio: 1 / 1;
+      border-radius: 100%;
+      border: 2px solid var(--Gold-Brass);
+    }
+
+    &::scroll-marker:target-current {
+      background: var(--Rich-Burgundy);
+    }
+  }
+
+  &::scroll-button(*) {
+    position: fixed;
+    position-anchor: --carousel;
+    margin: 1rem;
+    font: inherit;
+    background: dodgerblue;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+
+  &::scroll-button(right) {
+    content: "right";
+    position-area: center right;
+  }
+
+  &::scroll-button(left) {
+    content: "left";
+    position-area: center left;
+  }
+}
