@@ -48,11 +48,12 @@
     margin: 1rem;
     padding: 0.25rem 0.5rem;
 
-    font: inherit;
     background: var(--Gold-Brass);
     border: 0;
     border-radius: 100%;
     font-weight: 700;
+
+    display: none;
   }
 
   &::scroll-button(right) {
