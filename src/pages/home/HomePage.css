@@ -46,20 +46,22 @@
     position: fixed;
     position-anchor: --carousel;
     margin: 1rem;
+    padding: 0.25rem 0.5rem;
+
     font: inherit;
-    background: dodgerblue;
+    background: var(--Gold-Brass);
     border: 0;
-    border-radius: 4px;
+    border-radius: 100%;
     font-weight: 700;
   }
 
   &::scroll-button(right) {
-    content: "right";
+    content: "❯";
     position-area: center right;
   }
 
   &::scroll-button(left) {
-    content: "left";
+    content: "❮";
     position-area: center left;
   }
 }
