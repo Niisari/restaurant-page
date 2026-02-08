@@ -27,5 +27,26 @@ export class HomePage {
           </ul>
 
         </div>`;
+
+        this.initCarousel();
+    }
+
+    initCarousel() {
+        const carousel = this.container.querySelector('.carousel');
+        const slides = carousel.children;
+        let index = 0;
+
+        // safety: clear old interval if re-rendered
+        if (this.interval) {
+          clearInterval(this.interval);
+        }
+
+        this.interval = setInterval(() => {
+          index = (index + 1) % slides.length;
+          slides[index].scrollIntoView({
+            behavior: 'smooth',
+            inline: 'center'
+          });
+        }, 4000);
     }
 }
