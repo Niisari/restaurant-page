@@ -47,3 +47,7 @@
   --Hover-Burgundy: hsl(350, 70%, 35%); /* Button hover, link hover */
   --Hover-Gold: hsla(45, 80%, 60%, 0.9); /* Logo highlights, button hover, borders */
 }
+
+body {
+  min-height: 100svh;
+}
