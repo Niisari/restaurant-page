@@ -1,5 +1,5 @@
 import './HomePage.css';
-import { button } from '../../components/buttons/button.js'; // import button from '../../components/buttons/button.js'
+import { button } from '../../components/buttons/button.js';
 // Images Imports
 import OpeningIntro from '../../assets/images/opening-intro.png';
 import premiumSteakIntro from '../../assets/images/premium-steak-intro.png';
@@ -38,16 +38,24 @@ export class HomePage {
               </div>
           </section>
 
+          <section class="menu">
+            <div class="menu__content">
+              <h2 class="menu__title">Our Menu</h2>
+            </div>
+          </section>
+
         </div>`;
 
         this.initCarousel();
     }
 
+// Carousel Method to automatically scroll
 initCarousel() {
   const carousel = this.container.querySelector('.carousel');
   const slides = carousel.children;
   let index = 0;
 
+// Start and stop the carousel
   const startCarousel = () => {
     if (this.interval) return;
 
@@ -73,7 +81,7 @@ initCarousel() {
     ([entry]) => {
       entry.isIntersecting ? startCarousel() : stopCarousel();
     },
-    { threshold: 0.5 } // at least 50% visible
+    { threshold: 0.5 } 
   );
 
   observer.observe(carousel);
