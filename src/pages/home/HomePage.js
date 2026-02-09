@@ -3,6 +3,7 @@ import './HomePage.css';
 import OpeningIntro from '../../assets/images/opening-intro.png';
 import premiumSteakIntro from '../../assets/images/premium-steak-intro.png';
 import steakSaleIntro from '../../assets/images/steak-sale-intro.png';
+import reservationBg from '../../assets/images/reservation-bg.png';
 
 export class HomePage {
   constructor() {
@@ -25,6 +26,14 @@ export class HomePage {
               <img src="${steakSaleIntro}" alt="Steak Sale Intro" />
             </li>
           </ul>
+
+          <section class="reservation">
+            <div class="reservation__content">
+              <h2>Make a reservation</h2>
+              <button>Book Now</button>
+              <img src="${reservationBg}" alt="">
+              </div>
+          </section>
 
         </div>`;
 
