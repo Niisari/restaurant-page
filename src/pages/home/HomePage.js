@@ -40,22 +40,55 @@ export class HomePage {
         this.initCarousel();
     }
 
-    initCarousel() {
-        const carousel = this.container.querySelector('.carousel');
-        const slides = carousel.children;
-        let index = 0;
+initCarousel() {
+  const carousel = this.container.querySelector('.carousel');
+  const slides = carousel.children;
+  let index = 0;
 
-        // safety: clear old interval if re-rendered
-        if (this.interval) {
-          clearInterval(this.interval);
-        }
+  const startCarousel = () => {
+    if (this.interval) return;
 
-        this.interval = setInterval(() => {
-          index = (index + 1) % slides.length;
-          slides[index].scrollIntoView({
-            behavior: 'smooth',
-            inline: 'center'
-          });
-        }, 4000);
+    this.interval = setInterval(() => {
+      index = (index + 1) % slides.length;
+      slides[index].scrollIntoView({
+        behavior: 'smooth',
+        inline: 'center'
+      });
+    }, 4000);
+  };
+
+  const stopCarousel = () => {
+    clearInterval(this.interval);
+    this.interval = null;
+  };
+
+  // Safety: clear old interval if re-rendered
+  stopCarousel();
+
+  // Observe visibility
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      entry.isIntersecting ? startCarousel() : stopCarousel();
+    },
+    { threshold: 0.9 } // at least 90% visible
+  );
+
+  observer.observe(carousel);
+
+  // Stop when tab is inactive
+  document.addEventListener('visibilitychange', () => {
+    document.hidden ? stopCarousel() : startCarousel();
+  });
+
+  // Stop carousel when clicking outside of it
+  document.addEventListener('click', (event) => {
+    if (!carousel.contains(event.target)) {
+      stopCarousel();
+    } else {
+      // If user clicks on carousel, restart
+      startCarousel();
     }
+  });
+}
+
 }
