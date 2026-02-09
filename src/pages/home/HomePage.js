@@ -1,4 +1,5 @@
 import './HomePage.css';
+import { button } from '../../components/buttons/button.js'; // import button from '../../components/buttons/button.js'
 // Images Imports
 import OpeningIntro from '../../assets/images/opening-intro.png';
 import premiumSteakIntro from '../../assets/images/premium-steak-intro.png';
@@ -29,8 +30,10 @@ export class HomePage {
 
           <section class="reservation">
             <div class="reservation__content">
-              <h2>Make a reservation</h2>
-              <button>Book Now</button>
+              <div class="reservation__text">
+                <h2 class="reservation__title">Make a reservation</h2>
+                <button>${button('Book a table')}</button>
+              </div>
               <img src="${reservationBg}" alt="">
               </div>
           </section>
@@ -70,7 +73,7 @@ initCarousel() {
     ([entry]) => {
       entry.isIntersecting ? startCarousel() : stopCarousel();
     },
-    { threshold: 0.9 } // at least 90% visible
+    { threshold: 0.5 } // at least 50% visible
   );
 
   observer.observe(carousel);
