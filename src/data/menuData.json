@@ -1,8 +1,8 @@
 [
     {
         "id": "category-starters",
-        "categoryName": "JUST FOR STARTERS",
         "categoryImage": "",
+        "categoryName": "JUST FOR STARTERS",
         "currency": "$",
         "items": [
             { 
@@ -105,6 +105,117 @@
                     "sodium": "1620mg",
                     "serves": "1-2 people",
                     "allergens": ["Wheat", "Gluten", "Pork", "Soy"]
+                }
+            }
+        ]
+    },
+
+    {
+        "id": "hand-Cut-steaks",
+        "categoryImage": "",
+        "categoryName": "Hand-Cut Steaks",
+        "currency": "$",
+        "items": [
+            {
+                "id": "hand-Cut-steak-1",
+                "itemImage": "",
+                "itemName": "Hand-Cut Sirloin",
+                "itemDescription": "Lean, juicy steak priced at a great value. Served with choice of two sides",
+                "itemPrice": 19.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 250,
+                    "fat": "6g",
+                    "carbs": "3g",
+                    "protein": "46g",
+                    "sodium": "560mg",
+                    "serves": "1 person",
+                    "allergens": ["None"]
+                }
+            },
+            {
+                "id": "item-steak-2",
+                "itemImage": "",
+                "itemName": "New York Strip",
+                "itemDescription": "Similar flavor to the sirloin with extra tenderness. Served with choice of two sides",
+                "itemPrice": 19.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 640,
+                    "fat": "33g",
+                    "carbs": "1g",
+                    "protein": "85g",
+                    "sodium": "980mg",
+                    "serves": "1 person",
+                    "allergens": ["None"]
+                }
+            },
+            {
+                "id": "item-steak-3",
+                "itemImage": "",
+                "itemName": "Bone-In Ribeye",
+                "itemDescription": "20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor. Served with choice of two sides",
+                "itemPrice": 19.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 1480,
+                    "fat": "104g",
+                    "carbs": "9g",
+                    "protein": "128g",
+                    "sodium": "1720mg",
+                    "serves": "1 person",
+                    "allergens": ["None"]
+                }
+            },
+            {
+                "id": "item-steak-4",
+                "itemImage": "",
+                "itemName": "Porterhouse T-Bone",
+                "itemDescription": "Two steak cuts - filet and strip - in one Texas-sized 23oz steak. Served with choice of two sides",
+                "itemPrice": 19.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 1040,
+                    "fat": "55g",
+                    "carbs": "6g",
+                    "protein": "130g",
+                    "sodium": "1460mg",
+                    "serves": "1-2 people",
+                    "allergens": ["None"]
+                }
+            },
+            {
+                "id": "item-steak-5",
+                "itemImage": "",
+                "itemName": "Steak Kabob",
+                "itemDescription": "Marinated steak with onion, mushroom, tomato, red pepper, green pepper served over seasoned rice with choice of one side",
+                "itemPrice": 19.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 450,
+                    "fat": "19g",
+                    "carbs": "44g",
+                    "protein": "26g",
+                    "sodium": "1270mg",
+                    "serves": "1 person",
+                    "allergens": ["Soy", "Wheat", "Gluten"]
+                }
+            },
+            {
+                "id": "item-steak-6",
+                "itemImage": "",
+                "itemName": "Filet Medallions",
+                "itemDescription": "Three tender filets (9 oz. total) topped with choice of Peppercorn or Portobello Mushroom sauce and served over seasoned rice",
+                "itemPrice": 19.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 760,
+                    "fat": "43g",
+                    "carbs": "46g",
+                    "protein": "54g",
+                    "sodium": "1600mg",
+                    "serves": "1 person",
+                    "allergens": ["Dairy", "Wheat", "Gluten", "Soy"]
                 }
             }
         ]
