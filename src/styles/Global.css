@@ -48,6 +48,10 @@
   --Hover-Gold: hsla(45, 80%, 60%, 0.9); /* Logo highlights, button hover, borders */
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   min-height: 100svh;
 }
