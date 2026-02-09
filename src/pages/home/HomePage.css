@@ -71,6 +71,8 @@
 
 .reservation {
   padding: 1rem 0 0;
+  margin-top: 0.25rem;
+
   background-color: var(--Gold-Brass);
 
   .reservation__text {
