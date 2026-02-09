@@ -1,0 +1,13 @@
+.button {
+    background-color: var(--Hover-Burgundy);
+    color: var(--Cream-Ivory);
+
+    border-radius: 0.25rem;
+    border: none;
+    padding: 0.75rem 1rem;
+
+    font-family: var(--Text-Font);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
