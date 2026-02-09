@@ -219,5 +219,48 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "Fall-Off-The-Bone-Ribs",
+        "categoryImage": "",
+        "categoryName": "Fall-Off-The-Bone-Ribs",
+        "currency": "$",
+        "items": [
+            {
+                "id": "Bone-Ribs-1",
+                "itemImage": "",
+                "itemName": "1/2 Slab Ribs",
+                "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
+                "itemPrice": 6.9,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 900,
+                    "fat": "63g",
+                    "carbs": "45g",
+                    "protein": "41g",
+                    "sodium": "1530mg",
+                    "serves": "1 person",
+                    "allergens": ["Pork", "Soy"]
+                }
+            },
+            {
+                "id": "Bone-Ribs-2",
+                "itemImage": "",
+                "itemName": "Full Slab Ribs",
+                "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
+                "itemPrice": 6.9,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 1450,
+                    "fat": "102g",
+                    "carbs": "56g",
+                    "protein": "82g",
+                    "sodium": "2840mg",
+                    "serves": "1-2 people",
+                    "allergens": ["Pork", "Soy"]
+                }
+            }
+        ]
     }
 ] 
