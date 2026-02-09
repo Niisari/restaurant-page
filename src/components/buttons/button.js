@@ -1,5 +1,5 @@
 import './button.css'
 
-export const button = `
-    <button type="button" class="button">Book a Table</button>
-`
+export const button = (text = "Click me") => {
+  return `<button type="button" class="button">${text}</button>`;
+};
