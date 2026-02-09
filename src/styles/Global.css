@@ -55,3 +55,10 @@ html, body {
 body {
   min-height: 100svh;
 }
+
+h1,
+h2 {
+  font-family: var(--Heading-Font);
+  font-weight: 700;
+  color: var(--Deep-Charcoal);
+}

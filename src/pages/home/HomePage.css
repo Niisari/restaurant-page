@@ -84,8 +84,6 @@
     margin-top: 2.5rem;
 
     .reservation__title {
-      font-family: var(--Heading-Font);
-      font-weight: 700;
       text-transform: uppercase;
     }
   }
