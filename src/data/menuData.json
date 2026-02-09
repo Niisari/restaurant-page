@@ -46,7 +46,7 @@
                 "itemDescription": "A heaping amount of golden steak fries topped with melted cheddar cheese and bacon bits",
                 "itemPrice": 6.9,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 1240,
                     "fat": "65g",
                     "carbs": "127g",
@@ -63,7 +63,7 @@
                 "itemDescription": "Plate of 8 baked potato skins topped with melted cheddar cheese and bacon bits, served with sour cream for dipping",
                 "itemPrice": 6.99,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 1320,
                     "fat": "94g",
                     "carbs": "82g",
@@ -80,7 +80,7 @@
                 "itemDescription": "Breaded white meat chicken tossed in Mild or Hot sauce and served with Bleu Cheese dressing",
                 "itemPrice": 6.99,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 760,
                     "fat": "49g",
                     "carbs": "36g",
@@ -97,7 +97,7 @@
                 "itemDescription": "Basket of our award-winning ribs with steak fries",
                 "itemPrice": 6.99,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 910,
                     "fat": "55g",
                     "carbs": "62g",
@@ -123,7 +123,7 @@
                 "itemDescription": "Lean, juicy steak priced at a great value. Served with choice of two sides",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 250,
                     "fat": "6g",
                     "carbs": "3g",
@@ -157,7 +157,7 @@
                 "itemDescription": "20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor. Served with choice of two sides",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 1480,
                     "fat": "104g",
                     "carbs": "9g",
@@ -174,7 +174,7 @@
                 "itemDescription": "Two steak cuts - filet and strip - in one Texas-sized 23oz steak. Served with choice of two sides",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 1040,
                     "fat": "55g",
                     "carbs": "6g",
@@ -191,7 +191,7 @@
                 "itemDescription": "Marinated steak with onion, mushroom, tomato, red pepper, green pepper served over seasoned rice with choice of one side",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 450,
                     "fat": "19g",
                     "carbs": "44g",
@@ -208,7 +208,7 @@
                 "itemDescription": "Three tender filets (9 oz. total) topped with choice of Peppercorn or Portobello Mushroom sauce and served over seasoned rice",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 760,
                     "fat": "43g",
                     "carbs": "46g",
@@ -234,7 +234,7 @@
                 "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
                 "itemPrice": 6.9,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 900,
                     "fat": "63g",
                     "carbs": "45g",
@@ -251,7 +251,7 @@
                 "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
                 "itemPrice": 6.9,
                 "isAvailable": true,
-                "nutritionalInfo": {
+                "nutritionInfo": {
                     "calories": 1450,
                     "fat": "102g",
                     "carbs": "56g",
