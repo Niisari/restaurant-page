@@ -2,11 +2,11 @@
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 100%;
-    width: 100vw;
 
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     animation: slide 6s infinite;
+    position: relative;
 
   @media (prefers-reduced-motion: no-preference) {
     scroll-behavior: smooth;
@@ -23,7 +23,8 @@
 
     position-anchor: --carousel;
     position-area: bottom;
-    position: fixed;
+    position: absolute;
+    top: -5.5vh;
   }
 
   > li {
@@ -65,5 +66,18 @@
   &::scroll-button(left) {
     content: "❮";
     position-area: center left;
+  }
+}
+
+.reservation {
+  padding: 1rem 0 0;
+
+  background-color: var(--Gold-Brass);
+
+  .reservation__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
 }
