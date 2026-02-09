@@ -1,11 +1,112 @@
 [
     {
+        "id": "category-starters",
         "categoryName": "Starters",
         "categoryImage": "",
+        "currency": "$",
         "items": [
+            { 
+                "id": "item-starters-1",
+                "itemImage": "",
+                "itemName": "Cactus Blossom",
+                "itemDescription": "Great for sharing! Texas-sized, golden-fried onion with Cajun sauce for dipping",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionInfo": {
+                    "calories": 1700,
+                    "fat": "135g",
+                    "carbs": "203g",
+                    "protein": "27g",
+                    "sodium": "5260mg",
+                    "serves": "2-4 people",
+                    "allergens": ["Gluten", "Dairy", "Egg"]
+                }
+            },
             {
-                
+                "id": "item-starters-2",
+                "itemImage": "",
+                "itemName": "Fried Pickles",
+                "itemDescription": "Shareable basket of golden-fried pickle chips served with Ranch or Cajun sauce for dipping",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionInfo": {
+                    "calories": 1240,
+                    "fat": "65g",
+                    "carbs": "127g",
+                    "protein": "39g",
+                    "sodium": "4570mg",
+                    "serves": "2-3 people",
+                    "allergens": ["Dairy", "Wheat", "Gluten"]
+                }
+            },
+            {
+                "id": "item-starters-3",
+                "itemImage": "",
+                "itemName": "Cheese Fries",
+                "itemDescription": "A heaping amount of golden steak fries topped with melted cheddar cheese and bacon bits",
+                "itemPrice": 6.9,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 1240,
+                    "fat": "65g",
+                    "carbs": "127g",
+                    "protein": "39g",
+                    "sodium": "4570mg",
+                    "serves": "2-3 people",
+                    "allergens": ["Dairy", "Wheat", "Gluten", "Pork"]
+                }
+            },
+            {
+                "id": "item-starters-4",
+                "itemImage": "",
+                "itemName": "Tater Skins",
+                "itemDescription": "Plate of 8 baked potato skins topped with melted cheddar cheese and bacon bits, served with sour cream for dipping",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 1320,
+                    "fat": "94g",
+                    "carbs": "82g",
+                    "protein": "41g",
+                    "sodium": "2340mg",
+                    "serves": "2-4 people",
+                    "allergens": ["Dairy", "Pork"]
+                }
+            },
+            {
+                "id": "item-starters-5",
+                "itemImage": "",
+                "itemName": "Boneless Buffalo Wings",
+                "itemDescription": "Breaded white meat chicken tossed in Mild or Hot sauce and served with Bleu Cheese dressing",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 760,
+                    "fat": "49g",
+                    "carbs": "36g",
+                    "protein": "45g",
+                    "sodium": "2910mg",
+                    "serves": "1-2 people",
+                    "allergens": ["Dairy", "Wheat", "Gluten", "Egg"]
+                }
+            },
+            {
+                "id": "item-starters-6",
+                "itemImage": "",
+                "itemName": "Killer Ribs",
+                "itemDescription": "Basket of our award-winning ribs with steak fries",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 910,
+                    "fat": "55g",
+                    "carbs": "62g",
+                    "protein": "43g",
+                    "sodium": "1620mg",
+                    "serves": "1-2 people",
+                    "allergens": ["Wheat", "Gluten", "Pork", "Soy"]
+                }
             }
         ]
     }
-]
+] 
