@@ -56,50 +56,49 @@ initCarousel() {
   let index = 0;
 
 // Start and stop the carousel
-  const startCarousel = () => {
-    if (this.interval) return;
+    const startCarousel = () => {
+      if (this.interval) return;
 
-    this.interval = setInterval(() => {
-      index = (index + 1) % slides.length;
-      slides[index].scrollIntoView({
-        behavior: 'smooth',
-        inline: 'center'
-      });
-    }, 4000);
-  };
+      this.interval = setInterval(() => {
+        index = (index + 1) % slides.length;
+        slides[index].scrollIntoView({
+          behavior: 'smooth',
+          inline: 'center'
+        });
+      }, 4000);
+    };
 
-  const stopCarousel = () => {
-    clearInterval(this.interval);
-    this.interval = null;
-  };
+    const stopCarousel = () => {
+      clearInterval(this.interval);
+      this.interval = null;
+    };
 
-  // Safety: clear old interval if re-rendered
-  stopCarousel();
+    // Safety: clear old interval if re-rendered
+    stopCarousel();
 
-  // Observe visibility
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      entry.isIntersecting ? startCarousel() : stopCarousel();
-    },
-    { threshold: 0.5 } 
-  );
+    // Observe visibility
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        entry.isIntersecting ? startCarousel() : stopCarousel();
+      },
+      { threshold: 0.5 } 
+    );
 
-  observer.observe(carousel);
+    observer.observe(carousel);
 
-  // Stop when tab is inactive
-  document.addEventListener('visibilitychange', () => {
-    document.hidden ? stopCarousel() : startCarousel();
-  });
+    // Stop when tab is inactive
+    document.addEventListener('visibilitychange', () => {
+      document.hidden ? stopCarousel() : startCarousel();
+    });
 
-  // Stop carousel when clicking outside of it
-  document.addEventListener('click', (event) => {
-    if (!carousel.contains(event.target)) {
-      stopCarousel();
-    } else {
-      // If user clicks on carousel, restart
-      startCarousel();
-    }
-  });
-}
-
+    // Stop carousel when clicking outside of it
+    document.addEventListener('click', (event) => {
+      if (!carousel.contains(event.target)) {
+        stopCarousel();
+      } else {
+        // If user clicks on carousel, restart
+        startCarousel();
+      }
+    });
+  }
 }
