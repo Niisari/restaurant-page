@@ -1169,6 +1169,57 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "desserts",
+        "categoryImage": "",
+        "categoryName": "Desserts",
+        "currency": "$",
+        "items": [
+            {
+                "id": "dessert-01",
+                "itemName": "Granny's Apple Classic",
+                "itemDescription": "Homestyle slice of apple pie topped with vanilla ice cream and honey cinnamon caramel sauce.",
+                "itemPrice": 7.99,
+                "nutritionalInfo": {
+                "calories": 1260,
+                "fat": "62g",
+                "carbs": "170g",
+                "protein": "10g",
+                "sodium": "1060mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Egg"]
+                }
+            },
+            {
+                "id": "dessert-02",
+                "itemName": "Strawberry Cheesecake",
+                "itemDescription": "Slice of classic New York-style cheesecake topped with strawberry sauce and whipped cream.",
+                "itemPrice": 7.49,
+                "nutritionalInfo": {
+                "calories": 780,
+                "fat": "54g",
+                "carbs": "64g",
+                "protein": "12g",
+                "sodium": "550mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Egg", "Soy"]
+                }
+            },
+            {
+                "id": "dessert-03",
+                "itemName": "Big Ol' Brownie",
+                "itemDescription": "Chocolate brownie topped with vanilla ice cream and hot chocolate sauce.",
+                "itemPrice": 7.99,
+                "nutritionalInfo": {
+                "calories": 1200,
+                "fat": "60g",
+                "carbs": "158g",
+                "protein": "14g",
+                "sodium": "650mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Egg", "Soy"]
+                }
+            }
+        ]
     }
 ]
  
