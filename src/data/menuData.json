@@ -1472,6 +1472,185 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "beer",
+        "categoryImage": "",
+        "categoryName": "Beer",
+        "currency": "$",
+        "items": [
+            {
+                "id": "bev-beer-01",
+                "itemName": "Budweiser",
+                "nutritionalInfo": {
+                "calories": 145,
+                "fat": "0g",
+                "carbs": "10.6g",
+                "protein": "1.3g",
+                "sodium": "10mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-02",
+                "itemName": "Bud Light",
+                "nutritionalInfo": {
+                "calories": 110,
+                "fat": "0g",
+                "carbs": "6.6g",
+                "protein": "0.9g",
+                "sodium": "10mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-03",
+                "itemName": "Miller Lite",
+                "nutritionalInfo": {
+                "calories": 96,
+                "fat": "0g",
+                "carbs": "3.2g",
+                "protein": "1g",
+                "sodium": "5mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-04",
+                "itemName": "Coors Light",
+                "nutritionalInfo": {
+                "calories": 102,
+                "fat": "0g",
+                "carbs": "5g",
+                "protein": "1g",
+                "sodium": "10mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-05",
+                "itemName": "Michelob Ultra",
+                "nutritionalInfo": {
+                "calories": 95,
+                "fat": "0g",
+                "carbs": "2.6g",
+                "protein": "0.6g",
+                "sodium": "5mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-06",
+                "itemName": "Heineken",
+                "nutritionalInfo": {
+                "calories": 142,
+                "fat": "0g",
+                "carbs": "11g",
+                "protein": "0g",
+                "sodium": "10mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-07",
+                "itemName": "Sam Adams Boston Lager",
+                "nutritionalInfo": {
+                "calories": 175,
+                "fat": "0g",
+                "carbs": "18g",
+                "protein": "2g",
+                "sodium": "10mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-08",
+                "itemName": "Sam Adams Seasonal",
+                "itemDescription": "Ask your server about our current seasonal selection.",
+                "nutritionalInfo": {
+                "calories": 170,
+                "fat": "0g",
+                "carbs": "15g",
+                "protein": "2g",
+                "sodium": "10mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-09",
+                "itemName": "Corona Extra",
+                "nutritionalInfo": {
+                "calories": 148,
+                "fat": "0g",
+                "carbs": "14g",
+                "protein": "1g",
+                "sodium": "20mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-10",
+                "itemName": "Stella Artois",
+                "nutritionalInfo": {
+                "calories": 150,
+                "fat": "0g",
+                "carbs": "13g",
+                "protein": "1g",
+                "sodium": "10mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-11",
+                "itemName": "Modelo Especial",
+                "nutritionalInfo": {
+                "calories": 145,
+                "fat": "0g",
+                "carbs": "13.7g",
+                "protein": "1.1g",
+                "sodium": "10mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-12",
+                "itemName": "Blue Moon",
+                "nutritionalInfo": {
+                "calories": 170,
+                "fat": "0g",
+                "carbs": "14g",
+                "protein": "2g",
+                "sodium": "15mg",
+                "allergens": ["Gluten", "Wheat", "Barley"]
+                }
+            },
+            {
+                "id": "bev-beer-13",
+                "itemName": "Angry Orchard Hard Cider",
+                "nutritionalInfo": {
+                "calories": 190,
+                "fat": "0g",
+                "carbs": "24g",
+                "protein": "0g",
+                "sodium": "10mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-beer-14",
+                "itemName": "Heineken 0.0",
+                "itemDescription": "Non-alcoholic malt beverage.",
+                "nutritionalInfo": {
+                "calories": 69,
+                "fat": "0g",
+                "carbs": "16g",
+                "protein": "0g",
+                "sodium": "10mg",
+                "allergens": ["Gluten", "Barley"]
+                }
+            }
+        ]
     }
 ]
  
