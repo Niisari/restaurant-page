@@ -56,7 +56,7 @@ export class HomePage {
                               <img src="${category.categoryImage || 'default-category.jpg'}" alt="" />
                           </div>
                           <div class="category__info">
-                              <h3>${category.categoryName}</h3>
+                              <h3 class="category__name">${category.categoryName}</h3>
                           </div>
                       </div>
                   `).join('')}
