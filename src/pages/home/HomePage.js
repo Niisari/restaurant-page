@@ -40,7 +40,7 @@ export class HomePage {
             <div class="reservation__content">
               <div class="reservation__text">
                 <h2 class="reservation__title">Make a reservation</h2>
-                <button>${button('Book a table')}</button>
+                <a href="#reservation">${button('Book a table')}</a>
               </div>
               <img src="${reservationBg}" alt="">
               </div>
