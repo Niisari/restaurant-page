@@ -16,9 +16,8 @@ export class HomePage {
     render() {
       // Featured Items
         const featuredCategories = ["category-starters", "hand-Cut-steaks", "Fall-Off-The-Bone-Ribs", "alabama-size-combos", "dockside-favorites", "chicken-specialties"];
-        const featuredItems = featuredCategories.map(cat => {
-          return menu.find(item => item.category === cat);
-          }).filter(item => item);
+        const categoriesToDisplay = menu.filter(cat => 
+        featuredCategories.includes(cat.id));
       
       // Render Home Page
         this.container.innerHTML = 
@@ -51,12 +50,14 @@ export class HomePage {
               <h2 class="menu__title">Our Menu</h2>
               
               <div class="menu__preview--grid">
-                  ${featuredItems.map(item => `
-                      <div class="menu__card">
-                          <img src="${item.image}" alt="${item.itemName}" />
-                          <h3>${item.itemName}</h3>
-                          <p>${item.itemDescription}</p>
-                          <p class="menu__price">${item.itemPrice}</p>
+                  ${categoriesToDisplay.map(category => `
+                      <div class="category__card" data-category-id="${category.id}">
+                          <div class="category__image-container">
+                              <img src="${category.categoryImage || 'default-category.jpg'}" alt="" />
+                          </div>
+                          <div class="category__info">
+                              <h3>${category.categoryName}</h3>
+                          </div>
                       </div>
                   `).join('')}
               </div>

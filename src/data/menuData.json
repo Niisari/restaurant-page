@@ -1,7 +1,7 @@
 [
     {
         "id": "category-starters",
-        "categoryImage": "",
+        "categoryImage": "images/just-for-starters.png",
         "categoryName": "JUST FOR STARTERS",
         "currency": "$",
         "items": [
