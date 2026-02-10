@@ -62,7 +62,7 @@ export class HomePage {
               </div>
 
               <div class="menu__action">
-                  <a href="#menu">${button('View Full Menu')}</a>
+                  <a href="#menu" class="btn__menu--link">${button('View Full Menu')}</a>
               </div>
             </div>
           </section>
