@@ -1220,6 +1220,106 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "margaritas",
+        "categoryImage": "",
+        "categoryName": "Margaritas",
+        "currency": "$",
+        "items": [
+            {
+                "id": "bev-margarita-01",
+                "itemName": "House Rocks Margarita",
+                "itemDescription": "Our fresh, signature margarita sour mixed with Dorado® Gold Tequila. Served on the rocks.",
+                "nutritionalInfo": {
+                "calories": 230,
+                "fat": "0g",
+                "carbs": "28g",
+                "protein": "0g",
+                "sodium": "450mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-margarita-02",
+                "itemName": "House Frozen Margarita",
+                "itemDescription": "Our fresh, signature margarita sour mixed with Dorado® Gold Tequila, blended frozen.",
+                "nutritionalInfo": {
+                "calories": 280,
+                "fat": "0g",
+                "carbs": "42g",
+                "protein": "0g",
+                "sodium": "480mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-margarita-03",
+                "itemName": "The Legend Margarita",
+                "itemDescription": "A blend of Patrón® Silver, Reposado, and Añejo with Grand Marnier® and signature sour. Served with black lava salt.",
+                "nutritionalInfo": {
+                "calories": 260,
+                "fat": "0g",
+                "carbs": "22g",
+                "protein": "0g",
+                "sodium": "820mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-margarita-04",
+                "itemName": "Fruity Margarita",
+                "itemDescription": "Our House Margarita with your choice of Strawberry or Raspberry puree.",
+                "nutritionalInfo": {
+                "calories": 320,
+                "fat": "0g",
+                "carbs": "52g",
+                "protein": "0g",
+                "sodium": "460mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-margarita-05",
+                "itemName": "Mango Margarita",
+                "itemDescription": "Our House Margarita blended with mango puree and garnished with tajin chili lime salt.",
+                "nutritionalInfo": {
+                "calories": 330,
+                "fat": "0g",
+                "carbs": "55g",
+                "protein": "0g",
+                "sodium": "940mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-margarita-06",
+                "itemName": "Hurricane Margarita",
+                "itemDescription": "Captain Morgan® Spiced Rum, grenadine, orange, and pineapple juices blended with our house margarita.",
+                "nutritionalInfo": {
+                "calories": 350,
+                "fat": "0g",
+                "carbs": "58g",
+                "protein": "0g",
+                "sodium": "450mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-margarita-07",
+                "itemName": "Sangria Margarita",
+                "itemDescription": "Our House Margarita swirled with signature Sangria Red wine.",
+                "nutritionalInfo": {
+                "calories": 250,
+                "fat": "0g",
+                "carbs": "32g",
+                "protein": "0g",
+                "sodium": "450mg",
+                "allergens": []
+                }
+            }
+        ]
     }
 ]
  
