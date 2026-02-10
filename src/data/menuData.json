@@ -697,5 +697,98 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "burgers-and-sandwiches",
+        "categoryImage": "",
+        "categoryName": "Burgers & Sandwiches",
+        "currency": "$",
+        "items": [
+            {
+                "id": "item-sandwich-01",
+                "itemName": "All-American Cheeseburger",
+                "itemDescription": "Our classic 1/2 lb. burger with American cheese, lettuce, tomato, and onion on a toasted bun. Served with steak fries and a pickle spear.",
+                "itemPrice": 12.99,
+                "nutritionalInfo": {
+                "calories": 1030,
+                "fat": "61g",
+                "carbs": "68g",
+                "protein": "52g",
+                "sodium": "1840mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Soy"]
+                }
+            },
+            {
+                "id": "item-sandwich-02",
+                "itemName": "Bacon Cheeseburger",
+                "itemDescription": "Our classic burger topped with crispy bacon and American cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
+                "itemPrice": 13.99,
+                "nutritionalInfo": {
+                "calories": 1120,
+                "fat": "70g",
+                "carbs": "68g",
+                "protein": "55g",
+                "sodium": "2150mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Soy", "Pork"]
+                }
+            },
+            {
+                "id": "item-sandwich-03",
+                "itemName": "Smokehouse Burger",
+                "itemDescription": "1/2 lb. burger with sautéed mushrooms, onions, BBQ sauce, American and jack cheeses. Served with steak fries and a pickle spear.",
+                "itemPrice": 14.49,
+                "nutritionalInfo": {
+                "calories": 1210,
+                "fat": "76g",
+                "carbs": "79g",
+                "protein": "57g",
+                "sodium": "2320mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Soy"]
+                }
+            },
+            {
+                "id": "item-sandwich-04",
+                "itemName": "Pulled Pork Sandwich",
+                "itemDescription": "Tender, slow-cooked BBQ pulled pork piled high on a toasted bun. Served with steak fries and a pickle spear.",
+                "itemPrice": 12.49,
+                "nutritionalInfo": {
+                "calories": 1050,
+                "fat": "44g",
+                "carbs": "118g",
+                "protein": "47g",
+                "sodium": "2240mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Soy", "Pork"]
+                }
+            },
+            {
+                "id": "item-sandwich-05",
+                "itemName": "BBQ Chicken Sandwich",
+                "itemDescription": "Marinated and grilled chicken breast basted with BBQ sauce, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
+                "itemPrice": 12.99,
+                "nutritionalInfo": {
+                "calories": 810,
+                "fat": "29g",
+                "carbs": "86g",
+                "protein": "52g",
+                "sodium": "1960mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Soy"]
+                }
+            },
+            {
+                "id": "item-sandwich-06",
+                "itemName": "Mushroom Jack Chicken Sandwich",
+                "itemDescription": "Grilled chicken breast with sautéed mushrooms, melted jack cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
+                "itemPrice": 13.49,
+                "nutritionalInfo": {
+                "calories": 820,
+                "fat": "37g",
+                "carbs": "69g",
+                "protein": "55g",
+                "sodium": "1990mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Soy"]
+                }
+            }
+        ]
     }
 ] 
