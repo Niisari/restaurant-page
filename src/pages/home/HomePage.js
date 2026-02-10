@@ -1,5 +1,6 @@
 import './HomePage.css';
 import { button } from '../../components/buttons/button.js';
+import menu from '../../data/menuData.json';
 // Images Imports
 import OpeningIntro from '../../assets/images/opening-intro.png';
 import premiumSteakIntro from '../../assets/images/premium-steak-intro.png';
@@ -13,6 +14,11 @@ export class HomePage {
   }
 
     render() {
+        const featuredCategories = ["category-starters", "hand-Cut-steaks", "Fall-Off-The-Bone-Ribs", "alabama-size-combos", "dockside-favorites", "chicken-specialties"];
+        const featuredItems = featuredCategories.map(cat => {
+          return menu.find(item => item.category === cat);
+          }).filter(item => item);
+
         this.container.innerHTML = 
         `<div class="home__page">
 
@@ -41,6 +47,21 @@ export class HomePage {
           <section class="menu">
             <div class="menu__content">
               <h2 class="menu__title">Our Menu</h2>
+              
+              <div class="menu__preview--grid">
+                  ${featuredItems.map(item => `
+                      <div class="menu__card">
+                          <img src="${item.image}" alt="${item.itemName}" />
+                          <h3>${item.itemName}</h3>
+                          <p>${item.itemDescription}</p>
+                          <p class="menu__price">${item.itemPrice}</p>
+                      </div>
+                  `).join('')}
+              </div>
+
+              <div class="menu__action">
+                  <a href="#menu">${button('View Full Menu')}</a>
+              </div>
             </div>
           </section>
 
@@ -101,4 +122,5 @@ initCarousel() {
       }
     });
   }
+
 }
