@@ -1076,6 +1076,99 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "beverages",
+        "categoryImage": "",
+        "categoryName": "Beverages",
+        "currency": "$",
+        "items": [
+            {
+                "id": "bev-01",
+                "itemName": "20oz Fountain Drinks",
+                "itemDescription": "Choice of Coca-Cola products. Prices listed are for TO-GO beverages only. No refills.",
+                "itemPrice": 2.99,
+                "nutritionalInfo": {
+                "calories": 240,
+                "fat": "0g",
+                "carbs": "65g",
+                "protein": "0g",
+                "sodium": "75mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-02",
+                "itemName": "20 oz Lemonade",
+                "itemDescription": "Refreshing, ice-cold lemonade. Prices listed are for TO-GO beverages only. No refills.",
+                "itemPrice": 3.29,
+                "nutritionalInfo": {
+                "calories": 250,
+                "fat": "0g",
+                "carbs": "68g",
+                "protein": "0g",
+                "sodium": "15mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-03",
+                "itemName": "20 oz Iced Tea",
+                "itemDescription": "Freshly brewed unsweetened iced tea. Prices listed are for TO-GO beverages only. No refills.",
+                "itemPrice": 2.99,
+                "nutritionalInfo": {
+                "calories": 5,
+                "fat": "0g",
+                "carbs": "1g",
+                "protein": "0g",
+                "sodium": "10mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-04",
+                "itemName": "20 oz Sweet Tea",
+                "itemDescription": "Freshly brewed tea sweetened with pure cane sugar. Prices listed are for TO-GO beverages only. No refills.",
+                "itemPrice": 2.99,
+                "nutritionalInfo": {
+                "calories": 190,
+                "fat": "0g",
+                "carbs": "48g",
+                "protein": "0g",
+                "sodium": "10mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-05",
+                "itemName": "Bottled Water",
+                "itemDescription": "Purified bottled water for on-the-go hydration.",
+                "itemPrice": 2.49,
+                "nutritionalInfo": {
+                "calories": 0,
+                "fat": "0g",
+                "carbs": "0g",
+                "protein": "0g",
+                "sodium": "0mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "bev-06",
+                "itemName": "Mix & Match Tea or Lemonade",
+                "itemDescription": "Create your own blend of our fresh-brewed tea and lemonade (Arnold Palmer style).",
+                "itemPrice": 3.29,
+                "nutritionalInfo": {
+                "calories": 130,
+                "fat": "0g",
+                "carbs": "34g",
+                "protein": "0g",
+                "sodium": "15mg",
+                "allergens": []
+                }
+            }
+        ]
     }
 ]
  
