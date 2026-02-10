@@ -262,5 +262,116 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "alabama-size-combos",
+        "categoryImage": "",
+        "categoryName": "ALABAMA SIZE COMBOS",
+        "currency": "$",
+        "items": [
+            {
+                "id": "alabama-size-combo-1",
+                "itemImage": "",
+                "itemName": "Grilled BBQ Chicken & Sirloin 6oz",
+                "itemDescription": "Marinated 1/2 lb. breast basted in BBQ sauce along with our lean, juicy sirloin steak at a great value",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 540,
+                    "fat": "15g",
+                    "carbs": "18g",
+                    "protein": "83g",
+                    "sodium": "1190mg",
+                    "serves": "1 person",
+                    "allergens": ["Soy"]
+                }
+            },
+            {
+                "id": "alabama-size-combo-2",
+                "itemImage": "",
+                "itemName": "Chicken Critters® & Ribs",
+                "itemDescription": "All white meat chicken tenders dipped in buttermilk batter, then hand-breaded and golden-fried along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 820,
+                    "fat": "46g",
+                    "carbs": "41g",
+                    "protein": "61g",
+                    "sodium": "1630mg",
+                    "serves": "1 person",
+                    "allergens": ["Wheat", "Gluten", "Dairy", "Egg", "Pork", "Soy"]
+                }
+            },
+            {
+                "id": "alabama-size-combo-3",
+                "itemImage": "",
+                "itemName": "Chicken Critters® & Sirloin 6oz",
+                "itemDescription": "All white meat chicken tenders dipped in buttermilk batter, then hand-breaded and golden-fried along with our lean, juicy sirloin steak at a great value",
+                "itemPrice": 19.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 520,
+                    "fat": "21g",
+                    "carbs": "22g",
+                    "protein": "61g",
+                    "sodium": "1140mg",
+                    "serves": "1 person",
+                    "allergens": ["Wheat", "Gluten", "Dairy", "Egg"]
+                }
+            },
+            {
+                "id": "alabama-size-combo-4",
+                "itemImage": "",
+                "itemName": "Sirloin* & Ribs",
+                "itemDescription": "Our lean, juicy sirloin steak at a great value along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 700,
+                    "fat": "41g",
+                    "carbs": "24g",
+                    "protein": "61g",
+                    "sodium": "1330mg",
+                    "serves": "1 person",
+                    "allergens": ["Pork", "Soy"]
+                }
+            },
+            {
+                "id": "alabama-size-combo-5",
+                "itemImage": "",
+                "itemName": "Ribeye* 12oz & Ribs",
+                "itemDescription": "Very juicy and flavorful from the marbling throughout the steak along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
+                "itemPrice": 19.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 1090,
+                    "fat": "74g",
+                    "carbs": "25g",
+                    "protein": "100g",
+                    "sodium": "1750mg",
+                    "serves": "1 person",
+                    "allergens": ["Pork", "Soy"]
+                }
+            },
+            {
+                "id": "alabama-size-combo-6",
+                "itemImage": "",
+                "itemName": "Filet* 6oz & Ribs",
+                "itemDescription": "Our most tender steak that is lean and melts in your mouth along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
+                "itemPrice": 19.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 670,
+                    "fat": "37g",
+                    "carbs": "25g",
+                    "protein": "58g",
+                    "sodium": "1340mg",
+                    "serves": "1 person",
+                    "allergens": ["Pork", "Soy"]
+                }
+            }
+        ]
     }
 ] 
