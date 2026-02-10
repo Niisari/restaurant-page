@@ -790,5 +790,158 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "sides-and-extras",
+        "categoryImage": "",
+        "categoryName": "Sides & Extras",
+        "currency": "$",
+        "items": [
+            {
+                "id": "side-01",
+                "itemName": "Mashed Potatoes",
+                "nutritionalInfo": {
+                "calories": 260,
+                "fat": "12g",
+                "carbs": "33g",
+                "protein": "4g",
+                "sodium": "740mg",
+                "allergens": ["Dairy", "Wheat", "Gluten"]
+                }
+            },
+            {
+                "id": "side-02",
+                "itemName": "Buttered Corn",
+                "nutritionalInfo": {
+                "calories": 180,
+                "fat": "8g",
+                "carbs": "26g",
+                "protein": "4g",
+                "sodium": "330mg",
+                "allergens": ["Dairy"]
+                }
+            },
+            {
+                "id": "side-03",
+                "itemName": "Steamed Vegetables",
+                "nutritionalInfo": {
+                "calories": 40,
+                "fat": "2g",
+                "carbs": "6g",
+                "protein": "2g",
+                "sodium": "230mg",
+                "allergens": ["Dairy"]
+                }
+            },
+            {
+                "id": "side-04",
+                "itemName": "Green Beans",
+                "nutritionalInfo": {
+                "calories": 100,
+                "fat": "3.5g",
+                "carbs": "13g",
+                "protein": "6g",
+                "sodium": "1070mg",
+                "allergens": ["Pork", "Soy"]
+                }
+            },
+            {
+                "id": "side-05",
+                "itemName": "House Salad",
+                "nutritionalInfo": {
+                "calories": 230,
+                "fat": "16g",
+                "carbs": "9g",
+                "protein": "13g",
+                "sodium": "510mg",
+                "allergens": ["Dairy", "Wheat", "Gluten", "Egg"]
+                }
+            },
+            {
+                "id": "side-06",
+                "itemName": "Seasoned Rice",
+                "nutritionalInfo": {
+                "calories": 360,
+                "fat": "17g",
+                "carbs": "44g",
+                "protein": "6g",
+                "sodium": "1040mg",
+                "allergens": ["Wheat", "Gluten", "Soy"]
+                }
+            },
+            {
+                "id": "side-07",
+                "itemName": "Sauteed Onions",
+                "nutritionalInfo": {
+                "calories": 150,
+                "fat": "10g",
+                "carbs": "14g",
+                "protein": "1g",
+                "sodium": "320mg",
+                "allergens": ["Dairy", "Soy"]
+                }
+            },
+            {
+                "id": "side-08",
+                "itemName": "Sauteed Mushrooms",
+                "nutritionalInfo": {
+                "calories": 90,
+                "fat": "7g",
+                "carbs": "5g",
+                "protein": "2g",
+                "sodium": "430mg",
+                "allergens": ["Dairy", "Soy"]
+                }
+            },
+            {
+                "id": "side-09",
+                "itemName": "Applesauce",
+                "nutritionalInfo": {
+                "calories": 110,
+                "fat": "0g",
+                "carbs": "28g",
+                "protein": "0g",
+                "sodium": "10mg",
+                "allergens": []
+                }
+            },
+            {
+                "id": "side-10",
+                "itemName": "Texas Red Chili (Cup)",
+                "nutritionalInfo": {
+                "calories": 230,
+                "fat": "13g",
+                "carbs": "12g",
+                "protein": "17g",
+                "sodium": "660mg",
+                "allergens": ["Wheat", "Gluten", "Dairy"]
+                }
+            },
+            {
+                "id": "side-11",
+                "itemName": "Sidekick of Ribs",
+                "nutritionalInfo": {
+                "calories": 450,
+                "fat": "27g",
+                "carbs": "15g",
+                "protein": "37g",
+                "sodium": "950mg",
+                "allergens": ["Pork", "Soy"]
+                }
+            },
+            {
+                "id": "side-12",
+                "itemName": "Mac & Cheese",
+                "nutritionalInfo": {
+                "calories": 270,
+                "fat": "14g",
+                "carbs": "27g",
+                "protein": "9g",
+                "sodium": "860mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Egg"]
+                }
+            }
+        ]
     }
 ] 
