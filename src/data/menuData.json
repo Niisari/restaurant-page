@@ -527,5 +527,82 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "country-dinners",
+        "categoryImage": "",
+        "categoryName": "Country Dinners",
+        "currency": "$",
+        "items": [
+            {
+                "id": "country-dinners-1",
+                "itemImage": "",
+                "itemName": "Grilled Pork Chops",
+                "itemDescription": "Boneless chops seasoned and served with Peppercorn sauce",
+                "itemPrice": 16.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 590,
+                    "fat": "33g",
+                    "carbs": "12g",
+                    "protein": "61g",
+                    "sodium": "1940mg",
+                    "serves": "1 person",
+                    "allergens": ["Dairy", "Wheat", "Gluten", "Soy"]
+                }
+            },
+            {
+                "id": "country-dinners-2",
+                "itemImage": "",
+                "itemName": "Pulled Pork Dinner",
+                "itemDescription": "Tender, slow-cooked BBQ pork served with toasted fresh-baked bread",
+                "itemPrice": 14.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 740,
+                    "fat": "37g",
+                    "carbs": "65g",
+                    "protein": "37g",
+                    "sodium": "1670mg",
+                    "serves": "1 person",
+                    "allergens": ["Wheat", "Gluten", "Pork", "Soy", "Dairy"]
+                }
+            },
+            {
+                "id": "country-dinners-3",
+                "itemImage": "",
+                "itemName": "Country Fried Sirloin",
+                "itemDescription": "Hand-battered, fresh-cut sirloin served crispy and golden, topped with cream gravy",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 890,
+                    "fat": "58g",
+                    "carbs": "41g",
+                    "protein": "52g",
+                    "sodium": "1840mg",
+                    "serves": "1 person",
+                    "allergens": ["Wheat", "Gluten", "Dairy", "Egg"]
+                }
+            },
+            {
+                "id": "country-dinners-4",
+                "itemImage": "",
+                "itemName": "Beef Tips",
+                "itemDescription": "Cuts of steak with sautéed mushrooms, onions, brown gravy and sour cream over seasoned rice or mashed potatoes and one side",
+                "itemPrice": 16.49,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 770,
+                    "fat": "34g",
+                    "carbs": "63g",
+                    "protein": "54g",
+                    "sodium": "2830mg",
+                    "serves": "1 person",
+                    "allergens": ["Wheat", "Gluten", "Dairy", "Soy"]
+                }
+            }
+        ]
     }
 ] 
