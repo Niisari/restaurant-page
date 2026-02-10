@@ -12,7 +12,7 @@
                 "itemDescription": "Great for sharing! Texas-sized, golden-fried onion with Cajun sauce for dipping",
                 "itemPrice": 6.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 1700,
                     "fat": "135g",
                     "carbs": "203g",
@@ -29,7 +29,7 @@
                 "itemDescription": "Shareable basket of golden-fried pickle chips served with Ranch or Cajun sauce for dipping",
                 "itemPrice": 6.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 1240,
                     "fat": "65g",
                     "carbs": "127g",
@@ -46,7 +46,7 @@
                 "itemDescription": "A heaping amount of golden steak fries topped with melted cheddar cheese and bacon bits",
                 "itemPrice": 6.9,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 1240,
                     "fat": "65g",
                     "carbs": "127g",
@@ -63,7 +63,7 @@
                 "itemDescription": "Plate of 8 baked potato skins topped with melted cheddar cheese and bacon bits, served with sour cream for dipping",
                 "itemPrice": 6.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 1320,
                     "fat": "94g",
                     "carbs": "82g",
@@ -80,7 +80,7 @@
                 "itemDescription": "Breaded white meat chicken tossed in Mild or Hot sauce and served with Bleu Cheese dressing",
                 "itemPrice": 6.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 760,
                     "fat": "49g",
                     "carbs": "36g",
@@ -97,7 +97,7 @@
                 "itemDescription": "Basket of our award-winning ribs with steak fries",
                 "itemPrice": 6.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 910,
                     "fat": "55g",
                     "carbs": "62g",
@@ -123,7 +123,7 @@
                 "itemDescription": "Lean, juicy steak priced at a great value. Served with choice of two sides",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 250,
                     "fat": "6g",
                     "carbs": "3g",
@@ -157,7 +157,7 @@
                 "itemDescription": "20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor. Served with choice of two sides",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 1480,
                     "fat": "104g",
                     "carbs": "9g",
@@ -174,7 +174,7 @@
                 "itemDescription": "Two steak cuts - filet and strip - in one Texas-sized 23oz steak. Served with choice of two sides",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 1040,
                     "fat": "55g",
                     "carbs": "6g",
@@ -191,7 +191,7 @@
                 "itemDescription": "Marinated steak with onion, mushroom, tomato, red pepper, green pepper served over seasoned rice with choice of one side",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 450,
                     "fat": "19g",
                     "carbs": "44g",
@@ -208,7 +208,7 @@
                 "itemDescription": "Three tender filets (9 oz. total) topped with choice of Peppercorn or Portobello Mushroom sauce and served over seasoned rice",
                 "itemPrice": 19.99,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 760,
                     "fat": "43g",
                     "carbs": "46g",
@@ -234,7 +234,7 @@
                 "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
                 "itemPrice": 6.9,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 900,
                     "fat": "63g",
                     "carbs": "45g",
@@ -251,7 +251,7 @@
                 "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
                 "itemPrice": 6.9,
                 "isAvailable": true,
-                "nutritionInfo": {
+                "nutritionalInfo": {
                     "calories": 1450,
                     "fat": "102g",
                     "carbs": "56g",
@@ -413,6 +413,117 @@
                     "sodium": "1710mg",
                     "serves": "1 person",
                     "allergens": ["Fish", "Wheat", "Gluten", "Dairy"]
+                }
+            }
+        ]
+    },
+
+    {
+        "id": "chicken-specialties",
+        "categoryImage": "",
+        "categoryName": "Chicken Specialties",
+        "currency": "$",
+        "items": [
+            {
+                "id": "chicken-specialties-1",
+                "itemImage": "",
+                "itemName": "Country Fried Chicken",
+                "itemDescription": "Tender, white meat chicken breast, hand-battered, golden-fried and topped with choice of gravy. Served with choice of two sides",
+                "itemPrice": 14.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 780,
+                    "fat": "44g",
+                    "carbs": "42g",
+                    "protein": "54g",
+                    "sodium": "1890mg",
+                    "serves": "1 person",
+                    "allergens": ["Wheat", "Gluten", "Dairy", "Egg"]
+                }
+            },
+            {
+                "id": "chicken-specialties-2",
+                "itemImage": "",
+                "itemName": "Chicken Critters®",
+                "itemDescription": "All white meat chicken tenders, golden-fried and lightly crispy. Served with choice of two sides",
+                "itemPrice": 13.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 440,
+                    "fat": "19g",
+                    "carbs": "21g",
+                    "protein": "47g",
+                    "sodium": "940mg",
+                    "serves": "1 person",
+                    "allergens": ["Wheat", "Gluten", "Dairy", "Egg"]
+                }
+            },
+            {
+                "id": "chicken-specialties-3",
+                "itemImage": "",
+                "itemName": "Smothered Chicken",
+                "itemDescription": "Grilled, marinated chicken breast with sautéed onions, sautéed mushrooms and choice of melted jack cheese or made-from-scratch gravy. Served with choice of two sides",
+                "itemPrice": 14.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 430,
+                    "fat": "21g",
+                    "carbs": "10g",
+                    "protein": "51g",
+                    "sodium": "1310mg",
+                    "serves": "1 person",
+                    "allergens": ["Dairy", "Soy"]
+                }
+            },
+            {
+                "id": "chicken-specialties-4",
+                "itemImage": "",
+                "itemName": "Herb Crusted Chicken",
+                "itemDescription": "Boneless, marinated chicken breast seasoned with a blend of herbs and spices, then flame-grilled and served with a caramelized lemon for extra flavor. Served with choice of two sides",
+                "itemPrice": 14.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 310,
+                    "fat": "10g",
+                    "carbs": "12g",
+                    "protein": "47g",
+                    "sodium": "1040mg",
+                    "serves": "1 person",
+                    "allergens": ["Soy"]
+                }
+            },
+            {
+                "id": "chicken-specialties-5",
+                "itemImage": "",
+                "itemName": "Grilled BBQ Chicken",
+                "itemDescription": "Marinated ½ lb. breast served with choice of two sides",
+                "itemPrice": 14.49,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 300,
+                    "fat": "7g",
+                    "carbs": "18g",
+                    "protein": "46g",
+                    "sodium": "1010mg",
+                    "serves": "1 person",
+                    "allergens": ["Soy"]
+                }
+            },
+            {
+                "id": "chicken-specialties-6",
+                "itemImage": "",
+                "itemName": "Portobello Mushroom Chicken",
+                "itemDescription": "Grilled, marinated chicken breast with Portobello Mushroom sauce, jack cheese and parmesan cheese. Served with choice of two sides",
+                "itemPrice": 15.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 430,
+                    "fat": "21g",
+                    "carbs": "8g",
+                    "protein": "53g",
+                    "sodium": "1420mg",
+                    "serves": "1 person",
+                    "allergens": ["Dairy", "Wheat", "Gluten", "Soy"]
                 }
             }
         ]
