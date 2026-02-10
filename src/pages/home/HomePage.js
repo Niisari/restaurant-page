@@ -14,11 +14,13 @@ export class HomePage {
   }
 
     render() {
+      // Featured Items
         const featuredCategories = ["category-starters", "hand-Cut-steaks", "Fall-Off-The-Bone-Ribs", "alabama-size-combos", "dockside-favorites", "chicken-specialties"];
         const featuredItems = featuredCategories.map(cat => {
           return menu.find(item => item.category === cat);
           }).filter(item => item);
-
+      
+      // Render Home Page
         this.container.innerHTML = 
         `<div class="home__page">
 
@@ -33,7 +35,7 @@ export class HomePage {
               <img src="${steakSaleIntro}" alt="Steak Sale Intro" />
             </li>
           </ul>
-
+          
           <section class="reservation">
             <div class="reservation__content">
               <div class="reservation__text">
