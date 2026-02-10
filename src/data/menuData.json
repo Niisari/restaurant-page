@@ -943,5 +943,139 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "kids-meals",
+        "categoryImage": "",
+        "categoryName": "Kids & Ranger Meals",
+        "currency": "$",
+        "items": [
+            {
+                "id": "kids-01",
+                "itemName": "Mini-Cheeseburgers",
+                "itemDescription": "Two small burgers on our fresh-baked bread, topped with American cheese. Served with choice of one side.",
+                "itemPrice": 6.99,
+                "nutritionalInfo": {
+                "calories": 670,
+                "fat": "38g",
+                "carbs": "47g",
+                "protein": "35g",
+                "sodium": "1040mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Soy"]
+                }
+            },
+            {
+                "id": "kids-02",
+                "itemName": "Jr. Chicken Tenders",
+                "itemDescription": "All white-meat chicken breaded and fried to a golden brown. Served with choice of one side.",
+                "itemPrice": 6.49,
+                "nutritionalInfo": {
+                "calories": 360,
+                "fat": "17g",
+                "carbs": "16g",
+                "protein": "34g",
+                "sodium": "790mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Egg"]
+                }
+            },
+            {
+                "id": "kids-03",
+                "itemName": "Grilled Chicken",
+                "itemDescription": "Strips of fresh, boneless chicken breast, lightly seasoned and grilled. Served with choice of one side.",
+                "itemPrice": 6.49,
+                "nutritionalInfo": {
+                "calories": 250,
+                "fat": "6g",
+                "carbs": "4g",
+                "protein": "45g",
+                "sodium": "820mg",
+                "allergens": ["Soy"]
+                }
+            },
+            {
+                "id": "kids-04",
+                "itemName": "Lil' Dillo Steak Bites",
+                "itemDescription": "Grilled steak pieces for younger Texas tikes, cooked to their liking. Served with choice of one side.",
+                "itemPrice": 7.99,
+                "nutritionalInfo": {
+                "calories": 170,
+                "fat": "4g",
+                "carbs": "1g",
+                "protein": "31g",
+                "sodium": "410mg",
+                "allergens": ["Soy"]
+                }
+            },
+            {
+                "id": "kids-05",
+                "itemName": "Macaroni and Cheese",
+                "nutritionalInfo": {
+                "calories": 300,
+                "fat": "14g",
+                "carbs": "31g",
+                "protein": "11g",
+                "sodium": "940mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Egg"]
+                }
+            },
+            {
+                "id": "kids-06",
+                "itemName": "All-Beef Hot Dog",
+                "itemDescription": "A classic all-beef hot dog served on a bun. Add chili 'n cheese for a small upcharge.",
+                "itemPrice": 5.99,
+                "nutritionalInfo": {
+                "calories": 390,
+                "fat": "22g",
+                "carbs": "33g",
+                "protein": "14g",
+                "sodium": "1140mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Soy"]
+                }
+            },
+            {
+                "id": "ranger-01",
+                "itemName": "Chicken Critters® Basket",
+                "itemDescription": "Golden-fried, all white-meat strips. Larger portion for older kids. Served with choice of one side.",
+                "itemPrice": 9.49,
+                "nutritionalInfo": {
+                "calories": 440,
+                "fat": "19g",
+                "carbs": "21g",
+                "protein": "47g",
+                "sodium": "940mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Egg"]
+                }
+            },
+            {
+                "id": "ranger-02",
+                "itemName": "Andy's Steak*",
+                "itemDescription": "A 6 oz. hand-cut Sirloin steak seasoned and grilled to perfection. Served with choice of one side.",
+                "itemPrice": 11.99,
+                "nutritionalInfo": {
+                "calories": 250,
+                "fat": "6g",
+                "carbs": "3g",
+                "protein": "46g",
+                "sodium": "540mg",
+                "allergens": ["Soy"]
+                }
+            },
+            {
+                "id": "ranger-03",
+                "itemName": "Ranger Rib Basket",
+                "itemDescription": "A hearty portion of our award-winning, fall-off-the-bone ribs. Served with choice of one side.",
+                "itemPrice": 12.49,
+                "nutritionalInfo": {
+                "calories": 550,
+                "fat": "33g",
+                "carbs": "19g",
+                "protein": "44g",
+                "sodium": "1170mg",
+                "allergens": ["Pork", "Soy"]
+                }
+            }
+        ]
     }
-] 
+]
+ 
