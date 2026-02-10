@@ -1,7 +1,7 @@
 [
     {
         "id": "category-starters",
-        "categoryImage": "images/just-for-starters.png",
+        "categoryImage": "https://texasroadhousmenu.com/wp-content/uploads/2025/10/cactus-blossom-1.webp",
         "categoryName": "JUST FOR STARTERS",
         "currency": "$",
         "items": [
@@ -112,7 +112,7 @@
 
     {
         "id": "hand-Cut-steaks",
-        "categoryImage": "",
+        "categoryImage": "https://texassroadhousemenu.com/wp-content/uploads/2025/07/kansas-city-strip.webp",
         "categoryName": "Hand-Cut Steaks",
         "currency": "$",
         "items": [
@@ -223,7 +223,7 @@
 
     {
         "id": "Fall-Off-The-Bone-Ribs",
-        "categoryImage": "",
+        "categoryImage": "https://kdvr.com/wp-content/uploads/sites/11/2018/09/t_ribs_full.jpg?strip=1",
         "categoryName": "Fall-Off-The-Bone-Ribs",
         "currency": "$",
         "items": [
@@ -266,7 +266,7 @@
 
     {
         "id": "alabama-size-combos",
-        "categoryImage": "",
+        "categoryImage": "https://menutexasroadhouse.com/wp-content/uploads/2025/11/Texas-Roadhouse-Combo-Meals-Menu-Texas-Size-Combos-1024x580.webp",
         "categoryName": "ALABAMA SIZE COMBOS",
         "currency": "$",
         "items": [
@@ -377,7 +377,7 @@
 
     {
         "id": "dockside-favorites",
-        "categoryImage": "",
+        "categoryImage": "https://texazroadhoucemenu.com/wp-content/uploads/2025/08/Grilled-Salmon.webp",
         "categoryName": "Dockside Favorites",
         "currency": "$",
         "items": [
@@ -420,7 +420,7 @@
 
     {
         "id": "chicken-specialties",
-        "categoryImage": "",
+        "categoryImage": "https://texazroadhoucemenu.com/wp-content/uploads/2025/08/Smothered-Chicken.webp",
         "categoryName": "Chicken Specialties",
         "currency": "$",
         "items": [
