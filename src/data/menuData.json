@@ -604,5 +604,98 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "salad",
+        "categoryImage": "",
+        "categoryName": "Salads",
+        "currency": "$",
+        "items": [
+            {
+                "id": "item-salad-01",
+                "itemName": "Grilled Chicken Salad",
+                "itemDescription": "Crisp cold greens, strips of marinated chicken, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
+                "itemPrice": 15.49,
+                "nutritionalInfo": {
+                "calories": 810,
+                "fat": "45g",
+                "carbs": "28g",
+                "protein": "74g",
+                "sodium": "1480mg",
+                "allergens": ["Dairy", "Wheat", "Gluten", "Egg", "Soy"]
+                }
+            },
+            {
+                "id": "item-salad-02",
+                "itemName": "Grilled Salmon Salad",
+                "itemDescription": "Crisp cold greens, grilled salmon, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
+                "itemPrice": 18.99,
+                "nutritionalInfo": {
+                "calories": 820,
+                "fat": "50g",
+                "carbs": "28g",
+                "protein": "66g",
+                "sodium": "1510mg",
+                "allergens": ["Fish", "Dairy", "Wheat", "Gluten", "Egg", "Soy"]
+                }
+            },
+            {
+                "id": "item-salad-03",
+                "itemName": "Chicken Caesar Salad",
+                "itemDescription": "Tender strips of grilled chicken with crisp hearts of romaine, Parmesan cheese, croutons and zesty Caesar dressing.",
+                "itemPrice": 15.49,
+                "nutritionalInfo": {
+                "calories": 1050,
+                "fat": "76g",
+                "carbs": "34g",
+                "protein": "60g",
+                "sodium": "2580mg",
+                "allergens": ["Fish", "Dairy", "Wheat", "Gluten", "Egg", "Soy"]
+                }
+            },
+            {
+                "id": "item-salad-04",
+                "itemName": "Salmon Caesar Salad",
+                "itemDescription": "Grilled salmon tossed with crisp hearts of romaine, parmesan cheese, croutons and zesty Caesar dressing.",
+                "itemPrice": 18.99,
+                "nutritionalInfo": {
+                "calories": 1060,
+                "fat": "81g",
+                "carbs": "34g",
+                "protein": "52g",
+                "sodium": "2610mg",
+                "allergens": ["Fish", "Dairy", "Wheat", "Gluten", "Egg", "Soy"]
+                }
+            },
+            {
+                "id": "item-salad-05",
+                "itemName": "Chicken Critter Salad",
+                "itemDescription": "Hot, crispy chicken tenders piled high on a bed of cold greens with jack and cheddar cheeses, egg, tomato and bacon.",
+                "itemPrice": 15.49,
+                "nutritionalInfo": {
+                "calories": 690,
+                "fat": "37g",
+                "carbs": "41g",
+                "protein": "52g",
+                "sodium": "1470mg",
+                "allergens": ["Wheat", "Gluten", "Dairy", "Egg", "Soy"]
+                }
+            },
+            {
+                "id": "item-salad-06",
+                "itemName": "Caesar Salad",
+                "itemDescription": "Crisp hearts of romaine, fresh Parmesan cheese and made-from-scratch croutons tossed with our zesty Caesar dressing.",
+                "itemPrice": 6.99,
+                "nutritionalInfo": {
+                "calories": 440,
+                "fat": "36g",
+                "carbs": "22g",
+                "protein": "9g",
+                "sodium": "950mg",
+                "allergens": ["Fish", "Dairy", "Wheat", "Gluten", "Egg", "Soy"]
+                }
+            }
+        ]
     }
 ] 
