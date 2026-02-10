@@ -1651,6 +1651,132 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "wine",
+        "categoryImage": "",
+        "categoryName": "Wine",
+        "currency": "$",
+        "items": [
+            {
+                "id": "bev-wine-01",
+                "itemName": "Josh® Cabernet",
+                "itemDescription": "Full-bodied flavor. Great with steaks or ribs.",
+                "nutritionalInfo": {
+                "calories": 150,
+                "fat": "0g",
+                "carbs": "5g",
+                "protein": "0g",
+                "sodium": "5mg",
+                "allergens": ["Sulphites"]
+                }
+            },
+            {
+                "id": "bev-wine-02",
+                "itemName": "Meiomi® Pinot Noir",
+                "itemDescription": "Smooth cherry and strawberry flavors. Great with steaks or chicken.",
+                "nutritionalInfo": {
+                "calories": 145,
+                "fat": "0g",
+                "carbs": "4g",
+                "protein": "0g",
+                "sodium": "5mg",
+                "allergens": ["Sulphites"]
+                }
+            },
+            {
+                "id": "bev-wine-03",
+                "itemName": "Dark Horse® Cabernet",
+                "itemDescription": "Big fruit flavor. Great with steaks or ribs.",
+                "nutritionalInfo": {
+                "calories": 150,
+                "fat": "0g",
+                "carbs": "5g",
+                "protein": "0g",
+                "sodium": "5mg",
+                "allergens": ["Sulphites"]
+                }
+            },
+            {
+                "id": "bev-wine-04",
+                "itemName": "Canyon Road® Merlot",
+                "itemDescription": "Dark berry flavor. Great with steaks, chicken, or pork.",
+                "nutritionalInfo": {
+                "calories": 145,
+                "fat": "0g",
+                "carbs": "4g",
+                "protein": "0g",
+                "sodium": "5mg",
+                "allergens": ["Sulphites"]
+                }
+            },
+            {
+                "id": "bev-wine-05",
+                "itemName": "Kendall-Jackson® Chardonnay",
+                "itemDescription": "Creamy, oak, and rich fruit flavor. Great with chicken, fish, or pork.",
+                "nutritionalInfo": {
+                "calories": 150,
+                "fat": "0g",
+                "carbs": "4g",
+                "protein": "0g",
+                "sodium": "0mg",
+                "allergens": ["Sulphites"]
+                }
+            },
+            {
+                "id": "bev-wine-06",
+                "itemName": "Ecco Domani® Pinot Grigio",
+                "itemDescription": "Citrus taste. Great with chicken, fish, or pork.",
+                "nutritionalInfo": {
+                "calories": 140,
+                "fat": "0g",
+                "carbs": "3g",
+                "protein": "0g",
+                "sodium": "0mg",
+                "allergens": ["Sulphites"]
+                }
+            },
+            {
+                "id": "bev-wine-07",
+                "itemName": "Nobilo® Sauvignon Blanc",
+                "itemDescription": "Fresh, crisp, and zesty fruit flavors. Best with salads, seafood, or chicken.",
+                "nutritionalInfo": {
+                "calories": 140,
+                "fat": "0g",
+                "carbs": "3g",
+                "protein": "0g",
+                "sodium": "0mg",
+                "allergens": ["Sulphites"]
+                }
+            },
+            {
+                "id": "bev-wine-08",
+                "itemName": "Canyon Road® Chardonnay",
+                "itemDescription": "Creamy, rich flavor. Great with chicken, fish, or salads.",
+                "nutritionalInfo": {
+                "calories": 145,
+                "fat": "0g",
+                "carbs": "4g",
+                "protein": "0g",
+                "sodium": "0mg",
+                "allergens": ["Sulphites"]
+                }
+            },
+            {
+                "id": "bev-wine-09",
+                "itemName": "Barefoot® Moscato",
+                "itemDescription": "Semi-sweet taste. Great with salads or chicken.",
+                "nutritionalInfo": {
+                "calories": 165,
+                "fat": "0g",
+                "carbs": "14g",
+                "protein": "0g",
+                "sodium": "0mg",
+                "allergens": ["Sulphites"]
+                }
+            }
+        ]
     }
 ]
  
