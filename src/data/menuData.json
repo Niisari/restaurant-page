@@ -373,5 +373,48 @@
                 }
             }
         ]
+    },
+
+    {
+        "id": "dockside-favorites",
+        "categoryImage": "",
+        "categoryName": "Dockside Favorites",
+        "currency": "$",
+        "items": [
+            {
+                "id": "dockside-favorites-1",
+                "itemImage": "",
+                "itemName": "Grilled Salmon*",
+                "itemDescription": "A Norwegian fillet salmon steak grilled moist and tender then topped with our lemon pepper butter. Served with choice of two sides",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 480,
+                    "fat": "33g",
+                    "carbs": "2g",
+                    "protein": "45g",
+                    "sodium": "820mg",
+                    "serves": "1 person",
+                    "allergens": ["Fish", "Dairy"]
+                }
+            },
+            {
+                "id": "dockside-favorites-2",
+                "itemImage": "",
+                "itemName": "Fried Catfish",
+                "itemDescription": "U.S. farm-raised catfish breaded in southern cornmeal and fried to a golden brown. Served with choice of two sides.",
+                "itemPrice": 6.99,
+                "isAvailable": true,
+                "nutritionalInfo": {
+                    "calories": 790,
+                    "fat": "52g",
+                    "carbs": "36g",
+                    "protein": "45g",
+                    "sodium": "1710mg",
+                    "serves": "1 person",
+                    "allergens": ["Fish", "Wheat", "Gluten", "Dairy"]
+                }
+            }
+        ]
     }
 ] 
