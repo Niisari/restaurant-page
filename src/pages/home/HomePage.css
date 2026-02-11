@@ -84,8 +84,10 @@
 
     .reservation__title {
       text-transform: uppercase;
-      font-size: 1.75rem;
       font-weight: 700;
+      
+      letter-spacing: 1px;
+
     }
   }
 }
@@ -93,7 +95,8 @@
 .menu__title {
   text-transform: uppercase;
   text-align: center;
-  margin: 2rem 0;
+  margin: 2rem;
+  color: var(--Rich-Burgundy);
 }
 
 .menu__preview--grid {
@@ -150,21 +153,16 @@
 
 .learn__more--section {
   background-color: var(--Gold-Brass);
+  padding: 3rem 1rem;
 
-  padding: 1rem;
-
-  .learn__more--content {
-    display: flex;
-    flex-direction: column;
+  .learn__more--grid {
+    display: grid;
     align-items: center;
     text-align: center;
 
-    .learn__more--image {
-
-    }
-
     .learn__more--title {
       text-transform: uppercase;
+      margin-top: 1rem;
     }
 
     .learn__more--title,
@@ -173,4 +171,8 @@
       color: var(--Deep-Charcoal);
     }
   }
+}
+
+.margin__md {
+  margin: 3rem 0 0 0;
 }

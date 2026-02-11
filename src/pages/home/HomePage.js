@@ -7,6 +7,7 @@ import premiumSteakIntro from '../../assets/images/premium-steak-intro.png';
 import steakSaleIntro from '../../assets/images/steak-sale-intro.png';
 import reservationBg from '../../assets/images/reservation-bg.png';
 import freshBeef from '../../assets/images/fresh-beef.png';
+import localStories from '../../assets/images/local-stories.png';
 
 export class HomePage {
   constructor() {
@@ -48,7 +49,7 @@ export class HomePage {
 
           <section class="menu">
             <div class="menu__content">
-              <h2 class="menu__title">Our Menu</h2>
+              <h2 class="menu__title">START YOUR ORDER</h2>
               
               <div class="menu__preview--grid">
                   ${categoriesToDisplay.map(category => `
@@ -70,16 +71,27 @@ export class HomePage {
           </section>
 
           <section class="learn__more--section">
+            <div class="learn__more--grid">
 
-            <div class="learn__more--content">
-              <div class="learn__more--image">
-                <img src="${freshBeef}" alt="Fresh Beef" />
+              <div class="learn__more--info">
+                <div class="learn__more--image">
+                  <img src="${freshBeef}" alt="Fresh Beef" />
+                </div>
+                <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
+                <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
+                <a href="#about" class="learn__more--link">${button('Learn More')}</a>
               </div>
-              <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
-              <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
-              <a href="#about" class="learn__more--link">${button('Learn More')}</a>
-            </div>
-                    
+
+              <div class="learn__more--info">
+                <div class="learn__more--image margin__md">
+                  <img src="${localStories}" alt="Fresh Beef" />
+                </div>
+                <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
+                <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
+                <a href="#about" class="learn__more--link">${button('Learn More')}</a>
+              </div>
+
+            </div>                
           </section>
 
         </div>`;
