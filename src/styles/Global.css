@@ -57,8 +57,17 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--Heading-Font);
   font-weight: 700;
+}
+
+h1,
+h2 {
   color: var(--Deep-Charcoal);
+}
+
+p {
+  font-family: var(--Text-Font);
 }
