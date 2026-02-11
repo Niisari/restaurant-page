@@ -84,6 +84,8 @@
 
     .reservation__title {
       text-transform: uppercase;
+      font-size: 1.75rem;
+      font-weight: 700;
     }
   }
 }
@@ -144,4 +146,31 @@
   display: flex;
   justify-content: center;
   margin: 2rem 0;
+}
+
+.learn__more--section {
+  background-color: var(--Gold-Brass);
+
+  padding: 1rem;
+
+  .learn__more--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .learn__more--image {
+
+    }
+
+    .learn__more--title {
+      text-transform: uppercase;
+    }
+
+    .learn__more--title,
+    .learn__more--text {
+      margin-bottom: 1rem;
+      color: var(--Deep-Charcoal);
+    }
+  }
 }
