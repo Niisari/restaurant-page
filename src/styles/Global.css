@@ -68,6 +68,10 @@ h2 {
   color: var(--Deep-Charcoal);
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 p {
   font-family: var(--Text-Font);
 }
