@@ -90,6 +90,21 @@ export class HomePage {
             </div>                
           </section>
 
+          <section class="instagram">
+          <div class="instagram__content"> 
+              <h2 class="instagram__title">Follow Us On Instagram</h2>
+              <div class="instagram__images--carousel">
+                <img src="${FoodImages.insta01}" alt="Instagram 1" />
+                <img src="${FoodImages.insta02}" alt="Instagram 2" />
+                <img src="${FoodImages.insta03}" alt="Instagram 3" />
+                <img src="${FoodImages.insta04}" alt="Instagram 4" />
+                <img src="${FoodImages.insta05}" alt="Instagram 5" />
+                <img src="${FoodImages.insta06}" alt="Instagram 6" />
+              </div>  
+              <a>${button('Follow Us')}</a>
+          </div>
+          </section>
+          
         </div>`;
 
         this.initCarousel();
