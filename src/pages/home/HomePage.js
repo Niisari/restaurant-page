@@ -6,6 +6,7 @@ import OpeningIntro from '../../assets/images/opening-intro.png';
 import premiumSteakIntro from '../../assets/images/premium-steak-intro.png';
 import steakSaleIntro from '../../assets/images/steak-sale-intro.png';
 import reservationBg from '../../assets/images/reservation-bg.png';
+import freshBeef from '../../assets/images/fresh-beef.png';
 
 export class HomePage {
   constructor() {
@@ -38,8 +39,8 @@ export class HomePage {
           <section class="reservation">
             <div class="reservation__content">
               <div class="reservation__text">
-                <h2 class="reservation__title">Make a reservation</h2>
-                <a href="#reservation">${button('Book a table')}</a>
+                <h2 class="reservation__title">DINING IN?</h2>
+                <a href="#reservation">${button('Join Waitlist')}</a>
               </div>
               <img src="${reservationBg}" alt="">
               </div>
@@ -63,9 +64,22 @@ export class HomePage {
               </div>
 
               <div class="menu__action">
-                  <a href="#menu" class="btn__menu--link">${button('View Full Menu')}</a>
+                  <a href="#menu" class="btn__menu--link">${button('See Full Menu')}</a>
               </div>
             </div>
+          </section>
+
+          <section class="learn__more--section">
+
+            <div class="learn__more--content">
+              <div class="learn__more--image">
+                <img src="${freshBeef}" alt="Fresh Beef" />
+              </div>
+              <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
+              <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
+              <a href="#about" class="learn__more--link">${button('Learn More')}</a>
+            </div>
+                    
           </section>
 
         </div>`;
