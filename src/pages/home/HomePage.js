@@ -2,12 +2,8 @@ import './HomePage.css';
 import { button } from '../../components/buttons/button.js';
 import menu from '../../data/menuData.json';
 // Images Imports
-import OpeningIntro from '../../assets/images/opening-intro.png';
-import premiumSteakIntro from '../../assets/images/premium-steak-intro.png';
-import steakSaleIntro from '../../assets/images/steak-sale-intro.png';
-import reservationBg from '../../assets/images/reservation-bg.png';
-import freshBeef from '../../assets/images/fresh-beef.png';
-import localStories from '../../assets/images/local-stories.png';
+import { FoodImages } from '../../assets/images/images.js';
+
 
 export class HomePage {
   constructor() {
@@ -27,13 +23,13 @@ export class HomePage {
 
           <ul class="carousel">
             <li>
-              <img src="${OpeningIntro}" alt="Opening Intro" />
+              <img src="${FoodImages.OpeningIntro}" alt="Opening Intro" />
             </li>
             <li>
-              <img src="${premiumSteakIntro}" alt="Premium Steak Intro" />
+              <img src="${FoodImages.premiumSteakIntro}" alt="Premium Steak Intro" />
             </li>
             <li>
-              <img src="${steakSaleIntro}" alt="Steak Sale Intro" />
+              <img src="${FoodImages.steakSaleIntro}" alt="Steak Sale Intro" />
             </li>
           </ul>
           
@@ -43,7 +39,7 @@ export class HomePage {
                 <h2 class="reservation__title">DINING IN?</h2>
                 <a href="#reservation">${button('Join Waitlist')}</a>
               </div>
-              <img src="${reservationBg}" alt="">
+              <img src="${FoodImages.reservationBg}" alt="">
               </div>
           </section>
 
@@ -75,7 +71,7 @@ export class HomePage {
 
               <div class="learn__more--info">
                 <div class="learn__more--image">
-                  <img src="${freshBeef}" alt="Fresh Beef" />
+                  <img src="${FoodImages.freshBeef}" alt="Fresh Beef" />
                 </div>
                 <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
                 <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
@@ -84,7 +80,7 @@ export class HomePage {
 
               <div class="learn__more--info">
                 <div class="learn__more--image margin__md">
-                  <img src="${localStories}" alt="Fresh Beef" />
+                  <img src="${FoodImages.localStories}" alt="Fresh Beef" />
                 </div>
                 <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
                 <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
