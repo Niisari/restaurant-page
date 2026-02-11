@@ -82,8 +82,8 @@ export class HomePage {
                 <div class="learn__more--image margin__md">
                   <img src="${FoodImages.localStories}" alt="Fresh Beef" />
                 </div>
-                <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
-                <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
+                <h3 class="learn__more--title">LOCAL STORIES</h3>
+                <p class="learn__more--text">At Texas Roadhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
                 <a href="#about" class="learn__more--link">${button('Learn More')}</a>
               </div>
 
