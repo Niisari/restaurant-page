@@ -1,0 +1,25 @@
+.menu__header {
+    background: url('../../assets/images/menu-header.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 1rem 2rem;
+
+    h2, p {
+        font-weight: 700;
+    }
+   
+    h2, p {
+        color: var(--Cream-Ivory);
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+}
