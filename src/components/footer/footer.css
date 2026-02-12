@@ -49,3 +49,32 @@
         justify-content: center;
     }
 }
+
+/* Hover and Active States */
+.footer__content .footer__links--container .footer__main .col__01 a:hover,
+.footer__content .footer__links--container .footer__main .col__02 a:hover,
+.footer__content .footer__links--container .footer__secondary a:hover,
+.footer__content .footer__links--container .footer__legal a:hover {
+    text-decoration: underline;
+    color: var(--Hover-Gold);
+}
+
+
+.footer__content .footer__links--container .socials__icons a {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.footer__content .footer__links--container .socials__icons a:hover {
+    transform: scale(1.1);
+}
+
+.footer__content .footer__links--container .socials__icons a:hover svg {
+    fill: var(--Hover-Gold); /* Or stroke, depending on your SVG */
+    stroke: var(--Hover-Gold);
+    transition: fill 0.2s ease;
+}
+
+.socials__icons a:hover svg#Layer_1 .cls-1 {
+    stroke: var(--Hover-Gold) !important;
+}

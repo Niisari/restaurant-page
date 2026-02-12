@@ -84,7 +84,7 @@ export class Footer {
                             </li>
                             <li>
                                 <a href="#"><i class="fa-brands fa-instagram"></i>
-                                <svg width="32" height="32" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:var(--Cream-Ivory);stroke-miterlimit:10;stroke-width:1.91px;}.cls-2{fill:var(--Cream-Ivory);}</style></defs><rect class="cls-1" x="1.5" y="1.5" width="21" height="21" rx="3.82"/><circle class="cls-1" cx="12" cy="12" r="4.77"/><circle class="cls-2" cx="18.2" cy="5.8" r="1.43"/></svg>
+                                <svg width="30" height="30" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:var(--Cream-Ivory);stroke-miterlimit:10;stroke-width:1.91px;}.cls-2{fill:var(--Cream-Ivory);}</style></defs><rect class="cls-1" x="1.5" y="1.5" width="21" height="21" rx="3.82"/><circle class="cls-1" cx="12" cy="12" r="4.77"/><circle class="cls-2" cx="18.2" cy="5.8" r="1.43"/></svg>
                                 </a>
                             </li>
                         </div>
