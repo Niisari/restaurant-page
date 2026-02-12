@@ -47,8 +47,8 @@ export class MenuPage {
         if (this.activeCategory === 'all') {
             // VIEW 1: Show only Category Names and Images
             grid.innerHTML = menuData.map(cat => `
-                <div class="category-card" data-id="${cat.id}">
-                    <div class="category-card__image">
+                <div class="category__card" data-id="${cat.id}">
+                    <div class="category__card--image">
                         <img src="${cat.categoryImage}" alt="${cat.categoryName}">
                     </div>
                     <div class="category-card__overlay">
@@ -70,17 +70,17 @@ export class MenuPage {
             const items = category ? category.items : [];
 
             grid.innerHTML = items.map(item => `
-                <div class="menu-card">
-                    <div class="menu-card__image">
+                <div class="menu__card">
+                    <div class="menu__card--image">
                         <img src="${item.itemImage || 'https://via.placeholder.com/300x200?text=No+Image'}" alt="${item.itemName}">
                     </div>
-                    <div class="menu-card__info">
-                        <div class="menu-card__header">
+                    <div class="menu__card--info">
+                        <div class="menu__card--header">
                             <h3>${item.itemName}</h3>
                             <span class="price">$${item.itemPrice}</span>
                         </div>
                         <p>${item.itemDescription}</p>
-                        <div class="menu-card__nutrition">
+                        <div class="menu__card--nutrition">
                             <span>🔥 ${item.nutritionalInfo.calories} Cal</span>
                         </div>
                         ${button('Add to Order')}
