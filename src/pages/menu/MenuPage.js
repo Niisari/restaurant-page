@@ -1,78 +1,118 @@
 import './MenuPage.css';
 import { button } from '../../components/buttons/button.js';
+import menuData from '../../data/menuData.json';
+
 export class MenuPage {
     constructor() {
         this.container = document.getElementById('main');
-        this.link = '/menu';
+        this.activeCategory = 'all'; // Default state is the overview
     }
 
     render() {
         this.container.innerHTML = `
             <div class="menu__container">
-                <div class="menu__header">
+                <section class="menu__header">
                     <h2>Bone-IN Ribeye</h2>
                     <p>20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor.</p>
-                    <a>${button('Order Now')}</a>
-                </div>
+                    ${button('Order Now')}
+                </section>
                 
-                <div class="menu__content">
+                <nav class="menu__content">
                     <div class="menu__categories">
                         <ul class="menu__categories--list">
-                            <li>
-                                <a>JUST FOR STARTERS</a>
+                            <li class="menu__category-item active" data-id="all">
+                                <a href="javascript:void(0)">ALL CATEGORIES</a>
                             </li>
-                            <li>
-                                <a>HAND-CUT STEAKS</a>
-                            </li>
-                            <li>
-                                <a>THE BONE RIBS</a>
-                            </li>
-                            <li>
-                                <a>ALABAMA SIZE COMBOS</a>
-                            </li>
-                            <li>
-                                <a>DOCKSIDE FAVORITES</a>
-                            </li>
-                            <li>
-                                <a>CHICKEN SPECIALTIES</a>
-                            </li>
-                            <li>
-                                <a>COUNTRY DINNERS</a>
-                            </li>
-                            <li>
-                                <a>SALADS</a>
-                            </li>
-                            <li>
-                                <a>BURGERS & SANDWICHES</a>
-                            </li>
-                            <li>
-                                <a>SIDES & EXTRAS</a>
-                            </li>
-                            <li>
-                                <a>KIDS & RANGER MEALS</a>
-                            </li>
-                            <li>
-                                <a>BEVERAGES</a>
-                            </li>
-                            <li>
-                                <a>DESSERTS</a>
-                            </li>
-                            <li>
-                                <a>MARGARITAS</a>
-                            </li>
-                            <li>
-                                <a>COCKTAILS</a>
-                            </li>
-                            <li>
-                                <a>BEER</a>
-                            </li>
-                            <li>
-                                <a>WINE</a>
-                            </li>
+                            ${menuData.map(cat => `
+                                <li class="menu__category-item" data-id="${cat.id}">
+                                    <a href="javascript:void(0)">${cat.categoryName}</a>
+                                </li>
+                            `).join('')}
                         </ul>
                     </div>
-                </div>
+                </nav>
+
+                <div id="menu-items-grid" class="menu__grid">
+                    </div>
             </div>
         `;
+
+        this.updateGrid();
+        this.initEventListeners();
+    }
+
+    updateGrid() {
+        const grid = document.getElementById('menu-items-grid');
+        
+        if (this.activeCategory === 'all') {
+            // VIEW 1: Show only Category Names and Images
+            grid.innerHTML = menuData.map(cat => `
+                <div class="category-card" data-id="${cat.id}">
+                    <div class="category-card__image">
+                        <img src="${cat.categoryImage}" alt="${cat.categoryName}">
+                    </div>
+                    <div class="category-card__overlay">
+                        <h3>${cat.categoryName}</h3>
+                    </div>
+                </div>
+            `).join('');
+
+            // Add click events to the category cards to "drill down"
+            grid.querySelectorAll('.category-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    this.setActiveCategory(card.dataset.id);
+                });
+            });
+
+        } else {
+            // VIEW 2: Show specific items for the selected category
+            const category = menuData.find(cat => cat.id === this.activeCategory);
+            const items = category ? category.items : [];
+
+            grid.innerHTML = items.map(item => `
+                <div class="menu-card">
+                    <div class="menu-card__image">
+                        <img src="${item.itemImage || 'https://via.placeholder.com/300x200?text=No+Image'}" alt="${item.itemName}">
+                    </div>
+                    <div class="menu-card__info">
+                        <div class="menu-card__header">
+                            <h3>${item.itemName}</h3>
+                            <span class="price">$${item.itemPrice}</span>
+                        </div>
+                        <p>${item.itemDescription}</p>
+                        <div class="menu-card__nutrition">
+                            <span>🔥 ${item.nutritionalInfo.calories} Cal</span>
+                        </div>
+                        ${button('Add to Order')}
+                    </div>
+                </div>
+            `).join('');
+        }
+    }
+
+    // Helper to handle the "Swap" logic cleanly
+    setActiveCategory(id) {
+        this.activeCategory = id;
+
+        // Update Nav Bar UI
+        const navItems = document.querySelectorAll('.menu__category-item');
+        navItems.forEach(nav => {
+            nav.classList.toggle('active', nav.dataset.id === id);
+        });
+
+        // Re-render the grid
+        this.updateGrid();
+        
+        // Optional: Scroll to top of grid when category changes
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    initEventListeners() {
+        const navItems = document.querySelectorAll('.menu__category-item');
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                this.setActiveCategory(item.dataset.id);
+            });
+        });
     }
 }
