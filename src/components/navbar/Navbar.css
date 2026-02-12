@@ -62,14 +62,15 @@
   left: 0;
   width: 100%;
   height: 100vh; /* Full viewport height minus navbar height */
+  
   background-color: var(--Gold-Brass);
-
+  color: var(--Deep-Charcoal);
   font-family: var(--Heading-Font);
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--Deep-Charcoal);
   z-index: 1;
 }
+
 
 /* Hover, Animations */
 .nav__list li:hover {

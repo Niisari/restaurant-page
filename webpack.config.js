@@ -13,6 +13,7 @@ export default {
     devtool: "eval-source-map",
     devServer: {
     historyApiFallback: true,
+    hot: true,
     watchFiles: ["./src/template.html"],
   },
   plugins: [
