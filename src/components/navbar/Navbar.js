@@ -45,8 +45,10 @@ export class Navbar {
                     />
 
                 <ul class="nav__list">
+                    <li>
                     <h1 class="nav__title">Welcome!</h1>
-                    <li class="nav__item"><a href="/home" class="nav__link active">Home</a></li>
+                    </li>
+                    <li class="nav__item"><a href="/" class="nav__link active">Home</a></li>
                     <li class="nav__item"><a href="/menu" class="nav__link">Menu</a></li>
                     <li class="nav__item"><a href="/about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="/contact" class="nav__link">Contact</a></li>
