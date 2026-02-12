@@ -37,7 +37,7 @@ export class HomePage {
             <div class="reservation__content">
               <div class="reservation__text">
                 <h2 class="reservation__title">DINING IN?</h2>
-                <a href="#reservation" class="btn__reservation--link">${button('Join Waitlist')}</a>
+                <a href="/reservation" class="btn__reservation--link">${button('Join Waitlist')}</a>
               </div>
               <img src="${FoodImages.reservationBg}" alt="">
               </div>
@@ -61,7 +61,7 @@ export class HomePage {
               </div>
 
               <div class="menu__action">
-                  <a href="#menu" class="btn__menu--link">${button('See Full Menu')}</a>
+                  <a href="/menu" class="btn__menu--link">${button('See Full Menu')}</a>
               </div>
             </div>
           </section>
@@ -75,7 +75,7 @@ export class HomePage {
                 </div>
                 <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
                 <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
-                <a href="#about" class="learn__more--link">${button('Learn More')}</a>
+                <a href="/learn-more" class="learn__more--link">${button('Learn More')}</a>
               </div>
 
               <div class="learn__more--info">
@@ -84,7 +84,7 @@ export class HomePage {
                 </div>
                 <h3 class="learn__more--title">LOCAL STORIES</h3>
                 <p class="learn__more--text">At Varxy Steakhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
-                <a href="#about" class="learn__more--link">${button('Learn More')}</a>
+                <a href="/local-stories" class="learn__more--link">${button('Learn More')}</a>
               </div>
 
             </div>                
@@ -101,7 +101,7 @@ export class HomePage {
                 <img src="${FoodImages.insta05}" alt="Instagram 5" />
                 <img src="${FoodImages.insta06}" alt="Instagram 6" />
               </div>  
-              <a>${button('Follow Us')}</a>
+              <a href="https://www.instagram.com/varxysteakhouse/">${button('Follow Us')}</a>
           </div>
           </section>
           
