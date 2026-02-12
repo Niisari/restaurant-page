@@ -23,3 +23,39 @@
         margin-bottom: 1rem;
     }
 }
+
+.menu__categories {
+    background-color: var(--Gold-Brass);
+    padding: 1rem;
+}
+
+.menu__categories--list {
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+
+    gap: 1rem;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    li {
+        color: var(--Deep-Charcoal);
+        font-weight: 700;
+        font-family: var(--Heading-Font);
+        cursor: pointer;
+
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+
+    li.active,
+    li:hover {
+        color: var(--Hover-Burgundy);
+        text-decoration: underline;
+    }
+}
