@@ -51,7 +51,7 @@ export class MenuPage {
                     <div class="category__card--image">
                         <img src="${cat.categoryImage}" alt="${cat.categoryName}">
                     </div>
-                    <div class="category-card__overlay">
+                    <div class="category__card--overlay">
                         <h3>${cat.categoryName}</h3>
                     </div>
                 </div>
