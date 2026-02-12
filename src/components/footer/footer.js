@@ -96,8 +96,15 @@ export class Footer {
                     src="${logo}" 
                     alt="Logo"
                     width="100"
-                    height="80"
+                    height="auto"
                     />
+                    <div class="footer__info">
+                        <span>&copy;2026 Varxy Steakhouse</span>
+                        <p>Practice Project inspired by
+                        <hr> 
+                        <a href="https://www.texasroadhouse.com/" target="_blank" class="texas__link">Texas Roadhouse</a></p>
+                        <span>Made by <a><a href="https://github.com/Niisari" target="_blank" class="github__link">Yushi</a></span>
+                    </div>
                 </div>
 
             </div>

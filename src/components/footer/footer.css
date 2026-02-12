@@ -45,8 +45,38 @@
 
     .footer__logo {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        text-align: center;
+        font-family: var(--Text-Font);
+
+        .footer__info {
+            display: flex;
+            flex-direction: column;
+
+            margin-top: 1rem;
+        }
+
+        .texas__link,
+        .github__link {
+            color: var(--Gold-Brass);
+            font-family: var(--Text-Font);
+            font-size: 1rem;  
+        }
+
+        .texas__link:hover,
+        .github__link:hover {
+            text-decoration: underline;
+            color: var(--Hover-Gold);
+            transform: scale(1.12);
+        }
+
+        .texas__link:active,
+        .github__link:active {
+            transform: scale(0.9);
+        }
     }
 }
 
