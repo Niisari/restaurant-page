@@ -4,9 +4,10 @@ import closeIcon from '../../assets/images/icons/close-icon.svg';
 import logo from '../../assets/images/logo.svg';
 // The Navbar class is responsible for rendering the navigation bar and handling user interactions
 export class Navbar {
-    constructor() {
+    constructor(onNavigate) {
         this.container = document.getElementById('header');
         this.activeLink = null;
+        this.onNavigate = onNavigate;
     }
 // Render the navbar HTML structure and set up event listeners
     render() {
@@ -45,10 +46,10 @@ export class Navbar {
 
                 <ul class="nav__list">
                     <h1 class="nav__title">Welcome!</h1>
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="/home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="/menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="/about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="/contact" class="nav__link">Contact</a></li>
                 </ul>
 
                 <div class="nav__actions">
@@ -88,18 +89,36 @@ export class Navbar {
         this.setupHamburgerToggle();
     }
 // Add click event listeners to navigation links for active state management
-    AddEventListeners() {
-        const links = this.container.querySelectorAll('.nav__link');
-        links.forEach((link) => {
-            link.addEventListener('click', () => {
-                if (this.activeLink) {
-                    this.activeLink.classList.remove('active');
-                }
-                link.classList.add('active');
-                this.activeLink = link;
-            });
+AddEventListeners() {
+    const links = this.container.querySelectorAll('.nav__link');
+    
+    // Select both the navbar and the list so we can close them
+    const navbar = this.container.querySelector('.navbar');
+    const navList = this.container.querySelector('.nav__list');
+
+    links.forEach((link) => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault(); 
+
+            // 1. Handle Visual Active State
+            if (this.activeLink) {
+                this.activeLink.classList.remove('active');
+            }
+            link.classList.add('active');
+            this.activeLink = link;
+
+            // 2. Trigger the Router
+            const path = link.getAttribute('href'); 
+            if (this.onNavigate) {
+                this.onNavigate(path); 
+            }
+
+            // 3. THE FIX: Close the mobile menu fully
+            navbar.classList.remove('navbar--open');
+            navList.classList.remove('nav__list--open'); // 👈 Add this line!
         });
-    }
+    });
+}
 // Set up the hamburger menu toggle functionality for mobile view
     setupHamburgerToggle() {
         const toggleBtn = this.container.querySelector('.menu__toggle');
