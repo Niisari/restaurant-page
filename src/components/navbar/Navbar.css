@@ -95,12 +95,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.menu__icon--hamburger:active,
-.menu__icon--close:active {
-  transform: rotate(180deg);
-  transition: transform 1s ease-in-out;
-}
-
 .nav__login--btn:hover,
 .nav__order--btn:hover {
   transform: scale(1.2);
