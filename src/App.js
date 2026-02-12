@@ -31,8 +31,28 @@ export default class App {
     renderPage(path) {
         this.mainContainer.innerHTML = ''; 
         const page = this.routes[path] || this.routes['/']; // Fallback to Home
+        this.mainContainer.classList.add('page__fade--in');
+
+        setTimeout(() => {
+        this.mainContainer.innerHTML = '';
+        this.mainContainer.classList.remove('page__fade--out');
+        
+        // 4. Render the new page
         page.render(this.mainContainer);
-        window.scrollTo(0, 0); // Senior move: always start at the top
+        
+        // 5. Apply the fade-in class
+        this.mainContainer.classList.add('page__fade--in');
+
+        // 6. Cleanup: Remove the class after animation finishes so it can re-trigger next time
+        setTimeout(() => {
+            this.mainContainer.classList.remove('page__fade--in');
+        }, 400); // Matches the 0.4s in CSS
+        
+        window.scrollTo(0, 0);
+        }, 200);
+
+        page.render(this.mainContainer);
+        window.scrollTo(0, 0); 
     }
 
     render() {
