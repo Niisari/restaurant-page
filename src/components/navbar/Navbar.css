@@ -47,10 +47,6 @@
 }
 
 .nav__list {
-  display: none;
-}
-
-.nav__list.nav__list--open {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -69,6 +65,21 @@
   font-weight: 700;
   font-size: 1.5rem;
   z-index: 1;
+
+  /* Use ONE axis for the slide (let's go with Y for slide down) */
+  transform: translateX(-100%); 
+  visibility: hidden;
+  
+  /* Transition only what changes */
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), visibility 0.5s;
+  
+  /* This prevents text from 'shimmering' during movement */
+  backface-visibility: hidden;
+}
+
+.nav__list.nav__list--open {
+  transform: translateX(0);
+  visibility: visible;
 }
 
 
