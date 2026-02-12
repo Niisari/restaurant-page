@@ -43,7 +43,8 @@ export class MenuPage {
 
     updateGrid() {
         const grid = document.getElementById('menu-items-grid');
-        
+        if (!grid) return;
+
         if (this.activeCategory === 'all') {
             // VIEW 1: Show only Category Names and Images
             grid.innerHTML = menuData.map(cat => `
@@ -57,8 +58,8 @@ export class MenuPage {
                 </div>
             `).join('');
 
-            // Add click events to the category cards to "drill down"
-            grid.querySelectorAll('.category-card').forEach(card => {
+            // Click events for the Category Cards
+            grid.querySelectorAll('.category__card').forEach(card => {
                 card.addEventListener('click', () => {
                     this.setActiveCategory(card.dataset.id);
                 });
@@ -90,11 +91,10 @@ export class MenuPage {
         }
     }
 
-    // Helper to handle the "Swap" logic cleanly
     setActiveCategory(id) {
         this.activeCategory = id;
 
-        // Update Nav Bar UI
+        // Update Navigation Bar UI
         const navItems = document.querySelectorAll('.menu__category-item');
         navItems.forEach(nav => {
             nav.classList.toggle('active', nav.dataset.id === id);
@@ -103,11 +103,13 @@ export class MenuPage {
         // Re-render the grid
         this.updateGrid();
         
-        // Optional: Scroll to top of grid when category changes
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        // Scroll to top of the menu grid area
+        const grid = document.getElementById('menu-items-grid');
+        if (grid) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
     initEventListeners() {
+        // Listen for clicks on the TOP Navigation Bar
         const navItems = document.querySelectorAll('.menu__category-item');
         navItems.forEach(item => {
             item.addEventListener('click', () => {

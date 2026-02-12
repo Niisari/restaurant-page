@@ -26,7 +26,9 @@
 
 .menu__categories {
     background-color: var(--Gold-Brass);
-    padding: 1rem;
+    padding: 1.5rem;
+    position: relative;
+    width: 100%;
 }
 
 .menu__categories--list {
@@ -37,7 +39,7 @@
     white-space: nowrap;
     scroll-snap-type: x mandatory;
 
-    gap: 1rem;
+    gap: 1.5rem;
 
     &::-webkit-scrollbar {
         display: none;
@@ -47,6 +49,7 @@
         color: var(--Deep-Charcoal);
         font-weight: 700;
         font-family: var(--Heading-Font);
+        font-size: 1.2rem;
         cursor: pointer;
 
         flex-shrink: 0;
@@ -57,5 +60,55 @@
     li:hover {
         color: var(--Hover-Burgundy);
         text-decoration: underline;
+    }
+}
+
+.menu__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+    gap: 1rem;
+    padding: 2rem 1.5rem;
+
+    .menu__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+.category__card {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: var(--Deep-Charcoal);
+    color: var(--Cream-Ivory);
+
+    .category__card--image {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    .category__card--image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+      display: block;
+    }
+
+    .category__card--overlay {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      min-height: 60px;
+      padding: 1rem 0.5rem;
     }
 }

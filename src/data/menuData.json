@@ -531,7 +531,7 @@
 
     {
         "id": "country-dinners",
-        "categoryImage": "",
+        "categoryImage": "https://www.foodrepublic.com/img/gallery/the-cut-of-beef-texas-roadhouse-uses-for-its-country-fried-steak/intro-1760363623.jpg",
         "categoryName": "Country Dinners",
         "currency": "$",
         "items": [
@@ -608,7 +608,7 @@
 
     {
         "id": "salad",
-        "categoryImage": "",
+        "categoryImage": "https://texasroadhouse-menulist.com/wp-content/uploads/2025/10/378a8b37c487f96f9d776b5ad4368a52-min-1-Edited-min.jpg",
         "categoryName": "Salads",
         "currency": "$",
         "items": [
@@ -701,7 +701,7 @@
 
     {
         "id": "burgers-and-sandwiches",
-        "categoryImage": "",
+        "categoryImage": "https://texasmenuprices.com/wp-content/uploads/2025/10/BBQ-Chicken-Sandwich-2-1024x660.webp",
         "categoryName": "Burgers & Sandwiches",
         "currency": "$",
         "items": [
@@ -794,7 +794,7 @@
 
     {
         "id": "sides-and-extras",
-        "categoryImage": "",
+        "categoryImage": "https://texassroadhousemenu.com/wp-content/uploads/2025/07/Baked-Potato-1024x660.webp",
         "categoryName": "Sides & Extras",
         "currency": "$",
         "items": [
@@ -947,7 +947,7 @@
 
     {
         "id": "kids-meals",
-        "categoryImage": "",
+        "categoryImage": "https://texassroadhousemenu.com/wp-content/uploads/2025/07/Ranger-Meal-Chicken-Critters%C2%AE-Basket.webp",
         "categoryName": "Kids & Ranger Meals",
         "currency": "$",
         "items": [
@@ -1080,7 +1080,7 @@
 
     {
         "id": "beverages",
-        "categoryImage": "",
+        "categoryImage": "https://texasroadhouse-menulist.com/wp-content/uploads/2025/10/82c419fcfec28611c82c30a3afe69303-min-1-Edited-min.jpg",
         "categoryName": "Beverages",
         "currency": "$",
         "items": [
@@ -1173,7 +1173,7 @@
 
     {
         "id": "desserts",
-        "categoryImage": "",
+        "categoryImage": "https://www.tastingtable.com/img/gallery/this-secret-menu-trick-upgrades-texas-roadhouses-strawberry-cheesecake-into-a-sweet-delight-loaded-with-chocolate/l-intro-1759261033.jpg",
         "categoryName": "Desserts",
         "currency": "$",
         "items": [
@@ -1224,7 +1224,7 @@
 
     {
         "id": "margaritas",
-        "categoryImage": "",
+        "categoryImage": "https://texasroadhouse.com.ph/cdn/shop/files/original-margarita_1b072c4e-f35f-450c-bdad-4301f3f618b5.jpg?v=1711940503",
         "categoryName": "Margaritas",
         "currency": "$",
         "items": [
@@ -1324,7 +1324,7 @@
 
     {
         "id": "cocktails",
-        "categoryImage": "",
+        "categoryImage": "https://publish.purewow.net/wp-content/uploads/sites/2/2020/06/texas-roadhouse-cocktail-recipes-kenny-s-cooler.jpg?fit=728%2C524",
         "categoryName": "Cocktails",
         "currency": "$",
         "items": [
@@ -1476,7 +1476,7 @@
 
     {
         "id": "beer",
-        "categoryImage": "",
+        "categoryImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbsqeZFBGQlPxaqGPd4121dTdcg6AIpUiTMA&s",
         "categoryName": "Beer",
         "currency": "$",
         "items": [
@@ -1655,7 +1655,7 @@
 
     {
         "id": "wine",
-        "categoryImage": "",
+        "categoryImage": "https://texasroadhouse-menulist.com/wp-content/uploads/2025/10/60e7894eb4d21f809f9d5c91cb41f47d-min-2-Edited-min.jpg",
         "categoryName": "Wine",
         "currency": "$",
         "items": [
