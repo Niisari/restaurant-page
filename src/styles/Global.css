@@ -45,7 +45,7 @@
 
   /* Interactive / Hover Colors */
   --Hover-Burgundy: hsl(350, 70%, 35%); /* Button hover, link hover */
-  --Hover-Gold: hsla(45, 80%, 60%, 0.9); /* Logo highlights, button hover, borders */
+  --Hover-Gold: hsla(45, 100%, 70%, 0.9); /* Logo highlights, button hover, borders */
 }
 
 html, body {
