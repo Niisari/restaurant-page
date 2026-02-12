@@ -1,27 +1,43 @@
+// App.js
 import { Navbar } from "./components/navbar/Navbar.js";
 import { HomePage } from "./pages/home/HomePage.js";
+import { MenuPage } from "./pages/menu/MenuPage.js"; // Create this!
 import { Footer } from "./components/footer/Footer.js";
 
 export default class App {
     constructor() {
-        // We target the specific IDs from your template.html
-        this.headerContainer = document.getElementById('header');
         this.mainContainer = document.getElementById('main');
-        this.footerContainer = document.getElementById('footer');
-
-        this.navbar = new Navbar();
-        this.homePage = new HomePage();
+        this.navbar = new Navbar(this.handleNavigation.bind(this)); // Pass the "changer" function
         this.footer = new Footer();
+        
+        this.routes = {
+            '/': new HomePage(),
+            '/menu': new MenuPage(),
+            // '/about': new AboutPage(),
+        };
     }
 
     init() {
+        // Handle the "Back" and "Forward" browser buttons
+        window.onpopstate = () => this.renderPage(window.location.pathname);
         this.render();
     }
 
+    handleNavigation(path) {
+        window.history.pushState({}, "", path); // Update the URL without reloading
+        this.renderPage(path);
+    }
+
+    renderPage(path) {
+        this.mainContainer.innerHTML = ''; 
+        const page = this.routes[path] || this.routes['/']; // Fallback to Home
+        page.render(this.mainContainer);
+        window.scrollTo(0, 0); // Senior move: always start at the top
+    }
+
     render() {
-        // Now we render EACH component into its own specific bucket
-        if (this.headerContainer) this.navbar.render(this.headerContainer);
-        if (this.mainContainer) this.homePage.render(this.mainContainer);
-        if (this.footerContainer) this.footer.render(this.footerContainer);
+        this.navbar.render(document.getElementById('header'));
+        this.footer.render(document.getElementById('footer'));
+        this.renderPage(window.location.pathname); // Render current URL on load
     }
 }
