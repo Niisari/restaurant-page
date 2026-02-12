@@ -78,3 +78,8 @@
 .socials__icons a:hover svg#Layer_1 .cls-1 {
     stroke: var(--Hover-Gold) !important;
 }
+
+.footer__content .footer__links--container .socials__icons a:active {
+    transform: scale(0.9);
+}
+
