@@ -208,3 +208,11 @@
     display: none;
   }
 }
+
+/* Hover, Active States */
+.category__card:hover,
+.category__card:active {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
