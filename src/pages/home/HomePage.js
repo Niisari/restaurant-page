@@ -8,7 +8,7 @@ import { FoodImages } from '../../assets/images/images.js';
 export class HomePage {
   constructor() {
     this.container = document.getElementById('main');
-    this.link = '#home';
+    this.link = '/';
   }
 
     render() {
@@ -83,7 +83,7 @@ export class HomePage {
                   <img src="${FoodImages.localStories}" alt="Fresh Beef" />
                 </div>
                 <h3 class="learn__more--title">LOCAL STORIES</h3>
-                <p class="learn__more--text">At Texas Roadhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
+                <p class="learn__more--text">At Varxy Steakhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
                 <a href="#about" class="learn__more--link">${button('Learn More')}</a>
               </div>
 
