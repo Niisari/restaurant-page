@@ -1,15 +1,11 @@
-import "./styles/Global.css";
-import "./styles/Reset.css";
+// Example of a slightly more "Senior" entry point
+import "./styles/Reset.css"; // Reset FIRST
+import "./styles/Global.css"; 
 
-import { Navbar } from "./components/navbar/Navbar.js";
-import { HomePage } from "./pages/home/HomePage.js";
-import { Footer } from "./components/footer/Footer.js";
+import App from './App.js';
 
-const navbar = new Navbar('header');
-navbar.render();
-
-const homePage = new HomePage();
-homePage.render();
-
-const footer = new Footer();
-footer.render();
+// Wait for the DOM to be ready before firing off your logic
+document.addEventListener('DOMContentLoaded', () => {
+    const root = document.getElementById('app');
+    new App(root).init();
+});
