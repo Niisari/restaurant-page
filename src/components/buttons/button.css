@@ -1,5 +1,5 @@
-.button {
-    background-color: var(--Hover-Burgundy);
+.button.button {
+    background-color: var(--Rich-Burgundy);
     color: var(--Cream-Ivory);
 
     border-radius: 0.25rem;
@@ -12,3 +12,16 @@
     letter-spacing: 0.1rem;
     text-transform: uppercase;
 }
+
+.button:hover {
+    background-color: var(--Hover-Burgundy);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.button:active {
+    background-color: var(--Hover-Burgundy);
+    transform: scale(0.95);
+    transition: all 0.2s ease-in-out;
+}
+
