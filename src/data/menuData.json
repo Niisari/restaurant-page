@@ -501,7 +501,7 @@
         "items": [
             {
                 "id": "chicken-specialties-1",
-                "itemImage": "",
+                "itemImage": "/images/Country-Fried-Chicken.webp",
                 "itemName": "Country Fried Chicken",
                 "itemDescription": "Tender, white meat chicken breast, hand-battered, golden-fried and topped with choice of gravy. Served with choice of two sides",
                 "itemPrice": 14.99,
@@ -523,7 +523,7 @@
             },
             {
                 "id": "chicken-specialties-2",
-                "itemImage": "",
+                "itemImage": "/images/chicken-critters.webp",
                 "itemName": "Chicken Critters®",
                 "itemDescription": "All white meat chicken tenders, golden-fried and lightly crispy. Served with choice of two sides",
                 "itemPrice": 13.99,
@@ -545,7 +545,7 @@
             },
             {
                 "id": "chicken-specialties-3",
-                "itemImage": "",
+                "itemImage": "/images/smothered-chicken.jpg",
                 "itemName": "Smothered Chicken",
                 "itemDescription": "Grilled, marinated chicken breast with sautéed onions, sautéed mushrooms and choice of melted jack cheese or made-from-scratch gravy. Served with choice of two sides",
                 "itemPrice": 14.99,
@@ -565,7 +565,7 @@
             },
             {
                 "id": "chicken-specialties-4",
-                "itemImage": "",
+                "itemImage": "/images/Herb-Crusted-Chicken-1.webp",
                 "itemName": "Herb Crusted Chicken",
                 "itemDescription": "Boneless, marinated chicken breast seasoned with a blend of herbs and spices, then flame-grilled and served with a caramelized lemon for extra flavor. Served with choice of two sides",
                 "itemPrice": 14.99,
@@ -584,7 +584,7 @@
             },
             {
                 "id": "chicken-specialties-5",
-                "itemImage": "",
+                "itemImage": "/images/grilled-bbq-chicken.png",
                 "itemName": "Grilled BBQ Chicken",
                 "itemDescription": "Marinated ½ lb. breast served with choice of two sides",
                 "itemPrice": 14.49,
@@ -603,7 +603,7 @@
             },
             {
                 "id": "chicken-specialties-6",
-                "itemImage": "",
+                "itemImage": "/images/Portobello-Mushroom-Chicken.webp",
                 "itemName": "Portobello Mushroom Chicken",
                 "itemDescription": "Grilled, marinated chicken breast with Portobello Mushroom sauce, jack cheese and parmesan cheese. Served with choice of two sides",
                 "itemPrice": 15.99,
@@ -633,7 +633,7 @@
         "items": [
             {
                 "id": "country-dinners-1",
-                "itemImage": "",
+                "itemImage": "/images/Grilled-Pork-Chops.webp",
                 "itemName": "Grilled Pork Chops",
                 "itemDescription": "Boneless chops seasoned and served with Peppercorn sauce",
                 "itemPrice": 16.99,
@@ -655,7 +655,7 @@
             },
             {
                 "id": "country-dinners-2",
-                "itemImage": "",
+                "itemImage": "/images/Pulled-Pork-Dinner.png",
                 "itemName": "Pulled Pork Dinner",
                 "itemDescription": "Tender, slow-cooked BBQ pork served with toasted fresh-baked bread",
                 "itemPrice": 14.99,
@@ -678,7 +678,7 @@
             },
             {
                 "id": "country-dinners-3",
-                "itemImage": "",
+                "itemImage": "/images/Country-Fried-Sirloin.jpg",
                 "itemName": "Country Fried Sirloin",
                 "itemDescription": "Hand-battered, fresh-cut sirloin served crispy and golden, topped with cream gravy",
                 "itemPrice": 6.99,
