@@ -998,7 +998,10 @@
         "items": [
             {
                 "id": "side-01",
+                "itemImage": "/images/Mashed-Potatoes.webp",
                 "itemName": "Mashed Potatoes",
+                "itemDescription": "Our classic mashed potatoes.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 260,
                     "fat": "12g",
@@ -1014,7 +1017,10 @@
             },
             {
                 "id": "side-02",
+                "itemImage": "/images/Buttered-Corn.jpg",
                 "itemName": "Buttered Corn",
+                "itemDescription": "Our classic buttered corn.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 180,
                     "fat": "8g",
@@ -1028,7 +1034,10 @@
             },
             {
                 "id": "side-03",
+                "itemImage": "/images/Steamed-Vegetables.jpg",
                 "itemName": "Steamed Vegetables",
+                "itemDescription": "Our classic steamed vegetables.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 40,
                     "fat": "2g",
@@ -1042,7 +1051,10 @@
             },
             {
                 "id": "side-04",
+                "itemImage": "/images/Green-Beans.jpg",
                 "itemName": "Green Beans",
+                "itemDescription": "Our classic green beans.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 100,
                     "fat": "3.5g",
@@ -1057,7 +1069,10 @@
             },
             {
                 "id": "side-05",
+                "itemImage": "/images/house-salad.webp",
                 "itemName": "House Salad",
+                "itemDescription": "Our classic house salad.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 230,
                     "fat": "16g",
@@ -1074,7 +1089,10 @@
             },
             {
                 "id": "side-06",
+                "itemImage": "/images/Seasoned-Rice.jpg",
                 "itemName": "Seasoned Rice",
+                "itemDescription": "Rice cooked with a blend of spices.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 360,
                     "fat": "17g",
@@ -1090,7 +1108,10 @@
             },
             {
                 "id": "side-07",
+                "itemImage": "/images/Sauteed-Onions.jpg",
                 "itemName": "Sauteed Onions",
+                "itemDescription": "Sauteed onions with a blend of spices.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 150,
                     "fat": "10g",
@@ -1105,7 +1126,10 @@
             },
             {
                 "id": "side-08",
+                "itemImage": "/images/Sauteed-Mushrooms.webp",
                 "itemName": "Sauteed Mushrooms",
+                "itemDescription": "Sauteed mushrooms with a blend of spices.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 90,
                     "fat": "7g",
@@ -1120,7 +1144,10 @@
             },
             {
                 "id": "side-09",
+                "itemImage": "/images/Apple-Sauce.jpg",
                 "itemName": "Applesauce",
+                "itemDescription": "Our classic applesauce.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 110,
                     "fat": "0g",
@@ -1132,7 +1159,10 @@
             },
             {
                 "id": "side-10",
+                "itemImage": "/images/Texas-Red-Chili.webp",
                 "itemName": "Texas Red Chili (Cup)",
+                "itemDescription": "Our classic Texas Red Chili.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 230,
                     "fat": "13g",
@@ -1148,7 +1178,10 @@
             },
             {
                 "id": "side-11",
+                "itemImage": "/images/Side-Kick-Of-Ribs.jpg",
                 "itemName": "Sidekick of Ribs",
+                "itemDescription": "Our classic sidekick of ribs.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 450,
                     "fat": "27g",
@@ -1163,7 +1196,10 @@
             },
             {
                 "id": "side-12",
+                "itemImage": "/images/Mac-and-Cheese.webp",
                 "itemName": "Mac & Cheese",
+                "itemDescription": "Our classic mac and cheese.",
+                "itemPrice": 6.99,
                 "nutritionalInfo": {
                     "calories": 270,
                     "fat": "14g",
