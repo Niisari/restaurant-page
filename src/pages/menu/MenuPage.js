@@ -82,7 +82,7 @@ export class MenuPage {
                         </div>
                         <p>${item.itemDescription}</p>
                         <div class="menu__card--nutrition">
-                            <span>🔥 ${item.nutritionalInfo.calories} Cal</span>
+                            <span>🔥 ${item.nutritionalInfo.calories} Cal | ${item.nutritionalInfo.allergens}</span>
                         </div>
                         ${button('Add to Order')}
                     </div>

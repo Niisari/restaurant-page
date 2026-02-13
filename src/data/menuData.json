@@ -700,7 +700,7 @@
             },
             {
                 "id": "country-dinners-4",
-                "itemImage": "",
+                "itemImage": "/images/Beef-Tips.webp",
                 "itemName": "Beef Tips",
                 "itemDescription": "Cuts of steak with sautéed mushrooms, onions, brown gravy and sour cream over seasoned rice or mashed potatoes and one side",
                 "itemPrice": 16.49,
@@ -730,6 +730,7 @@
         "items": [
             {
                 "id": "item-salad-01",
+                "itemImage": "/images/Grilled-Chicken-Salad.webp",
                 "itemName": "Grilled Chicken Salad",
                 "itemDescription": "Crisp cold greens, strips of marinated chicken, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
                 "itemPrice": 15.49,
@@ -750,6 +751,7 @@
             },
             {
                 "id": "item-salad-02",
+                "itemImage": "/images/Grilled-Salmon-Salad.webp",
                 "itemName": "Grilled Salmon Salad",
                 "itemDescription": "Crisp cold greens, grilled salmon, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
                 "itemPrice": 18.99,
@@ -772,6 +774,7 @@
             {
                 "id": "item-salad-03",
                 "itemName": "Chicken Caesar Salad",
+                "itemImage": "/images/Chicken-Caesar-Salad.webp",
                 "itemDescription": "Tender strips of grilled chicken with crisp hearts of romaine, Parmesan cheese, croutons and zesty Caesar dressing.",
                 "itemPrice": 15.49,
                 "nutritionalInfo": {
@@ -792,6 +795,7 @@
             },
             {
                 "id": "item-salad-04",
+                "itemImage": "/images/Salmon-Caesar-Salad.webp",
                 "itemName": "Salmon Caesar Salad",
                 "itemDescription": "Grilled salmon tossed with crisp hearts of romaine, parmesan cheese, croutons and zesty Caesar dressing.",
                 "itemPrice": 18.99,
@@ -813,6 +817,7 @@
             },
             {
                 "id": "item-salad-05",
+                "itemImage": "/images/Chicken-Critter-Salad.webp",
                 "itemName": "Chicken Critter Salad",
                 "itemDescription": "Hot, crispy chicken tenders piled high on a bed of cold greens with jack and cheddar cheeses, egg, tomato and bacon.",
                 "itemPrice": 15.49,
@@ -833,6 +838,7 @@
             },
             {
                 "id": "item-salad-06",
+                "itemImage": "/images/Ceasar-Salad.avif",
                 "itemName": "Caesar Salad",
                 "itemDescription": "Crisp hearts of romaine, fresh Parmesan cheese and made-from-scratch croutons tossed with our zesty Caesar dressing.",
                 "itemPrice": 6.99,
@@ -862,6 +868,7 @@
         "items": [
             {
                 "id": "item-sandwich-01",
+                "itemImage": "/images/All-American-Cheeseburger.webp",
                 "itemName": "All-American Cheeseburger",
                 "itemDescription": "Our classic 1/2 lb. burger with American cheese, lettuce, tomato, and onion on a toasted bun. Served with steak fries and a pickle spear.",
                 "itemPrice": 12.99,
@@ -881,6 +888,7 @@
             },
             {
                 "id": "item-sandwich-02",
+                "itemImage": "/images/Bacon-Cheeseburger.jpg",
                 "itemName": "Bacon Cheeseburger",
                 "itemDescription": "Our classic burger topped with crispy bacon and American cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
                 "itemPrice": 13.99,
@@ -901,6 +909,7 @@
             },
             {
                 "id": "item-sandwich-03",
+                "itemImage": "/images/Smokehouse-Burger.jpg",
                 "itemName": "Smokehouse Burger",
                 "itemDescription": "1/2 lb. burger with sautéed mushrooms, onions, BBQ sauce, American and jack cheeses. Served with steak fries and a pickle spear.",
                 "itemPrice": 14.49,
@@ -920,6 +929,7 @@
             },
             {
                 "id": "item-sandwich-04",
+                "itemImage": "/images/Pulled-Pork-Sandwich.webp",
                 "itemName": "Pulled Pork Sandwich",
                 "itemDescription": "Tender, slow-cooked BBQ pulled pork piled high on a toasted bun. Served with steak fries and a pickle spear.",
                 "itemPrice": 12.49,
@@ -940,6 +950,7 @@
             },
             {
                 "id": "item-sandwich-05",
+                "itemImage": "/images/BBQ-Chicken-Sandwich.webp",
                 "itemName": "BBQ Chicken Sandwich",
                 "itemDescription": "Marinated and grilled chicken breast basted with BBQ sauce, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
                 "itemPrice": 12.99,
@@ -959,6 +970,7 @@
             },
             {
                 "id": "item-sandwich-06",
+                "itemImage": "/images/Mushroom-Jack-Chicken-Sandwich.webp",
                 "itemName": "Mushroom Jack Chicken Sandwich",
                 "itemDescription": "Grilled chicken breast with sautéed mushrooms, melted jack cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
                 "itemPrice": 13.49,
