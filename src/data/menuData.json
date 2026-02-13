@@ -1682,8 +1682,10 @@
         "items": [
             {
                 "id": "bev-cocktail-01",
+                "itemImage": "/images/Cactus-Water.jpg",
                 "itemName": "Cactus Water",
                 "itemDescription": "Espolón® Reposado Tequila, club soda, and 2 fresh limes with a tajin rim. (Also available with Mango).",
+                "itemPrice": 2.99,
                 "nutritionalInfo": {
                     "calories": 140,
                     "fat": "0g",
@@ -1695,8 +1697,10 @@
             },
             {
                 "id": "bev-cocktail-02",
+                "itemImage": "/images/Titos-Soda.webp",
                 "itemName": "Tito's & Soda",
                 "itemDescription": "Tito's® Vodka mixed with club soda and a fresh lime garnish.",
+                "itemPrice": 2.99,
                 "nutritionalInfo": {
                     "calories": 100,
                     "fat": "0g",
@@ -1708,8 +1712,10 @@
             },
             {
                 "id": "bev-cocktail-03",
+                "itemImage": "/images/Porch-Rocker.jpg",
                 "itemName": "Porch Rocker",
                 "itemDescription": "Deep Eddy® Lemon, Monin® blackberry syrup, and club soda with a lemon twist. (Also available with Strawberry).",
+                "itemPrice": 2.99,
                 "nutritionalInfo": {
                     "calories": 180,
                     "fat": "0g",
@@ -1721,8 +1727,10 @@
             },
             {
                 "id": "bev-cocktail-04",
+                "itemImage": "/images/Old-Fashioned.jpg",
                 "itemName": "Old Fashioned",
                 "itemDescription": "Maker's Mark® Bourbon stirred together with bitters and our house Old Fashioned mix.",
+                "itemPrice": 2.99,
                 "nutritionalInfo": {
                     "calories": 170,
                     "fat": "0g",
@@ -1734,8 +1742,10 @@
             },
             {
                 "id": "bev-cocktail-05",
+                "itemImage": "/images/Gin-Blossom.webp",
                 "itemName": "Gin Blossom",
                 "itemDescription": "Tanqueray® Gin mixed with Minute Maid® Lemonade, strawberry puree, and club soda.",
+                "itemPrice": 2.99,
                 "nutritionalInfo": {
                     "calories": 210,
                     "fat": "0g",
@@ -1747,8 +1757,10 @@
             },
             {
                 "id": "bev-lit-01",
+                "itemImage": "/images/Long-Island-Iced-Tea-L.I.T.webp",
                 "itemName": "Long Island Iced Tea",
                 "itemDescription": "Vodka, gin, and rum mixed with our sweet and sour, triple sec, and a splash of Coca-Cola®.",
+                "itemPrice": 2.99,
                 "nutritionalInfo": {
                     "calories": 280,
                     "fat": "0g",
@@ -1760,8 +1772,10 @@
             },
             {
                 "id": "bev-lit-02",
+                "itemImage": "/images/Top-Shelf-L.I.T.jpg",
                 "itemName": "Top Shelf L.I.T.",
                 "itemDescription": "Wheatley® Vodka, Tanqueray® Gin, and Bacardi® Rum mixed with our sweet and sour, triple sec, and a splash of Coca-Cola®.",
+                "itemPrice": 2.99,
                 "nutritionalInfo": {
                     "calories": 290,
                     "fat": "0g",
@@ -1773,8 +1787,10 @@
             },
             {
                 "id": "bev-lit-03",
+                "itemImage": "/images/Southern-Whiskey-L.I.T.jpg",
                 "itemName": "Southern Whiskey L.I.T.",
                 "itemDescription": "Jack Daniel's®, Jim Beam®, Southern Comfort® Black, and our sweet and sour with a splash of Coca-Cola®.",
+                "itemPrice": 2.99,
                 "nutritionalInfo": {
                     "calories": 310,
                     "fat": "0g",
@@ -1786,8 +1802,10 @@
             },
             {
                 "id": "bev-cocktail-06",
+                "itemImage": "/images/Texas-Peach-Fuzz.jpg",
                 "itemName": "Texas Peach Fuzz",
                 "itemDescription": "Tito's® Handmade Vodka and DeKuyper® Peachtree® Schnapps with cranberry and orange juices.",
+                "itemPrice": 2.99,
                 "nutritionalInfo": {
                     "calories": 220,
                     "fat": "0g",
@@ -1799,6 +1817,7 @@
             },
             {
                 "id": "bev-cocktail-07",
+                "itemImage": "/images/Island-Cooler.webp",
                 "itemName": "Island Cooler",
                 "itemDescription": "Parrot Bay® Coconut Rum, DeKeyper® Peachtree® Schnapps, Minute Maid® Lemonade, sweet and sour, and Monin® Blue Curacao.",
                 "nutritionalInfo": {
@@ -1812,6 +1831,7 @@
             },
             {
                 "id": "bev-cocktail-08",
+                "itemImage": "/images/Jamaican-Cowboy.jpg",
                 "itemName": "Jamaican Cowboy",
                 "itemDescription": "Malibu® Rum, DeKuyper® Peachtree® Schnapps, orange and pineapple juices with a splash of our house margarita.",
                 "nutritionalInfo": {
