@@ -2111,8 +2111,10 @@
         "items": [
             {
                 "id": "bev-wine-01",
+                "itemImage": "/images/Josh-Cabernet.webp",
                 "itemName": "Josh® Cabernet",
                 "itemDescription": "Full-bodied flavor. Great with steaks or ribs.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 150,
                     "fat": "0g",
@@ -2126,8 +2128,10 @@
             },
             {
                 "id": "bev-wine-02",
+                "itemImage": "/images/Meiomi-Pinot-Noir.jpg",
                 "itemName": "Meiomi® Pinot Noir",
                 "itemDescription": "Smooth cherry and strawberry flavors. Great with steaks or chicken.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 145,
                     "fat": "0g",
@@ -2141,8 +2145,10 @@
             },
             {
                 "id": "bev-wine-03",
+                "itemImage": "/images/Dark-Horse-Cabernet.jpg",
                 "itemName": "Dark Horse® Cabernet",
                 "itemDescription": "Big fruit flavor. Great with steaks or ribs.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 150,
                     "fat": "0g",
@@ -2156,8 +2162,10 @@
             },
             {
                 "id": "bev-wine-04",
+                "itemImage": "/images/Canyon-Road-Merlot.webp",
                 "itemName": "Canyon Road® Merlot",
                 "itemDescription": "Dark berry flavor. Great with steaks, chicken, or pork.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 145,
                     "fat": "0g",
@@ -2171,8 +2179,10 @@
             },
             {
                 "id": "bev-wine-05",
+                "itemImage": "/images/Kendall-Jackson-Chardonnay.jpg",
                 "itemName": "Kendall-Jackson® Chardonnay",
                 "itemDescription": "Creamy, oak, and rich fruit flavor. Great with chicken, fish, or pork.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 150,
                     "fat": "0g",
@@ -2186,8 +2196,10 @@
             },
             {
                 "id": "bev-wine-06",
+                "itemImage": "/images/Ecco-Domani-Pinot-Grigio.jpg",
                 "itemName": "Ecco Domani® Pinot Grigio",
                 "itemDescription": "Citrus taste. Great with chicken, fish, or pork.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 140,
                     "fat": "0g",
@@ -2201,8 +2213,10 @@
             },
             {
                 "id": "bev-wine-07",
+                "itemImage": "/images/Nobilo-Sauvignon-Blanc.jpg",
                 "itemName": "Nobilo® Sauvignon Blanc",
                 "itemDescription": "Fresh, crisp, and zesty fruit flavors. Best with salads, seafood, or chicken.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 140,
                     "fat": "0g",
@@ -2216,8 +2230,10 @@
             },
             {
                 "id": "bev-wine-08",
+                "itemImage": "/images/Canyon-Road-Chardonnay.jpg",
                 "itemName": "Canyon Road® Chardonnay",
                 "itemDescription": "Creamy, rich flavor. Great with chicken, fish, or salads.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 145,
                     "fat": "0g",
@@ -2231,8 +2247,10 @@
             },
             {
                 "id": "bev-wine-09",
+                "itemImage": "/images/Barefoot-Moscato.jpg",
                 "itemName": "Barefoot® Moscato",
                 "itemDescription": "Semi-sweet taste. Great with salads or chicken.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 165,
                     "fat": "0g",
