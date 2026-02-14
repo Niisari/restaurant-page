@@ -1853,7 +1853,10 @@
         "items": [
             {
                 "id": "bev-beer-01",
+                "itemImage": "/images/Budweiser.jpg",
                 "itemName": "Budweiser",
+                "itemDescription": "Budweiser® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 145,
                     "fat": "0g",
@@ -1868,7 +1871,10 @@
             },
             {
                 "id": "bev-beer-02",
+                "itemImage": "/images/Bud-Light.jpg",
                 "itemName": "Bud Light",
+                "itemDescription": "Bud Light® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 110,
                     "fat": "0g",
@@ -1883,7 +1889,10 @@
             },
             {
                 "id": "bev-beer-03",
+                "itemImage": "/images/Millers-Lite.jpg",
                 "itemName": "Miller Lite",
+                "itemDescription": "Miller Lite® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 96,
                     "fat": "0g",
@@ -1898,7 +1907,10 @@
             },
             {
                 "id": "bev-beer-04",
+                "itemImage": "/images/Coors-Light.webp",
                 "itemName": "Coors Light",
+                "itemDescription": "Coors Light® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 102,
                     "fat": "0g",
@@ -1913,7 +1925,10 @@
             },
             {
                 "id": "bev-beer-05",
+                "itemImage": "/images/Michelob-Ultra.jpg",
                 "itemName": "Michelob Ultra",
+                "itemDescription": "Michelob Ultra® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 95,
                     "fat": "0g",
@@ -1928,7 +1943,10 @@
             },
             {
                 "id": "bev-beer-06",
+                "itemImage": "/images/Heineken.jpg",
                 "itemName": "Heineken",
+                "itemDescription": "Heineken® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 142,
                     "fat": "0g",
@@ -1943,7 +1961,10 @@
             },
             {
                 "id": "bev-beer-07",
+                "itemImage": "/images/Sam-Adams.jpg",
                 "itemName": "Sam Adams Boston Lager",
+                "itemDescription": "Ask your server about our current seasonal selection.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 175,
                     "fat": "0g",
@@ -1958,8 +1979,10 @@
             },
             {
                 "id": "bev-beer-08",
+                "itemImage": "/images/Sam-Adams-Seasonal.jpg",
                 "itemName": "Sam Adams Seasonal",
                 "itemDescription": "Ask your server about our current seasonal selection.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 170,
                     "fat": "0g",
@@ -1974,7 +1997,10 @@
             },
             {
                 "id": "bev-beer-09",
+                "itemImage": "/images/Corona-Extra.jpg",
                 "itemName": "Corona Extra",
+                "itemDescription": "Corona Extra® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 148,
                     "fat": "0g",
@@ -1989,7 +2015,10 @@
             },
             {
                 "id": "bev-beer-10",
+                "itemImage": "/images/Stella-Artois.jpg",
                 "itemName": "Stella Artois",
+                "itemDescription": "Stella Artois® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 150,
                     "fat": "0g",
@@ -2004,7 +2033,10 @@
             },
             {
                 "id": "bev-beer-11",
+                "itemImage": "/images/Modelo-Especial.webp",
                 "itemName": "Modelo Especial",
+                "itemDescription": "Modelo Especial® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 145,
                     "fat": "0g",
@@ -2019,7 +2051,10 @@
             },
             {
                 "id": "bev-beer-12",
+                "itemImage": "/images/Blue-Moon.jpg",
                 "itemName": "Blue Moon",
+                "itemDescription": "Blue Moon® Lager Beer, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 170,
                     "fat": "0g",
@@ -2035,7 +2070,10 @@
             },
             {
                 "id": "bev-beer-13",
+                "itemImage": "/images/Angry-Orchard.jpg",
                 "itemName": "Angry Orchard Hard Cider",
+                "itemDescription": "Angry Orchard® Hard Cider, 1.5% ABV, Brewed in the USA.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 190,
                     "fat": "0g",
@@ -2047,8 +2085,10 @@
             },
             {
                 "id": "bev-beer-14",
+                "itemImage": "/images/Heineken-0.0.jpg",
                 "itemName": "Heineken 0.0",
                 "itemDescription": "Non-alcoholic malt beverage.",
+                "itemPrice": 1.99,
                 "nutritionalInfo": {
                     "calories": 69,
                     "fat": "0g",
