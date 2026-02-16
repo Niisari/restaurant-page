@@ -105,7 +105,7 @@
 
 .menu__preview--grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
   padding: 0 1rem;
   margin: 2rem 0;
   gap: 1rem;
