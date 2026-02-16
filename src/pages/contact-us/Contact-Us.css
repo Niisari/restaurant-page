@@ -167,3 +167,8 @@
         margin: 1rem 0;
     }
 }
+
+input:focus {
+    outline: none;
+    border: 1px solid var(--Deep-Charcoal-Darker);
+}
