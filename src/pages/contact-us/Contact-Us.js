@@ -37,11 +37,187 @@ export class ContactUsPage {
                         </div>
                     </div>
 
-                    <div class="contact__frequent--questions">
-                        <h1 class="contact__frequent--title">Frequently Asked Questions</h1>
-                        
-                        
-                    </div>
+                    <section class="faq__section">
+                        <h1 class="faq__title">Frequently Asked Questions</h1>
+                        <div class="faq__container">
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                Need to check a gift card balance?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                Where is my PIN number?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                MY GIFT CARD HAS BEEN LOST, STOLEN, OR DAMAGED!
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                I ORDERED A PHYSICAL GIFT CARD FROM VARXYSTEAKHOUSE.COM, WHERE IS IT?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                I ORDERED AN E-GIFT CARD FROM VARXYSTEAKHOUSE.COM, WHERE IS IT?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                ARE THERE ANY GIFT CARD SPECIALS?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                WHERE CAN I PURCHASE VARXY STEAKHOUSE GIFT CARDS?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                Need to check a gift card balance?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                HOW DO I GET FREE LEGENDARY OFFERS?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                NEED STEAK SAUCE OR SEASONING? 
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                WANT A RECIPE?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                CAN’T FIND MENU/PRICES? 
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>                             
+                        </div>
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                DO WE OFFER POINTS FOR VISITS ON OUR MOBILE APP?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                HAVING TROUBLE WITH OUR TEXT TO WAIT PROGRAM?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                CONCERNED ABOUT OUR PACKAGING?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <button class="faq__button">
+                                LOVE OUR THEME SONG?
+                                    <span class="faq__arrow"></span>
+                                </button>
+
+                                <div class="faq__answer">
+                                    <p><a>Check your balance here</a></p>
+                                </div>
+                            </div>                         
+
+                    </section>
 
                 </div>
             </div>
