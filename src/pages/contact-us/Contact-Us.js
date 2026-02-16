@@ -59,7 +59,9 @@ export class ContactUsPage {
                                 </button>
 
                                 <div class="faq__answer">
-                                    <p><a>Check your balance here</a></p>
+                                    <p>
+                                    To expose your pin number on the back of your gift card, peel/scratch the little silver box with black wavy lines. Please do not use a knife or sharp object as it can damage the number.
+                                    </p>
                                 </div>
                             </div>
 
@@ -70,13 +72,13 @@ export class ContactUsPage {
                                 </button>
 
                                 <div class="faq__answer">
-                                    <p><a>Check your balance here</a></p>
+                                    <p>As stated on the back of your gift card, we are not liable for lost, stolen, or damaged gift cards, but we want to help as much as possible. Please us the contact us form below and select “Gift cards” under “What’s going on.” Please ensure all fields & proof of payment are provided so we can better assist.</p>
                                 </div>
                             </div>
                             
                             <div class="faq__item">
                                 <button class="faq__button">
-                                I ORDERED A PHYSICAL GIFT CARD FROM VARXYSTEAKHOUSE.COM, WHERE IS IT?
+                                I ORDERED A PHYSICAL GIFT CARD, WHERE IS IT?
                                     <span class="faq__arrow"></span>
                                 </button>
 
@@ -87,7 +89,7 @@ export class ContactUsPage {
 
                             <div class="faq__item">
                                 <button class="faq__button">
-                                I ORDERED AN E-GIFT CARD FROM VARXYSTEAKHOUSE.COM, WHERE IS IT?
+                                I ORDERED AN E-GIFT CARD, WHERE IS IT?
                                     <span class="faq__arrow"></span>
                                 </button>
 
@@ -164,7 +166,7 @@ export class ContactUsPage {
                             
                             <div class="faq__item">
                                 <button class="faq__button">
-                                CAN’T FIND MENU/PRICES? 
+                                CAN'T FIND MENU/PRICES? 
                                     <span class="faq__arrow"></span>
                                 </button>
 
@@ -172,7 +174,7 @@ export class ContactUsPage {
                                     <p><a>Check your balance here</a></p>
                                 </div>
                             </div>                             
-                        </div>
+
                             <div class="faq__item">
                                 <button class="faq__button">
                                 DO WE OFFER POINTS FOR VISITS ON OUR MOBILE APP?
@@ -223,5 +225,30 @@ export class ContactUsPage {
             </div>
         </section>
         `
+
+        this.setupFaq();
+    }
+
+    setupFaq() {
+        const faqButtons = this.container.querySelectorAll('.faq__button');
+        
+        faqButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const item = button.parentElement;
+                const isOpen = item.classList.contains('active');
+
+                // Optional: Close other open items (Accordion effect)
+                this.container.querySelectorAll('.faq__item').forEach(otherItem => {
+                    otherItem.classList.remove('active');
+                    otherItem.querySelector('.faq__answer').style.maxHeight = null;
+                });
+
+                if (!isOpen) {
+                    item.classList.add('active');
+                    const answer = item.querySelector('.faq__answer');
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                }
+            });
+        });
     }
 }

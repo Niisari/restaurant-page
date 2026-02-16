@@ -121,3 +121,49 @@
         }
     }
 }
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2rem 0;
+    margin: 6rem 1rem;
+    box-shadow: 1px 1px 5px var(--Light-Gray);
+
+    .form__title {
+        text-transform: uppercase;
+        text-align: center;
+        padding: 0 0 1rem;
+        color: var(--Rich-Burgundy);
+    }
+
+    .label {
+        font-family: var(--Text-Font);
+        font-weight: 600;
+        font-size: 0.85rem;
+        color: var(--Rich-Burgundy);
+
+        align-items: flex-start;
+        margin: 0.5rem 0;
+    }
+
+    input, label, select {
+        width: 80%;
+    }
+
+    input, select {
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        border: 1px solid var(--Light-Gray);
+    }
+
+    .form__button--container {
+        display: flex;
+        align-items: flex-start;
+
+        width: 80%;
+        margin: 1rem 0;
+    }
+}
