@@ -11,6 +11,10 @@ import insta04 from '../../assets/images/insta_04.png';
 import insta05 from '../../assets/images/insta_05.png';
 import insta06 from '../../assets/images/insta_06.png';
 
+import contactCarousel01 from '../../assets/images/contact-carousel-1.png';
+import contactCarousel02 from '../../assets/images/contact-carousel-2.png';
+import contactCarousel03 from '../../assets/images/contact-carousel-3.png';
+
 export const FoodImages = {
     OpeningIntro,
     premiumSteakIntro,
@@ -23,5 +27,8 @@ export const FoodImages = {
     insta03,
     insta04,
     insta05,
-    insta06
+    insta06,
+    contactCarousel01,
+    contactCarousel02,
+    contactCarousel03
 };
