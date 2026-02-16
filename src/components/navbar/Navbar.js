@@ -51,7 +51,7 @@ export class Navbar {
                     <li class="nav__item"><a href="/" class="nav__link active">Home</a></li>
                     <li class="nav__item"><a href="/menu" class="nav__link">Menu</a></li>
                     <li class="nav__item"><a href="/about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="/contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="/contactUs" class="nav__link">Contact Us</a></li>
                 </ul>
 
                 <div class="nav__actions">
