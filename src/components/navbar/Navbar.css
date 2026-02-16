@@ -15,6 +15,7 @@
   .nav__title {
     font-family: var(--Heading-Font);
     font-weight: 700;
+    font-size: 1.75rem;
     color: var(--Rich-Burgundy);
     width: 100%;
   }
