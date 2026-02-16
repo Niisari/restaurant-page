@@ -16,9 +16,21 @@
     font-family: var(--Heading-Font);
     font-weight: 700;
     color: var(--Rich-Burgundy);
-
-    border-bottom: 2px solid var(--Rich-Burgundy);
     width: 100%;
+  }
+
+  .nav__title--secondary {
+    margin-top: 2.5rem;
+  }
+
+  .nav__socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+    gap: 0.5rem;
+    bottom: 2rem;
   }
 
   .nav__actions {

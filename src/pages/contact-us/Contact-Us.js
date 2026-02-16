@@ -242,7 +242,7 @@ export class ContactUsPage {
                                 </div>
                             </div>
                             
-                            <form action="https://formspree.io/f/xqkqyjyj" method="POST">
+                            <form action="https://formsubmit.co" method="POST">
                                 <div class="form__container">
                                     <h2 class="form__title">CONTACT US</h2>
 
