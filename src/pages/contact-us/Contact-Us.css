@@ -46,3 +46,78 @@
         }
     }
 }
+
+.faq__section {
+
+    .faq__item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 1rem;
+        padding: 1rem 0 0;
+        margin: 0 2rem;
+    }
+
+    .faq__item:not(:last-child) {
+        border-bottom: 1px solid var(--Light-Gray);
+    }
+
+    .faq__title {
+        text-transform: uppercase;
+        text-align: center;
+
+        margin: 0 2rem;
+        padding: 0 0 1rem;
+        color: var(--Rich-Burgundy);
+        border-bottom: 1px solid var(--Light-Gray);
+    }
+
+    .faq__button {
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: var(--Text-Font);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+
+        width: 100%;
+    }
+
+    .faq__answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+
+    .faq__arrow {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-right: 2px solid #333;
+        border-bottom: 2px solid #333;
+        transform: rotate(45deg);
+        transition: transform 0.3s ease;
+
+        margin-left: 0.5rem;
+    }
+
+    .faq__button.open .faq__arrow {
+        transform: rotate(-135deg);
+    }
+
+    .faq__button.open + .faq__answer {
+        max-height: 500px;
+    }
+
+    .faq__answer {
+        margin: 0 0 0.5rem;
+
+        a {
+            text-decoration: underline;
+            color: var(--Rich-Burgundy);
+        }
+    }
+}
