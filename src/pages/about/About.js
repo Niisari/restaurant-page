@@ -4,6 +4,6 @@ export class AboutPage {
         this.link = '/about';
     }
     render() {
-        return `<h1>About Page</h1>`; 
+        this.container.innerHTML = `<h1>About Page</h1>`
     }
 }
