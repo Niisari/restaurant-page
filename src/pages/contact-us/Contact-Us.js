@@ -1,11 +1,11 @@
-import "./Contact-Us.css"
+import "./Contact-us.css"
 import { FoodImages } from '../../assets/images/images.js';
 import { button } from '../../components/buttons/button.js';
 
 export class ContactUsPage {
     constructor() {
         this.container = document.getElementById('main');
-        this.link = '/contactUs';
+        this.link = '/contact-us';
     }
 
     render() {

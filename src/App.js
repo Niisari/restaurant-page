@@ -2,8 +2,8 @@
 import { Navbar } from "./components/navbar/Navbar.js";
 import { HomePage } from "./pages/home/HomePage.js";
 import { MenuPage } from "./pages/menu/MenuPage.js"; 
-import { AboutPage } from "./pages/about/About.js";
-import { ContactUsPage } from "./pages/contact-us/Contact-Us.js";
+import { AboutPage } from "./pages/about/About-us.js";
+import { ContactUsPage } from "./pages/contact-us/Contact-us.js";
 import { Footer } from "./components/footer/Footer.js";
 
 export default class App {
@@ -15,8 +15,8 @@ export default class App {
         this.routes = {
             '/': new HomePage(),
             '/menu': new MenuPage(),
-            '/about': new AboutPage(),
-            '/contactUs': new ContactUsPage()
+            '/about-us': new AboutPage(),
+            '/contact-us': new ContactUsPage()
         };
     }
 
