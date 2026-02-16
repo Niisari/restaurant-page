@@ -1,5 +1,6 @@
 import "./Contact-Us.css"
 import { FoodImages } from '../../assets/images/images.js';
+import { button } from '../../components/buttons/button.js';
 
 export class ContactUsPage {
     constructor() {
@@ -9,7 +10,7 @@ export class ContactUsPage {
 
     render() {
         this.container.innerHTML = `
-        <section>
+        <section class="contact__page">
             <div class="contact__container">
                 <div class="contact__content"> 
 
@@ -28,6 +29,18 @@ export class ContactUsPage {
                                 <img src="${FoodImages.contactCarousel01}" alt="Steak Sale Intro" />
                             </li>
                         </ul>
+
+                        <div class="carousel__info">
+                            <h3 class="carousel__title">Career Opportunities</h3>
+                            <p class="carousel__text">Join our team and work with the best chefs in the industry.</p>
+                            <a href="/careers" class="btn__reservation--link">${button('Apply Now')}</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__frequent--questions">
+                        <h1 class="contact__frequent--title">Frequently Asked Questions</h1>
+                        
+                        
                     </div>
 
                 </div>

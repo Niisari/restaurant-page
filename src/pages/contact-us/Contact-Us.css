@@ -6,25 +6,42 @@
         background-position: center;
         height: 30vh;
 
-        margin-bottom: 2.5rem;
+        margin-bottom: 3rem;
     }
 
     .carousel__container {
         height: 80vh;
-        padding: 1rem;
+        padding: 0 1rem 10rem;
+        margin-bottom: 3rem;
 
         background-color: var(--Gold-Brass);
 
         .carousel {
             height: 100%;
             width: 100%;
-            overflow: hidden;
-            position: relative;
+            margin-bottom: 0.5rem;
 
             li img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+            }
+        }
+
+        .carousel__info {
+            display: flex;  
+            flex-direction: column;
+
+            text-align: center;
+            align-items: center;
+
+            .carousel__title {
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+
+            .carousel__text {
+                margin-bottom: 1rem;
             }
         }
     }
