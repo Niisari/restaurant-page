@@ -84,7 +84,7 @@ export class HomePage {
                 </div>
                 <h3 class="learn__more--title">LOCAL STORIES</h3>
                 <p class="learn__more--text">At Varxy Steakhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
-                <a href="/local-stories" class="learn__more--link">${button('Learn More')}</a>
+                <a href="/about-us" class="learn__more--link">${button('Learn More')}</a>
               </div>
 
             </div>                
@@ -101,7 +101,7 @@ export class HomePage {
                 <img src="${FoodImages.insta05}" alt="Instagram 5" />
                 <img src="${FoodImages.insta06}" alt="Instagram 6" />
               </div>  
-              <a href="https://www.instagram.com/varxysteakhouse/">${button('Follow Us')}</a>
+              <a href="https://www.instagram.com/texasroadhouse/" target="_blank">${button('Follow Us')}</a>
           </div>
           </section>
           
