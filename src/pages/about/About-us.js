@@ -146,7 +146,7 @@ export class AboutPage {
                                 <h2>PLANTING IT FORWARD</h2>
                             </div>
 
-                            <button>${button('Learn More')}</button>
+                            <a href="/community-impact"><button>${button('Learn More')}</button></a>
                         </div>
                     </div>
 
