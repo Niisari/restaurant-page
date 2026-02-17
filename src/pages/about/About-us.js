@@ -99,7 +99,7 @@ export class AboutPage {
                         </div>
                         <h3 class="learn__more--title">IT'S ALL FROM SCRATCH</h3>
                         <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
-                        <a href="/learn-more" class="learn__more--link">${button('Learn More')}</a>
+                        <a href="/made-from-scratch" class="learn__more--link">${button('Learn More')}</a>
                     </div>   
 
                     <div class="local__stories--container">

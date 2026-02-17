@@ -4,6 +4,7 @@ import { HomePage } from "./pages/home/HomePage.js";
 import { MenuPage } from "./pages/menu/MenuPage.js"; 
 import { AboutPage } from "./pages/about/About-us.js";
 import { ContactUsPage } from "./pages/contact-us/Contact-us.js";
+import { MadeFromScratchPage } from "./pages/made-from-scratch/Made-From-Scratch.js";
 import { Footer } from "./components/footer/Footer.js";
 
 export default class App {
@@ -16,7 +17,8 @@ export default class App {
             '/': new HomePage(),
             '/menu': new MenuPage(),
             '/about-us': new AboutPage(),
-            '/contact-us': new ContactUsPage()
+            '/contact-us': new ContactUsPage(),
+            '/made-from-scratch': new MadeFromScratchPage()
         };
     }
 
