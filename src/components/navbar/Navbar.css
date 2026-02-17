@@ -56,7 +56,7 @@
   top: 1.5rem;
   right: 0.5rem;
 
-  z-index: 2;
+  z-index: 1000;
 }
 
 .nav__list {
@@ -70,23 +70,20 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh; /* Full viewport height minus navbar height */
+  height: 100vh; 
   
   background-color: var(--Gold-Brass);
   color: var(--Deep-Charcoal);
   font-family: var(--Heading-Font);
   font-weight: 700;
   font-size: 1.5rem;
-  z-index: 1;
+  z-index: 999;
 
-  /* Use ONE axis for the slide (let's go with Y for slide down) */
   transform: translateX(-100%); 
   visibility: hidden;
   
-  /* Transition only what changes */
+
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), visibility 0.5s;
-  
-  /* This prevents text from 'shimmering' during movement */
   backface-visibility: hidden;
 }
 
