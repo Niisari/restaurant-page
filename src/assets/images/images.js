@@ -29,7 +29,6 @@ import communityImpact02 from '../../assets/images/community-impact-2.png';
 import communityImpact03 from '../../assets/images/community-impact-3.jpg';
 import communityImpact04 from '../images/community-impact-4.png';
 
-import MadeFromScratchBg from '../../assets/images/Made-From-Scratch-bg.png';
 
 export const FoodImages = {
     OpeningIntro,
@@ -60,5 +59,4 @@ export const FoodImages = {
     communityImpact02,
     communityImpact03,
     communityImpact04,
-    MadeFromScratchBg
 };
