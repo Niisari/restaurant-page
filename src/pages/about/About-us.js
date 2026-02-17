@@ -15,9 +15,9 @@ export class AboutPage {
                 </div>
 
                 <div class="timeline__section">
-                    <div class="timeline__item text__box">
-                        <h2>IF IT DOESN'T SAY ALABAMA, IT'S NOT VARXY STEAKHOUSE®</h2>
-                        <p>Legendary means Hand-Cut Steaks, 
+                    <div class="timeline__title">
+                        <h2 class="timeline__subtitle">IF IT DOESN'T SAY ALABAMA, IT'S NOT VARXY STEAKHOUSE®</h2>
+                        <p class="timeline__description">Legendary means Hand-Cut Steaks, 
                         Fall-Off-The-Bone Ribs, Made-From-Scratch Sides, Ice-Cold Beer, and of course, 
                         our irresistible Fresh-Baked Bread.
                         </p>   
@@ -28,8 +28,8 @@ export class AboutPage {
                     </div>
 
                     <div class="timeline__item text__box">    
-                        <h3>HOW IT ALL STARTED</h3>
-                        <p>In a small, dusty shack in Montgomery, 
+                        <h3 class="timeline__subtitle">HOW IT ALL STARTED</h3>
+                        <p class="timeline__description">In a small, dusty shack in Montgomery, 
                         Alabama, the very first Varxy Steakhouse opened its doors in 1993. With just five tables and a grill fueled by hickory wood.</p>          
                     </div>
 
@@ -38,8 +38,8 @@ export class AboutPage {
                     </div>
 
                     <div class="timeline__item text__box">
-                        <h3>GROWING THE FAMILY</h3>
-                        <p>Word traveled fast. By the early 2000s, the "Varxy Secret Spice" had become a southern staple. We expanded beyond Alabama.
+                        <h3 class="timeline__subtitle">GROWING THE FAMILY</h3>
+                        <p class="timeline__description">Word traveled fast. By the early 2000s, the "Varxy Secret Spice" had become a southern staple. We expanded beyond Alabama.
                         </p>          
                     </div>
 
@@ -48,8 +48,8 @@ export class AboutPage {
                     </div>
 
                     <div class="timeline__item text__box">
-                        <h3>A NEW EXPERIENCE</h3>
-                        <p>As tastes evolved, so did we. In 2015, we introduced our "Modern Ranch" design—featuring open kitchens, multi-level dining, and a premium bar experience.</p>          
+                        <h3 class="timeline__subtitle">A NEW EXPERIENCE</h3>
+                        <p class="timeline__description">As tastes evolved, so did we. In 2015, we introduced our "Modern Ranch" design—featuring open kitchens, multi-level dining, and a premium bar experience.</p>          
                     </div>
 
                     <div class="timeline__item image__box">
@@ -57,8 +57,8 @@ export class AboutPage {
                     </div>
                     
                     <div class="timeline__item text__box">
-                        <h3>VARXY TODAY</h3>
-                        <p>Today, Varxy Steakhouse stands as a beacon of quality and hospitality. With our sleek, modern flagship locations and a dedicated team of over 200 chefs and servers, we continue to honor our roots while pushing the boundaries of what a great steakhouse experience can be.</p>          
+                        <h3 class="timeline__subtitle">VARXY TODAY</h3>
+                        <p class="timeline__description">Today, Varxy Steakhouse stands as a beacon of quality and hospitality. With our sleek, modern flagship locations and a dedicated team of over 200 chefs and servers, we continue to honor our roots while pushing the boundaries of what a great steakhouse experience can be.</p>          
                     </div>
 
                 </div>

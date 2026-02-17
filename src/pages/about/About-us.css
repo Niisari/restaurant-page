@@ -5,3 +5,62 @@
     height: 30vh;
     margin-bottom: 3rem;
 }
+
+.timeline__section {
+    position: relative;
+
+    padding: 1rem;
+    margin: 0 auto;
+
+    .timeline__title {
+        text-align: center;
+        margin: 0 0 4rem;
+
+        .timeline__subtitle {
+            color: var(--Rich-Burgundy);
+            margin: 0 0 0.5rem;
+            text-transform: uppercase;
+        }
+    }
+
+    .timeline__item {
+        position: relative;
+        z-index: 1; 
+        margin-bottom: 40px;
+        text-align: center;        
+    }
+
+    .timeline__item.text__box {
+        background: white; /* Important! Covers the line behind the text */
+        padding: 30px;
+        border-radius: 4px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        /* Optional: Add a border similar to the screenshot */
+        border-top: 5px solid var(--Hover-Burgundy); 
+
+        .timeline__subtitle {
+            color: var(--Deep-Charcoal);
+            margin: 0 0 0.5rem;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+        }
+    }
+
+    .timeline__item.image__box img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+.timeline__section::before {
+    content: '';
+    position: absolute;
+    top: 50vh;
+    bottom: 5rem;
+    left: 50%; 
+    width: 1.5px;
+    background-color: var(--Hover-Burgundy);
+    transform: translateX(-50%); 
+    z-index: 0; 
+}
