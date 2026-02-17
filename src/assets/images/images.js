@@ -26,6 +26,11 @@ import aboutUsCarousel03 from '../../assets/images/aboutUs-carousel-3.png';
 import localStories02 from '../../assets/images/local-stories-2.png';
 import localStories03 from '../../assets/images/local-stories-3.png';
 
+import communityImpact01 from '../../assets/images/community-impact-1.png';
+import communityImpact02 from '../../assets/images/community-impact-2.png';
+import communityImpact03 from '../../assets/images/community-impact-3.jpg';
+import communityImpact04 from '../images/community-impact-4.png';
+
 export const FoodImages = {
     OpeningIntro,
     premiumSteakIntro,
@@ -50,5 +55,9 @@ export const FoodImages = {
     aboutUsCarousel02,
     aboutUsCarousel03,
     localStories02,
-    localStories03
+    localStories03,
+    communityImpact01,
+    communityImpact02,
+    communityImpact03,
+    communityImpact04
 };

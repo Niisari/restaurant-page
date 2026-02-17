@@ -118,8 +118,38 @@ export class AboutPage {
                                 <h3 class="local__stories--title">Supporting Camp Sunshine</h3>
                             </li>
                         </ul>
-                    </div>                    
-                    
+                    </div>
+                 </section>
+
+                 <section class="community__impact--section">
+
+                    <div class="community__impact--container">
+                        <h2 class="community__impact--title">COMMUNITY IMPACT</h2>
+                        <div class="community__impact--content">
+                            <div class="community__impact--item">
+                                <img src="${FoodImages.communityImpact01}"/>
+                                <h2>GIVING BACK TO COMMUNITIES WE SERVE</h2>
+                            </div>
+
+                            <div class="community__impact--item">
+                                <img src="${FoodImages.communityImpact02}"/>
+                                <h2>EVERY LITTLE BIT HELPS</h2>
+                            </div>
+
+                            <div class="community__impact--item">
+                                <img src="${FoodImages.communityImpact03}"/>
+                                <h2>WE HONOR HEROES</h2>
+                            </div>
+
+                            <div class="community__impact--item">
+                                <img src="${FoodImages.communityImpact04}"/>
+                                <h2>PLANTING IT FORWARD</h2>
+                            </div>
+
+                            <button>${button('Learn More')}</button>
+                        </div>
+                    </div>
+
                  </section>
 
             </div>
