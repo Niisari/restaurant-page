@@ -101,6 +101,24 @@ export class AboutPage {
                         <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
                         <a href="/learn-more" class="learn__more--link">${button('Learn More')}</a>
                     </div>   
+
+                    <div class="local__stories--container">
+                        <h2 class="local__stories--title">LOCAL STORIES</h2>
+                        <ul class="local__stories--list">
+                            <li class="local__stories--item">
+                                <img src="${FoodImages.localStories}" alt="Tip A Cop" />
+                                <h3 class="local__stories--title">Tip A Cop for Special Olympics</h3>
+                            </li>
+                            <li class="local__stories--item">
+                                <img src="${FoodImages.localStories02}" alt="Feeding Families" />
+                                <h3 class="local__stories--title">Feeding Families in Need</h3>
+                            </li>
+                            <li class="local__stories--item">
+                                <img src="${FoodImages.localStories03}" alt="Camp Sunshine" />
+                                <h3 class="local__stories--title">Supporting Camp Sunshine</h3>
+                            </li>
+                        </ul>
+                    </div>                    
                     
                  </section>
 

@@ -116,3 +116,29 @@
         margin: 0 0 1rem;
     }
 }
+
+.local__stories--title {
+    text-align: center;
+    color: var(--Deep-Charcoal);
+}
+
+.local__stories--list {
+    display: flex;     
+    overflow-x: auto;      
+    gap: 1rem;      
+    
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.local__stories--item {
+    flex: 0 0 100%;           
+    text-align: center;
+}
+
+.local__stories--item img {
+    width: 100%;    
+    height: 200px;        
+    object-fit: cover;      
+}
