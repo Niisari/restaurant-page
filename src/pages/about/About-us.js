@@ -1,5 +1,6 @@
 import "./About-us.css";
 import { FoodImages } from '../../assets/images/images.js';
+import { button } from '../../components/buttons/button.js';
 
 export class AboutPage {
     constructor() {
@@ -14,7 +15,7 @@ export class AboutPage {
                 <div class="about__image--bg">
                 </div>
 
-                <div class="timeline__section">
+                <section class="timeline__section">
                     <div class="timeline__title">
                         <h2 class="timeline__subtitle">IF IT DOESN'T SAY ALABAMA, IT'S NOT VARXY STEAKHOUSE®</h2>
                         <p class="timeline__description">Legendary means Hand-Cut Steaks, 
@@ -60,11 +61,44 @@ export class AboutPage {
                         <h3 class="timeline__subtitle">VARXY TODAY</h3>
                         <p class="timeline__description">Today, Varxy Steakhouse stands as a beacon of quality and hospitality. With our sleek, modern flagship locations and a dedicated team of over 200 chefs and servers, we continue to honor our roots while pushing the boundaries of what a great steakhouse experience can be.</p>          
                     </div>
+                </section>
 
-                </div>
+                <section class="carousel__section">
+                    <ul class="carousel">
+                        <li class="carousel__item">
+                            <div class="carousel__overlay">
+                                <h2 class="carousel__title">FRESH-BAKED BREAD</h2>
+                                <p class="carousel__description">Every table is seated with Fresh-Baked Bread and honey cinnamon butter.  It's our way of welcoming you.</p>
+                            </div>
+                            <img src="${FoodImages.aboutUsCarousel01}" alt="Opening Intro" />
+                        </li>
+                        <li class="carousel__item">
+                            <div class="carousel__overlay">
+                                <h2 class="carousel__title">HAND-CUT STEAKS</h2>
+                                <p class="carousel__description">We proudly serve USDA Choice steaks, hand-cut by our in-house Meat Cutters. Always fresh, never frozen.</p>
+                            </div>
+                            <img src="${FoodImages.aboutUsCarousel02}" alt="Premium Steak Intro" />
+                        </li>
+                        <li class="carousel__item">
+                            <div class="carousel__overlay">
+                                <h2 class="carousel__title">FALL-OFF-THE-BONE RIBS</h2>
+                                <p class="carousel__description">From the 3-day preparation process to our signature BBQ sauce, our ribs are flavorful and fork-tender.</p>
+                            </div>
+                            <img src="${FoodImages.aboutUsCarousel03}" alt="Steak Sale Intro" />
+                        </li>
+                    </ul>
 
+                        <div class="learn__more--info">
+                            <div class="learn__more--image">
+                            <img src="${FoodImages.freshBeef}" alt="Fresh Beef" />
+                            </div>
+                            <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
+                            <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
+                            <a href="/learn-more" class="learn__more--link">${button('Learn More')}</a>
+                        </div>                  
+
+                 </section>
             </div>
-
         </section>
         `
     }

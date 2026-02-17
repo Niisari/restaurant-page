@@ -63,3 +63,42 @@
     transform: translateX(-50%); 
     z-index: 0; 
 }
+
+.carousel__section {
+    background: var(--Gold-Brass);
+    padding: 1.5rem;
+}
+
+.carousel {
+    height: 50vh;
+    overflow: hidden;
+}
+
+.carousel__item {
+    position: relative;
+
+    .carousel__overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Perfectly centers the text */
+        text-align: center;
+        width: 80%;
+        color: #fff;
+        z-index: 2;
+
+        .carousel__title,
+        .carousel__description {
+            color: var(--Cream-Ivory);
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
+.carousel__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%); 
+}

@@ -19,9 +19,9 @@ import timelineImg01 from '../../assets/images/timeline-img-1.png';
 import timelineImg02 from '../../assets/images/timeline-img-2.png';
 import timelineImg03 from '../../assets/images/timeline-img-3.png';
 import timelineImg04 from '../../assets/images/timeline-img-4.png';
-import aboutUsCarousel01 from '../../assets/images/about-us-carousel-1.png';
-import aboutUsCarousel02 from '../../assets/images/about-us-carousel-2.png';
-import aboutUsCarousel03 from '../../assets/images/about-us-carousel-3.png';
+import aboutUsCarousel01 from '../../assets/images/aboutUs-carousel-1.png';
+import aboutUsCarousel02 from '../../assets/images/aboutUs-carousel-2.png';
+import aboutUsCarousel03 from '../../assets/images/aboutUs-carousel-3.png';
 
 export const FoodImages = {
     OpeningIntro,
