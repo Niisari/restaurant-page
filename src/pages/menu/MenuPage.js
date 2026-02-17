@@ -37,6 +37,12 @@ export class MenuPage {
             </div>
         `;
 
+        const params = new URLSearchParams(window.location.search);
+        const catId = params.get('cat');
+        if (catId) {
+            this.setActiveCategory(catId);
+        }
+
         this.updateGrid();
         this.initEventListeners();
     }

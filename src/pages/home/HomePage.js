@@ -49,6 +49,7 @@ export class HomePage {
               
               <div class="menu__preview--grid">
                   ${categoriesToDisplay.map(category => `
+                    <a href="/menu?cat=${category.id}" class="category__card" data-category-id="${category.id}">
                       <div class="category__card" data-category-id="${category.id}">
                           <div class="category__image-container">
                               <img src="${category.categoryImage || 'default-category.jpg'}" alt="" />
@@ -57,6 +58,7 @@ export class HomePage {
                               <h3 class="category__name">${category.categoryName}</h3>
                           </div>
                       </div>
+                    </a>
                   `).join('')}
               </div>
 
