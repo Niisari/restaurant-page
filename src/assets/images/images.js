@@ -15,6 +15,11 @@ import contactCarousel01 from '../../assets/images/contact-carousel-1.png';
 import contactCarousel02 from '../../assets/images/contact-carousel-2.png';
 import contactCarousel03 from '../../assets/images/contact-carousel-3.png';
 
+import timelineImg01 from '../../assets/images/timeline-img-1.png';
+import timelineImg02 from '../../assets/images/timeline-img-2.png';
+import timelineImg03 from '../../assets/images/timeline-img-3.png';
+import timelineImg04 from '../../assets/images/timeline-img-4.png';
+
 export const FoodImages = {
     OpeningIntro,
     premiumSteakIntro,
@@ -30,5 +35,9 @@ export const FoodImages = {
     insta06,
     contactCarousel01,
     contactCarousel02,
-    contactCarousel03
+    contactCarousel03,
+    timelineImg01,
+    timelineImg02,
+    timelineImg03,
+    timelineImg04
 };
