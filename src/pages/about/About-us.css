@@ -26,16 +26,15 @@
     .timeline__item {
         position: relative;
         z-index: 1; 
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
         text-align: center;        
     }
 
     .timeline__item.text__box {
-        background: white; /* Important! Covers the line behind the text */
-        padding: 30px;
+        background: white;
+        padding: 1.875rem;
         border-radius: 4px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        /* Optional: Add a border similar to the screenshot */
         border-top: 5px solid var(--Hover-Burgundy); 
 
         .timeline__subtitle {
