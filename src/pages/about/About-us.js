@@ -28,9 +28,39 @@ export class AboutPage {
                     </div>
 
                     <div class="timeline__item text__box">    
-                        <h3>The Beginning</h3>
-                        <p>Varxy Steakhouse® is a family-owned and operated restaurant located in Birmingham, Alabama.</p>          
+                        <h3>HOW IT ALL STARTED</h3>
+                        <p>In a small, dusty shack in Montgomery, 
+                        Alabama, the very first Varxy Steakhouse opened its doors in 1993. With just five tables and a grill fueled by hickory wood.</p>          
                     </div>
+
+                    <div class="timeline__item image__box">
+                        <img src="${FoodImages.timelineImg02}" alt="Local Stories"/>
+                    </div>
+
+                    <div class="timeline__item text__box">
+                        <h3>GROWING THE FAMILY</h3>
+                        <p>Word traveled fast. By the early 2000s, the "Varxy Secret Spice" had become a southern staple. We expanded beyond Alabama.
+                        </p>          
+                    </div>
+
+                    <div class="timeline__item image__box">
+                        <img src="${FoodImages.timelineImg03}" alt="Local Stories"/>
+                    </div>
+
+                    <div class="timeline__item text__box">
+                        <h3>A NEW EXPERIENCE</h3>
+                        <p>As tastes evolved, so did we. In 2015, we introduced our "Modern Ranch" design—featuring open kitchens, multi-level dining, and a premium bar experience.</p>          
+                    </div>
+
+                    <div class="timeline__item image__box">
+                        <img src="${FoodImages.timelineImg04}" alt="Local Stories"/>
+                    </div>
+                    
+                    <div class="timeline__item text__box">
+                        <h3>VARXY TODAY</h3>
+                        <p>Today, Varxy Steakhouse stands as a beacon of quality and hospitality. With our sleek, modern flagship locations and a dedicated team of over 200 chefs and servers, we continue to honor our roots while pushing the boundaries of what a great steakhouse experience can be.</p>          
+                    </div>
+
                 </div>
 
             </div>
