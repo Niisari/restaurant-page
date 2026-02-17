@@ -1,0 +1,16 @@
+.header__image--bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/images/made-from-scratch-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+
+
+    .header__title,
+    .header__description {
+        color: var(--Cream-Ivory);
+        text-align: center;
+    }
+}
