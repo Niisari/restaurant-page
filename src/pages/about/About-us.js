@@ -1,5 +1,6 @@
 import "./About-us.css";
 import { FoodImages } from '../../assets/images/images.js';
+import AlabamaIcon from '../../assets/images/icons/alabama-icon.png';
 import { button } from '../../components/buttons/button.js';
 
 export class AboutPage {
@@ -88,18 +89,23 @@ export class AboutPage {
                         </li>
                     </ul>
 
-                        <div class="learn__more--info">
-                            <div class="learn__more--image">
-                            <img src="${FoodImages.freshBeef}" alt="Fresh Beef" />
-                            </div>
-                            <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
-                            <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
-                            <a href="/learn-more" class="learn__more--link">${button('Learn More')}</a>
-                        </div>                  
-
+                    <div class="learn__more--info">
+                        <div class="learn__more--image">
+                            <img 
+                            src="${AlabamaIcon}" 
+                            alt="Alabama Map" 
+                            width="100"
+                            height="100"/>
+                        </div>
+                        <h3 class="learn__more--title">IT'S ALL FROM SCRATCH</h3>
+                        <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
+                        <a href="/learn-more" class="learn__more--link">${button('Learn More')}</a>
+                    </div>   
+                    
                  </section>
+
             </div>
         </section>
-        `
+       `
     }
 }

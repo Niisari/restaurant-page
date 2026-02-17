@@ -23,6 +23,9 @@ import aboutUsCarousel01 from '../../assets/images/aboutUs-carousel-1.png';
 import aboutUsCarousel02 from '../../assets/images/aboutUs-carousel-2.png';
 import aboutUsCarousel03 from '../../assets/images/aboutUs-carousel-3.png';
 
+import localStories02 from '../../assets/images/local-stories-2.png';
+import localStories03 from '../../assets/images/local-stories-3.png';
+
 export const FoodImages = {
     OpeningIntro,
     premiumSteakIntro,
@@ -45,5 +48,7 @@ export const FoodImages = {
     timelineImg04,
     aboutUsCarousel01,
     aboutUsCarousel02,
-    aboutUsCarousel03
+    aboutUsCarousel03,
+    localStories02,
+    localStories03
 };

@@ -102,3 +102,17 @@
     object-fit: cover;
     filter: brightness(70%); 
 }
+
+.learn__more--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin: 2rem 0 2rem;
+
+    .learn__more--image,
+    .learn__more--text {
+        margin: 0 0 1rem;
+    }
+}
