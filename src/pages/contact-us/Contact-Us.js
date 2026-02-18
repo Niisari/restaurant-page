@@ -131,12 +131,12 @@ export class ContactUsPage {
                             
                             <div class="faq__item">
                                 <button class="faq__button">
-                                Need to check a gift card balance?
+                                Need to check avalaibility?
                                     <span class="faq__arrow"></span>
                                 </button>
 
                                 <div class="faq__answer">
-                                    <p><a>Check your balance here</a></p>
+                                    <p><a>Check our waitlist here</a></p>
                                 </div>
                             </div>
                             
@@ -213,7 +213,7 @@ export class ContactUsPage {
                                 </button>
 
                                 <div class="faq__answer">
-                                    <p>It’s possible that you have replied “Stop” to our messages in the past and thus have stopped receiving them. You can reply to our company number: 855-540-1372 with the word “Start” and that will allow the text messages to come through again.</p>
+                                    <p>It’s possible that you have replied “Stop” to our messages in the past and thus have stopped receiving them. You can reply to our company number: 999-999-9991 with the word “Start” and that will allow the text messages to come through again.</p>
                                 </div>
                             </div>
 
