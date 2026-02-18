@@ -1,5 +1,5 @@
 import './Footer.css';
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.png';
 export class Footer {
     constructor() {
         this.container = document.getElementById('footer');

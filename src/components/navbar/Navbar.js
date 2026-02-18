@@ -1,7 +1,7 @@
 import './Navbar.css';
 // Icons Imports
 import closeIcon from '../../assets/images/icons/close-icon.svg';
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.png';
 // The Navbar class is responsible for rendering the navigation bar and handling user interactions
 export class Navbar {
     constructor(onNavigate) {
@@ -40,8 +40,8 @@ export class Navbar {
                     src="${logo}" 
                     alt="Logo" 
                     class="logo"
-                    width="120"
-                    height="60"
+                    width="100"
+                    height="auto"
                     />
 
                 <ul class="nav__list">
