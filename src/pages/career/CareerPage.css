@@ -1,0 +1,122 @@
+/* ============================================================
+   CAREERS SECTION - LIGHT MENU STYLE
+   ============================================================ */
+
+.careers--light {
+    background-color: var(--Cream-Ivory);
+    padding: 6rem 1.5rem; /* Large vertical breathing room */
+    font-family: var(--Text-Font);
+    color: var(--Deep-Charcoal-Darker);
+}
+
+.careers__container {
+    max-width: 80rem; /* 1280px */
+    margin: 0 auto;
+}
+
+/* --- Header --- */
+.careers__header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.careers__title {
+    font-family: var(--Heading-Font);
+    font-size: 3.5rem;
+    color: var(--Rich-Burgundy);
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+}
+
+.careers__subtitle {
+    font-size: 1.125rem;
+    color: var(--Deep-Charcoal);
+    max-width: 35rem;
+    margin: 0 auto;
+    letter-spacing: 0.05rem;
+}
+
+/* --- Grid Layout --- */
+.careers__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 2.5rem;
+}
+
+/* --- Job Card Design --- */
+.job-card {
+    background-color: #ffffff; /* Clean white card face */
+    border: 0.0625rem solid #e0e0e0;
+    border-top: 0.25rem solid var(--Gold-Brass); /* Premium accent stripe */
+    padding: 3rem 2rem;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+}
+
+.job-card:hover {
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 1.25rem 2.5rem rgba(0, 0, 0, 0.08);
+    border-color: var(--Gold-Brass);
+}
+
+.job-card__role {
+    font-family: var(--Heading-Font);
+    font-size: 1.875rem;
+    color: var(--Deep-Charcoal-Darker);
+    margin-bottom: 0.5rem;
+}
+
+.job-card__type {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    color: var(--Copper-WarmRed-Brown);
+    margin-bottom: 1.5rem;
+}
+
+.job-card__divider {
+    width: 2.5rem;
+    height: 0.125rem;
+    background-color: var(--Gold-Brass);
+    margin-bottom: 1.5rem;
+}
+
+.job-card__desc {
+    color: var(--Deep-Charcoal);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+}
+
+
+
+/* ============================================================
+   RESPONSIVE OVERRIDES (Mobile First / Small Screens)
+   ============================================================ */
+
+/* Targets mobile devices like 320px width */
+@media (max-width: 30rem) { /* Approx 480px and below */
+    .careers--light {
+        padding: 3rem 1rem;
+    }
+
+    .careers__title {
+        font-size: 2.25rem; /* Fits better on 320px screen */
+    }
+
+    .careers__grid {
+        grid-template-columns: 1fr; /* Force single column */
+    }
+
+    .job-card {
+        padding: 2rem 1.25rem; /* Tighter padding for small screens */
+    }
+
+    .job-card__role {
+        font-size: 1.625rem;
+    }
+}
