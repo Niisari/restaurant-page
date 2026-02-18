@@ -15,7 +15,7 @@ export class MadeFromScratchPage {
             <div class="header">
                 <div class="header__image--bg">
                 <h1 class="header__title">WE'RE PROUD OF THE FOOD WE SERVE</h1>
-                <p class="header__description">Texas Roadhouse was founded upon providing fresh, quality food for a value, which is why we make our food from scratch, even the bacon bits, croutons, and dressings.</p>
+                <p class="header__description">Varxy Steakhouse was founded upon providing fresh, quality food for a value, which is why we make our food from scratch, even the bacon bits, croutons, and dressings.</p>
                 </div>
             </div>
 
