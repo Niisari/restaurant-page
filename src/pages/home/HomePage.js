@@ -103,7 +103,7 @@ export class HomePage {
                 <img src="${FoodImages.insta05}" alt="Instagram 5" />
                 <img src="${FoodImages.insta06}" alt="Instagram 6" />
               </div>  
-              <a href="https://www.instagram.com/texasroadhouse/" target="_blank">${button('Follow Us')}</a>
+              <a href="/coming-soon" target="_blank">${button('Follow Us')}</a>
           </div>
           </section>
           

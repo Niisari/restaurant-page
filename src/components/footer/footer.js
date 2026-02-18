@@ -100,10 +100,7 @@ export class Footer {
                     />
                     <div class="footer__info">
                         <span>&copy;2026 Varxy Steakhouse</span>
-                        <p>Practice Project inspired by
-                        <hr> 
-                        <a href="https://www.texasroadhouse.com/" target="_blank" class="texas__link">Texas Roadhouse</a></p>
-                        <span>Made by <a><a href="https://github.com/Niisari" target="_blank" class="github__link">Yushi</a></span>
+                        <span>Training project made by <a><a href="https://github.com/Niisari" target="_blank" class="github__link">Yushi</a></span>
                     </div>
                 </div>
 
