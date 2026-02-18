@@ -15,6 +15,11 @@
     }
 }
 
+.carousel__section {
+  padding: 1.5rem 1rem;
+  background-color: var(--Gold-Brass);
+}
+
 .from__scratch--carousel {
   display: grid;
   grid-auto-flow: column;
@@ -91,21 +96,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     transition: background 0.3s ease, transform 0.2s ease;
   }
 
   &::scroll-button(right) {
     content: "❯";
     position-area: right;
-    left: -2.75rem;
+    left: -2.25rem;
   }
 
   &::scroll-button(left) {
     content: "❮";
     position-area: left;
-    left: 4.25rem;
+    left: 3.25rem;
   }
 }
 

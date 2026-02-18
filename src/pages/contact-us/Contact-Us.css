@@ -11,7 +11,7 @@
 
     .carousel__container {
         height: 80vh;
-        padding: 0 1rem 10rem;
+        padding: 1.5rem 1rem 10rem;
         margin-bottom: 3rem;
 
         background-color: var(--Gold-Brass);

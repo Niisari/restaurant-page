@@ -65,7 +65,7 @@ export class AboutPage {
                 </section>
 
                 <section class="carousel__section">
-                    <ul class="carousel">
+                    <ul class="from__scratch--carousel">
                         <li class="carousel__item">
                             <div class="carousel__overlay">
                                 <h2 class="carousel__title">FRESH-BAKED BREAD</h2>
