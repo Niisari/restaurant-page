@@ -8,6 +8,7 @@ import { MadeFromScratchPage } from "./pages/made-from-scratch/Made-From-Scratch
 import { CommunityImpactPage } from "./pages/community-impact/Community-impact.js";
 import { WaitlistPage } from "./pages/waitlist/Waitlist.js";
 import { CareerPage } from "./pages/career/CareerPage.js";
+import { ComingSoonPage } from "./pages/coming-soon/Coming-soon.js";
 import { Footer } from "./components/footer/Footer.js";
 
 export default class App {
@@ -25,6 +26,7 @@ export default class App {
             '/community-impact': new CommunityImpactPage(),
             '/waitlist': new WaitlistPage(),
             '/career': new CareerPage(),
+            '/coming-soon': new ComingSoonPage(),
         };
     }
 
