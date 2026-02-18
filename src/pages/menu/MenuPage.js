@@ -90,7 +90,7 @@ export class MenuPage {
                         <div class="menu__card--nutrition">
                             <span>🔥 ${item.nutritionalInfo.calories} Cal | ${item.nutritionalInfo.allergens}</span>
                         </div>
-                        ${button('Add to Order')}
+                        <a href="/coming-soon" class="btn__order">${button('Add to Order')}</a>
                     </div>
                 </div>
             `).join('');

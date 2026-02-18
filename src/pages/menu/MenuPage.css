@@ -125,4 +125,8 @@
     p {
         text-transform: capitalize;
     }
+
+    .btn__order {
+        margin: auto;
+    }
 }
