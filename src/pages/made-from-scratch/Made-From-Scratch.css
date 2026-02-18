@@ -76,28 +76,36 @@
     position: absolute;
     position-anchor: --carousel;
     padding: 0.5rem;
-    background: var(--Gold-Brass);
-    border: none;
+    
+    background: rgba(0, 0, 0, 0.6); 
+    
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    
+    color: var(--Gold-Brass);
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    
     border-radius: 50%;
     cursor: pointer;
     z-index: 20;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
+    transition: background 0.3s ease, transform 0.2s ease;
   }
 
   &::scroll-button(right) {
     content: "❯";
     position-area: right;
-    right: 1rem;
+    left: -2.75rem;
   }
 
   &::scroll-button(left) {
     content: "❮";
     position-area: left;
-    left: 1rem;
+    left: 4.25rem;
   }
 }
 
