@@ -14,7 +14,7 @@ export class MenuPage {
                 <section class="menu__header">
                     <h2>Bone-IN Ribeye</h2>
                     <p>20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor.</p>
-                    ${button('Order Now')}
+                    <a href="/menu?cat=${menuData[1].id}">${button('Order Now')}</a>
                 </section>
                 
                 <nav class="menu__content">
