@@ -16,13 +16,13 @@ export class Footer {
                                 <a href="/about-us">About Us</a>
                             </li>
                             <li>
-                                <a href="#">Press Room</a>
+                                <a href="/coming-soon">Press Room</a>
                             </li>
                         </div>
 
                         <div class="col__02">
                             <li>
-                                <a href="#">Careers</a>
+                                <a href="/career">Careers</a>
                             </li>
                             <li>
                                 <a href="/contact-us">Contact Us</a>
@@ -32,16 +32,16 @@ export class Footer {
                     
                     <ul class="footer__secondary">
                         <li>
-                            <a href="#">Investors</a>
+                            <a href="/coming-soon">Investors</a>
                         </li>
                         <li>
-                            <a href="#">Nutrition & Allergens</a>
+                            <a href="/coming-soon">Nutrition & Allergens</a>
                         </li>
                         <li>
-                            <a href="#">Community Impact</a>
+                            <a href="/coming-soon">Community Impact</a>
                         </li>
                         <li>
-                            <a href="#">Corporate Sustainability</a>
+                            <a href="/coming-soon">Corporate Sustainability</a>
                         </li>
                     </ul>
 
@@ -49,19 +49,19 @@ export class Footer {
 
                         <div class="socials__text">
                             <li>
-                                <a href="#">Trust Center</a>
+                                <a href="/coming-soon">Trust Center</a>
                             </li>
                             <li>
-                                <a href="#">Terms of Use</a>
+                                <a href="/coming-soon">Terms of Use</a>
                             </li>
                             <li>
-                                <a href="#">Privacy Policy</a>
+                                <a href="/coming-soon">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="#">Accessibility</a>
+                                <a href="/coming-soon">Accessibility</a>
                             </li>
                             <li>
-                                <a href="#">Health Data Notice</a>
+                                <a href="/coming-soon">Health Data Notice</a>
                             </li>
                         </div>
 
