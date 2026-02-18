@@ -6,6 +6,7 @@ import { AboutPage } from "./pages/about/About-us.js";
 import { ContactUsPage } from "./pages/contact-us/Contact-us.js";
 import { MadeFromScratchPage } from "./pages/made-from-scratch/Made-From-Scratch.js";
 import { CommunityImpactPage } from "./pages/community-impact/Community-impact.js";
+import { WaitlistPage } from "./pages/waitlist/Waitlist.js";
 import { Footer } from "./components/footer/Footer.js";
 
 export default class App {
@@ -21,6 +22,7 @@ export default class App {
             '/contact-us': new ContactUsPage(),
             '/made-from-scratch': new MadeFromScratchPage(),
             '/community-impact': new CommunityImpactPage(),
+            '/waitlist': new WaitlistPage(),
         };
     }
 
