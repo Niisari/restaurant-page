@@ -1,6 +1,42 @@
+.community__header--content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 1rem 2rem;
+    gap: 0.5rem;
+
+    .community__header--title,
+    .community__header--description {
+        color: var(--Deep-Charcoal);
+    }
+
+    .community__header--title {
+        font-size: 1.35rem;
+        font-weight: 700;
+    }
+}
+
 .community__header--bg {
     background: url('../../assets/images/community-impact-bg.png');
     background-size: cover;
     background-position: center;
     height: 20vh;
+}
+
+.community__content {
+    background-color: var(--Gold-Brass);
+    padding: 0 1.5rem;
+    margin: 2rem 0 0 0;
+
+    .community__content--item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        padding: 1.5rem 0;
+    }
 }
