@@ -28,6 +28,8 @@ import communityImpact01 from '../../assets/images/community-impact-1.png';
 import communityImpact02 from '../../assets/images/community-impact-2.png';
 import communityImpact03 from '../../assets/images/community-impact-3.jpg';
 import communityImpact04 from '../images/community-impact-4.png';
+import CommunityPhoto01 from '../../assets/images/Community-photo-1.png';
+import CommunityPhoto02 from '../../assets/images/Community-photo-2.png';
 
 
 export const FoodImages = {
@@ -59,4 +61,6 @@ export const FoodImages = {
     communityImpact02,
     communityImpact03,
     communityImpact04,
+    CommunityPhoto01,
+    CommunityPhoto02
 };
