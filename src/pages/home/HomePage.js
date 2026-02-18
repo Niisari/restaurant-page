@@ -21,7 +21,7 @@ export class HomePage {
         this.container.innerHTML = 
         `<div class="home__page">
 
-          <ul class="carousel">
+          <ul class="home__page--carousel">
             <li>
               <img src="${FoodImages.OpeningIntro}" alt="Opening Intro" />
             </li>
@@ -114,7 +114,7 @@ export class HomePage {
 
 // Carousel Method to automatically scroll
 initCarousel() {
-  const carousel = this.container.querySelector('.carousel');
+  const carousel = this.container.querySelector('.home__page--carousel');
   const slides = carousel.children;
   let index = 0;
 
