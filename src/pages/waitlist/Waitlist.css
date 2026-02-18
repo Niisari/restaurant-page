@@ -1,0 +1,112 @@
+/* Waitlist Section Container */
+.waitlist {
+    background-color: var(--Deep-Charcoal-Darker); /* Dark charcoal */
+    color: var(--Cream-Ivory);
+    padding: 3.75rem 1.25rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Main Content Wrapper (Two Columns on Desktop) */
+.waitlist__content {
+    max-width: 62.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+    background: var(--Deep-Charcoal);
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+}
+
+/* Left Side: Text and Timer */
+.waitlist__info h2 {
+    font-size: 2.5rem;
+    color: var(--Gold-Brass); /* Elegant gold accent */
+    margin-bottom: 0.938rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.waitlist__info p {
+    color: var(--Light-Gray);
+    line-height: 1.6;
+    margin-bottom: 1.875rem;
+}
+
+/* The Timer Box */
+.waitlist__timer {
+    display: inline-block;
+    padding: 0.938rem 1.563rem;
+    border: 2px solid var(--Gold-Brass);
+    border-radius: 4px;
+    background: rgba(197, 160, 89, 0.05);
+}
+
+.timer__label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--Gold-Brass);
+    text-transform: uppercase;
+}
+
+.timer__time {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--Cream-Ivory);
+}
+
+/* Right Side: The Form */
+.waitlist__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.938rem;
+}
+
+.waitlist__form input, 
+.waitlist__form select {
+    padding: 0.75rem 0.938rem;
+    background: var(--Deep-Charcoal-Darker);
+    border: 1px solid #444;
+    color: var(--Cream-Ivory);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.waitlist__form input:focus {
+    outline: none;
+    border-color: var(--Gold-Brass);
+}
+
+/* The Button */
+.btn--primary {
+    background-color: var(--Gold-Brass);
+    color: var(--Deep-Charcoal-Darker);
+    border: none;
+    padding: 0.938rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 0.625rem;
+}
+
+.btn--primary:hover {
+    background-color: var(--Hover-Gold);
+}
+
+/* Responsive: Stack columns on mobile */
+@media (max-width: 768px) {
+    .waitlist__content {
+        grid-template-columns: 1fr;
+        padding: 1.25rem;
+    }
+    
+    .waitlist__info h2 {
+        font-size: 1.8rem;
+    }
+}
