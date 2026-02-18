@@ -33,7 +33,7 @@ export class ContactUsPage {
                         <div class="carousel__info">
                             <h3 class="carousel__title">Career Opportunities</h3>
                             <p class="carousel__text">Join our team and work with the best chefs in the industry.</p>
-                            <a href="/careers" class="btn__reservation--link">${button('Apply Now')}</a>
+                            <a href="/career" class="btn__reservation--link">${button('Apply Now')}</a>
                         </div>
                     </div>
 
