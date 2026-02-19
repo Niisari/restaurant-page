@@ -1,0 +1,12 @@
+.coming__soon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+}
