@@ -1,6 +1,9 @@
 import OpeningIntro from '../../assets/images/opening-intro.png';
+import OpeningIntroDesktop from '../../assets/images/opening-intro-D.png';
 import premiumSteakIntro from '../../assets/images/premium-steak-intro.png';
+import premiumSteakIntroDesktop from '../../assets/images/premium-steak-intro-D.png';
 import steakSaleIntro from '../../assets/images/steak-sale-intro.png';
+import steakSaleIntroDesktop from '../../assets/images/steak-sale-intro-D.png';
 import reservationBg from '../../assets/images/reservation-bg.png';
 import freshBeef from '../../assets/images/fresh-beef.png';
 import localStories from '../../assets/images/local-stories.png';
@@ -35,8 +38,11 @@ import ComingSoon from '../../assets/images/Coming-Soon.png';
 
 export const FoodImages = {
     OpeningIntro,
+    OpeningIntroDesktop,
     premiumSteakIntro,
+    premiumSteakIntroDesktop,
     steakSaleIntro,
+    steakSaleIntroDesktop,
     reservationBg,
     freshBeef,
     localStories,

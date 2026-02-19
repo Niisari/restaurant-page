@@ -23,13 +23,22 @@ export class HomePage {
 
           <ul class="home__page--carousel">
             <li>
-              <img src="${FoodImages.OpeningIntro}" alt="Opening Intro" />
+              <picture>
+                <source srcset="${FoodImages.OpeningIntroDesktop}" type="image/png" media="(min-width: 768px)"/>
+                <img src="${FoodImages.OpeningIntro}" alt="Home Page Carousel 01" />
+              </picture>
             </li>
             <li>
-              <img src="${FoodImages.premiumSteakIntro}" alt="Premium Steak Intro" />
+              <picture>
+                <source srcset="${FoodImages.premiumSteakIntroDesktop}" type="image/png" media="(min-width: 768px)"/>
+                <img src="${FoodImages.premiumSteakIntro}" alt="Home Page Carousel 02" />
+              </picture>
             </li>
             <li>
-              <img src="${FoodImages.steakSaleIntro}" alt="Steak Sale Intro" />
+              <picture>
+                <source srcset="${FoodImages.steakSaleIntroDesktop}" type="image/png" media="(min-width: 768px)"/>
+                <img src="${FoodImages.steakSaleIntro}" alt="Home Page Carousel 03" />
+              </picture>
             </li>
           </ul>
           

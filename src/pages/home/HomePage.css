@@ -7,6 +7,10 @@
     scroll-snap-type: x mandatory;
     position: relative;
 
+  @media only screen and (max-width: 787px) {
+    height: 54vh;
+  }
+
   @media (prefers-reduced-motion: no-preference) {
     scroll-behavior: smooth;
   }
@@ -215,4 +219,11 @@
   transform: scale(1.05);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .home__page--carousel {
+    height: 65vh;
+    overflow: hidden;
+  }
 }
