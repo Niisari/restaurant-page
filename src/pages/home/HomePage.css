@@ -113,14 +113,14 @@
   color: var(--Rich-Burgundy);
 }
 
-.menu__preview--grid {
+.menu__preview--featured {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
-  padding: 0 1rem;
+  padding: 0 9vw;
   margin: 2rem 0;
   gap: 1rem;
 
-  .category__card {
+  .category__card--featured {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
@@ -144,7 +144,7 @@
       display: block;
     }
 
-    .category__info {
+    .category__info--featured {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -254,12 +254,12 @@
     margin: 4rem 0 0;
   }
 
-  .menu__preview--grid {
+  .menu__preview--featured {
     grid-template-columns: repeat(auto-fit, minmax(19vw, 1fr));
     padding: 0 10vw;
 
-    .category__card {
-      .category__info {
+    .category__card--featured {
+      .category__info--featured {
         min-height: 6rem;
 
         .category__name {

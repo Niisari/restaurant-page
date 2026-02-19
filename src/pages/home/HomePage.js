@@ -60,18 +60,18 @@ export class HomePage {
               </div>
           </section>
 
-          <section class="menu">
-            <div class="menu__content">
+          <section class="menu__featured">
+            <div class="menu__content--featured">
               <h2 class="menu__title">START YOUR ORDER</h2>
               
-              <div class="menu__preview--grid">
+              <div class="menu__preview--featured">
                   ${categoriesToDisplay.map(category => `
                     <a href="/menu?cat=${category.id}" class="category__card" data-category-id="${category.id}">
-                      <div class="category__card" data-category-id="${category.id}">
+                      <div class="category__card--featured" data-category-id="${category.id}">
                           <div class="category__image-container">
                               <img src="${category.categoryImage || 'default-category.jpg'}" alt="" />
                           </div>
-                          <div class="category__info">
+                          <div class="category__info--featured">
                               <h3 class="category__name">${category.categoryName}</h3>
                           </div>
                       </div>
