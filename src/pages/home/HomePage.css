@@ -170,8 +170,9 @@
   padding: 3rem 1.5rem;
   margin: 4rem 0;
 
-  .learn__more--grid {
-    display: grid;
+  .learn__more--flex {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
 
@@ -277,5 +278,33 @@
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+  }
+
+  .learn__more--section {
+
+    padding: 3rem 14vw;
+
+    .section__one,
+    .section__two {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: start;
+      align-items: center;
+      gap: 8vw;
+
+      .learn__more--image {
+        width: 70%;  
+      }
+    }
+
+    .learn__more--content {
+      white-space: wrap;
+      width: 30vw;
+    }
+
+    .section__two {
+      flex-direction: row-reverse;
+    }
   }
 }

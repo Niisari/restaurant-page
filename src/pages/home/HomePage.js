@@ -86,24 +86,35 @@ export class HomePage {
           </section>
 
           <section class="learn__more--section">
-            <div class="learn__more--grid">
+            <div class="learn__more--flex">
 
-              <div class="learn__more--info">
+              <div class="learn__more--info section__one">
                 <div class="learn__more--image">
                   <img src="${FoodImages.freshBeef}" alt="Fresh Beef" />
                 </div>
-                <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
-                <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
-                <a href="/made-from-scratch" class="learn__more--link">${button('Learn More')}</a>
+                <div class="learn__more--content">
+                  <img 
+                  src="${FoodImages.freshSteak}"
+                  class="learn__more--freshSteak" 
+                  alt="Fresh Beef" 
+                  width="80"
+                  height="auto"/>
+                  <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
+                  <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
+                  <a href="/made-from-scratch" class="learn__more--link">${button('Learn More')}</a>
+                </div>
               </div>
 
-              <div class="learn__more--info">
+              <div class="learn__more--info section__two">
                 <div class="learn__more--image margin__md">
                   <img src="${FoodImages.localStories}" alt="Fresh Beef" />
                 </div>
-                <h3 class="learn__more--title">LOCAL STORIES</h3>
-                <p class="learn__more--text">At Varxy Steakhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
-                <a href="/about-us" class="learn__more--link">${button('Learn More')}</a>
+                <div class="learn__more--content">
+                  <img src="${FoodImages.restaurant}" class="learn__more--freshSteak" alt="Fresh Beef" width="80" height="auto"/>
+                  <h3 class="learn__more--title">LOCAL STORIES</h3>
+                  <p class="learn__more--text">At Varxy Steakhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
+                  <a href="/about-us" class="learn__more--link">${button('Learn More')}</a>
+                </div>
               </div>
 
             </div>                
