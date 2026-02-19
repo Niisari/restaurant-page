@@ -82,13 +82,19 @@
 
   background-color: var(--Gold-Brass);
 
+  .reservation__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
   .reservation__text {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     gap: 0.5rem;
-    margin-top: 2.5rem;
 
     .reservation__title {
       text-transform: uppercase;
@@ -225,5 +231,21 @@
   .home__page--carousel {
     height: 65vh;
     overflow: hidden;
+  }
+
+  .reservation {
+    height: 25vh;
+
+    .reservation__content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .reservation__text {
+      display: flex;
+      margin: 0 auto;
+    }
   }
 }

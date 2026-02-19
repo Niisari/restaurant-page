@@ -48,7 +48,15 @@ export class HomePage {
                 <h2 class="reservation__title">DINING IN?</h2>
                 <a href="/waitlist" class="btn__reservation--link">${button('Join Waitlist')}</a>
               </div>
-              <img src="${FoodImages.reservationBg}" alt="">
+
+              <div class="reservation__image--bg">
+                <img 
+                src="${FoodImages.reservationBg}" 
+                alt=""
+                width="900"
+                height="auto">
+              </div>
+
               </div>
           </section>
 
