@@ -6,6 +6,8 @@ import steakSaleIntro from '../../assets/images/steak-sale-intro.png';
 import steakSaleIntroDesktop from '../../assets/images/steak-sale-intro-D.png';
 import reservationBg from '../../assets/images/reservation-bg.png';
 import freshBeef from '../../assets/images/fresh-beef.png';
+import freshSteak from '../../assets/images/fresh-steak.svg';
+import restaurant from '../../assets/images/restaurant.svg';
 import localStories from '../../assets/images/local-stories.png';
 import insta01 from '../../assets/images/insta_01.png';
 import insta02 from '../../assets/images/insta_02.png';
@@ -45,6 +47,8 @@ export const FoodImages = {
     steakSaleIntroDesktop,
     reservationBg,
     freshBeef,
+    freshSteak,
+    restaurant,
     localStories,
     insta01,
     insta02,
