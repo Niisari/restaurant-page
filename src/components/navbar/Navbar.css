@@ -107,7 +107,48 @@
   transition: all 0.3s ease-in-out;
 }
 
+@media (min-width: 768px) {
+  .navbar {
+    padding: 1rem 4vw;
 
+    .nav__title,
+    .nav__title--secondary,
+    .nav__socials {
+      display: none;
+    }
 
+    .nav__list {
+      position: static;
+      justify-content: flex-start;
+      flex-direction: row;
+      padding: 1rem 4rem;
+      gap: 3rem;
 
+      height: auto;
+      transform: translateX(0);
+      visibility: visible;
+
+      background-color: transparent;
+      color: var(--Gold-Brass);
+
+      .login,
+      .sign__up {
+        display: none;
+      }
+    }
+
+    .nav__list li:hover {
+      color: var(--Hover-Gold);
+    }
+
+    .menu__icon--close,
+    .menu__icon--hamburger {
+      display: none;
+    }
+
+    .nav__actions {
+      gap: 1.5rem;
+    }
+  }
+}
 

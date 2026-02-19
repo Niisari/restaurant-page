@@ -46,8 +46,8 @@ export class Navbar {
 
                 <ul class="nav__list">
                     <h2 class="nav__title">Welcome!</h2>
-                    <li class="nav__item"><a href="/coming-soon" class="nav__link">Login</a></li> 
-                    <li class="nav__item"><a href="/coming-soon" class="nav__link">Sign Up</a></li> 
+                    <li class="nav__item login"><a href="/coming-soon" class="nav__link">Login</a></li> 
+                    <li class="nav__item sign__up"><a href="/coming-soon" class="nav__link">Sign Up</a></li> 
 
                     <h2 class="nav__title nav__title--secondary">VARXY STEAKHOUSE</h2>
                     <li class="nav__item"><a href="/" class="nav__link active">Home</a></li>
@@ -105,8 +105,8 @@ export class Navbar {
                     <a href="/coming-soon">
                         <button class="nav__order--btn" aria-label="View cart" type="button">
                             <svg 
-                            width="25" 
-                            height="25" 
+                            width="30" 
+                            height="30" 
                             viewBox="0 0 24 24" 
                             fill="var(--Cream-Ivory)" 
                             xmlns="http://www.w3.org/2000/svg">
