@@ -113,3 +113,51 @@
     transform: scale(0.9);
 }
 
+@media only screen and (min-width: 992px) {
+    .footer__content {
+        justify-content: center;
+        height: 45vh;
+
+        padding: 2vh 10vw;
+    }
+
+    .footer__links--container,
+    .footer__logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__main {
+        flex-direction: column;
+        justify-content: center !important;
+
+        gap: 1rem;
+    }
+
+    .footer__logo {
+        order: -1;
+    }
+
+    .footer__links--container {
+        order: 2;
+    }
+
+    .footer__secondary,
+    .footer__legal,
+    .footer__main,
+    .socials__text,
+    .socials__icons {
+        margin-bottom: 0 !important;
+        justify-content: center;
+    }
+
+    .socials__text {
+        position: relative;
+    }
+
+    .socials__icons {
+        position: absolute;
+        margin-top: 1rem;
+    }
+}

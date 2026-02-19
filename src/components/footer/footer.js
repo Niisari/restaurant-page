@@ -89,7 +89,6 @@ export class Footer {
                             </li>
                         </div>
                     </ul>
-                </div>
 
                 <div class="footer__logo">
                     <img 
@@ -102,6 +101,7 @@ export class Footer {
                         <span>&copy;2026 Varxy Steakhouse</span>
                         <span>Training project made by <a><a href="https://github.com/Niisari" target="_blank" class="github__link">Yushi</a></span>
                     </div>
+                </div>
                 </div>
 
             </div>
