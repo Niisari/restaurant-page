@@ -12,9 +12,11 @@ export class MenuPage {
         this.container.innerHTML = `
             <div class="menu__container">
                 <section class="menu__header">
-                    <h2>Bone-IN Ribeye</h2>
-                    <p>20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor.</p>
-                    <a href="/menu?cat=${menuData[1].id}">${button('Order Now')}</a>
+                    <div class="menu__header--content">
+                        <h2>Bone-IN Ribeye</h2>
+                        <p>20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor.</p>
+                        <a href="/menu?cat=${menuData[1].id}">${button('Order Now')}</a>
+                    </div>
                 </section>
                 
             <div class="menu__main-section">

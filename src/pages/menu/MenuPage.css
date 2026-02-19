@@ -1,5 +1,6 @@
 .menu__header {
-    background: url('../../assets/images/menu-header.png') no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../../assets/images/menu-header.png') no-repeat;
     background-size: cover;
     background-position: center;
     height: 30vh;
@@ -21,6 +22,14 @@
 
     p {
         margin-bottom: 1rem;
+    }
+
+    .menu__header--content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -138,7 +147,12 @@
 @media only screen and (min-width: 768px) {
 
     .menu__header {
-
+        height: 65vh;
+        justify-content: center;
+        
+        .menu__header--content {
+            width: 30%;
+        }
     }
 
     .menu__main-section {
