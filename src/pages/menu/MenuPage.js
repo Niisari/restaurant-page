@@ -17,9 +17,11 @@ export class MenuPage {
                     <a href="/menu?cat=${menuData[1].id}">${button('Order Now')}</a>
                 </section>
                 
+            <div class="menu__main-section">
                 <nav class="menu__content">
                     <div class="menu__categories">
                         <ul class="menu__categories--list">
+                            <h3 class="menu__category--title">MENU</h3>
                             <li class="menu__category-item active" data-id="all">
                                 <a href="javascript:void(0)">ALL CATEGORIES</a>
                             </li>
@@ -34,6 +36,7 @@ export class MenuPage {
 
                 <div id="menu-items-grid" class="menu__grid">
                     </div>
+            </div>
             </div>
         `;
 
