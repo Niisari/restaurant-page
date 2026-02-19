@@ -141,8 +141,8 @@
         display: flex;
         flex-direction: row; /* Move sidebar to the left */
         align-items: flex-start;
-        padding: 40px;
-        gap: 40px;
+        padding: 2rem 9vw;
+        gap: 1rem;
     }
 
     .menu__category--title {
