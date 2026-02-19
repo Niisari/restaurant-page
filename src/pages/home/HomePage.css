@@ -307,4 +307,14 @@
       flex-direction: row-reverse;
     }
   }
+
+  .instagram__content {
+
+    .instagram__images--carousel {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(19vw, 1fr));
+      overflow-x: unset;
+      scroll-behavior: unset;
+    }
+  }
 }
