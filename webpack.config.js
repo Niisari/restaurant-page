@@ -1,6 +1,5 @@
 import path from "node:path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
-import CopyPlugin from "copy-webpack-plugin";
 
 export default {
   mode: "development",
@@ -20,18 +19,6 @@ export default {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/template.html",
-    }),
-    new CopyPlugin({
-      patterns: [
-        {
-          from: "src/assets/images",
-          to: "images",
-        },
-        {
-          from: "public/images", 
-          to: "images"
-        }
-      ],
     }),
   ],
   module: {
