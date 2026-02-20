@@ -52,9 +52,10 @@ export default class App {
 
     renderPage(path) {
         const cleanPath = path.replace('/restaurant-page', '') || '/';
+        const baseRoute = cleanPath.split('?')[0];
 
         this.mainContainer.innerHTML = ''; 
-        const page = this.routes[cleanPath] || this.routes['/'];
+        const page = this.routes[baseRoute] || this.routes['/'];
 
         this.mainContainer.classList.add('page__fade--in');
 

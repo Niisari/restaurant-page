@@ -8,7 +8,17 @@ export class MenuPage {
         this.activeCategory = 'all'; // Default state is the overview
     }
 
-    render() {
+render() {
+        // 1. Check for Category in URL immediately
+        const params = new URLSearchParams(window.location.search);
+        const catId = params.get('cat');
+        
+        // Set the state BEFORE generating the HTML
+        if (catId) {
+            this.activeCategory = catId;
+        }
+
+        // 2. Generate the Layout
         this.container.innerHTML = `
             <div class="menu__container">
                 <section class="menu__header">
@@ -19,35 +29,29 @@ export class MenuPage {
                     </div>
                 </section>
                 
-            <div class="menu__main-section">
-                <nav class="menu__content">
-                    <div class="menu__categories">
-                        <ul class="menu__categories--list">
-                            <h3 class="menu__category--title">MENU</h3>
-                            <li class="menu__category-item active" data-id="all">
-                                <a href="javascript:void(0)">ALL CATEGORIES</a>
-                            </li>
-                            ${menuData.map(cat => `
-                                <li class="menu__category-item" data-id="${cat.id}">
-                                    <a href="javascript:void(0)">${cat.categoryName}</a>
+                <div class="menu__main-section">
+                    <nav class="menu__content">
+                        <div class="menu__categories">
+                            <ul class="menu__categories--list">
+                                <h3 class="menu__category--title">MENU</h3>
+                                <li class="menu__category-item ${this.activeCategory === 'all' ? 'active' : ''}" data-id="all">
+                                    <a href="javascript:void(0)">ALL CATEGORIES</a>
                                 </li>
-                            `).join('')}
-                        </ul>
-                    </div>
-                </nav>
+                                ${menuData.map(cat => `
+                                    <li class="menu__category-item ${this.activeCategory === cat.id ? 'active' : ''}" data-id="${cat.id}">
+                                        <a href="javascript:void(0)">${cat.categoryName}</a>
+                                    </li>
+                                `).join('')}
+                            </ul>
+                        </div>
+                    </nav>
 
-                <div id="menu-items-grid" class="menu__grid">
-                    </div>
-            </div>
+                    <div id="menu-items-grid" class="menu__grid"></div>
+                </div>
             </div>
         `;
 
-        const params = new URLSearchParams(window.location.search);
-        const catId = params.get('cat');
-        if (catId) {
-            this.setActiveCategory(catId);
-        }
-
+        // 3. Initialize the view
         this.updateGrid();
         this.initEventListeners();
     }
@@ -102,22 +106,21 @@ export class MenuPage {
         }
     }
 
-    setActiveCategory(id) {
-        this.activeCategory = id;
+        setActiveCategory(id) {
+            this.activeCategory = id;
 
-        // Update Navigation Bar UI
-        const navItems = document.querySelectorAll('.menu__category-item');
-        navItems.forEach(nav => {
-            nav.classList.toggle('active', nav.dataset.id === id);
-        });
+            // Update the URL without reloading the page (helps with back button)
+            const newUrl = id === 'all' ? '/menu' : `/menu?cat=${id}`;
+            window.history.pushState({ path: newUrl }, '', newUrl);
 
-        // Re-render the grid
-        this.updateGrid();
-        
-        // Scroll to top of the menu grid area
-        const grid = document.getElementById('menu-items-grid');
-        if (grid) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+            // Update Navigation Bar UI
+            const navItems = document.querySelectorAll('.menu__category-item');
+            navItems.forEach(nav => {
+                nav.classList.toggle('active', nav.dataset.id === id);
+            });
+
+            this.updateGrid();
+        }
 
     initEventListeners() {
         // Listen for clicks on the TOP Navigation Bar
