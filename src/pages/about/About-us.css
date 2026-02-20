@@ -1,3 +1,11 @@
+.about__image--bg {
+    background: url('../../assets/images/about-us-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    margin-bottom: 3rem;
+}
+
 .timeline__section {
     position: relative;
     padding: 2rem 1rem;
