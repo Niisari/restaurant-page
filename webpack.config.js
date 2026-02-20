@@ -41,7 +41,7 @@ export default {
         use: ["html-loader"],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif|webp|avif)$/i,
         type: "asset/resource",
         generator: {
           filename: "assets/images/[name][ext]",
