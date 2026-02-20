@@ -31,6 +31,15 @@ export default class App {
     }
 
     init() {
+        document.addEventListener('click', (e) => {
+        // 2. Check if the clicked element (or its parent) is one of our buttons
+        const btn = e.target.closest('.button');
+        
+        if (btn && btn.dataset.path) {
+            const path = btn.dataset.path;
+            this.handleNavigation(path);
+        }
+        });
 
         window.onpopstate = () => this.renderPage(window.location.pathname);
         this.render();
