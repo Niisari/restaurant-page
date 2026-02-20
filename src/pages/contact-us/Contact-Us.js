@@ -15,7 +15,7 @@ export class ContactUsPage {
                 <div class="contact__content"> 
 
                     <div class="contact__header--image">
-                    
+
                     </div>
 
                     <div class="carousel__container">
@@ -242,6 +242,7 @@ export class ContactUsPage {
                                     <p>The artist for our VARXY STEAKHOUSE theme song is Kendrick Lamar.</p>
                                 </div>
                             </div>
+                        </div>   
                             
                             <form action="https://formsubmit.co" method="POST">
                                 <div class="form__container">
@@ -271,12 +272,10 @@ export class ContactUsPage {
                                         </select>
                                     <div class="form__button--container">
                                         <button type="submit" value="Submit" class="form__button">${button("Send Message")}</button>
-                                    </div>
-                                </div>               
+                                    </div>            
                             </form>
-
                     </section>
-
+                    
                 </div>
             </div>
         </section>
