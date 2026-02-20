@@ -16,7 +16,6 @@ export class AboutPage {
                 <div class="about__image--bg">
                 </div>
 
-        <section class="timeline__section">
             <div class="timeline__title">
                 <h2 class="timeline__subtitle">IF IT DOESN'T SAY ALABAMA, IT'S NOT VARXY STEAKHOUSE®</h2>
                 <p class="timeline__description">
@@ -24,6 +23,8 @@ export class AboutPage {
                     Ice-Cold Beer, and of course, our irresistible Fresh-Baked Bread.
                 </p>
             </div>
+
+        <section class="timeline__section">
 
             <div class="timeline__item--wrapper">
                 <div class="timeline__item image__box">
