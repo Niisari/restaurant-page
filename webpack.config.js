@@ -13,8 +13,7 @@ export default {
     filename: "main.js",
     path: path.resolve(__dirname, "docs"), // Use __dirname we defined above
     clean: true,
-    // Ensure this matches your GitHub repository name exactly
-    publicPath: process.env.NODE_ENV === 'production' ? '/restaurant-page/' : '/',
+    publicPath: '/restaurant-page/',
   },
   devtool: "eval-source-map",
   devServer: {
