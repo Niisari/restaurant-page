@@ -113,7 +113,7 @@ export class HomePage {
                   <img src="${FoodImages.restaurant}" class="learn__more--freshSteak" alt="Fresh Beef" width="80" height="auto"/>
                   <h3 class="learn__more--title">LOCAL STORIES</h3>
                   <p class="learn__more--text">At Varxy Steakhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
-                  <${button('Learn More', '/about-us')}
+                  <${button("Learn More", "/about-us")}
                 </div>
               </div>
 

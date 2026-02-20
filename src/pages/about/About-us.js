@@ -123,7 +123,7 @@ export class AboutPage {
                         </div>
                         <h3 class="learn__more--title">IT'S ALL FROM SCRATCH</h3>
                         <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
-                        ${button('Learn More', "/made-from-scratch")}
+                        ${button("Learn More", "/made-from-scratch")}
                     </div>   
                 </div>
 
@@ -172,7 +172,7 @@ export class AboutPage {
                             </div>
                         </div>
                             <div class="community__impact--button">
-                                ${button('Learn More', "/community-impact")}
+                                ${button("Learn More", "/community-impact")}
                             </div>
                     </div>
 
