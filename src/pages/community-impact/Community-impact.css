@@ -40,3 +40,35 @@
         padding: 1.5rem 0;
     }
 }
+
+@media only screen and (min-width: 768px) {
+
+    .community__content {
+
+        padding: 0 14vw;
+
+        .community__content--reverse.community__content--reverse {
+            flex-direction: row-reverse;
+            padding: 0 0 1.5rem;
+        }
+
+        .community__content--item,
+        .community__content--reverse {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            gap: 4rem;
+            
+            .community__content--image,
+            .community__content--text {
+                flex: 1;
+            }
+
+            .community__content--text {
+                text-align: left;
+            }
+        }
+    }
+}
