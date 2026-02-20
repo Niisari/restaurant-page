@@ -264,3 +264,9 @@
 .community__impact--item:nth-child(4) {
     margin: 0 0 1.5rem;
 }
+
+@media only screen and (min-width: 768px) {
+    .about__image--bg {
+        height: 70vh;
+    }
+}
