@@ -15,7 +15,7 @@ export class MenuPage {
                     <div class="menu__header--content">
                         <h2>Bone-IN Ribeye</h2>
                         <p>20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor.</p>
-                        <a href="/menu?cat=${menuData[1].id}">${button('Order Now')}</a>
+                        ${button('Order Now', `/menu?cat=${menuData[1].id}`)}
                     </div>
                 </section>
                 
@@ -95,7 +95,7 @@ export class MenuPage {
                         <div class="menu__card--nutrition">
                             <span>🔥 ${item.nutritionalInfo.calories} Cal | ${item.nutritionalInfo.allergens}</span>
                         </div>
-                        <a href="/coming-soon" class="btn__order">${button('Add to Order')}</a>
+                       ${button('Add to Order', "/coming-soon")}
                     </div>
                 </div>
             `).join('');

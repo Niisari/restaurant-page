@@ -131,7 +131,7 @@ export class HomePage {
                 <img src="${FoodImages.insta05}" alt="Instagram 5" />
                 <img src="${FoodImages.insta06}" alt="Instagram 6" />
               </div>  
-              ${button('Follow Us')}
+              ${button('Follow Us', "/coming-soon")}
           </div>
           </section>
           
