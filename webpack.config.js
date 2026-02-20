@@ -13,7 +13,7 @@ export default {
     filename: "main.js",
     path: path.resolve(__dirname, "docs"), // Use __dirname we defined above
     clean: true,
-    publicPath: '',
+    publicPath: process.env.NODE_ENV === 'production' ? '/restaurant-page/' : '/',
   },
   devtool: "eval-source-map",
   devServer: {
