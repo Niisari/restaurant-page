@@ -43,6 +43,14 @@
 
 @media only screen and (min-width: 768px) {
 
+    .community__header--content {
+        padding: 4rem 8vw;
+
+        .community__header--description {
+            width: 90%;
+        }
+    }
+
     .community__content {
 
         padding: 0 14vw;
