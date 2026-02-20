@@ -270,7 +270,7 @@
         "items": [
             {
                 "id": "Bone-Ribs-1",
-                "itemImage": "./images/12-slab-ribs.webp",
+                "itemImage": "./images/12-Slab-Ribs.webp",
                 "itemName": "1/2 Slab Ribs",
                 "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
                 "itemPrice": 6.9,
@@ -523,7 +523,7 @@
             },
             {
                 "id": "chicken-specialties-2",
-                "itemImage": "./images/chicken-critters.webp",
+                "itemImage": "./images/Chicken-Critters.webp",
                 "itemName": "Chicken Critters®",
                 "itemDescription": "All white meat chicken tenders, golden-fried and lightly crispy. Served with choice of two sides",
                 "itemPrice": 13.99,
@@ -1196,7 +1196,7 @@
             },
             {
                 "id": "side-12",
-                "itemImage": "./images/Mac-and-Cheese.webp",
+                "itemImage": "./images/Mac-And-Cheese.webp",
                 "itemName": "Mac & Cheese",
                 "itemDescription": "Our classic mac and cheese.",
                 "itemPrice": 6.99,
@@ -1298,7 +1298,7 @@
             },
             {
                 "id": "kids-05",
-                "itemImage": "./images/Mac-and-Cheese.jpg",
+                "itemImage": "./images/Mac-And-Cheese.jpg",
                 "itemName": "Macaroni and Cheese",
                 "itemDescription": "Our classic macaroni and cheese for younger Texas tikes. Served with choice of one side.",
                 "itemPrice": 6.99,
@@ -2070,7 +2070,7 @@
             },
             {
                 "id": "bev-beer-13",
-                "itemImage": "./images/Angry-Orchard.jpg",
+                "itemImage": "./images/Angry-Orchard-Hard-Cider.jpg",
                 "itemName": "Angry Orchard Hard Cider",
                 "itemDescription": "Angry Orchard® Hard Cider, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
