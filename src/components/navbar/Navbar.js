@@ -83,8 +83,7 @@ export class Navbar {
                 </ul>
 
                 <div class="nav__actions">
-                    <a href="/coming-soon" class="nav__cart--link" aria-label="Cart">
-                        <button class="nav__login--btn" aria-label="Login" type="button">
+                        <button class="nav__login--btn" aria-label="Login" type="button" data-path="/coming-soon">
                             <svg 
                             width="25" 
                             height="25" 
@@ -100,10 +99,8 @@ export class Navbar {
                             </g>
                             </svg>
                         </button>
-                    </a>
 
-                    <a href="/coming-soon">
-                        <button class="nav__order--btn" aria-label="View cart" type="button">
+                        <button class="nav__order--btn" aria-label="View cart" type="button" data-path="/coming-soon">
                             <svg 
                             width="30" 
                             height="30" 
@@ -114,7 +111,6 @@ export class Navbar {
                             stroke="var(--Light-Gray)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </button>
-                    </a>
                 </div>
 
             </nav>
