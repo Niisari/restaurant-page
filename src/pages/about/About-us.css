@@ -355,5 +355,19 @@
 
         gap: 4rem;
     }
+
+    .local__stories--container{
+        width: 100%;
+        height: auto;
+        padding: 0 8vw;
+    }
+
+    .local__stories--list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+
+        padding: 1rem 0 4rem;
+    }
 }
 
