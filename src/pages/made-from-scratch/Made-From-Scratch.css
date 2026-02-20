@@ -132,6 +132,14 @@
 
   .from__scratch--carousel {
     flex: 1;
+
+        &::scroll-marker-group {
+          left: 30%;
+        }
+
+        &::scroll-button(left) {
+          right: -2.25rem;
+        }
   }
 
   .learn__more--info {
