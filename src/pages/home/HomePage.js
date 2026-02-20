@@ -46,7 +46,7 @@ export class HomePage {
             <div class="reservation__content">
               <div class="reservation__text">
                 <h2 class="reservation__title">DINING IN?</h2>
-                <a href="./waitlist" class="btn__reservation--link">${button('Join Waitlist')}</a>
+                <a href="waitlist" class="btn__reservation--link">${button('Join Waitlist')}</a>
               </div>
 
               <div class="reservation__image--bg">
