@@ -27,6 +27,10 @@ export default {
           from: "src/assets/images",
           to: "images",
         },
+        {
+          from: "public/images", 
+          to: "images"
+        }
       ],
     }),
   ],
