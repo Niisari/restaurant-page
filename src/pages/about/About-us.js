@@ -27,60 +27,69 @@ export class AboutPage {
         <section class="timeline__section">
 
             <div class="timeline__item--wrapper">
-                <div class="timeline__item image__box">
-                    <img src="${FoodImages.timelineImg01}" alt="How it started"/>
-                </div>
-                <div class="timeline__item text__box">
-                    <h3 class="timeline__subtitle">HOW IT ALL STARTED</h3>
-                    <p class="timeline__description">
-                        In a small, dusty shack in Montgomery, Alabama, the very first Varxy Steakhouse 
-                        opened its doors in 1993. With just five tables and a grill fueled by hickory wood.
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline__item--wrapper">
-                <div class="timeline__item image__box">
-                    <img src="${FoodImages.timelineImg02}" alt="Growing the family"/>
-                </div>
-                <div class="timeline__item text__box">
-                    <h3 class="timeline__subtitle">GROWING THE FAMILY</h3>
-                    <p class="timeline__description">
-                        Word traveled fast. By the early 2000s, the "Varxy Secret Spice" had become a southern staple. 
-                        We expanded beyond Alabama.
-                    </p>
+                <div class="timeline__content">
+                    <div class="timeline__item image__box">
+                        <img src="${FoodImages.timelineImg01}" alt="How it started"/>
+                    </div>
+                    <div class="timeline__item text__box">
+                        <h3 class="timeline__subtitle">HOW IT ALL STARTED</h3>
+                        <p class="timeline__description">
+                            In a small, dusty shack in Montgomery, Alabama, the very first Varxy Steakhouse 
+                            opened its doors in 1993. With just five tables and a grill fueled by hickory wood.
+                        </p>
+                    </div>
                 </div>
             </div>
 
             <div class="timeline__item--wrapper">
-                <div class="timeline__item image__box">
-                    <img src="${FoodImages.timelineImg03}" alt="Modern ranch experience"/>
-                </div>
-                <div class="timeline__item text__box">
-                    <h3 class="timeline__subtitle">A NEW EXPERIENCE</h3>
-                    <p class="timeline__description">
-                        In 2015, we introduced our "Modern Ranch" design—featuring open kitchens, 
-                        multi-level dining, and a premium bar experience.
-                    </p>
+                <div class="timeline__content--02">
+                    <div class="timeline__item image__box">
+                        <img src="${FoodImages.timelineImg02}" alt="Growing the family"/>
+                    </div>
+                    <div class="timeline__item text__box">
+                        <h3 class="timeline__subtitle">GROWING THE FAMILY</h3>
+                        <p class="timeline__description">
+                            Word traveled fast. By the early 2000s, the "Varxy Secret Spice" had become a southern staple. 
+                            We expanded beyond Alabama.
+                        </p>
+                    </div>
                 </div>
             </div>
 
             <div class="timeline__item--wrapper">
-                <div class="timeline__item image__box">
-                    <img src="${FoodImages.timelineImg04}" alt="Varxy today"/>
+                <div class="timeline__content--03">
+                    <div class="timeline__item image__box">
+                        <img src="${FoodImages.timelineImg03}" alt="Modern ranch experience"/>
+                    </div>
+                    <div class="timeline__item text__box">
+                        <h3 class="timeline__subtitle">A NEW EXPERIENCE</h3>
+                        <p class="timeline__description">
+                            In 2015, we introduced our "Modern Ranch" design—featuring open kitchens, 
+                            multi-level dining, and a premium bar experience.
+                        </p>
+                    </div>
                 </div>
-                <div class="timeline__item text__box">
-                    <h3 class="timeline__subtitle">VARXY TODAY</h3>
-                    <p class="timeline__description">
-                        Today, Varxy Steakhouse stands as a beacon of quality and hospitality with a 
-                        dedicated team of over 200 chefs and servers.
-                    </p>
+            </div>
+
+            <div class="timeline__item--wrapper">
+                <div class="timeline__content--04">
+                    <div class="timeline__item image__box">
+                        <img src="${FoodImages.timelineImg04}" alt="Varxy today"/>
+                    </div>
+                    <div class="timeline__item text__box">
+                        <h3 class="timeline__subtitle">VARXY TODAY</h3>
+                        <p class="timeline__description">
+                            Today, Varxy Steakhouse stands as a beacon of quality and hospitality with a 
+                            dedicated team of over 200 chefs and servers.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
-                <section class="carousel__section">
-                    <ul class="from__scratch--carousel">
+                <section class="carousel__section col">
+                    <div class="content__01">
+                    <ul class="from__scratch--carousel row">
                         <li class="carousel__item">
                             <div class="carousel__overlay">
                                 <h2 class="carousel__title">FRESH-BAKED BREAD</h2>
@@ -116,6 +125,7 @@ export class AboutPage {
                         <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
                         <a href="/made-from-scratch" class="learn__more--link">${button('Learn More')}</a>
                     </div>   
+                </div>
 
                     <div class="local__stories--container">
                         <h2 class="local__stories--title">LOCAL STORIES</h2>
