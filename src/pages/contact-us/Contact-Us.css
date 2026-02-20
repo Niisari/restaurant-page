@@ -1,11 +1,11 @@
 .contact__content {
 
-    .background__image--intro {
+    .contact__header--image {
         background: url('../../assets/images/contact-bg.png');
         background-size: cover;
         background-position: center;
-        height: 30vh;
 
+        height: 30vh;
         margin-bottom: 1rem;
     }
 
@@ -171,4 +171,12 @@
 input:focus {
     outline: none;
     border: 1px solid var(--Deep-Charcoal-Darker);
+}
+
+@media only screen and (min-width: 768px) {
+    .contact__content {
+        .contact__header--image {
+            height: 70vh;
+        }
+    }
 }

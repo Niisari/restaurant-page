@@ -14,7 +14,8 @@ export class ContactUsPage {
             <div class="contact__container">
                 <div class="contact__content"> 
 
-                    <div class="background__image--intro">
+                    <div class="contact__header--image">
+                    
                     </div>
 
                     <div class="carousel__container">
