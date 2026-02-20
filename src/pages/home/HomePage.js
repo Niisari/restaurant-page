@@ -80,7 +80,7 @@ export class HomePage {
               </div>
 
               <div class="menu__action">
-                  <a href="/menu" class="btn__menu--link">${button('See Full Menu')}</a>
+                  ${button("See Full Menu", "/menu")}
               </div>
             </div>
           </section>
@@ -101,7 +101,7 @@ export class HomePage {
                   height="auto"/>
                   <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
                   <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
-                  <a href="/made-from-scratch" class="learn__more--link">${button('Learn More')}</a>
+                  ${button("Learn More", "/made-from-scratch")}
                 </div>
               </div>
 
@@ -113,7 +113,7 @@ export class HomePage {
                   <img src="${FoodImages.restaurant}" class="learn__more--freshSteak" alt="Fresh Beef" width="80" height="auto"/>
                   <h3 class="learn__more--title">LOCAL STORIES</h3>
                   <p class="learn__more--text">At Varxy Steakhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
-                  <a href="/about-us" class="learn__more--link">${button('Learn More')}</a>
+                  <${button('Learn More', '/about-us')}
                 </div>
               </div>
 
@@ -131,7 +131,7 @@ export class HomePage {
                 <img src="${FoodImages.insta05}" alt="Instagram 5" />
                 <img src="${FoodImages.insta06}" alt="Instagram 6" />
               </div>  
-              <a href="/coming-soon" target="_blank">${button('Follow Us')}</a>
+              ${button('Follow Us')}
           </div>
           </section>
           
