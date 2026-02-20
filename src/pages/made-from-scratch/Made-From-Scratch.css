@@ -119,3 +119,28 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media only screen and (min-width: 768px) {
+  .carousel__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2rem 14vw;
+    gap: 4rem;
+  }
+
+  .from__scratch--carousel {
+    flex: 1;
+  }
+
+  .learn__more--info {
+    align-items: flex-start;
+    flex: 1;
+
+    .learn__more--text {
+      width: 70%;
+      text-align: left;
+    }
+  }
+}
