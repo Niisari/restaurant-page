@@ -2,6 +2,14 @@ import './MenuPage.css';
 import { button } from '../../components/buttons/button.js';
 import menuData from '../../data/menuData.json';
 
+const getAssetPath = (path) => {
+  if (!path) return '';
+  if (path.startsWith('http')) return path;
+  const cleanPath = path.replace(/^\.\//, '');
+  const isGitHub = window.location.hostname.includes('github.io');
+  return isGitHub ? `/restaurant-page/${cleanPath}` : `/${cleanPath}`;
+};
+
 export class MenuPage {
     constructor() {
         this.container = document.getElementById('main');
@@ -57,53 +65,53 @@ render() {
     }
 
     updateGrid() {
-        const grid = document.getElementById('menu-items-grid');
-        if (!grid) return;
+const grid = document.getElementById('menu-items-grid');
+    if (!grid) return;
 
-        if (this.activeCategory === 'all') {
-            // VIEW 1: Show only Category Names and Images
-            grid.innerHTML = menuData.map(cat => `
-                <div class="category__card" data-id="${cat.id}">
-                    <div class="category__card--image">
-                        <img src="${cat.categoryImage}" alt="${cat.categoryName}">
-                    </div>
-                    <div class="category__card--overlay">
-                        <h3>${cat.categoryName}</h3>
-                    </div>
+    if (this.activeCategory === 'all') {
+        // VIEW 1: All Categories Overview
+        grid.innerHTML = menuData.map(cat => `
+            <div class="category__card" data-id="${cat.id}">
+                <div class="category__card--image">
+                    <img src="${getAssetPath(cat.categoryImage)}" alt="${cat.categoryName}">
                 </div>
-            `).join('');
+                <div class="category__card--overlay">
+                    <h3>${cat.categoryName}</h3>
+                </div>
+            </div>
+        `).join('');
 
-            // Click events for the Category Cards
-            grid.querySelectorAll('.category__card').forEach(card => {
-                card.addEventListener('click', () => {
-                    this.setActiveCategory(card.dataset.id);
-                });
+        // Re-attach click events for category cards
+        grid.querySelectorAll('.category__card').forEach(card => {
+            card.addEventListener('click', () => {
+                this.setActiveCategory(card.dataset.id);
             });
+        });
 
-        } else {
-            // VIEW 2: Show specific items for the selected category
-            const category = menuData.find(cat => cat.id === this.activeCategory);
-            const items = category ? category.items : [];
+    } else {
+        // VIEW 2: Specific Items for Category
+        const category = menuData.find(cat => cat.id === this.activeCategory);
+        const items = category ? category.items : [];
 
-            grid.innerHTML = items.map(item => `
-                <div class="menu__card">
-                    <div class="menu__card--image">
-                        <img src="${item.itemImage || 'https://via.placeholder.com/300x200?text=No+Image'}" alt="${item.itemName}">
-                    </div>
-                    <div class="menu__card--info">
-                        <div class="menu__card--header">
-                            <h3>${item.itemName}</h3>
-                            <span class="price">$${item.itemPrice}</span>
-                        </div>
-                        <p>${item.itemDescription}</p>
-                        <div class="menu__card--nutrition">
-                            <span>🔥 ${item.nutritionalInfo.calories} Cal | ${item.nutritionalInfo.allergens}</span>
-                        </div>
-                       ${button('Add to Order', "/coming-soon")}
-                    </div>
+        grid.innerHTML = items.map(item => `
+            <div class="menu__card">
+                <div class="menu__card--image">
+                    <img src="${getAssetPath(item.itemImage)}" alt="${item.itemName}">
                 </div>
-            `).join('');
-        }
+                <div class="menu__card--info">
+                    <div class="menu__card--header">
+                        <h3>${item.itemName}</h3>
+                        <span class="price">$${item.itemPrice}</span>
+                    </div>
+                    <p>${item.itemDescription}</p>
+                    <div class="menu__card--nutrition">
+                        <span>🔥 ${item.nutritionalInfo.calories} Cal | ${item.nutritionalInfo.allergens}</span>
+                    </div>
+                    ${button('Add to Order', "/coming-soon")}
+                </div>
+            </div>
+        `).join('');
+    }
     }
 
         setActiveCategory(id) {
