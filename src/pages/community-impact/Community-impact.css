@@ -55,6 +55,11 @@
         }
     }
 
+    .community__header--bg  {
+        height: 70vh;
+        
+    }
+
     .community__content {
 
         padding: 0 14vw;
