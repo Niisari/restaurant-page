@@ -7,6 +7,11 @@
     padding: 0 1rem;
     margin-bottom: 2rem;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 
     .header__title,
     .header__description {
@@ -121,6 +126,14 @@
 }
 
 @media only screen and (min-width: 768px) {
+
+  .header__image--bg {
+
+    .header__description {
+      width: 30%;
+    }
+  }
+
   .carousel__section {
     display: flex;
     align-items: center;
