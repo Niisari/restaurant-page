@@ -66,7 +66,7 @@ export class HomePage {
               
               <div class="menu__preview--featured">
                   ${categoriesToDisplay.map(category => `
-                    <a href="/menu?cat=${category.id}" class="category__card" data-category-id="${category.id}">
+                    <button data-path="/menu?cat=${category.id}" class="category__card" data-category-id="${category.id}">
                       <div class="category__card--featured" data-category-id="${category.id}">
                           <div class="category__image-container">
                               <img src="${category.categoryImage || 'default-category.jpg'}" alt="" />
@@ -75,7 +75,7 @@ export class HomePage {
                               <h3 class="category__name">${category.categoryName}</h3>
                           </div>
                       </div>
-                    </a>
+                    </button>
                   `).join('')}
               </div>
 

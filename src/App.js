@@ -32,14 +32,14 @@ export default class App {
 
     init() {
         document.addEventListener('click', (e) => {
-            // This looks for the button even if you click the text inside it
-            const btn = e.target.closest('.button'); 
-            
-            if (btn && btn.dataset.path) {
-                e.preventDefault();
-                this.handleNavigation(btn.dataset.path);
-            }
-        });
+                // Look for ANY element (or its parent) that has data-path
+                const clickable = e.target.closest('[data-path]'); 
+                
+                if (clickable) {
+                    e.preventDefault();
+                    this.handleNavigation(clickable.getAttribute('data-path'));
+                }
+            });
 
         window.onpopstate = () => this.renderPage(window.location.pathname);
         this.render();
