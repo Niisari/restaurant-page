@@ -31,6 +31,15 @@ export default class App {
     }
 
     init() {
+        const params = new URLSearchParams(window.location.search);
+        const redirectPath = params.get('p');
+
+        if (redirectPath) {
+        // Clean the URL (remove the ?p=/path) and update the history state
+        window.history.replaceState(null, null, window.location.pathname.split('?')[0]);
+        // Then render that specific page
+        this.renderPage(redirectPath);
+    }
         // Handle the "Back" and "Forward" browser buttons
         window.onpopstate = () => this.renderPage(window.location.pathname);
         this.render();
@@ -42,8 +51,11 @@ export default class App {
     }
 
     renderPage(path) {
+        const cleanPath = path.replace('/restaurant-page', '') || '/';
+        
         this.mainContainer.innerHTML = ''; 
-        const page = this.routes[path] || this.routes['/']; // Fallback to Home
+        const page = this.routes[cleanPath] || this.routes['/'];
+
         this.mainContainer.classList.add('page__fade--in');
 
         setTimeout(() => {
