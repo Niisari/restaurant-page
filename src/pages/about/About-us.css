@@ -365,9 +365,25 @@
     .local__stories--list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
 
+        gap: 1rem;
         padding: 1rem 0 4rem;
+    }
+
+    .community__impact--content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 1rem;
+        padding: 0 6vw 0;
+    }
+
+    .community__impact--item {
+        margin: 0;
+    }
+
+    .community__impact--button {
+        margin: 0 auto;
     }
 }
 

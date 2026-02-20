@@ -170,9 +170,10 @@ export class AboutPage {
                                 <img src="${FoodImages.communityImpact04}"/>
                                 <h2>PLANTING IT FORWARD</h2>
                             </div>
-
-                            <a href="/community-impact"><button>${button('Learn More')}</button></a>
                         </div>
+                            <div class="community__impact--button">
+                                <a href="/community-impact"><button>${button('Learn More')}</button></a>
+                            </div>
                     </div>
 
                  </section>
