@@ -31,6 +31,17 @@ export default class App {
     }
 
     init() {
+        document.addEventListener('click', (e) => {
+        const anchor = e.target.closest('a');
+        
+        // Only intercept if it's an internal link (starts with /)
+        if (anchor && anchor.getAttribute('href').startsWith('/')) {
+            e.preventDefault();
+            const path = anchor.getAttribute('href');
+            this.handleNavigation(path);
+        }
+        });
+
         const params = new URLSearchParams(window.location.search);
         const redirectPath = params.get('p');
 
@@ -52,7 +63,7 @@ export default class App {
 
     renderPage(path) {
         const cleanPath = path.replace('/restaurant-page', '') || '/';
-        
+
         this.mainContainer.innerHTML = ''; 
         const page = this.routes[cleanPath] || this.routes['/'];
 
