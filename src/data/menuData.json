@@ -1,13 +1,13 @@
 [
     {
         "id": "category-starters",
-        "categoryImage": "images/cactus-blossom-1.webp",
+        "categoryImage": "./images/cactus-blossom-1.webp",
         "categoryName": "JUST FOR STARTERS",
         "currency": "$",
         "items": [
             {
                 "id": "item-starters-1",
-                "itemImage": "/images/cactus-blossom-1.webp",
+                "itemImage": "./images/cactus-blossom-1.webp",
                 "itemName": "Cactus Blossom",
                 "itemDescription": "Great for sharing! Texas-sized, golden-fried onion with Cajun sauce for dipping",
                 "itemPrice": 6.99,
@@ -143,7 +143,7 @@
         "items": [
             {
                 "id": "hand-Cut-steak-1",
-                "itemImage": "/images/Hand-Cut-Sirloin.webp",
+                "itemImage": "./images/Hand-Cut-Sirloin.webp",
                 "itemName": "Hand-Cut Sirloin",
                 "itemDescription": "Lean, juicy steak priced at a great value. Served with choice of two sides",
                 "itemPrice": 19.99,
@@ -162,7 +162,7 @@
             },
             {
                 "id": "item-steak-2",
-                "itemImage": "/images/new-york-strip.jpg",
+                "itemImage": "./images/new-york-strip.jpg",
                 "itemName": "New York Strip",
                 "itemDescription": "Similar flavor to the sirloin with extra tenderness. Served with choice of two sides",
                 "itemPrice": 19.99,
@@ -181,7 +181,7 @@
             },
             {
                 "id": "item-steak-3",
-                "itemImage": "/images/Bone-In-Ribeye.webp",
+                "itemImage": "./images/Bone-In-Ribeye.webp",
                 "itemName": "Bone-In Ribeye",
                 "itemDescription": "20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor. Served with choice of two sides",
                 "itemPrice": 19.99,
@@ -200,7 +200,7 @@
             },
             {
                 "id": "item-steak-4",
-                "itemImage": "/images/porterhouse-tbone.webp",
+                "itemImage": "./images/porterhouse-tbone.webp",
                 "itemName": "Porterhouse T-Bone",
                 "itemDescription": "Two steak cuts - filet and strip - in one Texas-sized 23oz steak. Served with choice of two sides",
                 "itemPrice": 19.99,
@@ -219,7 +219,7 @@
             },
             {
                 "id": "item-steak-5",
-                "itemImage": "/images/steak-kabob.webp",
+                "itemImage": "./images/steak-kabob.webp",
                 "itemName": "Steak Kabob",
                 "itemDescription": "Marinated steak with onion, mushroom, tomato, red pepper, green pepper served over seasoned rice with choice of one side",
                 "itemPrice": 19.99,
@@ -240,7 +240,7 @@
             },
             {
                 "id": "item-steak-6",
-                "itemImage": "/images/fillet-medallions.webp",
+                "itemImage": "./images/fillet-medallions.webp",
                 "itemName": "Filet Medallions",
                 "itemDescription": "Three tender filets (9 oz. total) topped with choice of Peppercorn or Portobello Mushroom sauce and served over seasoned rice",
                 "itemPrice": 19.99,
@@ -270,7 +270,7 @@
         "items": [
             {
                 "id": "Bone-Ribs-1",
-                "itemImage": "/images/12-slab-ribs.webp",
+                "itemImage": "./images/12-slab-ribs.webp",
                 "itemName": "1/2 Slab Ribs",
                 "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
                 "itemPrice": 6.9,
@@ -290,7 +290,7 @@
             },
             {
                 "id": "Bone-Ribs-2",
-                "itemImage": "/images/full-slab-ribs.avif",
+                "itemImage": "./images/full-slab-ribs.avif",
                 "itemName": "Full Slab Ribs",
                 "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
                 "itemPrice": 6.9,
@@ -318,7 +318,7 @@
         "items": [
             {
                 "id": "alabama-size-combo-1",
-                "itemImage": "/images/Grilled-BBQ-Chicken.webp",
+                "itemImage": "./images/Grilled-BBQ-Chicken.webp",
                 "itemName": "Grilled BBQ Chicken & Sirloin 6oz",
                 "itemDescription": "Marinated 1/2 lb. breast basted in BBQ sauce along with our lean, juicy sirloin steak at a great value",
                 "itemPrice": 6.99,
@@ -337,7 +337,7 @@
             },
             {
                 "id": "alabama-size-combo-2",
-                "itemImage": "/images/Chicken-Critters.webp",
+                "itemImage": "./images/Chicken-Critters.webp",
                 "itemName": "Chicken Critters® & Ribs",
                 "itemDescription": "All white meat chicken tenders dipped in buttermilk batter, then hand-breaded and golden-fried along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
                 "itemPrice": 6.99,
@@ -361,7 +361,7 @@
             },
             {
                 "id": "alabama-size-combo-3",
-                "itemImage": "/images/Chicken-Critters-Sirloin.webp",
+                "itemImage": "./images/Chicken-Critters-Sirloin.webp",
                 "itemName": "Chicken Critters® & Sirloin 6oz",
                 "itemDescription": "All white meat chicken tenders dipped in buttermilk batter, then hand-breaded and golden-fried along with our lean, juicy sirloin steak at a great value",
                 "itemPrice": 19.99,
@@ -383,7 +383,7 @@
             },
             {
                 "id": "alabama-size-combo-4",
-                "itemImage": "/images/sirlon-ribs01.webp",
+                "itemImage": "./images/sirlon-ribs01.webp",
                 "itemName": "Sirloin* & Ribs",
                 "itemDescription": "Our lean, juicy sirloin steak at a great value along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
                 "itemPrice": 6.99,
@@ -403,7 +403,7 @@
             },
             {
                 "id": "alabama-size-combo-5",
-                "itemImage": "/images/sirlon-ribs.webp",
+                "itemImage": "./images/sirlon-ribs.webp",
                 "itemName": "Ribeye* 12oz & Ribs",
                 "itemDescription": "Very juicy and flavorful from the marbling throughout the steak along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
                 "itemPrice": 19.99,
@@ -423,7 +423,7 @@
             },
             {
                 "id": "alabama-size-combo-6",
-                "itemImage": "/images/Dallas-Filet.webp",
+                "itemImage": "./images/Dallas-Filet.webp",
                 "itemName": "Filet* 6oz & Ribs",
                 "itemDescription": "Our most tender steak that is lean and melts in your mouth along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
                 "itemPrice": 19.99,
@@ -451,7 +451,7 @@
         "items": [
             {
                 "id": "dockside-favorites-1",
-                "itemImage": "/images/grilled-salmon.webp",
+                "itemImage": "./images/grilled-salmon.webp",
                 "itemName": "Grilled Salmon*",
                 "itemDescription": "A Norwegian fillet salmon steak grilled moist and tender then topped with our lemon pepper butter. Served with choice of two sides",
                 "itemPrice": 6.99,
@@ -471,7 +471,7 @@
             },
             {
                 "id": "dockside-favorites-2",
-                "itemImage": "/images/fried-catfish.webp",
+                "itemImage": "./images/fried-catfish.webp",
                 "itemName": "Fried Catfish",
                 "itemDescription": "U.S. farm-raised catfish breaded in southern cornmeal and fried to a golden brown. Served with choice of two sides.",
                 "itemPrice": 6.99,
@@ -501,7 +501,7 @@
         "items": [
             {
                 "id": "chicken-specialties-1",
-                "itemImage": "/images/Country-Fried-Chicken.webp",
+                "itemImage": "./images/Country-Fried-Chicken.webp",
                 "itemName": "Country Fried Chicken",
                 "itemDescription": "Tender, white meat chicken breast, hand-battered, golden-fried and topped with choice of gravy. Served with choice of two sides",
                 "itemPrice": 14.99,
@@ -523,7 +523,7 @@
             },
             {
                 "id": "chicken-specialties-2",
-                "itemImage": "/images/chicken-critters.webp",
+                "itemImage": "./images/chicken-critters.webp",
                 "itemName": "Chicken Critters®",
                 "itemDescription": "All white meat chicken tenders, golden-fried and lightly crispy. Served with choice of two sides",
                 "itemPrice": 13.99,
@@ -545,7 +545,7 @@
             },
             {
                 "id": "chicken-specialties-3",
-                "itemImage": "/images/smothered-chicken.jpg",
+                "itemImage": "./images/smothered-chicken.jpg",
                 "itemName": "Smothered Chicken",
                 "itemDescription": "Grilled, marinated chicken breast with sautéed onions, sautéed mushrooms and choice of melted jack cheese or made-from-scratch gravy. Served with choice of two sides",
                 "itemPrice": 14.99,
@@ -565,7 +565,7 @@
             },
             {
                 "id": "chicken-specialties-4",
-                "itemImage": "/images/Herb-Crusted-Chicken-1.webp",
+                "itemImage": "./images/Herb-Crusted-Chicken-1.webp",
                 "itemName": "Herb Crusted Chicken",
                 "itemDescription": "Boneless, marinated chicken breast seasoned with a blend of herbs and spices, then flame-grilled and served with a caramelized lemon for extra flavor. Served with choice of two sides",
                 "itemPrice": 14.99,
@@ -584,7 +584,7 @@
             },
             {
                 "id": "chicken-specialties-5",
-                "itemImage": "/images/grilled-bbq-chicken.png",
+                "itemImage": "./images/grilled-bbq-chicken.png",
                 "itemName": "Grilled BBQ Chicken",
                 "itemDescription": "Marinated ½ lb. breast served with choice of two sides",
                 "itemPrice": 14.49,
@@ -603,7 +603,7 @@
             },
             {
                 "id": "chicken-specialties-6",
-                "itemImage": "/images/Portobello-Mushroom-Chicken.webp",
+                "itemImage": "./images/Portobello-Mushroom-Chicken.webp",
                 "itemName": "Portobello Mushroom Chicken",
                 "itemDescription": "Grilled, marinated chicken breast with Portobello Mushroom sauce, jack cheese and parmesan cheese. Served with choice of two sides",
                 "itemPrice": 15.99,
@@ -633,7 +633,7 @@
         "items": [
             {
                 "id": "country-dinners-1",
-                "itemImage": "/images/Grilled-Pork-Chops.webp",
+                "itemImage": "./images/Grilled-Pork-Chops.webp",
                 "itemName": "Grilled Pork Chops",
                 "itemDescription": "Boneless chops seasoned and served with Peppercorn sauce",
                 "itemPrice": 16.99,
@@ -655,7 +655,7 @@
             },
             {
                 "id": "country-dinners-2",
-                "itemImage": "/images/Pulled-Pork-Dinner.png",
+                "itemImage": "./images/Pulled-Pork-Dinner.png",
                 "itemName": "Pulled Pork Dinner",
                 "itemDescription": "Tender, slow-cooked BBQ pork served with toasted fresh-baked bread",
                 "itemPrice": 14.99,
@@ -678,7 +678,7 @@
             },
             {
                 "id": "country-dinners-3",
-                "itemImage": "/images/Country-Fried-Sirloin.jpg",
+                "itemImage": "./images/Country-Fried-Sirloin.jpg",
                 "itemName": "Country Fried Sirloin",
                 "itemDescription": "Hand-battered, fresh-cut sirloin served crispy and golden, topped with cream gravy",
                 "itemPrice": 6.99,
@@ -700,7 +700,7 @@
             },
             {
                 "id": "country-dinners-4",
-                "itemImage": "/images/Beef-Tips.webp",
+                "itemImage": "./images/Beef-Tips.webp",
                 "itemName": "Beef Tips",
                 "itemDescription": "Cuts of steak with sautéed mushrooms, onions, brown gravy and sour cream over seasoned rice or mashed potatoes and one side",
                 "itemPrice": 16.49,
@@ -724,13 +724,13 @@
     },
     {
         "id": "salad",
-        "categoryImage": "/images/house-salad.webp",
+        "categoryImage": "./images/house-salad.webp",
         "categoryName": "Salads",
         "currency": "$",
         "items": [
             {
                 "id": "item-salad-01",
-                "itemImage": "/images/Grilled-Chicken-Salad.webp",
+                "itemImage": "./images/Grilled-Chicken-Salad.webp",
                 "itemName": "Grilled Chicken Salad",
                 "itemDescription": "Crisp cold greens, strips of marinated chicken, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
                 "itemPrice": 15.49,
@@ -751,7 +751,7 @@
             },
             {
                 "id": "item-salad-02",
-                "itemImage": "/images/Grilled-Salmon-Salad.webp",
+                "itemImage": "./images/Grilled-Salmon-Salad.webp",
                 "itemName": "Grilled Salmon Salad",
                 "itemDescription": "Crisp cold greens, grilled salmon, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
                 "itemPrice": 18.99,
@@ -774,7 +774,7 @@
             {
                 "id": "item-salad-03",
                 "itemName": "Chicken Caesar Salad",
-                "itemImage": "/images/Chicken-Caesar-Salad.webp",
+                "itemImage": "./images/Chicken-Caesar-Salad.webp",
                 "itemDescription": "Tender strips of grilled chicken with crisp hearts of romaine, Parmesan cheese, croutons and zesty Caesar dressing.",
                 "itemPrice": 15.49,
                 "nutritionalInfo": {
@@ -795,7 +795,7 @@
             },
             {
                 "id": "item-salad-04",
-                "itemImage": "/images/Salmon-Caesar-Salad.webp",
+                "itemImage": "./images/Salmon-Caesar-Salad.webp",
                 "itemName": "Salmon Caesar Salad",
                 "itemDescription": "Grilled salmon tossed with crisp hearts of romaine, parmesan cheese, croutons and zesty Caesar dressing.",
                 "itemPrice": 18.99,
@@ -817,7 +817,7 @@
             },
             {
                 "id": "item-salad-05",
-                "itemImage": "/images/Chicken-Critter-Salad.webp",
+                "itemImage": "./images/Chicken-Critter-Salad.webp",
                 "itemName": "Chicken Critter Salad",
                 "itemDescription": "Hot, crispy chicken tenders piled high on a bed of cold greens with jack and cheddar cheeses, egg, tomato and bacon.",
                 "itemPrice": 15.49,
@@ -838,7 +838,7 @@
             },
             {
                 "id": "item-salad-06",
-                "itemImage": "/images/Ceasar-Salad.avif",
+                "itemImage": "./images/Ceasar-Salad.avif",
                 "itemName": "Caesar Salad",
                 "itemDescription": "Crisp hearts of romaine, fresh Parmesan cheese and made-from-scratch croutons tossed with our zesty Caesar dressing.",
                 "itemPrice": 6.99,
@@ -868,7 +868,7 @@
         "items": [
             {
                 "id": "item-sandwich-01",
-                "itemImage": "/images/All-American-Cheeseburger.webp",
+                "itemImage": "./images/All-American-Cheeseburger.webp",
                 "itemName": "All-American Cheeseburger",
                 "itemDescription": "Our classic 1/2 lb. burger with American cheese, lettuce, tomato, and onion on a toasted bun. Served with steak fries and a pickle spear.",
                 "itemPrice": 12.99,
@@ -888,7 +888,7 @@
             },
             {
                 "id": "item-sandwich-02",
-                "itemImage": "/images/Bacon-Cheeseburger.jpg",
+                "itemImage": "./images/Bacon-Cheeseburger.jpg",
                 "itemName": "Bacon Cheeseburger",
                 "itemDescription": "Our classic burger topped with crispy bacon and American cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
                 "itemPrice": 13.99,
@@ -909,7 +909,7 @@
             },
             {
                 "id": "item-sandwich-03",
-                "itemImage": "/images/Smokehouse-Burger.jpg",
+                "itemImage": "./images/Smokehouse-Burger.jpg",
                 "itemName": "Smokehouse Burger",
                 "itemDescription": "1/2 lb. burger with sautéed mushrooms, onions, BBQ sauce, American and jack cheeses. Served with steak fries and a pickle spear.",
                 "itemPrice": 14.49,
@@ -929,7 +929,7 @@
             },
             {
                 "id": "item-sandwich-04",
-                "itemImage": "/images/Pulled-Pork-Sandwich.webp",
+                "itemImage": "./images/Pulled-Pork-Sandwich.webp",
                 "itemName": "Pulled Pork Sandwich",
                 "itemDescription": "Tender, slow-cooked BBQ pulled pork piled high on a toasted bun. Served with steak fries and a pickle spear.",
                 "itemPrice": 12.49,
@@ -950,7 +950,7 @@
             },
             {
                 "id": "item-sandwich-05",
-                "itemImage": "/images/BBQ-Chicken-Sandwich.webp",
+                "itemImage": "./images/BBQ-Chicken-Sandwich.webp",
                 "itemName": "BBQ Chicken Sandwich",
                 "itemDescription": "Marinated and grilled chicken breast basted with BBQ sauce, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
                 "itemPrice": 12.99,
@@ -970,7 +970,7 @@
             },
             {
                 "id": "item-sandwich-06",
-                "itemImage": "/images/Mushroom-Jack-Chicken-Sandwich.webp",
+                "itemImage": "./images/Mushroom-Jack-Chicken-Sandwich.webp",
                 "itemName": "Mushroom Jack Chicken Sandwich",
                 "itemDescription": "Grilled chicken breast with sautéed mushrooms, melted jack cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
                 "itemPrice": 13.49,
@@ -998,7 +998,7 @@
         "items": [
             {
                 "id": "side-01",
-                "itemImage": "/images/Mashed-Potatoes.webp",
+                "itemImage": "./images/Mashed-Potatoes.webp",
                 "itemName": "Mashed Potatoes",
                 "itemDescription": "Our classic mashed potatoes.",
                 "itemPrice": 6.99,
@@ -1017,7 +1017,7 @@
             },
             {
                 "id": "side-02",
-                "itemImage": "/images/Buttered-Corn.jpg",
+                "itemImage": "./images/Buttered-Corn.jpg",
                 "itemName": "Buttered Corn",
                 "itemDescription": "Our classic buttered corn.",
                 "itemPrice": 6.99,
@@ -1034,7 +1034,7 @@
             },
             {
                 "id": "side-03",
-                "itemImage": "/images/Steamed-Vegetables.jpg",
+                "itemImage": "./images/Steamed-Vegetables.jpg",
                 "itemName": "Steamed Vegetables",
                 "itemDescription": "Our classic steamed vegetables.",
                 "itemPrice": 6.99,
@@ -1051,7 +1051,7 @@
             },
             {
                 "id": "side-04",
-                "itemImage": "/images/Green-Beans.jpg",
+                "itemImage": "./images/Green-Beans.jpg",
                 "itemName": "Green Beans",
                 "itemDescription": "Our classic green beans.",
                 "itemPrice": 6.99,
@@ -1069,7 +1069,7 @@
             },
             {
                 "id": "side-05",
-                "itemImage": "/images/house-salad.webp",
+                "itemImage": "./images/house-salad.webp",
                 "itemName": "House Salad",
                 "itemDescription": "Our classic house salad.",
                 "itemPrice": 6.99,
@@ -1089,7 +1089,7 @@
             },
             {
                 "id": "side-06",
-                "itemImage": "/images/Seasoned-Rice.jpg",
+                "itemImage": "./images/Seasoned-Rice.jpg",
                 "itemName": "Seasoned Rice",
                 "itemDescription": "Rice cooked with a blend of spices.",
                 "itemPrice": 6.99,
@@ -1108,7 +1108,7 @@
             },
             {
                 "id": "side-07",
-                "itemImage": "/images/Sauteed-Onions.jpg",
+                "itemImage": "./images/Sauteed-Onions.jpg",
                 "itemName": "Sauteed Onions",
                 "itemDescription": "Sauteed onions with a blend of spices.",
                 "itemPrice": 6.99,
@@ -1126,7 +1126,7 @@
             },
             {
                 "id": "side-08",
-                "itemImage": "/images/Sauteed-Mushrooms.webp",
+                "itemImage": "./images/Sauteed-Mushrooms.webp",
                 "itemName": "Sauteed Mushrooms",
                 "itemDescription": "Sauteed mushrooms with a blend of spices.",
                 "itemPrice": 6.99,
@@ -1144,7 +1144,7 @@
             },
             {
                 "id": "side-09",
-                "itemImage": "/images/Apple-Sauce.jpg",
+                "itemImage": "./images/Apple-Sauce.jpg",
                 "itemName": "Applesauce",
                 "itemDescription": "Our classic applesauce.",
                 "itemPrice": 6.99,
@@ -1159,7 +1159,7 @@
             },
             {
                 "id": "side-10",
-                "itemImage": "/images/Texas-Red-Chili.webp",
+                "itemImage": "./images/Texas-Red-Chili.webp",
                 "itemName": "Texas Red Chili (Cup)",
                 "itemDescription": "Our classic Texas Red Chili.",
                 "itemPrice": 6.99,
@@ -1178,7 +1178,7 @@
             },
             {
                 "id": "side-11",
-                "itemImage": "/images/Side-Kick-Of-Ribs.jpg",
+                "itemImage": "./images/Side-Kick-Of-Ribs.jpg",
                 "itemName": "Sidekick of Ribs",
                 "itemDescription": "Our classic sidekick of ribs.",
                 "itemPrice": 6.99,
@@ -1196,7 +1196,7 @@
             },
             {
                 "id": "side-12",
-                "itemImage": "/images/Mac-and-Cheese.webp",
+                "itemImage": "./images/Mac-and-Cheese.webp",
                 "itemName": "Mac & Cheese",
                 "itemDescription": "Our classic mac and cheese.",
                 "itemPrice": 6.99,
@@ -1224,7 +1224,7 @@
         "items": [
             {
                 "id": "kids-01",
-                "itemImage": "/images/Mini-Cheeseburgers.webp",
+                "itemImage": "./images/Mini-Cheeseburgers.webp",
                 "itemName": "Mini-Cheeseburgers",
                 "itemDescription": "Two small burgers on our fresh-baked bread, topped with American cheese. Served with choice of one side.",
                 "itemPrice": 6.99,
@@ -1244,7 +1244,7 @@
             },
             {
                 "id": "kids-02",
-                "itemImage": "/images/Jr-Chicken-Tenders.png",
+                "itemImage": "./images/Jr-Chicken-Tenders.png",
                 "itemName": "Jr. Chicken Tenders",
                 "itemDescription": "All white-meat chicken breaded and fried to a golden brown. Served with choice of one side.",
                 "itemPrice": 6.49,
@@ -1264,7 +1264,7 @@
             },
             {
                 "id": "kids-03",
-                "itemImage": "/images/Grilled-Chicken-Kids.png",
+                "itemImage": "./images/Grilled-Chicken-Kids.png",
                 "itemName": "Grilled Chicken",
                 "itemDescription": "Strips of fresh, boneless chicken breast, lightly seasoned and grilled. Served with choice of one side.",
                 "itemPrice": 6.49,
@@ -1281,7 +1281,7 @@
             },
             {
                 "id": "kids-04",
-                "itemImage": "/images/Lil-Dillo-Bites.jpg",
+                "itemImage": "./images/Lil-Dillo-Bites.jpg",
                 "itemName": "Lil' Dillo Steak Bites",
                 "itemDescription": "Grilled steak pieces for younger Texas tikes, cooked to their liking. Served with choice of one side.",
                 "itemPrice": 7.99,
@@ -1298,7 +1298,7 @@
             },
             {
                 "id": "kids-05",
-                "itemImage": "/images/Mac-and-Cheese.jpg",
+                "itemImage": "./images/Mac-and-Cheese.jpg",
                 "itemName": "Macaroni and Cheese",
                 "itemDescription": "Our classic macaroni and cheese for younger Texas tikes. Served with choice of one side.",
                 "itemPrice": 6.99,
@@ -1318,7 +1318,7 @@
             },
             {
                 "id": "kids-06",
-                "itemImage": "/images/All-Beef-Hot-Dog.webp",
+                "itemImage": "./images/All-Beef-Hot-Dog.webp",
                 "itemName": "All-Beef Hot Dog",
                 "itemDescription": "A classic all-beef hot dog served on a bun. Add chili 'n cheese for a small upcharge.",
                 "itemPrice": 5.99,
@@ -1338,7 +1338,7 @@
             },
             {
                 "id": "ranger-01",
-                "itemImage": "/images/Chicken-Critters-Basket.jpg",
+                "itemImage": "./images/Chicken-Critters-Basket.jpg",
                 "itemName": "Chicken Critters® Basket",
                 "itemDescription": "Golden-fried, all white-meat strips. Larger portion for older kids. Served with choice of one side.",
                 "itemPrice": 9.49,
@@ -1358,7 +1358,7 @@
             },
             {
                 "id": "ranger-02",
-                "itemImage": "/images/Andy-Steak.jpg",
+                "itemImage": "./images/Andy-Steak.jpg",
                 "itemName": "Andy's Steak*",
                 "itemDescription": "A 6 oz. hand-cut Sirloin steak seasoned and grilled to perfection. Served with choice of one side.",
                 "itemPrice": 11.99,
@@ -1375,7 +1375,7 @@
             },
             {
                 "id": "ranger-03",
-                "itemImage": "/images/Ranger-Meal-Ranger-Rib-Basket.webp",
+                "itemImage": "./images/Ranger-Meal-Ranger-Rib-Basket.webp",
                 "itemName": "Ranger Rib Basket",
                 "itemDescription": "A hearty portion of our award-winning, fall-off-the-bone ribs. Served with choice of one side.",
                 "itemPrice": 12.49,
@@ -1395,13 +1395,13 @@
     },
     {
         "id": "beverages",
-        "categoryImage": "/images/beverages.webp",
+        "categoryImage": "./images/beverages.webp",
         "categoryName": "Beverages",
         "currency": "$",
         "items": [
             {
                 "id": "bev-01",
-                "itemImage": "/images/beverages.webp",
+                "itemImage": "./images/beverages.webp",
                 "itemName": "20oz Fountain Drinks",
                 "itemDescription": "Choice of Coca-Cola products. Prices listed are for TO-GO beverages only. No refills.",
                 "itemPrice": 2.99,
@@ -1416,7 +1416,7 @@
             },
             {
                 "id": "bev-02",
-                "itemImage": "/images/20-oz-Lemonade.webp",
+                "itemImage": "./images/20-oz-Lemonade.webp",
                 "itemName": "20 oz Lemonade",
                 "itemDescription": "Refreshing, ice-cold lemonade. Prices listed are for TO-GO beverages only. No refills.",
                 "itemPrice": 3.29,
@@ -1431,7 +1431,7 @@
             },
             {
                 "id": "bev-03",
-                "itemImage": "/images/20-oz-Iced-Tea.webp",
+                "itemImage": "./images/20-oz-Iced-Tea.webp",
                 "itemName": "20 oz Iced Tea",
                 "itemDescription": "Freshly brewed unsweetened iced tea. Prices listed are for TO-GO beverages only. No refills.",
                 "itemPrice": 2.99,
@@ -1446,7 +1446,7 @@
             },
             {
                 "id": "bev-04",
-                "itemImage": "/images/20-oz-Sweet-Tea.png",
+                "itemImage": "./images/20-oz-Sweet-Tea.png",
                 "itemName": "20 oz Sweet Tea",
                 "itemDescription": "Freshly brewed tea sweetened with pure cane sugar. Prices listed are for TO-GO beverages only. No refills.",
                 "itemPrice": 2.99,
@@ -1461,7 +1461,7 @@
             },
             {
                 "id": "bev-05",
-                "itemImage": "/images/Bottled-Water.webp",
+                "itemImage": "./images/Bottled-Water.webp",
                 "itemName": "Bottled Water",
                 "itemDescription": "Purified bottled water for on-the-go hydration.",
                 "itemPrice": 2.49,
@@ -1476,7 +1476,7 @@
             },
             {
                 "id": "bev-06",
-                "itemImage": "/images/Mix-Match-Tea-or-Lemonade.webp",
+                "itemImage": "./images/Mix-Match-Tea-or-Lemonade.webp",
                 "itemName": "Mix & Match Tea or Lemonade",
                 "itemDescription": "Create your own blend of our fresh-brewed tea and lemonade (Arnold Palmer style).",
                 "itemPrice": 3.29,
@@ -1499,7 +1499,7 @@
         "items": [
             {
                 "id": "dessert-01",
-                "itemImage": "/images/Grannys-Apple-Classic.webp",
+                "itemImage": "./images/Grannys-Apple-Classic.webp",
                 "itemName": "Granny's Apple Classic",
                 "itemDescription": "Homestyle slice of apple pie topped with vanilla ice cream and honey cinnamon caramel sauce.",
                 "itemPrice": 7.99,
@@ -1519,7 +1519,7 @@
             },
             {
                 "id": "dessert-02",
-                "itemImage": "/images/strawberry-cheesecake.jpg",
+                "itemImage": "./images/strawberry-cheesecake.jpg",
                 "itemName": "Strawberry Cheesecake",
                 "itemDescription": "Slice of classic New York-style cheesecake topped with strawberry sauce and whipped cream.",
                 "itemPrice": 7.49,
@@ -1540,7 +1540,7 @@
             },
             {
                 "id": "dessert-03",
-                "itemImage": "/images/Big-Ol-Brownie.webp",
+                "itemImage": "./images/Big-Ol-Brownie.webp",
                 "itemName": "Big Ol' Brownie",
                 "itemDescription": "Chocolate brownie topped with vanilla ice cream and hot chocolate sauce.",
                 "itemPrice": 7.99,
@@ -1569,7 +1569,7 @@
         "items": [
             {
                 "id": "bev-margarita-01",
-                "itemImage": "/images/House-Rocks-Margarita.webp",
+                "itemImage": "./images/House-Rocks-Margarita.webp",
                 "itemName": "House Rocks Margarita",
                 "itemDescription": "Our fresh, signature margarita sour mixed with Dorado® Gold Tequila. Served on the rocks.",
                 "itemPrice": 2.99,
@@ -1584,7 +1584,7 @@
             },
             {
                 "id": "bev-margarita-02",
-                "itemImage": "/images/House-Frozen-Margarita.webp",
+                "itemImage": "./images/House-Frozen-Margarita.webp",
                 "itemName": "House Frozen Margarita",
                 "itemDescription": "Our fresh, signature margarita sour mixed with Dorado® Gold Tequila, blended frozen.",
                 "itemPrice": 2.99,
@@ -1599,7 +1599,7 @@
             },
             {
                 "id": "bev-margarita-03",
-                "itemImage": "/images/The-Legend-Margarita.jpg",
+                "itemImage": "./images/The-Legend-Margarita.jpg",
                 "itemName": "The Legend Margarita",
                 "itemDescription": "A blend of Patrón® Silver, Reposado, and Añejo with Grand Marnier® and signature sour. Served with black lava salt.",
                 "itemPrice": 3.99,
@@ -1614,7 +1614,7 @@
             },
             {
                 "id": "bev-margarita-04",
-                "itemImage": "/images/Fruity-Margarita.jpg",
+                "itemImage": "./images/Fruity-Margarita.jpg",
                 "itemName": "Fruity Margarita",
                 "itemDescription": "Our House Margarita with your choice of Strawberry or Raspberry puree.",
                 "itemPrice": 2.99,
@@ -1629,7 +1629,7 @@
             },
             {
                 "id": "bev-margarita-05",
-                "itemImage": "/images/Mango-Margarita.jpg",
+                "itemImage": "./images/Mango-Margarita.jpg",
                 "itemName": "Mango Margarita",
                 "itemDescription": "Our House Margarita blended with mango puree and garnished with tajin chili lime salt.",
                 "itemPrice": 2.99,
@@ -1644,7 +1644,7 @@
             },
             {
                 "id": "bev-margarita-06",
-                "itemImage": "/images/Hurricane-Margarita.jpg",
+                "itemImage": "./images/Hurricane-Margarita.jpg",
                 "itemName": "Hurricane Margarita",
                 "itemDescription": "Captain Morgan® Spiced Rum, grenadine, orange, and pineapple juices blended with our house margarita.",
                 "itemPrice": 3.99,
@@ -1659,7 +1659,7 @@
             },
             {
                 "id": "bev-margarita-07",
-                "itemImage": "/images/Sangria-Margarita.jpg",
+                "itemImage": "./images/Sangria-Margarita.jpg",
                 "itemName": "Sangria Margarita",
                 "itemDescription": "Our House Margarita swirled with signature Sangria Red wine.",
                 "itemPrice": 3.99,
@@ -1682,7 +1682,7 @@
         "items": [
             {
                 "id": "bev-cocktail-01",
-                "itemImage": "/images/Cactus-Water.jpg",
+                "itemImage": "./images/Cactus-Water.jpg",
                 "itemName": "Cactus Water",
                 "itemDescription": "Espolón® Reposado Tequila, club soda, and 2 fresh limes with a tajin rim. (Also available with Mango).",
                 "itemPrice": 2.99,
@@ -1697,7 +1697,7 @@
             },
             {
                 "id": "bev-cocktail-02",
-                "itemImage": "/images/Titos-Soda.webp",
+                "itemImage": "./images/Titos-Soda.webp",
                 "itemName": "Tito's & Soda",
                 "itemDescription": "Tito's® Vodka mixed with club soda and a fresh lime garnish.",
                 "itemPrice": 2.99,
@@ -1712,7 +1712,7 @@
             },
             {
                 "id": "bev-cocktail-03",
-                "itemImage": "/images/Porch-Rocker.jpg",
+                "itemImage": "./images/Porch-Rocker.jpg",
                 "itemName": "Porch Rocker",
                 "itemDescription": "Deep Eddy® Lemon, Monin® blackberry syrup, and club soda with a lemon twist. (Also available with Strawberry).",
                 "itemPrice": 2.99,
@@ -1727,7 +1727,7 @@
             },
             {
                 "id": "bev-cocktail-04",
-                "itemImage": "/images/Old-Fashioned.jpg",
+                "itemImage": "./images/Old-Fashioned.jpg",
                 "itemName": "Old Fashioned",
                 "itemDescription": "Maker's Mark® Bourbon stirred together with bitters and our house Old Fashioned mix.",
                 "itemPrice": 2.99,
@@ -1742,7 +1742,7 @@
             },
             {
                 "id": "bev-cocktail-05",
-                "itemImage": "/images/Gin-Blossom.webp",
+                "itemImage": "./images/Gin-Blossom.webp",
                 "itemName": "Gin Blossom",
                 "itemDescription": "Tanqueray® Gin mixed with Minute Maid® Lemonade, strawberry puree, and club soda.",
                 "itemPrice": 2.99,
@@ -1757,7 +1757,7 @@
             },
             {
                 "id": "bev-lit-01",
-                "itemImage": "/images/Long-Island-Iced-Tea-L.I.T.webp",
+                "itemImage": "./images/Long-Island-Iced-Tea-L.I.T.webp",
                 "itemName": "Long Island Iced Tea",
                 "itemDescription": "Vodka, gin, and rum mixed with our sweet and sour, triple sec, and a splash of Coca-Cola®.",
                 "itemPrice": 2.99,
@@ -1772,7 +1772,7 @@
             },
             {
                 "id": "bev-lit-02",
-                "itemImage": "/images/Top-Shelf-L.I.T.jpg",
+                "itemImage": "./images/Top-Shelf-L.I.T.jpg",
                 "itemName": "Top Shelf L.I.T.",
                 "itemDescription": "Wheatley® Vodka, Tanqueray® Gin, and Bacardi® Rum mixed with our sweet and sour, triple sec, and a splash of Coca-Cola®.",
                 "itemPrice": 2.99,
@@ -1787,7 +1787,7 @@
             },
             {
                 "id": "bev-lit-03",
-                "itemImage": "/images/Southern-Whiskey-L.I.T.jpg",
+                "itemImage": "./images/Southern-Whiskey-L.I.T.jpg",
                 "itemName": "Southern Whiskey L.I.T.",
                 "itemDescription": "Jack Daniel's®, Jim Beam®, Southern Comfort® Black, and our sweet and sour with a splash of Coca-Cola®.",
                 "itemPrice": 2.99,
@@ -1802,7 +1802,7 @@
             },
             {
                 "id": "bev-cocktail-06",
-                "itemImage": "/images/Texas-Peach-Fuzz.jpg",
+                "itemImage": "./images/Texas-Peach-Fuzz.jpg",
                 "itemName": "Texas Peach Fuzz",
                 "itemDescription": "Tito's® Handmade Vodka and DeKuyper® Peachtree® Schnapps with cranberry and orange juices.",
                 "itemPrice": 2.99,
@@ -1817,7 +1817,7 @@
             },
             {
                 "id": "bev-cocktail-07",
-                "itemImage": "/images/Island-Cooler.webp",
+                "itemImage": "./images/Island-Cooler.webp",
                 "itemName": "Island Cooler",
                 "itemDescription": "Parrot Bay® Coconut Rum, DeKeyper® Peachtree® Schnapps, Minute Maid® Lemonade, sweet and sour, and Monin® Blue Curacao.",
                 "nutritionalInfo": {
@@ -1831,7 +1831,7 @@
             },
             {
                 "id": "bev-cocktail-08",
-                "itemImage": "/images/Jamaican-Cowboy.jpg",
+                "itemImage": "./images/Jamaican-Cowboy.jpg",
                 "itemName": "Jamaican Cowboy",
                 "itemDescription": "Malibu® Rum, DeKuyper® Peachtree® Schnapps, orange and pineapple juices with a splash of our house margarita.",
                 "nutritionalInfo": {
@@ -1853,7 +1853,7 @@
         "items": [
             {
                 "id": "bev-beer-01",
-                "itemImage": "/images/Budweiser.jpg",
+                "itemImage": "./images/Budweiser.jpg",
                 "itemName": "Budweiser",
                 "itemDescription": "Budweiser® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -1871,7 +1871,7 @@
             },
             {
                 "id": "bev-beer-02",
-                "itemImage": "/images/Bud-Light.jpg",
+                "itemImage": "./images/Bud-Light.jpg",
                 "itemName": "Bud Light",
                 "itemDescription": "Bud Light® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -1889,7 +1889,7 @@
             },
             {
                 "id": "bev-beer-03",
-                "itemImage": "/images/Millers-Lite.jpg",
+                "itemImage": "./images/Millers-Lite.jpg",
                 "itemName": "Miller Lite",
                 "itemDescription": "Miller Lite® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -1907,7 +1907,7 @@
             },
             {
                 "id": "bev-beer-04",
-                "itemImage": "/images/Coors-Light.webp",
+                "itemImage": "./images/Coors-Light.webp",
                 "itemName": "Coors Light",
                 "itemDescription": "Coors Light® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -1925,7 +1925,7 @@
             },
             {
                 "id": "bev-beer-05",
-                "itemImage": "/images/Michelob-Ultra.jpg",
+                "itemImage": "./images/Michelob-Ultra.jpg",
                 "itemName": "Michelob Ultra",
                 "itemDescription": "Michelob Ultra® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -1943,7 +1943,7 @@
             },
             {
                 "id": "bev-beer-06",
-                "itemImage": "/images/Heineken.jpg",
+                "itemImage": "./images/Heineken.jpg",
                 "itemName": "Heineken",
                 "itemDescription": "Heineken® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -1961,7 +1961,7 @@
             },
             {
                 "id": "bev-beer-07",
-                "itemImage": "/images/Sam-Adams.jpg",
+                "itemImage": "./images/Sam-Adams.jpg",
                 "itemName": "Sam Adams Boston Lager",
                 "itemDescription": "Ask your server about our current seasonal selection.",
                 "itemPrice": 1.99,
@@ -1979,7 +1979,7 @@
             },
             {
                 "id": "bev-beer-08",
-                "itemImage": "/images/Sam-Adams-Seasonal.jpg",
+                "itemImage": "./images/Sam-Adams-Seasonal.jpg",
                 "itemName": "Sam Adams Seasonal",
                 "itemDescription": "Ask your server about our current seasonal selection.",
                 "itemPrice": 1.99,
@@ -1997,7 +1997,7 @@
             },
             {
                 "id": "bev-beer-09",
-                "itemImage": "/images/Corona-Extra.jpg",
+                "itemImage": "./images/Corona-Extra.jpg",
                 "itemName": "Corona Extra",
                 "itemDescription": "Corona Extra® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -2015,7 +2015,7 @@
             },
             {
                 "id": "bev-beer-10",
-                "itemImage": "/images/Stella-Artois.jpg",
+                "itemImage": "./images/Stella-Artois.jpg",
                 "itemName": "Stella Artois",
                 "itemDescription": "Stella Artois® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -2033,7 +2033,7 @@
             },
             {
                 "id": "bev-beer-11",
-                "itemImage": "/images/Modelo-Especial.webp",
+                "itemImage": "./images/Modelo-Especial.webp",
                 "itemName": "Modelo Especial",
                 "itemDescription": "Modelo Especial® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -2051,7 +2051,7 @@
             },
             {
                 "id": "bev-beer-12",
-                "itemImage": "/images/Blue-Moon.jpg",
+                "itemImage": "./images/Blue-Moon.jpg",
                 "itemName": "Blue Moon",
                 "itemDescription": "Blue Moon® Lager Beer, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -2070,7 +2070,7 @@
             },
             {
                 "id": "bev-beer-13",
-                "itemImage": "/images/Angry-Orchard.jpg",
+                "itemImage": "./images/Angry-Orchard.jpg",
                 "itemName": "Angry Orchard Hard Cider",
                 "itemDescription": "Angry Orchard® Hard Cider, 1.5% ABV, Brewed in the USA.",
                 "itemPrice": 1.99,
@@ -2085,7 +2085,7 @@
             },
             {
                 "id": "bev-beer-14",
-                "itemImage": "/images/Heineken-0.0.jpg",
+                "itemImage": "./images/Heineken-0.0.jpg",
                 "itemName": "Heineken 0.0",
                 "itemDescription": "Non-alcoholic malt beverage.",
                 "itemPrice": 1.99,
@@ -2105,13 +2105,13 @@
     },
     {
         "id": "wine",
-        "categoryImage": "/images/wine.png",
+        "categoryImage": "./images/wine.png",
         "categoryName": "Wine",
         "currency": "$",
         "items": [
             {
                 "id": "bev-wine-01",
-                "itemImage": "/images/Josh-Cabernet.webp",
+                "itemImage": "./images/Josh-Cabernet.webp",
                 "itemName": "Josh® Cabernet",
                 "itemDescription": "Full-bodied flavor. Great with steaks or ribs.",
                 "itemPrice": 1.99,
@@ -2128,7 +2128,7 @@
             },
             {
                 "id": "bev-wine-02",
-                "itemImage": "/images/Meiomi-Pinot-Noir.jpg",
+                "itemImage": "./images/Meiomi-Pinot-Noir.jpg",
                 "itemName": "Meiomi® Pinot Noir",
                 "itemDescription": "Smooth cherry and strawberry flavors. Great with steaks or chicken.",
                 "itemPrice": 1.99,
@@ -2145,7 +2145,7 @@
             },
             {
                 "id": "bev-wine-03",
-                "itemImage": "/images/Dark-Horse-Cabernet.jpg",
+                "itemImage": "./images/Dark-Horse-Cabernet.jpg",
                 "itemName": "Dark Horse® Cabernet",
                 "itemDescription": "Big fruit flavor. Great with steaks or ribs.",
                 "itemPrice": 1.99,
@@ -2162,7 +2162,7 @@
             },
             {
                 "id": "bev-wine-04",
-                "itemImage": "/images/Canyon-Road-Merlot.webp",
+                "itemImage": "./images/Canyon-Road-Merlot.webp",
                 "itemName": "Canyon Road® Merlot",
                 "itemDescription": "Dark berry flavor. Great with steaks, chicken, or pork.",
                 "itemPrice": 1.99,
@@ -2179,7 +2179,7 @@
             },
             {
                 "id": "bev-wine-05",
-                "itemImage": "/images/Kendall-Jackson-Chardonnay.jpg",
+                "itemImage": "./images/Kendall-Jackson-Chardonnay.jpg",
                 "itemName": "Kendall-Jackson® Chardonnay",
                 "itemDescription": "Creamy, oak, and rich fruit flavor. Great with chicken, fish, or pork.",
                 "itemPrice": 1.99,
@@ -2196,7 +2196,7 @@
             },
             {
                 "id": "bev-wine-06",
-                "itemImage": "/images/Ecco-Domani-Pinot-Grigio.jpg",
+                "itemImage": "./images/Ecco-Domani-Pinot-Grigio.jpg",
                 "itemName": "Ecco Domani® Pinot Grigio",
                 "itemDescription": "Citrus taste. Great with chicken, fish, or pork.",
                 "itemPrice": 1.99,
@@ -2213,7 +2213,7 @@
             },
             {
                 "id": "bev-wine-07",
-                "itemImage": "/images/Nobile-Sauvignon-Blanc.jpeg",
+                "itemImage": "./images/Nobile-Sauvignon-Blanc.jpeg",
                 "itemName": "Nobilo® Sauvignon Blanc",
                 "itemDescription": "Fresh, crisp, and zesty fruit flavors. Best with salads, seafood, or chicken.",
                 "itemPrice": 1.99,
@@ -2230,7 +2230,7 @@
             },
             {
                 "id": "bev-wine-08",
-                "itemImage": "/images/Canyon-Road-Chardonnay.jpg",
+                "itemImage": "./images/Canyon-Road-Chardonnay.jpg",
                 "itemName": "Canyon Road® Chardonnay",
                 "itemDescription": "Creamy, rich flavor. Great with chicken, fish, or salads.",
                 "itemPrice": 1.99,
@@ -2247,7 +2247,7 @@
             },
             {
                 "id": "bev-wine-09",
-                "itemImage": "/images/Barefoot-Moscato.jpg",
+                "itemImage": "./images/Barefoot-Moscato.jpg",
                 "itemName": "Barefoot® Moscato",
                 "itemDescription": "Semi-sweet taste. Great with salads or chicken.",
                 "itemPrice": 1.99,
