@@ -30,6 +30,10 @@
     background-color: var(--Gold-Brass);
     padding: 0 1.5rem;
     margin: 2rem 0 0 0;
+    
+    .community__content--reverse {
+        padding: 0 0 1.5rem;
+    }
 
     .community__content--item {
         display: flex;
@@ -57,7 +61,6 @@
 
         .community__content--reverse.community__content--reverse {
             flex-direction: row-reverse;
-            padding: 0 0 1.5rem;
         }
 
         .community__content--item,
