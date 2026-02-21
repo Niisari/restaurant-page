@@ -214,7 +214,7 @@ export class ContactUsPage {
                                 </button>
 
                                 <div class="faq__answer">
-                                    <p>It’s possible that you have replied “Stop” to our messages in the past and thus have stopped receiving them. You can reply to our company number: 999-999-9991 with the word “Start” and that will allow the text messages to come through again.</p>
+                                    <p>It's possible that you have replied “Stop” to our messages in the past and thus have stopped receiving them. You can reply to our company number: 999-999-9991 with the word “Start” and that will allow the text messages to come through again.</p>
                                 </div>
                             </div>
 

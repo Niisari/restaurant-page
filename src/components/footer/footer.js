@@ -98,7 +98,7 @@ export class Footer {
                     height="auto"
                     />
                     <div class="footer__info">
-                        <span>&copy;2026 Varxy Steakhouse</span>
+                        <span>&copy;2026 Fictional Varxy Steakhouse</span>
                         <span>Training project made by <a href="https://github.com/Niisari" target="_blank" class="github__link">Yushi</a></span>
                     </div>
                 </div>
