@@ -4,8 +4,10 @@
     color: var(--Cream-Ivory);
     padding: 3.75rem 1.25rem;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+    min-height: 100vh;
 }
 
 /* Main Content Wrapper (Two Columns on Desktop) */
@@ -21,6 +23,9 @@
     border-radius: 0.5rem;
     box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.5);
     border: 1px solid #333;
+
+    max-height: 25rem;
+
 }
 
 /* Left Side: Text and Timer */

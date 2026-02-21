@@ -1,3 +1,8 @@
+.contact__page {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
 .contact__content {
 
     .contact__header--image {

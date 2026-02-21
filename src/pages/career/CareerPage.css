@@ -1,8 +1,3 @@
-.careers {
-    max-width: 100rem;
-    margin: 0 auto;
-}
-
 .careers--light {
     background-color: var(--Cream-Ivory);
     padding: 6rem 1.5rem; /* Large vertical breathing room */
