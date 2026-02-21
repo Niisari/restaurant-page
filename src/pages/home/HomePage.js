@@ -95,14 +95,18 @@ export class HomePage {
                   <img src="${FoodImages.freshBeef}" alt="Fresh Beef" />
                 </div>
                 <div class="learn__more--content">
+                <div class="learn__more--icon">
                   <img 
                   src="${FoodImages.freshSteak}"
                   class="learn__more--freshSteak" 
                   alt="Fresh Beef" 
                   width="80"
                   height="auto"/>
-                  <h3 class="learn__more--title">Everything is made fresh from the ground up</h3>
-                  <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
+                </div>
+                  <h3 class="learn__more--title">HOSPITALITY FROM THE HEART</h3>
+                  <p class="learn__more--text">At Varxy Steakhouse, we believe legendary service starts the moment you walk through our doors. That’s why every guest is greeted with a warm basket of our Fresh-Baked Bread, served alongside our signature honey cinnamon butter. It’s more than just a starter; it’s our way of welcoming you to the family.
+
+We take the "ground up" approach seriously, which means taking zero shortcuts. From our daily-kneaded dough to our hand-selected ingredients, we take immense pride in every plate we serve.</p>
                   ${button("Learn More", "/made-from-scratch")}
                 </div>
               </div>
@@ -112,9 +116,13 @@ export class HomePage {
                   <img src="${FoodImages.localStories}" alt="Fresh Beef" />
                 </div>
                 <div class="learn__more--content">
-                  <img src="${FoodImages.restaurant}" class="learn__more--freshSteak" alt="Fresh Beef" width="80" height="auto"/>
-                  <h3 class="learn__more--title">LOCAL STORIES</h3>
-                  <p class="learn__more--text">At Varxy Steakhouse, serving our community goes beyond our Hand-Cut Steaks. Every location has a story to tell.</p>
+                  <div class="learn__more--icon">
+                    <img src="${FoodImages.restaurant}" class="learn__more--freshSteak" alt="Fresh Beef" width="80" height="auto"/>
+                  </div>
+                  <h3 class="learn__more--title">WHERE EVERY NEIGHBOR HAS A STORY</h3>
+                  <p class="learn__more--text">At Varxy Steakhouse, we believe that the best ingredients in any recipe are the people sitting around the table. Serving our community goes far beyond our signature Hand-Cut Steaks; it’s about the roots we plant and the connections we build in every neighborhood we call home.
+
+We take pride in being more than just a restaurant—we are a gathering place for the milestones, celebrations, and everyday moments that make our towns special.</p>
                   ${button("Learn More", "/about-us")}
                 </div>
               </div>

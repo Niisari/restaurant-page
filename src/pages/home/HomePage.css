@@ -195,6 +195,12 @@
       color: var(--Deep-Charcoal);
     }
   }
+
+  .learn__more--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .margin__md {
@@ -321,6 +327,10 @@
 
     .section__two {
       flex-direction: row-reverse;
+    }
+
+    .learn__more--icon {
+      justify-content: flex-start;
     }
   }
 

@@ -74,6 +74,7 @@ h2 {
 
 p {
   font-family: var(--Text-Font);
+  max-width: 65ch;
 }
 
 .page__fade--in {
