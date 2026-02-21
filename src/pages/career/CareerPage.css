@@ -1,6 +1,7 @@
-/* ============================================================
-   CAREERS SECTION - LIGHT MENU STYLE
-   ============================================================ */
+.careers {
+    max-width: 100rem;
+    margin: 0 auto;
+}
 
 .careers--light {
     background-color: var(--Cream-Ivory);
@@ -45,9 +46,9 @@
 
 /* --- Job Card Design --- */
 .job-card {
-    background-color: #ffffff; /* Clean white card face */
+    background-color: #ffffff; 
     border: 0.0625rem solid #e0e0e0;
-    border-top: 0.25rem solid var(--Gold-Brass); /* Premium accent stripe */
+    border-top: 0.25rem solid var(--Gold-Brass); 
     padding: 3rem 2rem;
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.03);
@@ -92,28 +93,21 @@
     font-size: 1rem;
 }
 
-
-
-/* ============================================================
-   RESPONSIVE OVERRIDES (Mobile First / Small Screens)
-   ============================================================ */
-
-/* Targets mobile devices like 320px width */
-@media (max-width: 30rem) { /* Approx 480px and below */
+@media (max-width: 30rem) { 
     .careers--light {
         padding: 3rem 1rem;
     }
 
     .careers__title {
-        font-size: 2.25rem; /* Fits better on 320px screen */
+        font-size: 2.25rem; 
     }
 
     .careers__grid {
-        grid-template-columns: 1fr; /* Force single column */
+        grid-template-columns: 1fr; 
     }
 
     .job-card {
-        padding: 2rem 1.25rem; /* Tighter padding for small screens */
+        padding: 2rem 1.25rem; 
     }
 
     .job-card__role {
