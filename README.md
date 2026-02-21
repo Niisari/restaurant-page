@@ -40,6 +40,7 @@ This is a solution to the [Restaurant Page from Odin Project](https://www.theodi
 - I've learned how to do routing on vanilla so the links, button links work well on github pages.
 - I've also learned how to separate concerns in bigger application to separate page modules and smaller components (nav, footer, buttons).
 - Making a correct folder structure right at the beginning of the project was the core of the success of making this webpage work.
+- I also learned how to make the layout fluid so it looks well on all screen sizes (wide screens included).
 
 ### Continued development
 
