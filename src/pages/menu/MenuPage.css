@@ -1,6 +1,5 @@
 .menu__container {
-    max-width: 100rem;
-    margin: 0 auto;
+
 }
 
 .menu__header {
@@ -10,12 +9,18 @@
     background-position: center;
     height: 30vh;
 
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 16 / 5;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 
     padding: 1rem 2rem;
+
 
     h2, p {
         font-weight: 700;
