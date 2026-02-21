@@ -121,8 +121,12 @@ export class AboutPage {
                             width="100"
                             height="100"/>
                         </div>
-                        <h3 class="learn__more--title">IT'S ALL FROM SCRATCH</h3>
-                        <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.</p>
+                        <h3 class="learn__more--title">HOSPITALITY FROM THE HEART</h3>
+                        <p class="learn__more--text">
+                        At Varxy Steakhouse, we believe legendary service starts the moment you walk through our doors. That’s why every guest is greeted with a warm basket of our Fresh-Baked Bread, served alongside our signature honey cinnamon butter. It’s more than just a starter; it’s our way of welcoming you to the family.
+
+We take the "ground up" approach seriously, which means taking zero shortcuts. From our daily-kneaded dough to our hand-selected ingredients, we take immense pride in every plate we serve.
+                        </p>
                         ${button("Learn More", "/made-from-scratch")}
                     </div>   
                 </div>
@@ -132,15 +136,15 @@ export class AboutPage {
                         <ul class="local__stories--list">
                             <li class="local__stories--item">
                                 <img src="${FoodImages.localStories}" alt="Tip A Cop" />
-                                <h3 class="local__stories--title">Tip A Cop for Special Olympics</h3>
+                                <h3 class="local__stories--title">OUR SMILING TEAM, YOUR LOCAL NEIGHBORS</h3>
                             </li>
                             <li class="local__stories--item">
                                 <img src="${FoodImages.localStories02}" alt="Feeding Families" />
-                                <h3 class="local__stories--title">Feeding Families in Need</h3>
+                                <h3 class="local__stories--title">FEEDING PEOPLE IN NEED</h3>
                             </li>
                             <li class="local__stories--item">
                                 <img src="${FoodImages.localStories03}" alt="Camp Sunshine" />
-                                <h3 class="local__stories--title">Supporting Camp Sunshine</h3>
+                                <h3 class="local__stories--title">SUPPORTING LOCAL COMMUNITIES</h3>
                             </li>
                         </ul>
                     </div>
@@ -153,7 +157,7 @@ export class AboutPage {
                         <div class="community__impact--content">
                             <div class="community__impact--item">
                                 <img src="${FoodImages.communityImpact01}"/>
-                                <h2>GIVING BACK TO COMMUNITIES WE SERVE</h2>
+                                <h2>GIVING WHEN IT MATTERS</h2>
                             </div>
 
                             <div class="community__impact--item">
@@ -163,12 +167,12 @@ export class AboutPage {
 
                             <div class="community__impact--item">
                                 <img src="${FoodImages.communityImpact03}"/>
-                                <h2>WE HONOR HEROES</h2>
+                                <h2>WE HONOR FARMERS</h2>
                             </div>
 
                             <div class="community__impact--item">
                                 <img src="${FoodImages.communityImpact04}"/>
-                                <h2>PLANTING IT FORWARD</h2>
+                                <h2>PASSING DOWN THE CRAFT</h2>
                             </div>
                         </div>
                             <div class="community__impact--button">

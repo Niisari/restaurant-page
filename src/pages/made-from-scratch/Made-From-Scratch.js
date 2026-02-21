@@ -48,8 +48,12 @@ export class MadeFromScratchPage {
                 <div class="learn__more--image">
                     <img src="${AlabamaIcon}" alt="Alabama Map" width="100" height="100" />
                 </div>
-                <h3 class="learn__more--title">IT'S ALL FROM SCRATCH</h3>
-                <p class="learn__more--text">Legendary Food, Legendary Service® starts with taking no shortcuts.</p>
+                <h3 class="learn__more--title">ALL FRESHLY MADE</h3>
+                <p class="learn__more--text">
+                At Varxy Steakhouse, we believe legendary service starts the moment you walk through our doors. That’s why every guest is greeted with a warm basket of our Fresh-Baked Bread, served alongside our signature honey cinnamon butter. It’s more than just a starter; it’s our way of welcoming you to the family.
+
+We take the "ground up" approach seriously, which means taking zero shortcuts. From our daily-kneaded dough to our hand-selected ingredients, we take immense pride in every plate we serve.
+                </p>
                 </div>
             </div>
             </section>
