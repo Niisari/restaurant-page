@@ -16,10 +16,10 @@ export class CommunityImpactPage {
                     </div>
 
                     <div class="community__header--content">
-                        <h2 class="community__header--title">EVERY LITTLE BIT HELPS</h2>
-                        <p class="community__header--description">Local Varxy Steakhouse locations offer fundraising opportunities, 
-                        which help raise thousands of dollars for local non-profits, causes, and schools. 
-                        In addition to funds, millions of meals are donated in Varxy Steakhouse communities across the country.
+                        <h2 class="community__header--title">TEAMING UP FOR GOOD</h2>
+                        <p class="community__header--description">
+                        At Varxy Steakhouse, we believe in the power of local partnerships. Our restaurants actively host fundraising nights and dine-to-donate events, helping to generate vital funds for schools, youth programs, and non-profit organizations right in our own backyards.
+                        Beyond financial support, our dedicated team members are passionate about giving back. Through local initiatives and national programs, we help coordinate the donation of millions of meals to families in need across the country. We know that real change starts locally, and we are proud to stand behind the communities we call home.                        
                         </p>
                     </div>
 
@@ -29,10 +29,13 @@ export class CommunityImpactPage {
                                 <img src="${FoodImages.CommunityPhoto01}"/>
                             </div>
                             <div class="community__content--text">
-                                <h3>WE HONOR HEROES</h3>
-                                <p>We've been a national partner with Homes For Our Troops (HFOT) for more than 17 years, 
-                                completing over 300 mortgage-free, custom-built homes for the most severely injured post-9/11 veterans. And on Veterans Day, 
-                                we're honored to to offer free meals to veterans and active military members across the country.</p>
+                                <h3>OUR COMMITMENT TO COMMUNITY</h3>
+                                <p>
+                                At Varxy Steakhouse, 
+                                our passion for serving goes beyond the table. 
+                                Through our "Steakhouse Cares" initiative, we are dedicated to nourishing our neighbors. 
+                                We regularly donate fresh produce and pantry staples to local food banks, partnering with organizations like Community Harvest to ensure that no one in our community goes hungry.
+                                </p>
                             </div>
                         </div>
 
@@ -41,9 +44,9 @@ export class CommunityImpactPage {
                                 <img src="${FoodImages.CommunityPhoto02}"/>
                             </div>
                             <div class="community__content--text">
-                                <h3>PLANTING IT FORWARD</h3>
+                                <h3>GROWING A GREENER FUTURE</h3>
                                 <p>
-                                As part of our Corporate Sustainability program, we have been proud to partner with the Arbor Day Foundation since 2017. Each year, we donate $50,000 to support the Arbor Day Foundation's Community Tree Recovery Campaign and host tree distribution events in communities across the country.
+                               Sustainability is at the heart of our mission at Varxy Steakhouse. We are committed to protecting the environment and enhancing the natural beauty of the neighborhoods we serve. Through our hands-on "Green Initiative," our team members step out of the kitchen and into the community to lead park clean-ups and restoration projects.
                                 </p>
                             </div>
                         </div>
