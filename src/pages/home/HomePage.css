@@ -1,3 +1,8 @@
+.home__page {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
 .home__page--carousel {
     display: grid;
     grid-auto-flow: column;

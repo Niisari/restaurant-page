@@ -1,3 +1,8 @@
+.menu__container {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
 .menu__header {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('../../assets/images/menu-header.png') no-repeat;
