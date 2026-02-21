@@ -21,26 +21,28 @@ export class HomePage {
         this.container.innerHTML = 
         `<div class="home__page">
 
+        <div class="homePage__carousel--container">
           <ul class="home__page--carousel">
             <li>
-              <picture>
+              <picture class="homePage__carousel--image">
                 <source srcset="${FoodImages.OpeningIntroDesktop}" type="image/png" media="(min-width: 768px)"/>
-                <img src="${FoodImages.OpeningIntro}" alt="Home Page Carousel 01" />
+                <img src="${FoodImages.OpeningIntro}" alt="Home Page Carousel 01"/>
               </picture>
             </li>
             <li>
-              <picture>
+              <picture class="homePage__carousel--image">
                 <source srcset="${FoodImages.premiumSteakIntroDesktop}" type="image/png" media="(min-width: 768px)"/>
-                <img src="${FoodImages.premiumSteakIntro}" alt="Home Page Carousel 02" />
+                <img src="${FoodImages.premiumSteakIntro}" alt="Home Page Carousel 02"/>
               </picture>
             </li>
             <li>
-              <picture>
+              <picture class="homePage__carousel--image">
                 <source srcset="${FoodImages.steakSaleIntroDesktop}" type="image/png" media="(min-width: 768px)"/>
-                <img src="${FoodImages.steakSaleIntro}" alt="Home Page Carousel 03" />
+                <img src="${FoodImages.steakSaleIntro}" alt="Home Page Carousel 03"/>
               </picture>
             </li>
           </ul>
+          <div>
           
           <section class="reservation">
             <div class="reservation__content">
