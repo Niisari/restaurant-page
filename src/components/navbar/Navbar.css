@@ -1,12 +1,18 @@
 /* Navbar Styles */
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 1rem;
-    
+  width: 100%;
   background-color: var(--Deep-Charcoal);
-  position: relative;
+
+  .navbar__content {
+    max-width: 100rem;
+    margin: 0 auto;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+  }
 
   .nav__title {
     font-family: var(--Heading-Font);

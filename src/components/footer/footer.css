@@ -1,4 +1,11 @@
+.footer {
+    width: 100%;
+    background-color: var(--Deep-Charcoal);
+}
+
 .footer__content {
+    max-width: 100rem;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

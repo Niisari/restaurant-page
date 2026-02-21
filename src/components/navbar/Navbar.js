@@ -13,7 +13,7 @@ export class Navbar {
     render() {
         this.container.innerHTML = `
             <nav class="navbar">
-
+            <div class="navbar__content">
                 <button class="menu__toggle" aria-label="Toggle menu" type="button">
 
                     <svg 
@@ -112,7 +112,7 @@ export class Navbar {
                             </svg>
                         </button>
                 </div>
-
+            </div>
             </nav>
         `;
         this.AddEventListeners();
