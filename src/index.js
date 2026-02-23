@@ -1,5 +1,4 @@
-// Example of a slightly more "Senior" entry point
-import "./styles/Reset.css"; // Reset FIRST
+import "./styles/Reset.css"; 
 import "./styles/Global.css"; 
 
 import App from './App.js';
