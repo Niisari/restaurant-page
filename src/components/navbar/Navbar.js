@@ -143,9 +143,9 @@ AddEventListeners() {
                 this.onNavigate(path); 
             }
 
-            // 3. THE FIX: Close the mobile menu fully
+            // 3.Close the mobile menu fully
             navbar.classList.remove('navbar--open');
-            navList.classList.remove('nav__list--open'); // 👈 Add this line!
+            navList.classList.remove('nav__list--open'); 
         });
     });
 }
