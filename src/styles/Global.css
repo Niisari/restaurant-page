@@ -1,54 +1,88 @@
 /* Fonts */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../assets/fonts/lato-v25-latin-regular.woff2') format('woff2');
+  src: url("../assets/fonts/lato-v25-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Playfair';
+  font-family: "Playfair";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('../assets/fonts/playfair-v10-latin-600.woff2') format('woff2');
+  src: url("../assets/fonts/playfair-v10-latin-600.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Playfair';
+  font-family: "Playfair";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('../assets/fonts/playfair-v10-latin-700.woff2') format('woff2');
+  src: url("../assets/fonts/playfair-v10-latin-700.woff2") format("woff2");
 }
 
 :root {
   /* Fonts */
-  --Text-Font: 'Lato', sans-serif;
-  --Heading-Font: 'Playfair', serif;
+  --Text-Font: "Lato", sans-serif;
+  --Heading-Font: "Playfair", serif;
 
   /* Primary Colors */
   --Deep-Charcoal: hsl(0, 0%, 15%); /* Backgrounds, header/footer base */
-  --Deep-Charcoal-Darker: hsl(0, 0%, 11%); /* Darker variant for deeper shadows, overlays */
+  --Deep-Charcoal-Darker: hsl(
+    0,
+    0%,
+    11%
+  ); /* Darker variant for deeper shadows, overlays */
   --Rich-Burgundy: hsl(350, 70%, 25%); /* Main accents, buttons, headings */
-  --Warm-Dark-Brown: hsl(30, 60%, 20%); /* Leather, wood, panels, secondary backgrounds */
+  --Warm-Dark-Brown: hsl(
+    30,
+    60%,
+    20%
+  ); /* Leather, wood, panels, secondary backgrounds */
 
   /* Accent Colors */
-  --Gold-Brass: hsl(45, 80%, 50%); /* Logo highlights, borders, premium accents */
-  --Copper-WarmRed-Brown: hsl(20, 70%, 35%); /* Flames, subtle gradients, hover effects */
-  --Deep-Olive-Green: hsl(120, 40%, 20%); /* Herb/food accents, minimal highlights */
+  --Gold-Brass: hsl(
+    45,
+    80%,
+    50%
+  ); /* Logo highlights, borders, premium accents */
+  --Copper-WarmRed-Brown: hsl(
+    20,
+    70%,
+    35%
+  ); /* Flames, subtle gradients, hover effects */
+  --Deep-Olive-Green: hsl(
+    120,
+    40%,
+    20%
+  ); /* Herb/food accents, minimal highlights */
 
   /* Text Colors */
-  --Cream-Ivory: hsl(40, 30%, 95%); /* Primary text, menu text on dark backgrounds */
-  --Light-Gray: hsl(0, 0%, 75%); /* Secondary text, captions, subtle UI elements */
+  --Cream-Ivory: hsl(
+    40,
+    30%,
+    95%
+  ); /* Primary text, menu text on dark backgrounds */
+  --Light-Gray: hsl(
+    0,
+    0%,
+    75%
+  ); /* Secondary text, captions, subtle UI elements */
 
   /* Interactive / Hover Colors */
   --Hover-Burgundy: hsl(350, 70%, 35%); /* Button hover, link hover */
-  --Hover-Gold: hsla(45, 100%, 70%, 0.9); /* Logo highlights, button hover, borders */
+  --Hover-Gold: hsla(
+    45,
+    100%,
+    70%,
+    0.9
+  ); /* Logo highlights, button hover, borders */
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -97,6 +131,12 @@ p {
 }
 
 @keyframes fadeOut {
-  from { opacity: 1; transform: translateX(0); }
-  to { opacity: 0; transform: translateX(-10px); }
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
 }

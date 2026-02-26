@@ -1,15 +1,15 @@
 import "./About-us.css";
-import { FoodImages } from '../../assets/images/images.js';
-import AlabamaIcon from '../../assets/images/icons/alabama-icon.png';
-import { button } from '../../components/buttons/button.js';
+import { FoodImages } from "../../assets/images/images.js";
+import AlabamaIcon from "../../assets/images/icons/alabama-icon.png";
+import { button } from "../../components/buttons/button.js";
 
 export class AboutPage {
-    constructor() {
-        this.container = document.getElementById('main');
-        this.link = '/about-us';
-    }
-    render() {
-        this.container.innerHTML = `
+  constructor() {
+    this.container = document.getElementById("main");
+    this.link = "/about-us";
+  }
+  render() {
+    this.container.innerHTML = `
         <section class="about__page">
             <div class="about__content">
 
@@ -184,6 +184,6 @@ We take the "ground up" approach seriously, which means taking zero shortcuts. F
 
             </div>
         </section>
-       `
-    }
+       `;
+  }
 }

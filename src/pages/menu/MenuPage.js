@@ -1,39 +1,39 @@
-import './MenuPage.css';
-import { button } from '../../components/buttons/button.js';
-import menuData from '../../data/menuData.json';
+import "./MenuPage.css";
+import { button } from "../../components/buttons/button.js";
+import menuData from "../../data/menuData.json";
 
 const getAssetPath = (path) => {
-  if (!path) return '';
-  if (path.startsWith('http')) return path;
-  const cleanPath = path.replace(/^\.\//, '');
-  const isGitHub = window.location.hostname.includes('github.io');
+  if (!path) return "";
+  if (path.startsWith("http")) return path;
+  const cleanPath = path.replace(/^\.\//, "");
+  const isGitHub = window.location.hostname.includes("github.io");
   return isGitHub ? `/restaurant-page/${cleanPath}` : `/${cleanPath}`;
 };
 
 export class MenuPage {
-    constructor() {
-        this.container = document.getElementById('main');
-        this.activeCategory = 'all'; // Default state is the overview
+  constructor() {
+    this.container = document.getElementById("main");
+    this.activeCategory = "all"; // Default state is the overview
+  }
+
+  render() {
+    // 1. Check for Category in URL immediately
+    const params = new URLSearchParams(window.location.search);
+    const catId = params.get("cat");
+
+    // Set the state BEFORE generating the HTML
+    if (catId) {
+      this.activeCategory = catId;
     }
 
-render() {
-        // 1. Check for Category in URL immediately
-        const params = new URLSearchParams(window.location.search);
-        const catId = params.get('cat');
-        
-        // Set the state BEFORE generating the HTML
-        if (catId) {
-            this.activeCategory = catId;
-        }
-
-        // 2. Generate the Layout
-        this.container.innerHTML = `
+    // 2. Generate the Layout
+    this.container.innerHTML = `
             <div class="menu__container">
                 <section class="menu__header">
                     <div class="menu__header--content">
                         <h2>Bone-IN Ribeye</h2>
                         <p>20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor.</p>
-                        ${button('Order Now', `/menu?cat=${menuData[1].id}`)}
+                        ${button("Order Now", `/menu?cat=${menuData[1].id}`)}
                     </div>
                 </section>
                 
@@ -42,14 +42,18 @@ render() {
                         <div class="menu__categories">
                             <ul class="menu__categories--list">
                                 <h3 class="menu__category--title">MENU</h3>
-                                <li class="menu__category-item ${this.activeCategory === 'all' ? 'active' : ''}" data-id="all">
+                                <li class="menu__category-item ${this.activeCategory === "all" ? "active" : ""}" data-id="all">
                                     <a href="javascript:void(0)">ALL CATEGORIES</a>
                                 </li>
-                                ${menuData.map(cat => `
-                                    <li class="menu__category-item ${this.activeCategory === cat.id ? 'active' : ''}" data-id="${cat.id}">
+                                ${menuData
+                                  .map(
+                                    (cat) => `
+                                    <li class="menu__category-item ${this.activeCategory === cat.id ? "active" : ""}" data-id="${cat.id}">
                                         <a href="javascript:void(0)">${cat.categoryName}</a>
                                     </li>
-                                `).join('')}
+                                `,
+                                  )
+                                  .join("")}
                             </ul>
                         </div>
                     </nav>
@@ -59,18 +63,20 @@ render() {
             </div>
         `;
 
-        // 3. Initialize the view
-        this.updateGrid();
-        this.initEventListeners();
-    }
+    // 3. Initialize the view
+    this.updateGrid();
+    this.initEventListeners();
+  }
 
-    updateGrid() {
-const grid = document.getElementById('menu-items-grid');
+  updateGrid() {
+    const grid = document.getElementById("menu-items-grid");
     if (!grid) return;
 
-    if (this.activeCategory === 'all') {
-        // VIEW 1: All Categories Overview
-        grid.innerHTML = menuData.map(cat => `
+    if (this.activeCategory === "all") {
+      // VIEW 1: All Categories Overview
+      grid.innerHTML = menuData
+        .map(
+          (cat) => `
             <div class="category__card" data-id="${cat.id}">
                 <div class="category__card--image">
                     <img src="${getAssetPath(cat.categoryImage)}" alt="${cat.categoryName}">
@@ -79,21 +85,24 @@ const grid = document.getElementById('menu-items-grid');
                     <h3>${cat.categoryName}</h3>
                 </div>
             </div>
-        `).join('');
+        `,
+        )
+        .join("");
 
-        // Re-attach click events for category cards
-        grid.querySelectorAll('.category__card').forEach(card => {
-            card.addEventListener('click', () => {
-                this.setActiveCategory(card.dataset.id);
-            });
+      // Re-attach click events for category cards
+      grid.querySelectorAll(".category__card").forEach((card) => {
+        card.addEventListener("click", () => {
+          this.setActiveCategory(card.dataset.id);
         });
-
+      });
     } else {
-        // VIEW 2: Specific Items for Category
-        const category = menuData.find(cat => cat.id === this.activeCategory);
-        const items = category ? category.items : [];
+      // VIEW 2: Specific Items for Category
+      const category = menuData.find((cat) => cat.id === this.activeCategory);
+      const items = category ? category.items : [];
 
-        grid.innerHTML = items.map(item => `
+      grid.innerHTML = items
+        .map(
+          (item) => `
             <div class="menu__card">
                 <div class="menu__card--image">
                     <img src="${getAssetPath(item.itemImage)}" alt="${item.itemName}">
@@ -107,36 +116,38 @@ const grid = document.getElementById('menu-items-grid');
                     <div class="menu__card--nutrition">
                         <span>🔥 ${item.nutritionalInfo.calories} Cal | ${item.nutritionalInfo.allergens}</span>
                     </div>
-                    ${button('Add to Order', "/coming-soon")}
+                    ${button("Add to Order", "/coming-soon")}
                 </div>
             </div>
-        `).join('');
+        `,
+        )
+        .join("");
     }
-    }
+  }
 
-        setActiveCategory(id) {
-            this.activeCategory = id;
+  setActiveCategory(id) {
+    this.activeCategory = id;
 
-            // Update the URL without reloading the page (helps with back button)
-            const newUrl = id === 'all' ? '/menu' : `/menu?cat=${id}`;
-            window.history.pushState({ path: newUrl }, '', newUrl);
+    // Update the URL without reloading the page (helps with back button)
+    const newUrl = id === "all" ? "/menu" : `/menu?cat=${id}`;
+    window.history.pushState({ path: newUrl }, "", newUrl);
 
-            // Update Navigation Bar UI
-            const navItems = document.querySelectorAll('.menu__category-item');
-            navItems.forEach(nav => {
-                nav.classList.toggle('active', nav.dataset.id === id);
-            });
+    // Update Navigation Bar UI
+    const navItems = document.querySelectorAll(".menu__category-item");
+    navItems.forEach((nav) => {
+      nav.classList.toggle("active", nav.dataset.id === id);
+    });
 
-            this.updateGrid();
-        }
+    this.updateGrid();
+  }
 
-    initEventListeners() {
-        // Listen for clicks on the TOP Navigation Bar
-        const navItems = document.querySelectorAll('.menu__category-item');
-        navItems.forEach(item => {
-            item.addEventListener('click', () => {
-                this.setActiveCategory(item.dataset.id);
-            });
-        });
-    }
+  initEventListeners() {
+    // Listen for clicks on the TOP Navigation Bar
+    const navItems = document.querySelectorAll(".menu__category-item");
+    navItems.forEach((item) => {
+      item.addEventListener("click", () => {
+        this.setActiveCategory(item.dataset.id);
+      });
+    });
+  }
 }

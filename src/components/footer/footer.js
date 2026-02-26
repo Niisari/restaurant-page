@@ -1,11 +1,11 @@
-import './Footer.css';
-import logo from '../../assets/images/logo.png';
+import "./Footer.css";
+import logo from "../../assets/images/logo.png";
 export class Footer {
-    constructor() {
-        this.container = document.getElementById('footer');
-    }
-    render() {
-        this.container.innerHTML = `
+  constructor() {
+    this.container = document.getElementById("footer");
+  }
+  render() {
+    this.container.innerHTML = `
         <footer class="footer">
             <div class="footer__content">
 
@@ -107,5 +107,5 @@ export class Footer {
             </div>
         </footer>
         `;
-    }
+  }
 }

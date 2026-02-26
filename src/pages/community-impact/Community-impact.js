@@ -1,14 +1,14 @@
-import './Community-impact.css';
-import { FoodImages } from '../../assets/images/images.js';
+import "./Community-impact.css";
+import { FoodImages } from "../../assets/images/images.js";
 
 export class CommunityImpactPage {
-    constructor() {
-        this.container = document.getElementById('main');
-        this.link = '/community-impact';
-    }
+  constructor() {
+    this.container = document.getElementById("main");
+    this.link = "/community-impact";
+  }
 
-    render() {
-        this.container.innerHTML = `
+  render() {
+    this.container.innerHTML = `
             <section class="community-impact">
                 <div class="community__header">
 
@@ -55,5 +55,5 @@ export class CommunityImpactPage {
                 </div>
             </section>
         `;
-    }
+  }
 }

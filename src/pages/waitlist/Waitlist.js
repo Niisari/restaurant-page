@@ -1,13 +1,13 @@
-import './Waitlist.css';
+import "./Waitlist.css";
 
 export class WaitlistPage {
-    constructor() {
-        this.container = document.getElementById('main');
-        this.link = '/waitlist';
-    }
+  constructor() {
+    this.container = document.getElementById("main");
+    this.link = "/waitlist";
+  }
 
-    render() {
-        this.container.innerHTML = `
+  render() {
+    this.container.innerHTML = `
         <section class="waitlist">
             <div class="waitlist__content">
                 <div class="waitlist__info">
@@ -32,5 +32,5 @@ export class WaitlistPage {
             </div>
         </section>
             `;
-    }
+  }
 }

@@ -1,2267 +1,1925 @@
 [
-    {
-        "id": "category-starters",
-        "categoryImage": "./images/cactus-blossom-1.webp",
-        "categoryName": "JUST FOR STARTERS",
-        "currency": "$",
-        "items": [
-            {
-                "id": "item-starters-1",
-                "itemImage": "./images/cactus-blossom-1.webp",
-                "itemName": "Cactus Blossom",
-                "itemDescription": "Great for sharing! Texas-sized, golden-fried onion with Cajun sauce for dipping",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 1700,
-                    "fat": "135g",
-                    "carbs": "203g",
-                    "protein": "27g",
-                    "sodium": "5260mg",
-                    "serves": "2-4 people",
-                    "allergens": [
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "item-starters-2",
-                "itemImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThzFNodk_mNiahzIz3Um8i-WBYGmy4wXXJ3Q&s",
-                "itemName": "Fried Pickles",
-                "itemDescription": "Shareable basket of golden-fried pickle chips served with Ranch or Cajun sauce for dipping",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 1240,
-                    "fat": "65g",
-                    "carbs": "127g",
-                    "protein": "39g",
-                    "sodium": "4570mg",
-                    "serves": "2-3 people",
-                    "allergens": [
-                        "🥛",
-                        "🌾",
-                        "🍞"
-                    ]
-                }
-            },
-            {
-                "id": "item-starters-3",
-                "itemImage": "https://texazroadhoucemenu.com/wp-content/uploads/2025/08/Cheese-Fries.webp",
-                "itemName": "Cheese Fries",
-                "itemDescription": "A heaping amount of golden steak fries topped with melted cheddar cheese and bacon bits",
-                "itemPrice": 6.9,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 1240,
-                    "fat": "65g",
-                    "carbs": "127g",
-                    "protein": "39g",
-                    "sodium": "4570mg",
-                    "serves": "2-3 people",
-                    "allergens": [
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🐷"
-                    ]
-                }
-            },
-            {
-                "id": "item-starters-4",
-                "itemImage": "https://s.yimg.com/ny/api/res/1.2/V_HscmHQlaGwcr8NP9hfjQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1NjA7aD04NzY7Y2Y9d2VicA--/https://media.zenfs.com/en/tasting_table_543/2cfbbe503148416cb6eecc425b79d9a2",
-                "itemName": "Tater Skins",
-                "itemDescription": "Plate of 8 baked potato skins topped with melted cheddar cheese and bacon bits, served with sour cream for dipping",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 1320,
-                    "fat": "94g",
-                    "carbs": "82g",
-                    "protein": "41g",
-                    "sodium": "2340mg",
-                    "serves": "2-4 people",
-                    "allergens": [
-                        "🥛",
-                        "🐷"
-                    ]
-                }
-            },
-            {
-                "id": "item-starters-5",
-                "itemImage": "https://texasmenuprices.com/wp-content/uploads/2025/08/Boneless-Buffalo-Wings-1-1024x660.webp",
-                "itemName": "Boneless Buffalo Wings",
-                "itemDescription": "Breaded white meat chicken tossed in Mild or Hot sauce and served with Bleu Cheese dressing",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 760,
-                    "fat": "49g",
-                    "carbs": "36g",
-                    "protein": "45g",
-                    "sodium": "2910mg",
-                    "serves": "1-2 people",
-                    "allergens": [
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "item-starters-6",
-                "itemImage": "https://texasmenuprices.com/wp-content/uploads/2025/08/Killer-Ribs-1-1024x660.webp",
-                "itemName": "Killer Ribs",
-                "itemDescription": "Basket of our award-winning ribs with steak fries",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 910,
-                    "fat": "55g",
-                    "carbs": "62g",
-                    "protein": "43g",
-                    "sodium": "1620mg",
-                    "serves": "1-2 people",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "hand-Cut-steaks",
-        "categoryImage": "https://texassroadhousemenu.com/wp-content/uploads/2025/07/kansas-city-strip.webp",
-        "categoryName": "Hand-Cut Steaks",
-        "currency": "$",
-        "items": [
-            {
-                "id": "hand-Cut-steak-1",
-                "itemImage": "./images/Hand-Cut-Sirloin.webp",
-                "itemName": "Hand-Cut Sirloin",
-                "itemDescription": "Lean, juicy steak priced at a great value. Served with choice of two sides",
-                "itemPrice": 19.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 250,
-                    "fat": "6g",
-                    "carbs": "3g",
-                    "protein": "46g",
-                    "sodium": "560mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "None"
-                    ]
-                }
-            },
-            {
-                "id": "item-steak-2",
-                "itemImage": "./images/new-york-strip.jpg",
-                "itemName": "New York Strip",
-                "itemDescription": "Similar flavor to the sirloin with extra tenderness. Served with choice of two sides",
-                "itemPrice": 19.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 640,
-                    "fat": "33g",
-                    "carbs": "1g",
-                    "protein": "85g",
-                    "sodium": "980mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "None"
-                    ]
-                }
-            },
-            {
-                "id": "item-steak-3",
-                "itemImage": "./images/Bone-In-Ribeye.webp",
-                "itemName": "Bone-In Ribeye",
-                "itemDescription": "20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor. Served with choice of two sides",
-                "itemPrice": 19.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 1480,
-                    "fat": "104g",
-                    "carbs": "9g",
-                    "protein": "128g",
-                    "sodium": "1720mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "None"
-                    ]
-                }
-            },
-            {
-                "id": "item-steak-4",
-                "itemImage": "./images/porterhouse-tbone.webp",
-                "itemName": "Porterhouse T-Bone",
-                "itemDescription": "Two steak cuts - filet and strip - in one Texas-sized 23oz steak. Served with choice of two sides",
-                "itemPrice": 19.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 1040,
-                    "fat": "55g",
-                    "carbs": "6g",
-                    "protein": "130g",
-                    "sodium": "1460mg",
-                    "serves": "1-2 people",
-                    "allergens": [
-                        "None"
-                    ]
-                }
-            },
-            {
-                "id": "item-steak-5",
-                "itemImage": "./images/steak-kabob.webp",
-                "itemName": "Steak Kabob",
-                "itemDescription": "Marinated steak with onion, mushroom, tomato, red pepper, green pepper served over seasoned rice with choice of one side",
-                "itemPrice": 19.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 450,
-                    "fat": "19g",
-                    "carbs": "44g",
-                    "protein": "26g",
-                    "sodium": "1270mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🫘",
-                        "🌾",
-                        "🍞"
-                    ]
-                }
-            },
-            {
-                "id": "item-steak-6",
-                "itemImage": "./images/fillet-medallions.webp",
-                "itemName": "Filet Medallions",
-                "itemDescription": "Three tender filets (9 oz. total) topped with choice of Peppercorn or Portobello Mushroom sauce and served over seasoned rice",
-                "itemPrice": 19.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 760,
-                    "fat": "43g",
-                    "carbs": "46g",
-                    "protein": "54g",
-                    "sodium": "1600mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "Fall-Off-The-Bone-Ribs",
-        "categoryImage": "https://kdvr.com/wp-content/uploads/sites/11/2018/09/t_ribs_full.jpg?strip=1",
-        "categoryName": "The-Bone-Ribs",
-        "currency": "$",
-        "items": [
-            {
-                "id": "Bone-Ribs-1",
-                "itemImage": "./images/12-Slab-Ribs.webp",
-                "itemName": "1/2 Slab Ribs",
-                "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
-                "itemPrice": 6.9,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 900,
-                    "fat": "63g",
-                    "carbs": "45g",
-                    "protein": "41g",
-                    "sodium": "1530mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "Bone-Ribs-2",
-                "itemImage": "./images/full-slab-ribs.avif",
-                "itemName": "Full Slab Ribs",
-                "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
-                "itemPrice": 6.9,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 1450,
-                    "fat": "102g",
-                    "carbs": "56g",
-                    "protein": "82g",
-                    "sodium": "2840mg",
-                    "serves": "1-2 people",
-                    "allergens": [
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "alabama-size-combos",
-        "categoryImage": "https://menutexasroadhouse.com/wp-content/uploads/2025/11/Texas-Roadhouse-Combo-Meals-Menu-Texas-Size-Combos-1024x580.webp",
-        "categoryName": "ALABAMA SIZE COMBOS",
-        "currency": "$",
-        "items": [
-            {
-                "id": "alabama-size-combo-1",
-                "itemImage": "./images/Grilled-BBQ-Chicken.webp",
-                "itemName": "Grilled BBQ Chicken & Sirloin 6oz",
-                "itemDescription": "Marinated 1/2 lb. breast basted in BBQ sauce along with our lean, juicy sirloin steak at a great value",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 540,
-                    "fat": "15g",
-                    "carbs": "18g",
-                    "protein": "83g",
-                    "sodium": "1190mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "alabama-size-combo-2",
-                "itemImage": "./images/Chicken-Critters.webp",
-                "itemName": "Chicken Critters® & Ribs",
-                "itemDescription": "All white meat chicken tenders dipped in buttermilk batter, then hand-breaded and golden-fried along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 820,
-                    "fat": "46g",
-                    "carbs": "41g",
-                    "protein": "61g",
-                    "sodium": "1630mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚",
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "alabama-size-combo-3",
-                "itemImage": "./images/Chicken-Critters-Sirloin.webp",
-                "itemName": "Chicken Critters® & Sirloin 6oz",
-                "itemDescription": "All white meat chicken tenders dipped in buttermilk batter, then hand-breaded and golden-fried along with our lean, juicy sirloin steak at a great value",
-                "itemPrice": 19.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 520,
-                    "fat": "21g",
-                    "carbs": "22g",
-                    "protein": "61g",
-                    "sodium": "1140mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "alabama-size-combo-4",
-                "itemImage": "./images/sirlon-ribs01.webp",
-                "itemName": "Sirloin* & Ribs",
-                "itemDescription": "Our lean, juicy sirloin steak at a great value along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 700,
-                    "fat": "41g",
-                    "carbs": "24g",
-                    "protein": "61g",
-                    "sodium": "1330mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "alabama-size-combo-5",
-                "itemImage": "./images/sirlon-ribs.webp",
-                "itemName": "Ribeye* 12oz & Ribs",
-                "itemDescription": "Very juicy and flavorful from the marbling throughout the steak along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
-                "itemPrice": 19.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 1090,
-                    "fat": "74g",
-                    "carbs": "25g",
-                    "protein": "100g",
-                    "sodium": "1750mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "alabama-size-combo-6",
-                "itemImage": "./images/Dallas-Filet.webp",
-                "itemName": "Filet* 6oz & Ribs",
-                "itemDescription": "Our most tender steak that is lean and melts in your mouth along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
-                "itemPrice": 19.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 670,
-                    "fat": "37g",
-                    "carbs": "25g",
-                    "protein": "58g",
-                    "sodium": "1340mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "dockside-favorites",
-        "categoryImage": "https://texazroadhoucemenu.com/wp-content/uploads/2025/08/Grilled-Salmon.webp",
-        "categoryName": "Dockside Favorites",
-        "currency": "$",
-        "items": [
-            {
-                "id": "dockside-favorites-1",
-                "itemImage": "./images/grilled-salmon.webp",
-                "itemName": "Grilled Salmon*",
-                "itemDescription": "A Norwegian fillet salmon steak grilled moist and tender then topped with our lemon pepper butter. Served with choice of two sides",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 480,
-                    "fat": "33g",
-                    "carbs": "2g",
-                    "protein": "45g",
-                    "sodium": "820mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🐟",
-                        "🥛"
-                    ]
-                }
-            },
-            {
-                "id": "dockside-favorites-2",
-                "itemImage": "./images/fried-catfish.webp",
-                "itemName": "Fried Catfish",
-                "itemDescription": "U.S. farm-raised catfish breaded in southern cornmeal and fried to a golden brown. Served with choice of two sides.",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 790,
-                    "fat": "52g",
-                    "carbs": "36g",
-                    "protein": "45g",
-                    "sodium": "1710mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🐟",
-                        "🌾",
-                        "🍞",
-                        "🥛"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "chicken-specialties",
-        "categoryImage": "https://texazroadhoucemenu.com/wp-content/uploads/2025/08/Smothered-Chicken.webp",
-        "categoryName": "Chicken Specialties",
-        "currency": "$",
-        "items": [
-            {
-                "id": "chicken-specialties-1",
-                "itemImage": "./images/Country-Fried-Chicken.webp",
-                "itemName": "Country Fried Chicken",
-                "itemDescription": "Tender, white meat chicken breast, hand-battered, golden-fried and topped with choice of gravy. Served with choice of two sides",
-                "itemPrice": 14.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 780,
-                    "fat": "44g",
-                    "carbs": "42g",
-                    "protein": "54g",
-                    "sodium": "1890mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "chicken-specialties-2",
-                "itemImage": "./images/Chicken-Critters.webp",
-                "itemName": "Chicken Critters®",
-                "itemDescription": "All white meat chicken tenders, golden-fried and lightly crispy. Served with choice of two sides",
-                "itemPrice": 13.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 440,
-                    "fat": "19g",
-                    "carbs": "21g",
-                    "protein": "47g",
-                    "sodium": "940mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "chicken-specialties-3",
-                "itemImage": "./images/smothered-chicken.jpg",
-                "itemName": "Smothered Chicken",
-                "itemDescription": "Grilled, marinated chicken breast with sautéed onions, sautéed mushrooms and choice of melted jack cheese or made-from-scratch gravy. Served with choice of two sides",
-                "itemPrice": 14.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 430,
-                    "fat": "21g",
-                    "carbs": "10g",
-                    "protein": "51g",
-                    "sodium": "1310mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "chicken-specialties-4",
-                "itemImage": "./images/Herb-Crusted-Chicken-1.webp",
-                "itemName": "Herb Crusted Chicken",
-                "itemDescription": "Boneless, marinated chicken breast seasoned with a blend of herbs and spices, then flame-grilled and served with a caramelized lemon for extra flavor. Served with choice of two sides",
-                "itemPrice": 14.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 310,
-                    "fat": "10g",
-                    "carbs": "12g",
-                    "protein": "47g",
-                    "sodium": "1040mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "chicken-specialties-5",
-                "itemImage": "./images/grilled-bbq-chicken.png",
-                "itemName": "Grilled BBQ Chicken",
-                "itemDescription": "Marinated ½ lb. breast served with choice of two sides",
-                "itemPrice": 14.49,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 300,
-                    "fat": "7g",
-                    "carbs": "18g",
-                    "protein": "46g",
-                    "sodium": "1010mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "chicken-specialties-6",
-                "itemImage": "./images/Portobello-Mushroom-Chicken.webp",
-                "itemName": "Portobello Mushroom Chicken",
-                "itemDescription": "Grilled, marinated chicken breast with Portobello Mushroom sauce, jack cheese and parmesan cheese. Served with choice of two sides",
-                "itemPrice": 15.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 430,
-                    "fat": "21g",
-                    "carbs": "8g",
-                    "protein": "53g",
-                    "sodium": "1420mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "country-dinners",
-        "categoryImage": "https://www.foodrepublic.com/img/gallery/the-cut-of-beef-texas-roadhouse-uses-for-its-country-fried-steak/intro-1760363623.jpg",
-        "categoryName": "Country Dinners",
-        "currency": "$",
-        "items": [
-            {
-                "id": "country-dinners-1",
-                "itemImage": "./images/Grilled-Pork-Chops.webp",
-                "itemName": "Grilled Pork Chops",
-                "itemDescription": "Boneless chops seasoned and served with Peppercorn sauce",
-                "itemPrice": 16.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 590,
-                    "fat": "33g",
-                    "carbs": "12g",
-                    "protein": "61g",
-                    "sodium": "1940mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "country-dinners-2",
-                "itemImage": "./images/Pulled-Pork-Dinner.png",
-                "itemName": "Pulled Pork Dinner",
-                "itemDescription": "Tender, slow-cooked BBQ pork served with toasted fresh-baked bread",
-                "itemPrice": 14.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 740,
-                    "fat": "37g",
-                    "carbs": "65g",
-                    "protein": "37g",
-                    "sodium": "1670mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🐷",
-                        "🫘",
-                        "🥛"
-                    ]
-                }
-            },
-            {
-                "id": "country-dinners-3",
-                "itemImage": "./images/Country-Fried-Sirloin.jpg",
-                "itemName": "Country Fried Sirloin",
-                "itemDescription": "Hand-battered, fresh-cut sirloin served crispy and golden, topped with cream gravy",
-                "itemPrice": 6.99,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 890,
-                    "fat": "58g",
-                    "carbs": "41g",
-                    "protein": "52g",
-                    "sodium": "1840mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "country-dinners-4",
-                "itemImage": "./images/Beef-Tips.webp",
-                "itemName": "Beef Tips",
-                "itemDescription": "Cuts of steak with sautéed mushrooms, onions, brown gravy and sour cream over seasoned rice or mashed potatoes and one side",
-                "itemPrice": 16.49,
-                "isAvailable": true,
-                "nutritionalInfo": {
-                    "calories": 770,
-                    "fat": "34g",
-                    "carbs": "63g",
-                    "protein": "54g",
-                    "sodium": "2830mg",
-                    "serves": "1 person",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "salad",
-        "categoryImage": "./images/house-salad.webp",
-        "categoryName": "Salads",
-        "currency": "$",
-        "items": [
-            {
-                "id": "item-salad-01",
-                "itemImage": "./images/Grilled-Chicken-Salad.webp",
-                "itemName": "Grilled Chicken Salad",
-                "itemDescription": "Crisp cold greens, strips of marinated chicken, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
-                "itemPrice": 15.49,
-                "nutritionalInfo": {
-                    "calories": 810,
-                    "fat": "45g",
-                    "carbs": "28g",
-                    "protein": "74g",
-                    "sodium": "1480mg",
-                    "allergens": [
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🥚",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "item-salad-02",
-                "itemImage": "./images/Grilled-Salmon-Salad.webp",
-                "itemName": "Grilled Salmon Salad",
-                "itemDescription": "Crisp cold greens, grilled salmon, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
-                "itemPrice": 18.99,
-                "nutritionalInfo": {
-                    "calories": 820,
-                    "fat": "50g",
-                    "carbs": "28g",
-                    "protein": "66g",
-                    "sodium": "1510mg",
-                    "allergens": [
-                        "🐟",
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🥚",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "item-salad-03",
-                "itemName": "Chicken Caesar Salad",
-                "itemImage": "./images/Chicken-Caesar-Salad.webp",
-                "itemDescription": "Tender strips of grilled chicken with crisp hearts of romaine, Parmesan cheese, croutons and zesty Caesar dressing.",
-                "itemPrice": 15.49,
-                "nutritionalInfo": {
-                    "calories": 1050,
-                    "fat": "76g",
-                    "carbs": "34g",
-                    "protein": "60g",
-                    "sodium": "2580mg",
-                    "allergens": [
-                        "🐟",
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🥚",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "item-salad-04",
-                "itemImage": "./images/Salmon-Caesar-Salad.webp",
-                "itemName": "Salmon Caesar Salad",
-                "itemDescription": "Grilled salmon tossed with crisp hearts of romaine, parmesan cheese, croutons and zesty Caesar dressing.",
-                "itemPrice": 18.99,
-                "nutritionalInfo": {
-                    "calories": 1060,
-                    "fat": "81g",
-                    "carbs": "34g",
-                    "protein": "52g",
-                    "sodium": "2610mg",
-                    "allergens": [
-                        "🐟",
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🥚",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "item-salad-05",
-                "itemImage": "./images/Chicken-Critter-Salad.webp",
-                "itemName": "Chicken Critter Salad",
-                "itemDescription": "Hot, crispy chicken tenders piled high on a bed of cold greens with jack and cheddar cheeses, egg, tomato and bacon.",
-                "itemPrice": 15.49,
-                "nutritionalInfo": {
-                    "calories": 690,
-                    "fat": "37g",
-                    "carbs": "41g",
-                    "protein": "52g",
-                    "sodium": "1470mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "item-salad-06",
-                "itemImage": "./images/Ceasar-Salad.avif",
-                "itemName": "Caesar Salad",
-                "itemDescription": "Crisp hearts of romaine, fresh Parmesan cheese and made-from-scratch croutons tossed with our zesty Caesar dressing.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 440,
-                    "fat": "36g",
-                    "carbs": "22g",
-                    "protein": "9g",
-                    "sodium": "950mg",
-                    "allergens": [
-                        "🐟",
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🥚",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "burgers-and-sandwiches",
-        "categoryImage": "https://texasmenuprices.com/wp-content/uploads/2025/10/BBQ-Chicken-Sandwich-2-1024x660.webp",
-        "categoryName": "Burgers & Sandwiches",
-        "currency": "$",
-        "items": [
-            {
-                "id": "item-sandwich-01",
-                "itemImage": "./images/All-American-Cheeseburger.webp",
-                "itemName": "All-American Cheeseburger",
-                "itemDescription": "Our classic 1/2 lb. burger with American cheese, lettuce, tomato, and onion on a toasted bun. Served with steak fries and a pickle spear.",
-                "itemPrice": 12.99,
-                "nutritionalInfo": {
-                    "calories": 1030,
-                    "fat": "61g",
-                    "carbs": "68g",
-                    "protein": "52g",
-                    "sodium": "1840mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "item-sandwich-02",
-                "itemImage": "./images/Bacon-Cheeseburger.jpg",
-                "itemName": "Bacon Cheeseburger",
-                "itemDescription": "Our classic burger topped with crispy bacon and American cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
-                "itemPrice": 13.99,
-                "nutritionalInfo": {
-                    "calories": 1120,
-                    "fat": "70g",
-                    "carbs": "68g",
-                    "protein": "55g",
-                    "sodium": "2150mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🫘",
-                        "🐷"
-                    ]
-                }
-            },
-            {
-                "id": "item-sandwich-03",
-                "itemImage": "./images/Smokehouse-Burger.jpg",
-                "itemName": "Smokehouse Burger",
-                "itemDescription": "1/2 lb. burger with sautéed mushrooms, onions, BBQ sauce, American and jack cheeses. Served with steak fries and a pickle spear.",
-                "itemPrice": 14.49,
-                "nutritionalInfo": {
-                    "calories": 1210,
-                    "fat": "76g",
-                    "carbs": "79g",
-                    "protein": "57g",
-                    "sodium": "2320mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "item-sandwich-04",
-                "itemImage": "./images/Pulled-Pork-Sandwich.webp",
-                "itemName": "Pulled Pork Sandwich",
-                "itemDescription": "Tender, slow-cooked BBQ pulled pork piled high on a toasted bun. Served with steak fries and a pickle spear.",
-                "itemPrice": 12.49,
-                "nutritionalInfo": {
-                    "calories": 1050,
-                    "fat": "44g",
-                    "carbs": "118g",
-                    "protein": "47g",
-                    "sodium": "2240mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🫘",
-                        "🐷"
-                    ]
-                }
-            },
-            {
-                "id": "item-sandwich-05",
-                "itemImage": "./images/BBQ-Chicken-Sandwich.webp",
-                "itemName": "BBQ Chicken Sandwich",
-                "itemDescription": "Marinated and grilled chicken breast basted with BBQ sauce, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
-                "itemPrice": 12.99,
-                "nutritionalInfo": {
-                    "calories": 810,
-                    "fat": "29g",
-                    "carbs": "86g",
-                    "protein": "52g",
-                    "sodium": "1960mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "item-sandwich-06",
-                "itemImage": "./images/Mushroom-Jack-Chicken-Sandwich.webp",
-                "itemName": "Mushroom Jack Chicken Sandwich",
-                "itemDescription": "Grilled chicken breast with sautéed mushrooms, melted jack cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
-                "itemPrice": 13.49,
-                "nutritionalInfo": {
-                    "calories": 820,
-                    "fat": "37g",
-                    "carbs": "69g",
-                    "protein": "55g",
-                    "sodium": "1990mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "sides-and-extras",
-        "categoryImage": "https://texassroadhousemenu.com/wp-content/uploads/2025/07/Baked-Potato-1024x660.webp",
-        "categoryName": "Sides & Extras",
-        "currency": "$",
-        "items": [
-            {
-                "id": "side-01",
-                "itemImage": "./images/Mashed-Potatoes.webp",
-                "itemName": "Mashed Potatoes",
-                "itemDescription": "Our classic mashed potatoes.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 260,
-                    "fat": "12g",
-                    "carbs": "33g",
-                    "protein": "4g",
-                    "sodium": "740mg",
-                    "allergens": [
-                        "🥛",
-                        "🌾",
-                        "🍞"
-                    ]
-                }
-            },
-            {
-                "id": "side-02",
-                "itemImage": "./images/Buttered-Corn.jpg",
-                "itemName": "Buttered Corn",
-                "itemDescription": "Our classic buttered corn.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 180,
-                    "fat": "8g",
-                    "carbs": "26g",
-                    "protein": "4g",
-                    "sodium": "330mg",
-                    "allergens": [
-                        "🥛"
-                    ]
-                }
-            },
-            {
-                "id": "side-03",
-                "itemImage": "./images/Steamed-Vegetables.jpg",
-                "itemName": "Steamed Vegetables",
-                "itemDescription": "Our classic steamed vegetables.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 40,
-                    "fat": "2g",
-                    "carbs": "6g",
-                    "protein": "2g",
-                    "sodium": "230mg",
-                    "allergens": [
-                        "🥛"
-                    ]
-                }
-            },
-            {
-                "id": "side-04",
-                "itemImage": "./images/Green-Beans.jpg",
-                "itemName": "Green Beans",
-                "itemDescription": "Our classic green beans.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 100,
-                    "fat": "3.5g",
-                    "carbs": "13g",
-                    "protein": "6g",
-                    "sodium": "1070mg",
-                    "allergens": [
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "side-05",
-                "itemImage": "./images/house-salad.webp",
-                "itemName": "House Salad",
-                "itemDescription": "Our classic house salad.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 230,
-                    "fat": "16g",
-                    "carbs": "9g",
-                    "protein": "13g",
-                    "sodium": "510mg",
-                    "allergens": [
-                        "🥛",
-                        "🌾",
-                        "🍞",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "side-06",
-                "itemImage": "./images/Seasoned-Rice.jpg",
-                "itemName": "Seasoned Rice",
-                "itemDescription": "Rice cooked with a blend of spices.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 360,
-                    "fat": "17g",
-                    "carbs": "44g",
-                    "protein": "6g",
-                    "sodium": "1040mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "side-07",
-                "itemImage": "./images/Sauteed-Onions.jpg",
-                "itemName": "Sauteed Onions",
-                "itemDescription": "Sauteed onions with a blend of spices.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 150,
-                    "fat": "10g",
-                    "carbs": "14g",
-                    "protein": "1g",
-                    "sodium": "320mg",
-                    "allergens": [
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "side-08",
-                "itemImage": "./images/Sauteed-Mushrooms.webp",
-                "itemName": "Sauteed Mushrooms",
-                "itemDescription": "Sauteed mushrooms with a blend of spices.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 90,
-                    "fat": "7g",
-                    "carbs": "5g",
-                    "protein": "2g",
-                    "sodium": "430mg",
-                    "allergens": [
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "side-09",
-                "itemImage": "./images/Apple-Sauce.jpg",
-                "itemName": "Applesauce",
-                "itemDescription": "Our classic applesauce.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 110,
-                    "fat": "0g",
-                    "carbs": "28g",
-                    "protein": "0g",
-                    "sodium": "10mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "side-10",
-                "itemImage": "./images/Texas-Red-Chili.webp",
-                "itemName": "Texas Red Chili (Cup)",
-                "itemDescription": "Our classic Texas Red Chili.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 230,
-                    "fat": "13g",
-                    "carbs": "12g",
-                    "protein": "17g",
-                    "sodium": "660mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛"
-                    ]
-                }
-            },
-            {
-                "id": "side-11",
-                "itemImage": "./images/Side-Kick-Of-Ribs.jpg",
-                "itemName": "Sidekick of Ribs",
-                "itemDescription": "Our classic sidekick of ribs.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 450,
-                    "fat": "27g",
-                    "carbs": "15g",
-                    "protein": "37g",
-                    "sodium": "950mg",
-                    "allergens": [
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "side-12",
-                "itemImage": "./images/Mac-And-Cheese.webp",
-                "itemName": "Mac & Cheese",
-                "itemDescription": "Our classic mac and cheese.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 270,
-                    "fat": "14g",
-                    "carbs": "27g",
-                    "protein": "9g",
-                    "sodium": "860mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "kids-meals",
-        "categoryImage": "https://texassroadhousemenu.com/wp-content/uploads/2025/07/Ranger-Meal-Chicken-Critters%C2%AE-Basket.webp",
-        "categoryName": "Kids & Ranger Meals",
-        "currency": "$",
-        "items": [
-            {
-                "id": "kids-01",
-                "itemImage": "./images/Mini-Cheeseburgers.webp",
-                "itemName": "Mini-Cheeseburgers",
-                "itemDescription": "Two small burgers on our fresh-baked bread, topped with American cheese. Served with choice of one side.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 670,
-                    "fat": "38g",
-                    "carbs": "47g",
-                    "protein": "35g",
-                    "sodium": "1040mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "kids-02",
-                "itemImage": "./images/Jr-Chicken-Tenders.png",
-                "itemName": "Jr. Chicken Tenders",
-                "itemDescription": "All white-meat chicken breaded and fried to a golden brown. Served with choice of one side.",
-                "itemPrice": 6.49,
-                "nutritionalInfo": {
-                    "calories": 360,
-                    "fat": "17g",
-                    "carbs": "16g",
-                    "protein": "34g",
-                    "sodium": "790mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "kids-03",
-                "itemImage": "./images/Grilled-Chicken-Kids.png",
-                "itemName": "Grilled Chicken",
-                "itemDescription": "Strips of fresh, boneless chicken breast, lightly seasoned and grilled. Served with choice of one side.",
-                "itemPrice": 6.49,
-                "nutritionalInfo": {
-                    "calories": 250,
-                    "fat": "6g",
-                    "carbs": "4g",
-                    "protein": "45g",
-                    "sodium": "820mg",
-                    "allergens": [
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "kids-04",
-                "itemImage": "./images/Lil-Dillo-Bites.jpg",
-                "itemName": "Lil' Dillo Steak Bites",
-                "itemDescription": "Grilled steak pieces for younger Texas tikes, cooked to their liking. Served with choice of one side.",
-                "itemPrice": 7.99,
-                "nutritionalInfo": {
-                    "calories": 170,
-                    "fat": "4g",
-                    "carbs": "1g",
-                    "protein": "31g",
-                    "sodium": "410mg",
-                    "allergens": [
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "kids-05",
-                "itemImage": "./images/Mac-And-Cheese.jpg",
-                "itemName": "Macaroni and Cheese",
-                "itemDescription": "Our classic macaroni and cheese for younger Texas tikes. Served with choice of one side.",
-                "itemPrice": 6.99,
-                "nutritionalInfo": {
-                    "calories": 300,
-                    "fat": "14g",
-                    "carbs": "31g",
-                    "protein": "11g",
-                    "sodium": "940mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "kids-06",
-                "itemImage": "./images/All-Beef-Hot-Dog.webp",
-                "itemName": "All-Beef Hot Dog",
-                "itemDescription": "A classic all-beef hot dog served on a bun. Add chili 'n cheese for a small upcharge.",
-                "itemPrice": 5.99,
-                "nutritionalInfo": {
-                    "calories": 390,
-                    "fat": "22g",
-                    "carbs": "33g",
-                    "protein": "14g",
-                    "sodium": "1140mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "ranger-01",
-                "itemImage": "./images/Chicken-Critters-Basket.jpg",
-                "itemName": "Chicken Critters® Basket",
-                "itemDescription": "Golden-fried, all white-meat strips. Larger portion for older kids. Served with choice of one side.",
-                "itemPrice": 9.49,
-                "nutritionalInfo": {
-                    "calories": 440,
-                    "fat": "19g",
-                    "carbs": "21g",
-                    "protein": "47g",
-                    "sodium": "940mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "ranger-02",
-                "itemImage": "./images/Andy-Steak.jpg",
-                "itemName": "Andy's Steak*",
-                "itemDescription": "A 6 oz. hand-cut Sirloin steak seasoned and grilled to perfection. Served with choice of one side.",
-                "itemPrice": 11.99,
-                "nutritionalInfo": {
-                    "calories": 250,
-                    "fat": "6g",
-                    "carbs": "3g",
-                    "protein": "46g",
-                    "sodium": "540mg",
-                    "allergens": [
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "ranger-03",
-                "itemImage": "./images/Ranger-Meal-Ranger-Rib-Basket.webp",
-                "itemName": "Ranger Rib Basket",
-                "itemDescription": "A hearty portion of our award-winning, fall-off-the-bone ribs. Served with choice of one side.",
-                "itemPrice": 12.49,
-                "nutritionalInfo": {
-                    "calories": 550,
-                    "fat": "33g",
-                    "carbs": "19g",
-                    "protein": "44g",
-                    "sodium": "1170mg",
-                    "allergens": [
-                        "🐷",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "beverages",
-        "categoryImage": "./images/beverages.webp",
-        "categoryName": "Beverages",
-        "currency": "$",
-        "items": [
-            {
-                "id": "bev-01",
-                "itemImage": "./images/beverages.webp",
-                "itemName": "20oz Fountain Drinks",
-                "itemDescription": "Choice of Coca-Cola products. Prices listed are for TO-GO beverages only. No refills.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 240,
-                    "fat": "0g",
-                    "carbs": "65g",
-                    "protein": "0g",
-                    "sodium": "75mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-02",
-                "itemImage": "./images/20-oz-Lemonade.webp",
-                "itemName": "20 oz Lemonade",
-                "itemDescription": "Refreshing, ice-cold lemonade. Prices listed are for TO-GO beverages only. No refills.",
-                "itemPrice": 3.29,
-                "nutritionalInfo": {
-                    "calories": 250,
-                    "fat": "0g",
-                    "carbs": "68g",
-                    "protein": "0g",
-                    "sodium": "15mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-03",
-                "itemImage": "./images/20-oz-Iced-Tea.webp",
-                "itemName": "20 oz Iced Tea",
-                "itemDescription": "Freshly brewed unsweetened iced tea. Prices listed are for TO-GO beverages only. No refills.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 5,
-                    "fat": "0g",
-                    "carbs": "1g",
-                    "protein": "0g",
-                    "sodium": "10mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-04",
-                "itemImage": "./images/20-oz-Sweet-Tea.png",
-                "itemName": "20 oz Sweet Tea",
-                "itemDescription": "Freshly brewed tea sweetened with pure cane sugar. Prices listed are for TO-GO beverages only. No refills.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 190,
-                    "fat": "0g",
-                    "carbs": "48g",
-                    "protein": "0g",
-                    "sodium": "10mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-05",
-                "itemImage": "./images/Bottled-Water.webp",
-                "itemName": "Bottled Water",
-                "itemDescription": "Purified bottled water for on-the-go hydration.",
-                "itemPrice": 2.49,
-                "nutritionalInfo": {
-                    "calories": 0,
-                    "fat": "0g",
-                    "carbs": "0g",
-                    "protein": "0g",
-                    "sodium": "0mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-06",
-                "itemImage": "./images/Mix-Match-Tea-or-Lemonade.webp",
-                "itemName": "Mix & Match Tea or Lemonade",
-                "itemDescription": "Create your own blend of our fresh-brewed tea and lemonade (Arnold Palmer style).",
-                "itemPrice": 3.29,
-                "nutritionalInfo": {
-                    "calories": 130,
-                    "fat": "0g",
-                    "carbs": "34g",
-                    "protein": "0g",
-                    "sodium": "15mg",
-                    "allergens": []
-                }
-            }
-        ]
-    },
-    {
-        "id": "desserts",
-        "categoryImage": "https://www.tastingtable.com/img/gallery/this-secret-menu-trick-upgrades-texas-roadhouses-strawberry-cheesecake-into-a-sweet-delight-loaded-with-chocolate/l-intro-1759261033.jpg",
-        "categoryName": "Desserts",
-        "currency": "$",
-        "items": [
-            {
-                "id": "dessert-01",
-                "itemImage": "./images/Grannys-Apple-Classic.webp",
-                "itemName": "Granny's Apple Classic",
-                "itemDescription": "Homestyle slice of apple pie topped with vanilla ice cream and honey cinnamon caramel sauce.",
-                "itemPrice": 7.99,
-                "nutritionalInfo": {
-                    "calories": 1260,
-                    "fat": "62g",
-                    "carbs": "170g",
-                    "protein": "10g",
-                    "sodium": "1060mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚"
-                    ]
-                }
-            },
-            {
-                "id": "dessert-02",
-                "itemImage": "./images/strawberry-cheesecake.jpg",
-                "itemName": "Strawberry Cheesecake",
-                "itemDescription": "Slice of classic New York-style cheesecake topped with strawberry sauce and whipped cream.",
-                "itemPrice": 7.49,
-                "nutritionalInfo": {
-                    "calories": 780,
-                    "fat": "54g",
-                    "carbs": "64g",
-                    "protein": "12g",
-                    "sodium": "550mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚",
-                        "🫘"
-                    ]
-                }
-            },
-            {
-                "id": "dessert-03",
-                "itemImage": "./images/Big-Ol-Brownie.webp",
-                "itemName": "Big Ol' Brownie",
-                "itemDescription": "Chocolate brownie topped with vanilla ice cream and hot chocolate sauce.",
-                "itemPrice": 7.99,
-                "nutritionalInfo": {
-                    "calories": 1200,
-                    "fat": "60g",
-                    "carbs": "158g",
-                    "protein": "14g",
-                    "sodium": "650mg",
-                    "allergens": [
-                        "🌾",
-                        "🍞",
-                        "🥛",
-                        "🥚",
-                        "🫘"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "margaritas",
-        "categoryImage": "https://texasroadhouse.com.ph/cdn/shop/files/original-margarita_1b072c4e-f35f-450c-bdad-4301f3f618b5.jpg?v=1711940503",
-        "categoryName": "Margaritas",
-        "currency": "$",
-        "items": [
-            {
-                "id": "bev-margarita-01",
-                "itemImage": "./images/House-Rocks-Margarita.webp",
-                "itemName": "House Rocks Margarita",
-                "itemDescription": "Our fresh, signature margarita sour mixed with Dorado® Gold Tequila. Served on the rocks.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 230,
-                    "fat": "0g",
-                    "carbs": "28g",
-                    "protein": "0g",
-                    "sodium": "450mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-margarita-02",
-                "itemImage": "./images/House-Frozen-Margarita.webp",
-                "itemName": "House Frozen Margarita",
-                "itemDescription": "Our fresh, signature margarita sour mixed with Dorado® Gold Tequila, blended frozen.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 280,
-                    "fat": "0g",
-                    "carbs": "42g",
-                    "protein": "0g",
-                    "sodium": "480mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-margarita-03",
-                "itemImage": "./images/The-Legend-Margarita.jpg",
-                "itemName": "The Legend Margarita",
-                "itemDescription": "A blend of Patrón® Silver, Reposado, and Añejo with Grand Marnier® and signature sour. Served with black lava salt.",
-                "itemPrice": 3.99,
-                "nutritionalInfo": {
-                    "calories": 260,
-                    "fat": "0g",
-                    "carbs": "22g",
-                    "protein": "0g",
-                    "sodium": "820mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-margarita-04",
-                "itemImage": "./images/Fruity-Margarita.jpg",
-                "itemName": "Fruity Margarita",
-                "itemDescription": "Our House Margarita with your choice of Strawberry or Raspberry puree.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 320,
-                    "fat": "0g",
-                    "carbs": "52g",
-                    "protein": "0g",
-                    "sodium": "460mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-margarita-05",
-                "itemImage": "./images/Mango-Margarita.jpg",
-                "itemName": "Mango Margarita",
-                "itemDescription": "Our House Margarita blended with mango puree and garnished with tajin chili lime salt.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 330,
-                    "fat": "0g",
-                    "carbs": "55g",
-                    "protein": "0g",
-                    "sodium": "940mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-margarita-06",
-                "itemImage": "./images/Hurricane-Margarita.jpg",
-                "itemName": "Hurricane Margarita",
-                "itemDescription": "Captain Morgan® Spiced Rum, grenadine, orange, and pineapple juices blended with our house margarita.",
-                "itemPrice": 3.99,
-                "nutritionalInfo": {
-                    "calories": 350,
-                    "fat": "0g",
-                    "carbs": "58g",
-                    "protein": "0g",
-                    "sodium": "450mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-margarita-07",
-                "itemImage": "./images/Sangria-Margarita.jpg",
-                "itemName": "Sangria Margarita",
-                "itemDescription": "Our House Margarita swirled with signature Sangria Red wine.",
-                "itemPrice": 3.99,
-                "nutritionalInfo": {
-                    "calories": 250,
-                    "fat": "0g",
-                    "carbs": "32g",
-                    "protein": "0g",
-                    "sodium": "450mg",
-                    "allergens": []
-                }
-            }
-        ]
-    },
-    {
-        "id": "cocktails",
-        "categoryImage": "https://publish.purewow.net/wp-content/uploads/sites/2/2020/06/texas-roadhouse-cocktail-recipes-kenny-s-cooler.jpg?fit=728%2C524",
-        "categoryName": "Cocktails",
-        "currency": "$",
-        "items": [
-            {
-                "id": "bev-cocktail-01",
-                "itemImage": "./images/Cactus-Water.jpg",
-                "itemName": "Cactus Water",
-                "itemDescription": "Espolón® Reposado Tequila, club soda, and 2 fresh limes with a tajin rim. (Also available with Mango).",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 140,
-                    "fat": "0g",
-                    "carbs": "5g",
-                    "protein": "0g",
-                    "sodium": "480mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-cocktail-02",
-                "itemImage": "./images/Titos-Soda.webp",
-                "itemName": "Tito's & Soda",
-                "itemDescription": "Tito's® Vodka mixed with club soda and a fresh lime garnish.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 100,
-                    "fat": "0g",
-                    "carbs": "1g",
-                    "protein": "0g",
-                    "sodium": "10mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-cocktail-03",
-                "itemImage": "./images/Porch-Rocker.jpg",
-                "itemName": "Porch Rocker",
-                "itemDescription": "Deep Eddy® Lemon, Monin® blackberry syrup, and club soda with a lemon twist. (Also available with Strawberry).",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 180,
-                    "fat": "0g",
-                    "carbs": "22g",
-                    "protein": "0g",
-                    "sodium": "15mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-cocktail-04",
-                "itemImage": "./images/Old-Fashioned.jpg",
-                "itemName": "Old Fashioned",
-                "itemDescription": "Maker's Mark® Bourbon stirred together with bitters and our house Old Fashioned mix.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 170,
-                    "fat": "0g",
-                    "carbs": "12g",
-                    "protein": "0g",
-                    "sodium": "5mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-cocktail-05",
-                "itemImage": "./images/Gin-Blossom.webp",
-                "itemName": "Gin Blossom",
-                "itemDescription": "Tanqueray® Gin mixed with Minute Maid® Lemonade, strawberry puree, and club soda.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 210,
-                    "fat": "0g",
-                    "carbs": "26g",
-                    "protein": "0g",
-                    "sodium": "25mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-lit-01",
-                "itemImage": "./images/Long-Island-Iced-Tea-L.I.T.webp",
-                "itemName": "Long Island Iced Tea",
-                "itemDescription": "Vodka, gin, and rum mixed with our sweet and sour, triple sec, and a splash of Coca-Cola®.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 280,
-                    "fat": "0g",
-                    "carbs": "33g",
-                    "protein": "0g",
-                    "sodium": "20mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-lit-02",
-                "itemImage": "./images/Top-Shelf-L.I.T.jpg",
-                "itemName": "Top Shelf L.I.T.",
-                "itemDescription": "Wheatley® Vodka, Tanqueray® Gin, and Bacardi® Rum mixed with our sweet and sour, triple sec, and a splash of Coca-Cola®.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 290,
-                    "fat": "0g",
-                    "carbs": "33g",
-                    "protein": "0g",
-                    "sodium": "20mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-lit-03",
-                "itemImage": "./images/Southern-Whiskey-L.I.T.jpg",
-                "itemName": "Southern Whiskey L.I.T.",
-                "itemDescription": "Jack Daniel's®, Jim Beam®, Southern Comfort® Black, and our sweet and sour with a splash of Coca-Cola®.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 310,
-                    "fat": "0g",
-                    "carbs": "35g",
-                    "protein": "0g",
-                    "sodium": "25mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-cocktail-06",
-                "itemImage": "./images/Texas-Peach-Fuzz.jpg",
-                "itemName": "Texas Peach Fuzz",
-                "itemDescription": "Tito's® Handmade Vodka and DeKuyper® Peachtree® Schnapps with cranberry and orange juices.",
-                "itemPrice": 2.99,
-                "nutritionalInfo": {
-                    "calories": 220,
-                    "fat": "0g",
-                    "carbs": "28g",
-                    "protein": "0g",
-                    "sodium": "15mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-cocktail-07",
-                "itemImage": "./images/Island-Cooler.webp",
-                "itemName": "Island Cooler",
-                "itemDescription": "Parrot Bay® Coconut Rum, DeKeyper® Peachtree® Schnapps, Minute Maid® Lemonade, sweet and sour, and Monin® Blue Curacao.",
-                "nutritionalInfo": {
-                    "calories": 260,
-                    "fat": "0g",
-                    "carbs": "41g",
-                    "protein": "0g",
-                    "sodium": "20mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-cocktail-08",
-                "itemImage": "./images/Jamaican-Cowboy.jpg",
-                "itemName": "Jamaican Cowboy",
-                "itemDescription": "Malibu® Rum, DeKuyper® Peachtree® Schnapps, orange and pineapple juices with a splash of our house margarita.",
-                "nutritionalInfo": {
-                    "calories": 250,
-                    "fat": "0g",
-                    "carbs": "34g",
-                    "protein": "0g",
-                    "sodium": "150mg",
-                    "allergens": []
-                }
-            }
-        ]
-    },
-    {
-        "id": "beer",
-        "categoryImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbsqeZFBGQlPxaqGPd4121dTdcg6AIpUiTMA&s",
-        "categoryName": "Beer",
-        "currency": "$",
-        "items": [
-            {
-                "id": "bev-beer-01",
-                "itemImage": "./images/Budweiser.jpg",
-                "itemName": "Budweiser",
-                "itemDescription": "Budweiser® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 145,
-                    "fat": "0g",
-                    "carbs": "10.6g",
-                    "protein": "1.3g",
-                    "sodium": "10mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-02",
-                "itemImage": "./images/Bud-Light.jpg",
-                "itemName": "Bud Light",
-                "itemDescription": "Bud Light® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 110,
-                    "fat": "0g",
-                    "carbs": "6.6g",
-                    "protein": "0.9g",
-                    "sodium": "10mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-03",
-                "itemImage": "./images/Millers-Lite.jpg",
-                "itemName": "Miller Lite",
-                "itemDescription": "Miller Lite® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 96,
-                    "fat": "0g",
-                    "carbs": "3.2g",
-                    "protein": "1g",
-                    "sodium": "5mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-04",
-                "itemImage": "./images/Coors-Light.webp",
-                "itemName": "Coors Light",
-                "itemDescription": "Coors Light® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 102,
-                    "fat": "0g",
-                    "carbs": "5g",
-                    "protein": "1g",
-                    "sodium": "10mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-05",
-                "itemImage": "./images/Michelob-Ultra.jpg",
-                "itemName": "Michelob Ultra",
-                "itemDescription": "Michelob Ultra® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 95,
-                    "fat": "0g",
-                    "carbs": "2.6g",
-                    "protein": "0.6g",
-                    "sodium": "5mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-06",
-                "itemImage": "./images/Heineken.jpg",
-                "itemName": "Heineken",
-                "itemDescription": "Heineken® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 142,
-                    "fat": "0g",
-                    "carbs": "11g",
-                    "protein": "0g",
-                    "sodium": "10mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-07",
-                "itemImage": "./images/Sam-Adams.jpg",
-                "itemName": "Sam Adams Boston Lager",
-                "itemDescription": "Ask your server about our current seasonal selection.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 175,
-                    "fat": "0g",
-                    "carbs": "18g",
-                    "protein": "2g",
-                    "sodium": "10mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-08",
-                "itemImage": "./images/Sam-Adams-Seasonal.jpg",
-                "itemName": "Sam Adams Seasonal",
-                "itemDescription": "Ask your server about our current seasonal selection.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 170,
-                    "fat": "0g",
-                    "carbs": "15g",
-                    "protein": "2g",
-                    "sodium": "10mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-09",
-                "itemImage": "./images/Corona-Extra.jpg",
-                "itemName": "Corona Extra",
-                "itemDescription": "Corona Extra® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 148,
-                    "fat": "0g",
-                    "carbs": "14g",
-                    "protein": "1g",
-                    "sodium": "20mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-10",
-                "itemImage": "./images/Stella-Artois.jpg",
-                "itemName": "Stella Artois",
-                "itemDescription": "Stella Artois® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 150,
-                    "fat": "0g",
-                    "carbs": "13g",
-                    "protein": "1g",
-                    "sodium": "10mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-11",
-                "itemImage": "./images/Modelo-Especial.webp",
-                "itemName": "Modelo Especial",
-                "itemDescription": "Modelo Especial® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 145,
-                    "fat": "0g",
-                    "carbs": "13.7g",
-                    "protein": "1.1g",
-                    "sodium": "10mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-12",
-                "itemImage": "./images/Blue-Moon.jpg",
-                "itemName": "Blue Moon",
-                "itemDescription": "Blue Moon® Lager Beer, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 170,
-                    "fat": "0g",
-                    "carbs": "14g",
-                    "protein": "2g",
-                    "sodium": "15mg",
-                    "allergens": [
-                        "🍞",
-                        "🌾",
-                        "🍺"
-                    ]
-                }
-            },
-            {
-                "id": "bev-beer-13",
-                "itemImage": "./images/Angry-Orchard-Hard-Cider.jpg",
-                "itemName": "Angry Orchard Hard Cider",
-                "itemDescription": "Angry Orchard® Hard Cider, 1.5% ABV, Brewed in the USA.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 190,
-                    "fat": "0g",
-                    "carbs": "24g",
-                    "protein": "0g",
-                    "sodium": "10mg",
-                    "allergens": []
-                }
-            },
-            {
-                "id": "bev-beer-14",
-                "itemImage": "./images/Heineken-0.0.jpg",
-                "itemName": "Heineken 0.0",
-                "itemDescription": "Non-alcoholic malt beverage.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 69,
-                    "fat": "0g",
-                    "carbs": "16g",
-                    "protein": "0g",
-                    "sodium": "10mg",
-                    "allergens": [
-                        "🍞",
-                        "🍺"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "wine",
-        "categoryImage": "./images/wine.png",
-        "categoryName": "Wine",
-        "currency": "$",
-        "items": [
-            {
-                "id": "bev-wine-01",
-                "itemImage": "./images/Josh-Cabernet.webp",
-                "itemName": "Josh® Cabernet",
-                "itemDescription": "Full-bodied flavor. Great with steaks or ribs.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 150,
-                    "fat": "0g",
-                    "carbs": "5g",
-                    "protein": "0g",
-                    "sodium": "5mg",
-                    "allergens": [
-                        "🍷"
-                    ]
-                }
-            },
-            {
-                "id": "bev-wine-02",
-                "itemImage": "./images/Meiomi-Pinot-Noir.jpg",
-                "itemName": "Meiomi® Pinot Noir",
-                "itemDescription": "Smooth cherry and strawberry flavors. Great with steaks or chicken.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 145,
-                    "fat": "0g",
-                    "carbs": "4g",
-                    "protein": "0g",
-                    "sodium": "5mg",
-                    "allergens": [
-                        "🍷"
-                    ]
-                }
-            },
-            {
-                "id": "bev-wine-03",
-                "itemImage": "./images/Dark-Horse-Cabernet.jpg",
-                "itemName": "Dark Horse® Cabernet",
-                "itemDescription": "Big fruit flavor. Great with steaks or ribs.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 150,
-                    "fat": "0g",
-                    "carbs": "5g",
-                    "protein": "0g",
-                    "sodium": "5mg",
-                    "allergens": [
-                        "🍷"
-                    ]
-                }
-            },
-            {
-                "id": "bev-wine-04",
-                "itemImage": "./images/Canyon-Road-Merlot.webp",
-                "itemName": "Canyon Road® Merlot",
-                "itemDescription": "Dark berry flavor. Great with steaks, chicken, or pork.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 145,
-                    "fat": "0g",
-                    "carbs": "4g",
-                    "protein": "0g",
-                    "sodium": "5mg",
-                    "allergens": [
-                        "🍷"
-                    ]
-                }
-            },
-            {
-                "id": "bev-wine-05",
-                "itemImage": "./images/Kendall-Jackson-Chardonnay.jpg",
-                "itemName": "Kendall-Jackson® Chardonnay",
-                "itemDescription": "Creamy, oak, and rich fruit flavor. Great with chicken, fish, or pork.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 150,
-                    "fat": "0g",
-                    "carbs": "4g",
-                    "protein": "0g",
-                    "sodium": "0mg",
-                    "allergens": [
-                        "🍷"
-                    ]
-                }
-            },
-            {
-                "id": "bev-wine-06",
-                "itemImage": "./images/Ecco-Domani-Pinot-Grigio.jpg",
-                "itemName": "Ecco Domani® Pinot Grigio",
-                "itemDescription": "Citrus taste. Great with chicken, fish, or pork.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 140,
-                    "fat": "0g",
-                    "carbs": "3g",
-                    "protein": "0g",
-                    "sodium": "0mg",
-                    "allergens": [
-                        "🍷"
-                    ]
-                }
-            },
-            {
-                "id": "bev-wine-07",
-                "itemImage": "./images/Nobile-Sauvignon-Blanc.jpeg",
-                "itemName": "Nobilo® Sauvignon Blanc",
-                "itemDescription": "Fresh, crisp, and zesty fruit flavors. Best with salads, seafood, or chicken.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 140,
-                    "fat": "0g",
-                    "carbs": "3g",
-                    "protein": "0g",
-                    "sodium": "0mg",
-                    "allergens": [
-                        "🍷"
-                    ]
-                }
-            },
-            {
-                "id": "bev-wine-08",
-                "itemImage": "./images/Canyon-Road-Chardonnay.jpg",
-                "itemName": "Canyon Road® Chardonnay",
-                "itemDescription": "Creamy, rich flavor. Great with chicken, fish, or salads.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 145,
-                    "fat": "0g",
-                    "carbs": "4g",
-                    "protein": "0g",
-                    "sodium": "0mg",
-                    "allergens": [
-                        "🍷"
-                    ]
-                }
-            },
-            {
-                "id": "bev-wine-09",
-                "itemImage": "./images/Barefoot-Moscato.jpg",
-                "itemName": "Barefoot® Moscato",
-                "itemDescription": "Semi-sweet taste. Great with salads or chicken.",
-                "itemPrice": 1.99,
-                "nutritionalInfo": {
-                    "calories": 165,
-                    "fat": "0g",
-                    "carbs": "14g",
-                    "protein": "0g",
-                    "sodium": "0mg",
-                    "allergens": [
-                        "🍷"
-                    ]
-                }
-            }
-        ]
-    }
+  {
+    "id": "category-starters",
+    "categoryImage": "./images/cactus-blossom-1.webp",
+    "categoryName": "JUST FOR STARTERS",
+    "currency": "$",
+    "items": [
+      {
+        "id": "item-starters-1",
+        "itemImage": "./images/cactus-blossom-1.webp",
+        "itemName": "Cactus Blossom",
+        "itemDescription": "Great for sharing! Texas-sized, golden-fried onion with Cajun sauce for dipping",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 1700,
+          "fat": "135g",
+          "carbs": "203g",
+          "protein": "27g",
+          "sodium": "5260mg",
+          "serves": "2-4 people",
+          "allergens": ["🍞", "🥛", "🥚"]
+        }
+      },
+      {
+        "id": "item-starters-2",
+        "itemImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThzFNodk_mNiahzIz3Um8i-WBYGmy4wXXJ3Q&s",
+        "itemName": "Fried Pickles",
+        "itemDescription": "Shareable basket of golden-fried pickle chips served with Ranch or Cajun sauce for dipping",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 1240,
+          "fat": "65g",
+          "carbs": "127g",
+          "protein": "39g",
+          "sodium": "4570mg",
+          "serves": "2-3 people",
+          "allergens": ["🥛", "🌾", "🍞"]
+        }
+      },
+      {
+        "id": "item-starters-3",
+        "itemImage": "https://texazroadhoucemenu.com/wp-content/uploads/2025/08/Cheese-Fries.webp",
+        "itemName": "Cheese Fries",
+        "itemDescription": "A heaping amount of golden steak fries topped with melted cheddar cheese and bacon bits",
+        "itemPrice": 6.9,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 1240,
+          "fat": "65g",
+          "carbs": "127g",
+          "protein": "39g",
+          "sodium": "4570mg",
+          "serves": "2-3 people",
+          "allergens": ["🥛", "🌾", "🍞", "🐷"]
+        }
+      },
+      {
+        "id": "item-starters-4",
+        "itemImage": "https://s.yimg.com/ny/api/res/1.2/V_HscmHQlaGwcr8NP9hfjQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1NjA7aD04NzY7Y2Y9d2VicA--/https://media.zenfs.com/en/tasting_table_543/2cfbbe503148416cb6eecc425b79d9a2",
+        "itemName": "Tater Skins",
+        "itemDescription": "Plate of 8 baked potato skins topped with melted cheddar cheese and bacon bits, served with sour cream for dipping",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 1320,
+          "fat": "94g",
+          "carbs": "82g",
+          "protein": "41g",
+          "sodium": "2340mg",
+          "serves": "2-4 people",
+          "allergens": ["🥛", "🐷"]
+        }
+      },
+      {
+        "id": "item-starters-5",
+        "itemImage": "https://texasmenuprices.com/wp-content/uploads/2025/08/Boneless-Buffalo-Wings-1-1024x660.webp",
+        "itemName": "Boneless Buffalo Wings",
+        "itemDescription": "Breaded white meat chicken tossed in Mild or Hot sauce and served with Bleu Cheese dressing",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 760,
+          "fat": "49g",
+          "carbs": "36g",
+          "protein": "45g",
+          "sodium": "2910mg",
+          "serves": "1-2 people",
+          "allergens": ["🥛", "🌾", "🍞", "🥚"]
+        }
+      },
+      {
+        "id": "item-starters-6",
+        "itemImage": "https://texasmenuprices.com/wp-content/uploads/2025/08/Killer-Ribs-1-1024x660.webp",
+        "itemName": "Killer Ribs",
+        "itemDescription": "Basket of our award-winning ribs with steak fries",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 910,
+          "fat": "55g",
+          "carbs": "62g",
+          "protein": "43g",
+          "sodium": "1620mg",
+          "serves": "1-2 people",
+          "allergens": ["🌾", "🍞", "🐷", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "hand-Cut-steaks",
+    "categoryImage": "https://texassroadhousemenu.com/wp-content/uploads/2025/07/kansas-city-strip.webp",
+    "categoryName": "Hand-Cut Steaks",
+    "currency": "$",
+    "items": [
+      {
+        "id": "hand-Cut-steak-1",
+        "itemImage": "./images/Hand-Cut-Sirloin.webp",
+        "itemName": "Hand-Cut Sirloin",
+        "itemDescription": "Lean, juicy steak priced at a great value. Served with choice of two sides",
+        "itemPrice": 19.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 250,
+          "fat": "6g",
+          "carbs": "3g",
+          "protein": "46g",
+          "sodium": "560mg",
+          "serves": "1 person",
+          "allergens": ["None"]
+        }
+      },
+      {
+        "id": "item-steak-2",
+        "itemImage": "./images/new-york-strip.jpg",
+        "itemName": "New York Strip",
+        "itemDescription": "Similar flavor to the sirloin with extra tenderness. Served with choice of two sides",
+        "itemPrice": 19.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 640,
+          "fat": "33g",
+          "carbs": "1g",
+          "protein": "85g",
+          "sodium": "980mg",
+          "serves": "1 person",
+          "allergens": ["None"]
+        }
+      },
+      {
+        "id": "item-steak-3",
+        "itemImage": "./images/Bone-In-Ribeye.webp",
+        "itemName": "Bone-In Ribeye",
+        "itemDescription": "20oz. cut of our juicy, flavorful ribeye served on the bone for extra flavor. Served with choice of two sides",
+        "itemPrice": 19.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 1480,
+          "fat": "104g",
+          "carbs": "9g",
+          "protein": "128g",
+          "sodium": "1720mg",
+          "serves": "1 person",
+          "allergens": ["None"]
+        }
+      },
+      {
+        "id": "item-steak-4",
+        "itemImage": "./images/porterhouse-tbone.webp",
+        "itemName": "Porterhouse T-Bone",
+        "itemDescription": "Two steak cuts - filet and strip - in one Texas-sized 23oz steak. Served with choice of two sides",
+        "itemPrice": 19.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 1040,
+          "fat": "55g",
+          "carbs": "6g",
+          "protein": "130g",
+          "sodium": "1460mg",
+          "serves": "1-2 people",
+          "allergens": ["None"]
+        }
+      },
+      {
+        "id": "item-steak-5",
+        "itemImage": "./images/steak-kabob.webp",
+        "itemName": "Steak Kabob",
+        "itemDescription": "Marinated steak with onion, mushroom, tomato, red pepper, green pepper served over seasoned rice with choice of one side",
+        "itemPrice": 19.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 450,
+          "fat": "19g",
+          "carbs": "44g",
+          "protein": "26g",
+          "sodium": "1270mg",
+          "serves": "1 person",
+          "allergens": ["🫘", "🌾", "🍞"]
+        }
+      },
+      {
+        "id": "item-steak-6",
+        "itemImage": "./images/fillet-medallions.webp",
+        "itemName": "Filet Medallions",
+        "itemDescription": "Three tender filets (9 oz. total) topped with choice of Peppercorn or Portobello Mushroom sauce and served over seasoned rice",
+        "itemPrice": 19.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 760,
+          "fat": "43g",
+          "carbs": "46g",
+          "protein": "54g",
+          "sodium": "1600mg",
+          "serves": "1 person",
+          "allergens": ["🥛", "🌾", "🍞", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "Fall-Off-The-Bone-Ribs",
+    "categoryImage": "https://kdvr.com/wp-content/uploads/sites/11/2018/09/t_ribs_full.jpg?strip=1",
+    "categoryName": "The-Bone-Ribs",
+    "currency": "$",
+    "items": [
+      {
+        "id": "Bone-Ribs-1",
+        "itemImage": "./images/12-Slab-Ribs.webp",
+        "itemName": "1/2 Slab Ribs",
+        "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
+        "itemPrice": 6.9,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 900,
+          "fat": "63g",
+          "carbs": "45g",
+          "protein": "41g",
+          "sodium": "1530mg",
+          "serves": "1 person",
+          "allergens": ["🐷", "🫘"]
+        }
+      },
+      {
+        "id": "Bone-Ribs-2",
+        "itemImage": "./images/full-slab-ribs.avif",
+        "itemName": "Full Slab Ribs",
+        "itemDescription": "Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides",
+        "itemPrice": 6.9,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 1450,
+          "fat": "102g",
+          "carbs": "56g",
+          "protein": "82g",
+          "sodium": "2840mg",
+          "serves": "1-2 people",
+          "allergens": ["🐷", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "alabama-size-combos",
+    "categoryImage": "https://menutexasroadhouse.com/wp-content/uploads/2025/11/Texas-Roadhouse-Combo-Meals-Menu-Texas-Size-Combos-1024x580.webp",
+    "categoryName": "ALABAMA SIZE COMBOS",
+    "currency": "$",
+    "items": [
+      {
+        "id": "alabama-size-combo-1",
+        "itemImage": "./images/Grilled-BBQ-Chicken.webp",
+        "itemName": "Grilled BBQ Chicken & Sirloin 6oz",
+        "itemDescription": "Marinated 1/2 lb. breast basted in BBQ sauce along with our lean, juicy sirloin steak at a great value",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 540,
+          "fat": "15g",
+          "carbs": "18g",
+          "protein": "83g",
+          "sodium": "1190mg",
+          "serves": "1 person",
+          "allergens": ["🫘"]
+        }
+      },
+      {
+        "id": "alabama-size-combo-2",
+        "itemImage": "./images/Chicken-Critters.webp",
+        "itemName": "Chicken Critters® & Ribs",
+        "itemDescription": "All white meat chicken tenders dipped in buttermilk batter, then hand-breaded and golden-fried along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 820,
+          "fat": "46g",
+          "carbs": "41g",
+          "protein": "61g",
+          "sodium": "1630mg",
+          "serves": "1 person",
+          "allergens": ["🌾", "🍞", "🥛", "🥚", "🐷", "🫘"]
+        }
+      },
+      {
+        "id": "alabama-size-combo-3",
+        "itemImage": "./images/Chicken-Critters-Sirloin.webp",
+        "itemName": "Chicken Critters® & Sirloin 6oz",
+        "itemDescription": "All white meat chicken tenders dipped in buttermilk batter, then hand-breaded and golden-fried along with our lean, juicy sirloin steak at a great value",
+        "itemPrice": 19.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 520,
+          "fat": "21g",
+          "carbs": "22g",
+          "protein": "61g",
+          "sodium": "1140mg",
+          "serves": "1 person",
+          "allergens": ["🌾", "🍞", "🥛", "🥚"]
+        }
+      },
+      {
+        "id": "alabama-size-combo-4",
+        "itemImage": "./images/sirlon-ribs01.webp",
+        "itemName": "Sirloin* & Ribs",
+        "itemDescription": "Our lean, juicy sirloin steak at a great value along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 700,
+          "fat": "41g",
+          "carbs": "24g",
+          "protein": "61g",
+          "sodium": "1330mg",
+          "serves": "1 person",
+          "allergens": ["🐷", "🫘"]
+        }
+      },
+      {
+        "id": "alabama-size-combo-5",
+        "itemImage": "./images/sirlon-ribs.webp",
+        "itemName": "Ribeye* 12oz & Ribs",
+        "itemDescription": "Very juicy and flavorful from the marbling throughout the steak along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
+        "itemPrice": 19.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 1090,
+          "fat": "74g",
+          "carbs": "25g",
+          "protein": "100g",
+          "sodium": "1750mg",
+          "serves": "1 person",
+          "allergens": ["🐷", "🫘"]
+        }
+      },
+      {
+        "id": "alabama-size-combo-6",
+        "itemImage": "./images/Dallas-Filet.webp",
+        "itemName": "Filet* 6oz & Ribs",
+        "itemDescription": "Our most tender steak that is lean and melts in your mouth along with slow cooked ribs in a unique blend of seasonings and our signature BBQ sauce",
+        "itemPrice": 19.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 670,
+          "fat": "37g",
+          "carbs": "25g",
+          "protein": "58g",
+          "sodium": "1340mg",
+          "serves": "1 person",
+          "allergens": ["🐷", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dockside-favorites",
+    "categoryImage": "https://texazroadhoucemenu.com/wp-content/uploads/2025/08/Grilled-Salmon.webp",
+    "categoryName": "Dockside Favorites",
+    "currency": "$",
+    "items": [
+      {
+        "id": "dockside-favorites-1",
+        "itemImage": "./images/grilled-salmon.webp",
+        "itemName": "Grilled Salmon*",
+        "itemDescription": "A Norwegian fillet salmon steak grilled moist and tender then topped with our lemon pepper butter. Served with choice of two sides",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 480,
+          "fat": "33g",
+          "carbs": "2g",
+          "protein": "45g",
+          "sodium": "820mg",
+          "serves": "1 person",
+          "allergens": ["🐟", "🥛"]
+        }
+      },
+      {
+        "id": "dockside-favorites-2",
+        "itemImage": "./images/fried-catfish.webp",
+        "itemName": "Fried Catfish",
+        "itemDescription": "U.S. farm-raised catfish breaded in southern cornmeal and fried to a golden brown. Served with choice of two sides.",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 790,
+          "fat": "52g",
+          "carbs": "36g",
+          "protein": "45g",
+          "sodium": "1710mg",
+          "serves": "1 person",
+          "allergens": ["🐟", "🌾", "🍞", "🥛"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "chicken-specialties",
+    "categoryImage": "https://texazroadhoucemenu.com/wp-content/uploads/2025/08/Smothered-Chicken.webp",
+    "categoryName": "Chicken Specialties",
+    "currency": "$",
+    "items": [
+      {
+        "id": "chicken-specialties-1",
+        "itemImage": "./images/Country-Fried-Chicken.webp",
+        "itemName": "Country Fried Chicken",
+        "itemDescription": "Tender, white meat chicken breast, hand-battered, golden-fried and topped with choice of gravy. Served with choice of two sides",
+        "itemPrice": 14.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 780,
+          "fat": "44g",
+          "carbs": "42g",
+          "protein": "54g",
+          "sodium": "1890mg",
+          "serves": "1 person",
+          "allergens": ["🌾", "🍞", "🥛", "🥚"]
+        }
+      },
+      {
+        "id": "chicken-specialties-2",
+        "itemImage": "./images/Chicken-Critters.webp",
+        "itemName": "Chicken Critters®",
+        "itemDescription": "All white meat chicken tenders, golden-fried and lightly crispy. Served with choice of two sides",
+        "itemPrice": 13.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 440,
+          "fat": "19g",
+          "carbs": "21g",
+          "protein": "47g",
+          "sodium": "940mg",
+          "serves": "1 person",
+          "allergens": ["🌾", "🍞", "🥛", "🥚"]
+        }
+      },
+      {
+        "id": "chicken-specialties-3",
+        "itemImage": "./images/smothered-chicken.jpg",
+        "itemName": "Smothered Chicken",
+        "itemDescription": "Grilled, marinated chicken breast with sautéed onions, sautéed mushrooms and choice of melted jack cheese or made-from-scratch gravy. Served with choice of two sides",
+        "itemPrice": 14.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 430,
+          "fat": "21g",
+          "carbs": "10g",
+          "protein": "51g",
+          "sodium": "1310mg",
+          "serves": "1 person",
+          "allergens": ["🥛", "🫘"]
+        }
+      },
+      {
+        "id": "chicken-specialties-4",
+        "itemImage": "./images/Herb-Crusted-Chicken-1.webp",
+        "itemName": "Herb Crusted Chicken",
+        "itemDescription": "Boneless, marinated chicken breast seasoned with a blend of herbs and spices, then flame-grilled and served with a caramelized lemon for extra flavor. Served with choice of two sides",
+        "itemPrice": 14.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 310,
+          "fat": "10g",
+          "carbs": "12g",
+          "protein": "47g",
+          "sodium": "1040mg",
+          "serves": "1 person",
+          "allergens": ["🫘"]
+        }
+      },
+      {
+        "id": "chicken-specialties-5",
+        "itemImage": "./images/grilled-bbq-chicken.png",
+        "itemName": "Grilled BBQ Chicken",
+        "itemDescription": "Marinated ½ lb. breast served with choice of two sides",
+        "itemPrice": 14.49,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 300,
+          "fat": "7g",
+          "carbs": "18g",
+          "protein": "46g",
+          "sodium": "1010mg",
+          "serves": "1 person",
+          "allergens": ["🫘"]
+        }
+      },
+      {
+        "id": "chicken-specialties-6",
+        "itemImage": "./images/Portobello-Mushroom-Chicken.webp",
+        "itemName": "Portobello Mushroom Chicken",
+        "itemDescription": "Grilled, marinated chicken breast with Portobello Mushroom sauce, jack cheese and parmesan cheese. Served with choice of two sides",
+        "itemPrice": 15.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 430,
+          "fat": "21g",
+          "carbs": "8g",
+          "protein": "53g",
+          "sodium": "1420mg",
+          "serves": "1 person",
+          "allergens": ["🥛", "🌾", "🍞", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "country-dinners",
+    "categoryImage": "https://www.foodrepublic.com/img/gallery/the-cut-of-beef-texas-roadhouse-uses-for-its-country-fried-steak/intro-1760363623.jpg",
+    "categoryName": "Country Dinners",
+    "currency": "$",
+    "items": [
+      {
+        "id": "country-dinners-1",
+        "itemImage": "./images/Grilled-Pork-Chops.webp",
+        "itemName": "Grilled Pork Chops",
+        "itemDescription": "Boneless chops seasoned and served with Peppercorn sauce",
+        "itemPrice": 16.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 590,
+          "fat": "33g",
+          "carbs": "12g",
+          "protein": "61g",
+          "sodium": "1940mg",
+          "serves": "1 person",
+          "allergens": ["🥛", "🌾", "🍞", "🫘"]
+        }
+      },
+      {
+        "id": "country-dinners-2",
+        "itemImage": "./images/Pulled-Pork-Dinner.png",
+        "itemName": "Pulled Pork Dinner",
+        "itemDescription": "Tender, slow-cooked BBQ pork served with toasted fresh-baked bread",
+        "itemPrice": 14.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 740,
+          "fat": "37g",
+          "carbs": "65g",
+          "protein": "37g",
+          "sodium": "1670mg",
+          "serves": "1 person",
+          "allergens": ["🌾", "🍞", "🐷", "🫘", "🥛"]
+        }
+      },
+      {
+        "id": "country-dinners-3",
+        "itemImage": "./images/Country-Fried-Sirloin.jpg",
+        "itemName": "Country Fried Sirloin",
+        "itemDescription": "Hand-battered, fresh-cut sirloin served crispy and golden, topped with cream gravy",
+        "itemPrice": 6.99,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 890,
+          "fat": "58g",
+          "carbs": "41g",
+          "protein": "52g",
+          "sodium": "1840mg",
+          "serves": "1 person",
+          "allergens": ["🌾", "🍞", "🥛", "🥚"]
+        }
+      },
+      {
+        "id": "country-dinners-4",
+        "itemImage": "./images/Beef-Tips.webp",
+        "itemName": "Beef Tips",
+        "itemDescription": "Cuts of steak with sautéed mushrooms, onions, brown gravy and sour cream over seasoned rice or mashed potatoes and one side",
+        "itemPrice": 16.49,
+        "isAvailable": true,
+        "nutritionalInfo": {
+          "calories": 770,
+          "fat": "34g",
+          "carbs": "63g",
+          "protein": "54g",
+          "sodium": "2830mg",
+          "serves": "1 person",
+          "allergens": ["🌾", "🍞", "🥛", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "salad",
+    "categoryImage": "./images/house-salad.webp",
+    "categoryName": "Salads",
+    "currency": "$",
+    "items": [
+      {
+        "id": "item-salad-01",
+        "itemImage": "./images/Grilled-Chicken-Salad.webp",
+        "itemName": "Grilled Chicken Salad",
+        "itemDescription": "Crisp cold greens, strips of marinated chicken, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
+        "itemPrice": 15.49,
+        "nutritionalInfo": {
+          "calories": 810,
+          "fat": "45g",
+          "carbs": "28g",
+          "protein": "74g",
+          "sodium": "1480mg",
+          "allergens": ["🥛", "🌾", "🍞", "🥚", "🫘"]
+        }
+      },
+      {
+        "id": "item-salad-02",
+        "itemImage": "./images/Grilled-Salmon-Salad.webp",
+        "itemName": "Grilled Salmon Salad",
+        "itemDescription": "Crisp cold greens, grilled salmon, jack cheese, egg, tomato, bacon, red onions and croutons. Served with choice of dressing.",
+        "itemPrice": 18.99,
+        "nutritionalInfo": {
+          "calories": 820,
+          "fat": "50g",
+          "carbs": "28g",
+          "protein": "66g",
+          "sodium": "1510mg",
+          "allergens": ["🐟", "🥛", "🌾", "🍞", "🥚", "🫘"]
+        }
+      },
+      {
+        "id": "item-salad-03",
+        "itemName": "Chicken Caesar Salad",
+        "itemImage": "./images/Chicken-Caesar-Salad.webp",
+        "itemDescription": "Tender strips of grilled chicken with crisp hearts of romaine, Parmesan cheese, croutons and zesty Caesar dressing.",
+        "itemPrice": 15.49,
+        "nutritionalInfo": {
+          "calories": 1050,
+          "fat": "76g",
+          "carbs": "34g",
+          "protein": "60g",
+          "sodium": "2580mg",
+          "allergens": ["🐟", "🥛", "🌾", "🍞", "🥚", "🫘"]
+        }
+      },
+      {
+        "id": "item-salad-04",
+        "itemImage": "./images/Salmon-Caesar-Salad.webp",
+        "itemName": "Salmon Caesar Salad",
+        "itemDescription": "Grilled salmon tossed with crisp hearts of romaine, parmesan cheese, croutons and zesty Caesar dressing.",
+        "itemPrice": 18.99,
+        "nutritionalInfo": {
+          "calories": 1060,
+          "fat": "81g",
+          "carbs": "34g",
+          "protein": "52g",
+          "sodium": "2610mg",
+          "allergens": ["🐟", "🥛", "🌾", "🍞", "🥚", "🫘"]
+        }
+      },
+      {
+        "id": "item-salad-05",
+        "itemImage": "./images/Chicken-Critter-Salad.webp",
+        "itemName": "Chicken Critter Salad",
+        "itemDescription": "Hot, crispy chicken tenders piled high on a bed of cold greens with jack and cheddar cheeses, egg, tomato and bacon.",
+        "itemPrice": 15.49,
+        "nutritionalInfo": {
+          "calories": 690,
+          "fat": "37g",
+          "carbs": "41g",
+          "protein": "52g",
+          "sodium": "1470mg",
+          "allergens": ["🌾", "🍞", "🥛", "🥚", "🫘"]
+        }
+      },
+      {
+        "id": "item-salad-06",
+        "itemImage": "./images/Ceasar-Salad.avif",
+        "itemName": "Caesar Salad",
+        "itemDescription": "Crisp hearts of romaine, fresh Parmesan cheese and made-from-scratch croutons tossed with our zesty Caesar dressing.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 440,
+          "fat": "36g",
+          "carbs": "22g",
+          "protein": "9g",
+          "sodium": "950mg",
+          "allergens": ["🐟", "🥛", "🌾", "🍞", "🥚", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "burgers-and-sandwiches",
+    "categoryImage": "https://texasmenuprices.com/wp-content/uploads/2025/10/BBQ-Chicken-Sandwich-2-1024x660.webp",
+    "categoryName": "Burgers & Sandwiches",
+    "currency": "$",
+    "items": [
+      {
+        "id": "item-sandwich-01",
+        "itemImage": "./images/All-American-Cheeseburger.webp",
+        "itemName": "All-American Cheeseburger",
+        "itemDescription": "Our classic 1/2 lb. burger with American cheese, lettuce, tomato, and onion on a toasted bun. Served with steak fries and a pickle spear.",
+        "itemPrice": 12.99,
+        "nutritionalInfo": {
+          "calories": 1030,
+          "fat": "61g",
+          "carbs": "68g",
+          "protein": "52g",
+          "sodium": "1840mg",
+          "allergens": ["🌾", "🍞", "🥛", "🫘"]
+        }
+      },
+      {
+        "id": "item-sandwich-02",
+        "itemImage": "./images/Bacon-Cheeseburger.jpg",
+        "itemName": "Bacon Cheeseburger",
+        "itemDescription": "Our classic burger topped with crispy bacon and American cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
+        "itemPrice": 13.99,
+        "nutritionalInfo": {
+          "calories": 1120,
+          "fat": "70g",
+          "carbs": "68g",
+          "protein": "55g",
+          "sodium": "2150mg",
+          "allergens": ["🌾", "🍞", "🥛", "🫘", "🐷"]
+        }
+      },
+      {
+        "id": "item-sandwich-03",
+        "itemImage": "./images/Smokehouse-Burger.jpg",
+        "itemName": "Smokehouse Burger",
+        "itemDescription": "1/2 lb. burger with sautéed mushrooms, onions, BBQ sauce, American and jack cheeses. Served with steak fries and a pickle spear.",
+        "itemPrice": 14.49,
+        "nutritionalInfo": {
+          "calories": 1210,
+          "fat": "76g",
+          "carbs": "79g",
+          "protein": "57g",
+          "sodium": "2320mg",
+          "allergens": ["🌾", "🍞", "🥛", "🫘"]
+        }
+      },
+      {
+        "id": "item-sandwich-04",
+        "itemImage": "./images/Pulled-Pork-Sandwich.webp",
+        "itemName": "Pulled Pork Sandwich",
+        "itemDescription": "Tender, slow-cooked BBQ pulled pork piled high on a toasted bun. Served with steak fries and a pickle spear.",
+        "itemPrice": 12.49,
+        "nutritionalInfo": {
+          "calories": 1050,
+          "fat": "44g",
+          "carbs": "118g",
+          "protein": "47g",
+          "sodium": "2240mg",
+          "allergens": ["🌾", "🍞", "🥛", "🫘", "🐷"]
+        }
+      },
+      {
+        "id": "item-sandwich-05",
+        "itemImage": "./images/BBQ-Chicken-Sandwich.webp",
+        "itemName": "BBQ Chicken Sandwich",
+        "itemDescription": "Marinated and grilled chicken breast basted with BBQ sauce, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
+        "itemPrice": 12.99,
+        "nutritionalInfo": {
+          "calories": 810,
+          "fat": "29g",
+          "carbs": "86g",
+          "protein": "52g",
+          "sodium": "1960mg",
+          "allergens": ["🌾", "🍞", "🥛", "🫘"]
+        }
+      },
+      {
+        "id": "item-sandwich-06",
+        "itemImage": "./images/Mushroom-Jack-Chicken-Sandwich.webp",
+        "itemName": "Mushroom Jack Chicken Sandwich",
+        "itemDescription": "Grilled chicken breast with sautéed mushrooms, melted jack cheese, lettuce, tomato, and onion. Served with steak fries and a pickle spear.",
+        "itemPrice": 13.49,
+        "nutritionalInfo": {
+          "calories": 820,
+          "fat": "37g",
+          "carbs": "69g",
+          "protein": "55g",
+          "sodium": "1990mg",
+          "allergens": ["🌾", "🍞", "🥛", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "sides-and-extras",
+    "categoryImage": "https://texassroadhousemenu.com/wp-content/uploads/2025/07/Baked-Potato-1024x660.webp",
+    "categoryName": "Sides & Extras",
+    "currency": "$",
+    "items": [
+      {
+        "id": "side-01",
+        "itemImage": "./images/Mashed-Potatoes.webp",
+        "itemName": "Mashed Potatoes",
+        "itemDescription": "Our classic mashed potatoes.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 260,
+          "fat": "12g",
+          "carbs": "33g",
+          "protein": "4g",
+          "sodium": "740mg",
+          "allergens": ["🥛", "🌾", "🍞"]
+        }
+      },
+      {
+        "id": "side-02",
+        "itemImage": "./images/Buttered-Corn.jpg",
+        "itemName": "Buttered Corn",
+        "itemDescription": "Our classic buttered corn.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 180,
+          "fat": "8g",
+          "carbs": "26g",
+          "protein": "4g",
+          "sodium": "330mg",
+          "allergens": ["🥛"]
+        }
+      },
+      {
+        "id": "side-03",
+        "itemImage": "./images/Steamed-Vegetables.jpg",
+        "itemName": "Steamed Vegetables",
+        "itemDescription": "Our classic steamed vegetables.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 40,
+          "fat": "2g",
+          "carbs": "6g",
+          "protein": "2g",
+          "sodium": "230mg",
+          "allergens": ["🥛"]
+        }
+      },
+      {
+        "id": "side-04",
+        "itemImage": "./images/Green-Beans.jpg",
+        "itemName": "Green Beans",
+        "itemDescription": "Our classic green beans.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 100,
+          "fat": "3.5g",
+          "carbs": "13g",
+          "protein": "6g",
+          "sodium": "1070mg",
+          "allergens": ["🐷", "🫘"]
+        }
+      },
+      {
+        "id": "side-05",
+        "itemImage": "./images/house-salad.webp",
+        "itemName": "House Salad",
+        "itemDescription": "Our classic house salad.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 230,
+          "fat": "16g",
+          "carbs": "9g",
+          "protein": "13g",
+          "sodium": "510mg",
+          "allergens": ["🥛", "🌾", "🍞", "🥚"]
+        }
+      },
+      {
+        "id": "side-06",
+        "itemImage": "./images/Seasoned-Rice.jpg",
+        "itemName": "Seasoned Rice",
+        "itemDescription": "Rice cooked with a blend of spices.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 360,
+          "fat": "17g",
+          "carbs": "44g",
+          "protein": "6g",
+          "sodium": "1040mg",
+          "allergens": ["🌾", "🍞", "🫘"]
+        }
+      },
+      {
+        "id": "side-07",
+        "itemImage": "./images/Sauteed-Onions.jpg",
+        "itemName": "Sauteed Onions",
+        "itemDescription": "Sauteed onions with a blend of spices.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 150,
+          "fat": "10g",
+          "carbs": "14g",
+          "protein": "1g",
+          "sodium": "320mg",
+          "allergens": ["🥛", "🫘"]
+        }
+      },
+      {
+        "id": "side-08",
+        "itemImage": "./images/Sauteed-Mushrooms.webp",
+        "itemName": "Sauteed Mushrooms",
+        "itemDescription": "Sauteed mushrooms with a blend of spices.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 90,
+          "fat": "7g",
+          "carbs": "5g",
+          "protein": "2g",
+          "sodium": "430mg",
+          "allergens": ["🥛", "🫘"]
+        }
+      },
+      {
+        "id": "side-09",
+        "itemImage": "./images/Apple-Sauce.jpg",
+        "itemName": "Applesauce",
+        "itemDescription": "Our classic applesauce.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 110,
+          "fat": "0g",
+          "carbs": "28g",
+          "protein": "0g",
+          "sodium": "10mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "side-10",
+        "itemImage": "./images/Texas-Red-Chili.webp",
+        "itemName": "Texas Red Chili (Cup)",
+        "itemDescription": "Our classic Texas Red Chili.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 230,
+          "fat": "13g",
+          "carbs": "12g",
+          "protein": "17g",
+          "sodium": "660mg",
+          "allergens": ["🌾", "🍞", "🥛"]
+        }
+      },
+      {
+        "id": "side-11",
+        "itemImage": "./images/Side-Kick-Of-Ribs.jpg",
+        "itemName": "Sidekick of Ribs",
+        "itemDescription": "Our classic sidekick of ribs.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 450,
+          "fat": "27g",
+          "carbs": "15g",
+          "protein": "37g",
+          "sodium": "950mg",
+          "allergens": ["🐷", "🫘"]
+        }
+      },
+      {
+        "id": "side-12",
+        "itemImage": "./images/Mac-And-Cheese.webp",
+        "itemName": "Mac & Cheese",
+        "itemDescription": "Our classic mac and cheese.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 270,
+          "fat": "14g",
+          "carbs": "27g",
+          "protein": "9g",
+          "sodium": "860mg",
+          "allergens": ["🌾", "🍞", "🥛", "🥚"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "kids-meals",
+    "categoryImage": "https://texassroadhousemenu.com/wp-content/uploads/2025/07/Ranger-Meal-Chicken-Critters%C2%AE-Basket.webp",
+    "categoryName": "Kids & Ranger Meals",
+    "currency": "$",
+    "items": [
+      {
+        "id": "kids-01",
+        "itemImage": "./images/Mini-Cheeseburgers.webp",
+        "itemName": "Mini-Cheeseburgers",
+        "itemDescription": "Two small burgers on our fresh-baked bread, topped with American cheese. Served with choice of one side.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 670,
+          "fat": "38g",
+          "carbs": "47g",
+          "protein": "35g",
+          "sodium": "1040mg",
+          "allergens": ["🌾", "🍞", "🥛", "🫘"]
+        }
+      },
+      {
+        "id": "kids-02",
+        "itemImage": "./images/Jr-Chicken-Tenders.png",
+        "itemName": "Jr. Chicken Tenders",
+        "itemDescription": "All white-meat chicken breaded and fried to a golden brown. Served with choice of one side.",
+        "itemPrice": 6.49,
+        "nutritionalInfo": {
+          "calories": 360,
+          "fat": "17g",
+          "carbs": "16g",
+          "protein": "34g",
+          "sodium": "790mg",
+          "allergens": ["🌾", "🍞", "🥛", "🥚"]
+        }
+      },
+      {
+        "id": "kids-03",
+        "itemImage": "./images/Grilled-Chicken-Kids.png",
+        "itemName": "Grilled Chicken",
+        "itemDescription": "Strips of fresh, boneless chicken breast, lightly seasoned and grilled. Served with choice of one side.",
+        "itemPrice": 6.49,
+        "nutritionalInfo": {
+          "calories": 250,
+          "fat": "6g",
+          "carbs": "4g",
+          "protein": "45g",
+          "sodium": "820mg",
+          "allergens": ["🫘"]
+        }
+      },
+      {
+        "id": "kids-04",
+        "itemImage": "./images/Lil-Dillo-Bites.jpg",
+        "itemName": "Lil' Dillo Steak Bites",
+        "itemDescription": "Grilled steak pieces for younger Texas tikes, cooked to their liking. Served with choice of one side.",
+        "itemPrice": 7.99,
+        "nutritionalInfo": {
+          "calories": 170,
+          "fat": "4g",
+          "carbs": "1g",
+          "protein": "31g",
+          "sodium": "410mg",
+          "allergens": ["🫘"]
+        }
+      },
+      {
+        "id": "kids-05",
+        "itemImage": "./images/Mac-And-Cheese.jpg",
+        "itemName": "Macaroni and Cheese",
+        "itemDescription": "Our classic macaroni and cheese for younger Texas tikes. Served with choice of one side.",
+        "itemPrice": 6.99,
+        "nutritionalInfo": {
+          "calories": 300,
+          "fat": "14g",
+          "carbs": "31g",
+          "protein": "11g",
+          "sodium": "940mg",
+          "allergens": ["🌾", "🍞", "🥛", "🥚"]
+        }
+      },
+      {
+        "id": "kids-06",
+        "itemImage": "./images/All-Beef-Hot-Dog.webp",
+        "itemName": "All-Beef Hot Dog",
+        "itemDescription": "A classic all-beef hot dog served on a bun. Add chili 'n cheese for a small upcharge.",
+        "itemPrice": 5.99,
+        "nutritionalInfo": {
+          "calories": 390,
+          "fat": "22g",
+          "carbs": "33g",
+          "protein": "14g",
+          "sodium": "1140mg",
+          "allergens": ["🌾", "🍞", "🥛", "🫘"]
+        }
+      },
+      {
+        "id": "ranger-01",
+        "itemImage": "./images/Chicken-Critters-Basket.jpg",
+        "itemName": "Chicken Critters® Basket",
+        "itemDescription": "Golden-fried, all white-meat strips. Larger portion for older kids. Served with choice of one side.",
+        "itemPrice": 9.49,
+        "nutritionalInfo": {
+          "calories": 440,
+          "fat": "19g",
+          "carbs": "21g",
+          "protein": "47g",
+          "sodium": "940mg",
+          "allergens": ["🌾", "🍞", "🥛", "🥚"]
+        }
+      },
+      {
+        "id": "ranger-02",
+        "itemImage": "./images/Andy-Steak.jpg",
+        "itemName": "Andy's Steak*",
+        "itemDescription": "A 6 oz. hand-cut Sirloin steak seasoned and grilled to perfection. Served with choice of one side.",
+        "itemPrice": 11.99,
+        "nutritionalInfo": {
+          "calories": 250,
+          "fat": "6g",
+          "carbs": "3g",
+          "protein": "46g",
+          "sodium": "540mg",
+          "allergens": ["🫘"]
+        }
+      },
+      {
+        "id": "ranger-03",
+        "itemImage": "./images/Ranger-Meal-Ranger-Rib-Basket.webp",
+        "itemName": "Ranger Rib Basket",
+        "itemDescription": "A hearty portion of our award-winning, fall-off-the-bone ribs. Served with choice of one side.",
+        "itemPrice": 12.49,
+        "nutritionalInfo": {
+          "calories": 550,
+          "fat": "33g",
+          "carbs": "19g",
+          "protein": "44g",
+          "sodium": "1170mg",
+          "allergens": ["🐷", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "beverages",
+    "categoryImage": "./images/beverages.webp",
+    "categoryName": "Beverages",
+    "currency": "$",
+    "items": [
+      {
+        "id": "bev-01",
+        "itemImage": "./images/beverages.webp",
+        "itemName": "20oz Fountain Drinks",
+        "itemDescription": "Choice of Coca-Cola products. Prices listed are for TO-GO beverages only. No refills.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 240,
+          "fat": "0g",
+          "carbs": "65g",
+          "protein": "0g",
+          "sodium": "75mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-02",
+        "itemImage": "./images/20-oz-Lemonade.webp",
+        "itemName": "20 oz Lemonade",
+        "itemDescription": "Refreshing, ice-cold lemonade. Prices listed are for TO-GO beverages only. No refills.",
+        "itemPrice": 3.29,
+        "nutritionalInfo": {
+          "calories": 250,
+          "fat": "0g",
+          "carbs": "68g",
+          "protein": "0g",
+          "sodium": "15mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-03",
+        "itemImage": "./images/20-oz-Iced-Tea.webp",
+        "itemName": "20 oz Iced Tea",
+        "itemDescription": "Freshly brewed unsweetened iced tea. Prices listed are for TO-GO beverages only. No refills.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 5,
+          "fat": "0g",
+          "carbs": "1g",
+          "protein": "0g",
+          "sodium": "10mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-04",
+        "itemImage": "./images/20-oz-Sweet-Tea.png",
+        "itemName": "20 oz Sweet Tea",
+        "itemDescription": "Freshly brewed tea sweetened with pure cane sugar. Prices listed are for TO-GO beverages only. No refills.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 190,
+          "fat": "0g",
+          "carbs": "48g",
+          "protein": "0g",
+          "sodium": "10mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-05",
+        "itemImage": "./images/Bottled-Water.webp",
+        "itemName": "Bottled Water",
+        "itemDescription": "Purified bottled water for on-the-go hydration.",
+        "itemPrice": 2.49,
+        "nutritionalInfo": {
+          "calories": 0,
+          "fat": "0g",
+          "carbs": "0g",
+          "protein": "0g",
+          "sodium": "0mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-06",
+        "itemImage": "./images/Mix-Match-Tea-or-Lemonade.webp",
+        "itemName": "Mix & Match Tea or Lemonade",
+        "itemDescription": "Create your own blend of our fresh-brewed tea and lemonade (Arnold Palmer style).",
+        "itemPrice": 3.29,
+        "nutritionalInfo": {
+          "calories": 130,
+          "fat": "0g",
+          "carbs": "34g",
+          "protein": "0g",
+          "sodium": "15mg",
+          "allergens": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "desserts",
+    "categoryImage": "https://www.tastingtable.com/img/gallery/this-secret-menu-trick-upgrades-texas-roadhouses-strawberry-cheesecake-into-a-sweet-delight-loaded-with-chocolate/l-intro-1759261033.jpg",
+    "categoryName": "Desserts",
+    "currency": "$",
+    "items": [
+      {
+        "id": "dessert-01",
+        "itemImage": "./images/Grannys-Apple-Classic.webp",
+        "itemName": "Granny's Apple Classic",
+        "itemDescription": "Homestyle slice of apple pie topped with vanilla ice cream and honey cinnamon caramel sauce.",
+        "itemPrice": 7.99,
+        "nutritionalInfo": {
+          "calories": 1260,
+          "fat": "62g",
+          "carbs": "170g",
+          "protein": "10g",
+          "sodium": "1060mg",
+          "allergens": ["🌾", "🍞", "🥛", "🥚"]
+        }
+      },
+      {
+        "id": "dessert-02",
+        "itemImage": "./images/strawberry-cheesecake.jpg",
+        "itemName": "Strawberry Cheesecake",
+        "itemDescription": "Slice of classic New York-style cheesecake topped with strawberry sauce and whipped cream.",
+        "itemPrice": 7.49,
+        "nutritionalInfo": {
+          "calories": 780,
+          "fat": "54g",
+          "carbs": "64g",
+          "protein": "12g",
+          "sodium": "550mg",
+          "allergens": ["🌾", "🍞", "🥛", "🥚", "🫘"]
+        }
+      },
+      {
+        "id": "dessert-03",
+        "itemImage": "./images/Big-Ol-Brownie.webp",
+        "itemName": "Big Ol' Brownie",
+        "itemDescription": "Chocolate brownie topped with vanilla ice cream and hot chocolate sauce.",
+        "itemPrice": 7.99,
+        "nutritionalInfo": {
+          "calories": 1200,
+          "fat": "60g",
+          "carbs": "158g",
+          "protein": "14g",
+          "sodium": "650mg",
+          "allergens": ["🌾", "🍞", "🥛", "🥚", "🫘"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "margaritas",
+    "categoryImage": "https://texasroadhouse.com.ph/cdn/shop/files/original-margarita_1b072c4e-f35f-450c-bdad-4301f3f618b5.jpg?v=1711940503",
+    "categoryName": "Margaritas",
+    "currency": "$",
+    "items": [
+      {
+        "id": "bev-margarita-01",
+        "itemImage": "./images/House-Rocks-Margarita.webp",
+        "itemName": "House Rocks Margarita",
+        "itemDescription": "Our fresh, signature margarita sour mixed with Dorado® Gold Tequila. Served on the rocks.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 230,
+          "fat": "0g",
+          "carbs": "28g",
+          "protein": "0g",
+          "sodium": "450mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-margarita-02",
+        "itemImage": "./images/House-Frozen-Margarita.webp",
+        "itemName": "House Frozen Margarita",
+        "itemDescription": "Our fresh, signature margarita sour mixed with Dorado® Gold Tequila, blended frozen.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 280,
+          "fat": "0g",
+          "carbs": "42g",
+          "protein": "0g",
+          "sodium": "480mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-margarita-03",
+        "itemImage": "./images/The-Legend-Margarita.jpg",
+        "itemName": "The Legend Margarita",
+        "itemDescription": "A blend of Patrón® Silver, Reposado, and Añejo with Grand Marnier® and signature sour. Served with black lava salt.",
+        "itemPrice": 3.99,
+        "nutritionalInfo": {
+          "calories": 260,
+          "fat": "0g",
+          "carbs": "22g",
+          "protein": "0g",
+          "sodium": "820mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-margarita-04",
+        "itemImage": "./images/Fruity-Margarita.jpg",
+        "itemName": "Fruity Margarita",
+        "itemDescription": "Our House Margarita with your choice of Strawberry or Raspberry puree.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 320,
+          "fat": "0g",
+          "carbs": "52g",
+          "protein": "0g",
+          "sodium": "460mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-margarita-05",
+        "itemImage": "./images/Mango-Margarita.jpg",
+        "itemName": "Mango Margarita",
+        "itemDescription": "Our House Margarita blended with mango puree and garnished with tajin chili lime salt.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 330,
+          "fat": "0g",
+          "carbs": "55g",
+          "protein": "0g",
+          "sodium": "940mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-margarita-06",
+        "itemImage": "./images/Hurricane-Margarita.jpg",
+        "itemName": "Hurricane Margarita",
+        "itemDescription": "Captain Morgan® Spiced Rum, grenadine, orange, and pineapple juices blended with our house margarita.",
+        "itemPrice": 3.99,
+        "nutritionalInfo": {
+          "calories": 350,
+          "fat": "0g",
+          "carbs": "58g",
+          "protein": "0g",
+          "sodium": "450mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-margarita-07",
+        "itemImage": "./images/Sangria-Margarita.jpg",
+        "itemName": "Sangria Margarita",
+        "itemDescription": "Our House Margarita swirled with signature Sangria Red wine.",
+        "itemPrice": 3.99,
+        "nutritionalInfo": {
+          "calories": 250,
+          "fat": "0g",
+          "carbs": "32g",
+          "protein": "0g",
+          "sodium": "450mg",
+          "allergens": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "cocktails",
+    "categoryImage": "https://publish.purewow.net/wp-content/uploads/sites/2/2020/06/texas-roadhouse-cocktail-recipes-kenny-s-cooler.jpg?fit=728%2C524",
+    "categoryName": "Cocktails",
+    "currency": "$",
+    "items": [
+      {
+        "id": "bev-cocktail-01",
+        "itemImage": "./images/Cactus-Water.jpg",
+        "itemName": "Cactus Water",
+        "itemDescription": "Espolón® Reposado Tequila, club soda, and 2 fresh limes with a tajin rim. (Also available with Mango).",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 140,
+          "fat": "0g",
+          "carbs": "5g",
+          "protein": "0g",
+          "sodium": "480mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-cocktail-02",
+        "itemImage": "./images/Titos-Soda.webp",
+        "itemName": "Tito's & Soda",
+        "itemDescription": "Tito's® Vodka mixed with club soda and a fresh lime garnish.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 100,
+          "fat": "0g",
+          "carbs": "1g",
+          "protein": "0g",
+          "sodium": "10mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-cocktail-03",
+        "itemImage": "./images/Porch-Rocker.jpg",
+        "itemName": "Porch Rocker",
+        "itemDescription": "Deep Eddy® Lemon, Monin® blackberry syrup, and club soda with a lemon twist. (Also available with Strawberry).",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 180,
+          "fat": "0g",
+          "carbs": "22g",
+          "protein": "0g",
+          "sodium": "15mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-cocktail-04",
+        "itemImage": "./images/Old-Fashioned.jpg",
+        "itemName": "Old Fashioned",
+        "itemDescription": "Maker's Mark® Bourbon stirred together with bitters and our house Old Fashioned mix.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 170,
+          "fat": "0g",
+          "carbs": "12g",
+          "protein": "0g",
+          "sodium": "5mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-cocktail-05",
+        "itemImage": "./images/Gin-Blossom.webp",
+        "itemName": "Gin Blossom",
+        "itemDescription": "Tanqueray® Gin mixed with Minute Maid® Lemonade, strawberry puree, and club soda.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 210,
+          "fat": "0g",
+          "carbs": "26g",
+          "protein": "0g",
+          "sodium": "25mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-lit-01",
+        "itemImage": "./images/Long-Island-Iced-Tea-L.I.T.webp",
+        "itemName": "Long Island Iced Tea",
+        "itemDescription": "Vodka, gin, and rum mixed with our sweet and sour, triple sec, and a splash of Coca-Cola®.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 280,
+          "fat": "0g",
+          "carbs": "33g",
+          "protein": "0g",
+          "sodium": "20mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-lit-02",
+        "itemImage": "./images/Top-Shelf-L.I.T.jpg",
+        "itemName": "Top Shelf L.I.T.",
+        "itemDescription": "Wheatley® Vodka, Tanqueray® Gin, and Bacardi® Rum mixed with our sweet and sour, triple sec, and a splash of Coca-Cola®.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 290,
+          "fat": "0g",
+          "carbs": "33g",
+          "protein": "0g",
+          "sodium": "20mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-lit-03",
+        "itemImage": "./images/Southern-Whiskey-L.I.T.jpg",
+        "itemName": "Southern Whiskey L.I.T.",
+        "itemDescription": "Jack Daniel's®, Jim Beam®, Southern Comfort® Black, and our sweet and sour with a splash of Coca-Cola®.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 310,
+          "fat": "0g",
+          "carbs": "35g",
+          "protein": "0g",
+          "sodium": "25mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-cocktail-06",
+        "itemImage": "./images/Texas-Peach-Fuzz.jpg",
+        "itemName": "Texas Peach Fuzz",
+        "itemDescription": "Tito's® Handmade Vodka and DeKuyper® Peachtree® Schnapps with cranberry and orange juices.",
+        "itemPrice": 2.99,
+        "nutritionalInfo": {
+          "calories": 220,
+          "fat": "0g",
+          "carbs": "28g",
+          "protein": "0g",
+          "sodium": "15mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-cocktail-07",
+        "itemImage": "./images/Island-Cooler.webp",
+        "itemName": "Island Cooler",
+        "itemDescription": "Parrot Bay® Coconut Rum, DeKeyper® Peachtree® Schnapps, Minute Maid® Lemonade, sweet and sour, and Monin® Blue Curacao.",
+        "nutritionalInfo": {
+          "calories": 260,
+          "fat": "0g",
+          "carbs": "41g",
+          "protein": "0g",
+          "sodium": "20mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-cocktail-08",
+        "itemImage": "./images/Jamaican-Cowboy.jpg",
+        "itemName": "Jamaican Cowboy",
+        "itemDescription": "Malibu® Rum, DeKuyper® Peachtree® Schnapps, orange and pineapple juices with a splash of our house margarita.",
+        "nutritionalInfo": {
+          "calories": 250,
+          "fat": "0g",
+          "carbs": "34g",
+          "protein": "0g",
+          "sodium": "150mg",
+          "allergens": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "beer",
+    "categoryImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbsqeZFBGQlPxaqGPd4121dTdcg6AIpUiTMA&s",
+    "categoryName": "Beer",
+    "currency": "$",
+    "items": [
+      {
+        "id": "bev-beer-01",
+        "itemImage": "./images/Budweiser.jpg",
+        "itemName": "Budweiser",
+        "itemDescription": "Budweiser® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 145,
+          "fat": "0g",
+          "carbs": "10.6g",
+          "protein": "1.3g",
+          "sodium": "10mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-02",
+        "itemImage": "./images/Bud-Light.jpg",
+        "itemName": "Bud Light",
+        "itemDescription": "Bud Light® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 110,
+          "fat": "0g",
+          "carbs": "6.6g",
+          "protein": "0.9g",
+          "sodium": "10mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-03",
+        "itemImage": "./images/Millers-Lite.jpg",
+        "itemName": "Miller Lite",
+        "itemDescription": "Miller Lite® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 96,
+          "fat": "0g",
+          "carbs": "3.2g",
+          "protein": "1g",
+          "sodium": "5mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-04",
+        "itemImage": "./images/Coors-Light.webp",
+        "itemName": "Coors Light",
+        "itemDescription": "Coors Light® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 102,
+          "fat": "0g",
+          "carbs": "5g",
+          "protein": "1g",
+          "sodium": "10mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-05",
+        "itemImage": "./images/Michelob-Ultra.jpg",
+        "itemName": "Michelob Ultra",
+        "itemDescription": "Michelob Ultra® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 95,
+          "fat": "0g",
+          "carbs": "2.6g",
+          "protein": "0.6g",
+          "sodium": "5mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-06",
+        "itemImage": "./images/Heineken.jpg",
+        "itemName": "Heineken",
+        "itemDescription": "Heineken® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 142,
+          "fat": "0g",
+          "carbs": "11g",
+          "protein": "0g",
+          "sodium": "10mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-07",
+        "itemImage": "./images/Sam-Adams.jpg",
+        "itemName": "Sam Adams Boston Lager",
+        "itemDescription": "Ask your server about our current seasonal selection.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 175,
+          "fat": "0g",
+          "carbs": "18g",
+          "protein": "2g",
+          "sodium": "10mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-08",
+        "itemImage": "./images/Sam-Adams-Seasonal.jpg",
+        "itemName": "Sam Adams Seasonal",
+        "itemDescription": "Ask your server about our current seasonal selection.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 170,
+          "fat": "0g",
+          "carbs": "15g",
+          "protein": "2g",
+          "sodium": "10mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-09",
+        "itemImage": "./images/Corona-Extra.jpg",
+        "itemName": "Corona Extra",
+        "itemDescription": "Corona Extra® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 148,
+          "fat": "0g",
+          "carbs": "14g",
+          "protein": "1g",
+          "sodium": "20mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-10",
+        "itemImage": "./images/Stella-Artois.jpg",
+        "itemName": "Stella Artois",
+        "itemDescription": "Stella Artois® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 150,
+          "fat": "0g",
+          "carbs": "13g",
+          "protein": "1g",
+          "sodium": "10mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-11",
+        "itemImage": "./images/Modelo-Especial.webp",
+        "itemName": "Modelo Especial",
+        "itemDescription": "Modelo Especial® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 145,
+          "fat": "0g",
+          "carbs": "13.7g",
+          "protein": "1.1g",
+          "sodium": "10mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-12",
+        "itemImage": "./images/Blue-Moon.jpg",
+        "itemName": "Blue Moon",
+        "itemDescription": "Blue Moon® Lager Beer, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 170,
+          "fat": "0g",
+          "carbs": "14g",
+          "protein": "2g",
+          "sodium": "15mg",
+          "allergens": ["🍞", "🌾", "🍺"]
+        }
+      },
+      {
+        "id": "bev-beer-13",
+        "itemImage": "./images/Angry-Orchard-Hard-Cider.jpg",
+        "itemName": "Angry Orchard Hard Cider",
+        "itemDescription": "Angry Orchard® Hard Cider, 1.5% ABV, Brewed in the USA.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 190,
+          "fat": "0g",
+          "carbs": "24g",
+          "protein": "0g",
+          "sodium": "10mg",
+          "allergens": []
+        }
+      },
+      {
+        "id": "bev-beer-14",
+        "itemImage": "./images/Heineken-0.0.jpg",
+        "itemName": "Heineken 0.0",
+        "itemDescription": "Non-alcoholic malt beverage.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 69,
+          "fat": "0g",
+          "carbs": "16g",
+          "protein": "0g",
+          "sodium": "10mg",
+          "allergens": ["🍞", "🍺"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "wine",
+    "categoryImage": "./images/wine.png",
+    "categoryName": "Wine",
+    "currency": "$",
+    "items": [
+      {
+        "id": "bev-wine-01",
+        "itemImage": "./images/Josh-Cabernet.webp",
+        "itemName": "Josh® Cabernet",
+        "itemDescription": "Full-bodied flavor. Great with steaks or ribs.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 150,
+          "fat": "0g",
+          "carbs": "5g",
+          "protein": "0g",
+          "sodium": "5mg",
+          "allergens": ["🍷"]
+        }
+      },
+      {
+        "id": "bev-wine-02",
+        "itemImage": "./images/Meiomi-Pinot-Noir.jpg",
+        "itemName": "Meiomi® Pinot Noir",
+        "itemDescription": "Smooth cherry and strawberry flavors. Great with steaks or chicken.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 145,
+          "fat": "0g",
+          "carbs": "4g",
+          "protein": "0g",
+          "sodium": "5mg",
+          "allergens": ["🍷"]
+        }
+      },
+      {
+        "id": "bev-wine-03",
+        "itemImage": "./images/Dark-Horse-Cabernet.jpg",
+        "itemName": "Dark Horse® Cabernet",
+        "itemDescription": "Big fruit flavor. Great with steaks or ribs.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 150,
+          "fat": "0g",
+          "carbs": "5g",
+          "protein": "0g",
+          "sodium": "5mg",
+          "allergens": ["🍷"]
+        }
+      },
+      {
+        "id": "bev-wine-04",
+        "itemImage": "./images/Canyon-Road-Merlot.webp",
+        "itemName": "Canyon Road® Merlot",
+        "itemDescription": "Dark berry flavor. Great with steaks, chicken, or pork.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 145,
+          "fat": "0g",
+          "carbs": "4g",
+          "protein": "0g",
+          "sodium": "5mg",
+          "allergens": ["🍷"]
+        }
+      },
+      {
+        "id": "bev-wine-05",
+        "itemImage": "./images/Kendall-Jackson-Chardonnay.jpg",
+        "itemName": "Kendall-Jackson® Chardonnay",
+        "itemDescription": "Creamy, oak, and rich fruit flavor. Great with chicken, fish, or pork.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 150,
+          "fat": "0g",
+          "carbs": "4g",
+          "protein": "0g",
+          "sodium": "0mg",
+          "allergens": ["🍷"]
+        }
+      },
+      {
+        "id": "bev-wine-06",
+        "itemImage": "./images/Ecco-Domani-Pinot-Grigio.jpg",
+        "itemName": "Ecco Domani® Pinot Grigio",
+        "itemDescription": "Citrus taste. Great with chicken, fish, or pork.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 140,
+          "fat": "0g",
+          "carbs": "3g",
+          "protein": "0g",
+          "sodium": "0mg",
+          "allergens": ["🍷"]
+        }
+      },
+      {
+        "id": "bev-wine-07",
+        "itemImage": "./images/Nobile-Sauvignon-Blanc.jpeg",
+        "itemName": "Nobilo® Sauvignon Blanc",
+        "itemDescription": "Fresh, crisp, and zesty fruit flavors. Best with salads, seafood, or chicken.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 140,
+          "fat": "0g",
+          "carbs": "3g",
+          "protein": "0g",
+          "sodium": "0mg",
+          "allergens": ["🍷"]
+        }
+      },
+      {
+        "id": "bev-wine-08",
+        "itemImage": "./images/Canyon-Road-Chardonnay.jpg",
+        "itemName": "Canyon Road® Chardonnay",
+        "itemDescription": "Creamy, rich flavor. Great with chicken, fish, or salads.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 145,
+          "fat": "0g",
+          "carbs": "4g",
+          "protein": "0g",
+          "sodium": "0mg",
+          "allergens": ["🍷"]
+        }
+      },
+      {
+        "id": "bev-wine-09",
+        "itemImage": "./images/Barefoot-Moscato.jpg",
+        "itemName": "Barefoot® Moscato",
+        "itemDescription": "Semi-sweet taste. Great with salads or chicken.",
+        "itemPrice": 1.99,
+        "nutritionalInfo": {
+          "calories": 165,
+          "fat": "0g",
+          "carbs": "14g",
+          "protein": "0g",
+          "sodium": "0mg",
+          "allergens": ["🍷"]
+        }
+      }
+    ]
+  }
 ]

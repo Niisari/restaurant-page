@@ -1,16 +1,16 @@
-import './Made-From-Scratch.css';
-import { FoodImages } from '../../assets/images/images.js';
-import AlabamaIcon from '../../assets/images/icons/alabama-icon.png';
-import { button } from '../../components/buttons/button.js';
+import "./Made-From-Scratch.css";
+import { FoodImages } from "../../assets/images/images.js";
+import AlabamaIcon from "../../assets/images/icons/alabama-icon.png";
+import { button } from "../../components/buttons/button.js";
 
 export class MadeFromScratchPage {
-    constructor() {
-        this.container = document.getElementById('main');
-        this.link = '/made-from-scratch';
-    }
+  constructor() {
+    this.container = document.getElementById("main");
+    this.link = "/made-from-scratch";
+  }
 
-    render() {
-        this.container.innerHTML = `
+  render() {
+    this.container.innerHTML = `
             <section class="made__from--scratch">
             <div class="header">
                 <div class="header__image--bg">
@@ -58,5 +58,5 @@ We take the "ground up" approach seriously, which means taking zero shortcuts. F
             </div>
             </section>
 `;
-    }
+  }
 }

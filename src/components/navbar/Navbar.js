@@ -1,17 +1,17 @@
-import './Navbar.css';
+import "./Navbar.css";
 // Icons Imports
-import closeIcon from '../../assets/images/icons/close-icon.svg';
-import logo from '../../assets/images/logo.png';
+import closeIcon from "../../assets/images/icons/close-icon.svg";
+import logo from "../../assets/images/logo.png";
 // The Navbar class is responsible for rendering the navigation bar and handling user interactions
 export class Navbar {
-    constructor(onNavigate) {
-        this.container = document.getElementById('header');
-        this.activeLink = null;
-        this.onNavigate = onNavigate;
-    }
-// Render the navbar HTML structure and set up event listeners
-    render() {
-        this.container.innerHTML = `
+  constructor(onNavigate) {
+    this.container = document.getElementById("header");
+    this.activeLink = null;
+    this.onNavigate = onNavigate;
+  }
+  // Render the navbar HTML structure and set up event listeners
+  render() {
+    this.container.innerHTML = `
             <nav class="navbar">
             <div class="navbar__content">
                 <button class="menu__toggle" aria-label="Toggle menu" type="button">
@@ -115,49 +115,49 @@ export class Navbar {
             </div>
             </nav>
         `;
-        this.AddEventListeners();
-        this.setupHamburgerToggle();
-    }
-// Add click event listeners to navigation links for active state management
-AddEventListeners() {
-    const links = this.container.querySelectorAll('.nav__link');
-    
+    this.AddEventListeners();
+    this.setupHamburgerToggle();
+  }
+  // Add click event listeners to navigation links for active state management
+  AddEventListeners() {
+    const links = this.container.querySelectorAll(".nav__link");
+
     // Select both the navbar and the list so we can close them
-    const navbar = this.container.querySelector('.navbar');
-    const navList = this.container.querySelector('.nav__list');
+    const navbar = this.container.querySelector(".navbar");
+    const navList = this.container.querySelector(".nav__list");
 
     links.forEach((link) => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault(); 
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
 
-            // 1. Handle Visual Active State
-            if (this.activeLink) {
-                this.activeLink.classList.remove('active');
-            }
-            link.classList.add('active');
-            this.activeLink = link;
+        // 1. Handle Visual Active State
+        if (this.activeLink) {
+          this.activeLink.classList.remove("active");
+        }
+        link.classList.add("active");
+        this.activeLink = link;
 
-            // 2. Trigger the Router
-            const path = link.getAttribute('href'); 
-            if (this.onNavigate) {
-                this.onNavigate(path); 
-            }
+        // 2. Trigger the Router
+        const path = link.getAttribute("href");
+        if (this.onNavigate) {
+          this.onNavigate(path);
+        }
 
-            // 3.Close the mobile menu fully
-            navbar.classList.remove('navbar--open');
-            navList.classList.remove('nav__list--open'); 
-        });
+        // 3.Close the mobile menu fully
+        navbar.classList.remove("navbar--open");
+        navList.classList.remove("nav__list--open");
+      });
     });
-}
-// Set up the hamburger menu toggle functionality for mobile view
-    setupHamburgerToggle() {
-        const toggleBtn = this.container.querySelector('.menu__toggle');
-        const navbar = this.container.querySelector('.navbar');
-        const navList = this.container.querySelector('.nav__list');
+  }
+  // Set up the hamburger menu toggle functionality for mobile view
+  setupHamburgerToggle() {
+    const toggleBtn = this.container.querySelector(".menu__toggle");
+    const navbar = this.container.querySelector(".navbar");
+    const navList = this.container.querySelector(".nav__list");
 
-        toggleBtn.addEventListener('click', () => {
-            navbar.classList.toggle('navbar--open');
-            navList.classList.toggle('nav__list--open');
-        });
-    }
+    toggleBtn.addEventListener("click", () => {
+      navbar.classList.toggle("navbar--open");
+      navList.classList.toggle("nav__list--open");
+    });
+  }
 }

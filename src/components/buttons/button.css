@@ -1,27 +1,26 @@
 .button.button {
-    background-color: var(--Rich-Burgundy);
-    color: var(--Cream-Ivory);
+  background-color: var(--Rich-Burgundy);
+  color: var(--Cream-Ivory);
 
-    border-radius: 0.25rem;
-    border: none;
-    padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  border: none;
+  padding: 0.75rem 1.25rem;
 
-    font-family: var(--Text-Font);
-    font-weight: 700;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
+  font-family: var(--Text-Font);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 .button:hover {
-    background-color: var(--Hover-Burgundy);
-    transform: scale(1.05);
-    transition: all 0.2s ease-in-out;
+  background-color: var(--Hover-Burgundy);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
 }
 
 .button:active {
-    background-color: var(--Hover-Burgundy);
-    transform: scale(0.95);
-    transition: all 0.2s ease-in-out;
+  background-color: var(--Hover-Burgundy);
+  transform: scale(0.95);
+  transition: all 0.2s ease-in-out;
 }
-

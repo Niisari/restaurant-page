@@ -1,35 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/images/icons/steak.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icons/steak.png"
+      type="image/x-icon"
+    />
     <title>VARXY STEAKHOUSE | Odin Project</title>
 
     <script>
-    (function() {
-      const base = document.createElement('base');
-      
-      // If we are on GitHub Pages (it has 'github.io' in the name)
-      if (window.location.hostname.includes('github.io')) {
-        // Set this to your EXACT repository name with slashes
-        base.href = '/restaurant-page/'; 
-      } else {
-        // We are on localhost
-        base.href = '/';
-      }
-      
-      document.head.appendChild(base);
-    })();
+      (function () {
+        const base = document.createElement("base");
+
+        // If we are on GitHub Pages (it has 'github.io' in the name)
+        if (window.location.hostname.includes("github.io")) {
+          // Set this to your EXACT repository name with slashes
+          base.href = "/restaurant-page/";
+        } else {
+          // We are on localhost
+          base.href = "/";
+        }
+
+        document.head.appendChild(base);
+      })();
     </script>
-</head>
-<body>
-    
+  </head>
+  <body>
     <div id="app">
       <header id="header"></header>
       <main id="main"></main>
       <footer id="footer"></footer>
     </div>
-
-</body>
+  </body>
 </html>

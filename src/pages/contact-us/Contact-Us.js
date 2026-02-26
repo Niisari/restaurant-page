@@ -1,15 +1,15 @@
-import "./Contact-us.css"
-import { FoodImages } from '../../assets/images/images.js';
-import { button } from '../../components/buttons/button.js';
+import "./Contact-us.css";
+import { FoodImages } from "../../assets/images/images.js";
+import { button } from "../../components/buttons/button.js";
 
 export class ContactUsPage {
-    constructor() {
-        this.container = document.getElementById('main');
-        this.link = '/contact-us';
-    }
+  constructor() {
+    this.container = document.getElementById("main");
+    this.link = "/contact-us";
+  }
 
-    render() {
-        this.container.innerHTML = `
+  render() {
+    this.container.innerHTML = `
         <section class="contact__page">
             <div class="contact__container">
                 <div class="contact__content"> 
@@ -34,7 +34,7 @@ export class ContactUsPage {
                         <div class="carousel__info">
                             <h3 class="carousel__title">Career Opportunities</h3>
                             <p class="carousel__text">Join our team and work with the best chefs in the industry.</p>
-                            ${button('Apply Now', "/career")}
+                            ${button("Apply Now", "/career")}
                         </div>
                     </div>
 
@@ -279,31 +279,31 @@ export class ContactUsPage {
                 </div>
             </div>
         </section>
-        `
+        `;
 
-        this.setupFaq();
-    }
+    this.setupFaq();
+  }
 
-    setupFaq() {
-        const faqButtons = this.container.querySelectorAll('.faq__button');
-        
-        faqButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const item = button.parentElement;
-                const isOpen = item.classList.contains('active');
+  setupFaq() {
+    const faqButtons = this.container.querySelectorAll(".faq__button");
 
-                // Optional: Close other open items (Accordion effect)
-                this.container.querySelectorAll('.faq__item').forEach(otherItem => {
-                    otherItem.classList.remove('active');
-                    otherItem.querySelector('.faq__answer').style.maxHeight = null;
-                });
+    faqButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const item = button.parentElement;
+        const isOpen = item.classList.contains("active");
 
-                if (!isOpen) {
-                    item.classList.add('active');
-                    const answer = item.querySelector('.faq__answer');
-                    answer.style.maxHeight = answer.scrollHeight + "px";
-                }
-            });
+        // Optional: Close other open items (Accordion effect)
+        this.container.querySelectorAll(".faq__item").forEach((otherItem) => {
+          otherItem.classList.remove("active");
+          otherItem.querySelector(".faq__answer").style.maxHeight = null;
         });
-    }
+
+        if (!isOpen) {
+          item.classList.add("active");
+          const answer = item.querySelector(".faq__answer");
+          answer.style.maxHeight = answer.scrollHeight + "px";
+        }
+      });
+    });
+  }
 }
